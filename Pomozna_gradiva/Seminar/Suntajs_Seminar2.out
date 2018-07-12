@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{The basic concepts of the disordered quantum systems}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Description of conductivity before and after the localization theory }{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Enhanced back-scattering }{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{The scaling theory}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Existence of the mobility edge}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Models of disorder }{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Generic models of disorder}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{The Anderson model}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{Numerical implementation of the Anderson model}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Criteria for localization}{}% 11
+\BOOKMARK [2][-]{subsection.4.1}{The inverse participation ratio}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.2}{The absence of diffusion}{section.4}% 13
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 14

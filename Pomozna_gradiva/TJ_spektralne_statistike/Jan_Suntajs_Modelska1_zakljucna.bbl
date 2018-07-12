@@ -1,0 +1,47 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{abanin2018ergodicity}
+D.~A. Abanin in~dr., \emph{Ergodicity, entanglement and many-body
+  localization}, arXiv preprint arXiv:1804.11065  (2018).
+
+\bibitem{abul2014unfolding}
+A.~A. Abul-Magd in A.~Y. Abul-Magd, \emph{Unfolding of the spectrum for chaotic
+  and mixed systems}, Physica A: Statistical Mechanics and its Applications
+  \textbf{396} (2014) 185--194.
+
+\bibitem{atas2013distribution}
+Y.~Atas in~dr., \emph{Distribution of the ratio of consecutive level spacings
+  in random matrix ensembles}, Physical review letters \textbf{110}(8) (2013)
+  084101.
+
+\bibitem{berry1977level}
+M.~V. Berry in M.~Tabor, \emph{Level clustering in the regular spectrum}, Proc.
+  R. Soc. Lond. A \textbf{356}(1686) (1977) 375--394.
+
+\bibitem{d2016quantum}
+L.~D'Alessio in~dr., \emph{From quantum chaos and eigenstate thermalization to
+  statistical mechanics and thermodynamics}, Advances in Physics \textbf{65}(3)
+  (2016) 239--362.
+
+\bibitem{lemut2017complete}
+G.~Lemut, M.~Mierzejewski in J.~Bon{\v{c}}a, \emph{Complete many-body
+  localization in the t- j model caused by a random magnetic field}, Physical
+  review letters \textbf{119}(24) (2017) 246601.
+
+\bibitem{mehta2004random}
+M.~L. Mehta, \emph{Random matrices},  \textbf{142}, Elsevier, 2004.
+
+\bibitem{PhysRevB.75.155111}
+V.~Oganesyan in D.~A. Huse, \emph{Localization of interacting fermions at high
+  temperature}, Phys. Rev. B \textbf{75} (2007) 155111,
+  \doi{10.1103/PhysRevB.75.155111}.
+
+\bibitem{spalek2007tj}
+J.~Spalek, \emph{tj model then and now: a personal perspective from the
+  pioneering times}, arXiv preprint arXiv:0706.4236  (2007).
+
+\end{thebibliography}

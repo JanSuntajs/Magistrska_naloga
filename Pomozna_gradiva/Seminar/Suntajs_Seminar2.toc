@@ -1,0 +1,15 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}The basic concepts of the disordered quantum systems}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Description of conductivity before and after the localization theory }{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Enhanced back-scattering }{2}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}The scaling theory}{3}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Existence of the mobility edge}{4}{subsection.2.4}
+\contentsline {section}{\numberline {3}Models of disorder }{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}Generic models of disorder}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}The Anderson model}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Numerical implementation of the Anderson model}{7}{subsection.3.3}
+\contentsline {section}{\numberline {4}Criteria for localization}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}The inverse participation ratio}{8}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}The absence of diffusion}{9}{subsection.4.2}
+\contentsline {section}{\numberline {5}Conclusion}{11}{section.5}

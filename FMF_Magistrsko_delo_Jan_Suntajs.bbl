@@ -1,0 +1,49 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{abanin2018ergodicity}
+D.~A. Abanin in~dr., \emph{Ergodicity, entanglement and many-body
+  localization}, arXiv preprint arXiv:1804.11065  (2018).
+
+\bibitem{abrahams201050}
+E.~Abrahams, \emph{50 years of Anderson Localization}, world scientific, 2010.
+
+\bibitem{abrahams1979scaling}
+E.~Abrahams in~dr., \emph{Scaling theory of localization: Absence of quantum
+  diffusion in two dimensions}, Physical Review Letters \textbf{42}(10) (1979)
+  673.
+
+\bibitem{anderson1958absence}
+P.~W. Anderson, \emph{Absence of diffusion in certain random lattices},
+  Physical review \textbf{109}(5) (1958) 1492.
+
+\bibitem{basko2006metal}
+D.~Basko, I.~Aleiner in B.~Altshuler, \emph{Metal--insulator transition in a
+  weakly interacting many-electron system with localized single-particle
+  states}, Annals of physics \textbf{321}(5) (2006) 1126--1205.
+
+\bibitem{lagendijk2009fifty}
+A.~Lagendijk, B.~Van~Tiggelen in D.~S. Wiersma, \emph{Fifty years of anderson
+  localization}, Phys. Today \textbf{62}(8) (2009) 24--29.
+
+\bibitem{mott1990metal}
+N.~Mott, \emph{Metal-insulator transitions}, CRC Press, 1990.
+
+\bibitem{doi:10.1080/00018736100101271}
+N.~Mott in W.~Twose, \emph{The theory of impurity conduction}, Advances in
+  Physics \textbf{10}(38) (1961) 107--163, \doi{10.1080/00018736100101271}.
+
+\bibitem{nandkishore2015many}
+R.~Nandkishore in D.~A. Huse, \emph{Many-body localization and thermalization
+  in quantum statistical mechanics}, Annu. Rev. Condens. Matter Phys.
+  \textbf{6}(1) (2015) 15--38.
+
+\bibitem{PhysRevB.75.155111}
+V.~Oganesyan in D.~A. Huse, \emph{Localization of interacting fermions at high
+  temperature}, Phys. Rev. B \textbf{75} (2007) 155111,
+  \doi{10.1103/PhysRevB.75.155111}.
+
+\end{thebibliography}

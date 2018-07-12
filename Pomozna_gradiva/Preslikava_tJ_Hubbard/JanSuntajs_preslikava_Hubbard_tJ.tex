@@ -1,0 +1,149 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=2.82cm,footskip=1.5cm,includefoot]{geometry}% spremenimo sirine robov
+\usepackage{floatrow}
+\usepackage{units}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{multirow}
+\usepackage[labelformat=simple]{subcaption}
+\usepackage{mathtools}
+\usepackage{caption}
+\addtolength\hoffset{0.5cm}%horizontalni premik
+%vse pametne funkcije ki jih lahko rabimo (lahko tudi kopiras direktno zraven)
+\include{template}
+\usepackage[export]{adjustbox}
+\usepackage{chngcntr}
+\usepackage{bm}
+\usepackage{url}
+%\counterwithin*{equation}{section}
+\usepackage{subcaption}
+\usepackage{color}
+\newcommand{\di}{i}
+\newcommand{\dc}{c}           %% default math "i"
+\usepackage{mhchem}
+ \usepackage[normalem]{ulem}
+\newcommand{\iu}{{i\mkern1mu}}
+ \useunder{\uline}{\ul}{}
+
+ \author{\normalsize Jan Šuntajs } %\\ \\\vspace{2mm}
+% \normalsize Vpisna številka: 28162015}
+\title{\large Preslikava med Hubbardovim modelom in modelom tJ \\ 
+\vspace{3mm}
+\Large Izračun preslikave med Hubbardovim in tJ modelom v primerih brez nereda in z neredom}
+\date{\normalsize \today}
+
+\begin{document}
+\maketitle
+\section{Uvod}
+Zanima nas izpeljava preslikave med Hubbardovim in tJ modelom, pri čemer želimo pravilno obravnavati vlogo potencialnega nereda, ki se sklaplja bodisi z nosilci naboja bodisi s spini. Uvodoma obravnavamo enostavnejši primer brez dodatnega naključnega nereda, v drugem delu pa vključimo tudi tega. 
+\section{Primer brez nereda}
+Obravnavamo Hubbardov model, ki ga v približku tesne vezi podaja hamiltonka
+\begin{equation}\label{eq:hubbard}
+H=H_\mathrm{kin} + H_\mathrm{int}=-t\sum\limits_{\langle ij \rangle, s}\left(c^\dagger_{i,s} c_{js} + c^\dagger_{js}c_{is}\right) + U\sum_i n_{i\uparrow}n_{i\downarrow}.
+\end{equation}
+Pri tem  $\langle ij \rangle$ označuje vsoto po najbližjih sosedih, $s$ pa vsoto po projekcijah spina na os $z$. Fermionski kreacijski in anihilacijski operatorji $c^\dagger_{i,s}, c_{i,s}$ ustvarijo oziroma uničijo delec z dano projekcijo spina $s$ na $i$-tem mestu v kristalni rešetki.  Med izpeljavo bomo pri zapisu večdelčnih stanj upoštevali naslednjo ureditev fermionskih operatorjev
+$$
+\ket{\psi}=\prod\limits_{\{i_\uparrow \}} c_{i, \uparrow}^\dagger \prod\limits_{\{j_\downarrow \}} c_{j, \downarrow}^\dagger \ket{0},
+$$
+kjer je $\ket{0}$ vakuumsko stanje, produkta pa tečeta po vseh mestih, na katerih se nahajajo spini z dano projekcijo. \\\\
+V hamiltonki, ki jo podaja En. \eqref{eq:hubbard}, kinetični člen $H_\mathrm{kin}$ opisuje skakanje elektronov med sosednjimi mesti v kristalni rešetki, pri čemer je $t$ verjetnost za tovrstno tuneliranje. Interakcijski člen $H_\mathrm{int}$ modelira coulombski odboj med elektroni in ob dvojni zasedenosti mesta povzroči energijski prirastek $U$. V limitnem primeru $t\to 0$, oziroma v limiti popolnoma lokaliziranih enodelčnih valovnih funkcij, so večdelčna stanja brez dvojne zasedenosti mest medsebojno degenerirana pri ničelni energiji. Pri izpeljavi modela tJ predpostavimo močno coulombsko interakcijo $U$ in posledično nizko koncentracijo energijsko neugodnih dvojno zasedenih mest. V tem primeru so visokoenergijska stanja z dvojno zasedenimi mesti v energijskem spektru dobro ločena od stanj z največ enojno zasedenimi mesti. Za opis nizkoenergijskih stanj Hubbardove hamiltonke, podane z En. \eqref{eq:hubbard}, torej v tej limiti zadošča obravnava problema na podprostoru največ enojno zasedenih stanj.  \\
+
+Preslikavo med Hubbardovim modelom in modelom tJ bomo izpeljali perturbativno, začenši v limiti popolnoma lokaliziranih enodelčnih valovnih funkcij, kjer kot neperturbirani del hamiltonke vzamemo interakcijski člen $H_\mathrm{int}$, kinetični člen $H_\mathrm{kin}$ pa vključimo kot perturbacijo. Zanima nas oblika efektivne hamiltonke $\tilde{H}$, s katero v limiti močne coulombske interakcije opišemo fiziko nizkoenergijskih stanj Hubbardove hamiltonke. Ker se v slednji sklapljajo le sosednja mesta, lahko problem brez škode za splošnost obravnavamo na dveh sosednjih mestih. Ob upoštevanju prepovedi dvojne zasedenosti mest razpenjajo bazo pripadajočega Hilbertovega podprostora naslednja stanja:
+%\begin{equation}
+%\begin{aligned}\qquad
+%&\ket{\alpha_1}= \ket{  \overset{i}{\uparrow} \overset{j}{\uparrow}}=c^\dagger_{i,\uparrow}c^\dagger_{j,\uparrow}\ket{0} & \ket{\alpha_2}=\ket{ \downarrow \downarrow}=c^\dagger_{i,\downarrow}c^\dagger_{j,\downarrow}\ket{0},\hspace{5mm} &\ket{\alpha_5}= \ket{\uparrow \bullet}=c^\dagger_i\ket{0} &\ket{\alpha_6}=\ket{ \bullet  \uparrow}=c^\dagger_{j,\uparrow}\ket{0}\\
+%&\ket{\alpha_3}=\ket{ \uparrow \downarrow }=c^\dagger_{i,\uparrow}c^\dagger_{j,\downarrow}\ket{0} &\ket{\alpha_4}=\ket{ \downarrow \uparrow }=c^\dagger_{j,\uparrow}c^\dagger_{i,\uparrow}\ket{0},\hspace{5mm} &\ket{\alpha_7}=\ket{\downarrow \bullet}=c^\dagger_j\ket{0}&\ket{\alpha_8}=\ket{ \bullet  \downarrow }=c^\dagger_{j,\downarrow}\ket{0}\\\\
+%\end{aligned}
+%\end{equation}
+\begin{equation}\label{eq:stanja}
+\begin{aligned}\qquad
+&\ket{\alpha_1}= \ket{  \overset{i}{\uparrow} \overset{j}{\uparrow}}=c^\dagger_{i,\uparrow}c^\dagger_{j,\uparrow}\ket{0} & \ket{\alpha_2}=\ket{ \downarrow \downarrow}=c^\dagger_{i,\downarrow}c^\dagger_{j,\downarrow}\ket{0}\\
+&\ket{\alpha_3}=\ket{ \uparrow \downarrow }=c^\dagger_{i,\uparrow}c^\dagger_{j,\downarrow}\ket{0} &\ket{\alpha_4}=\ket{ \downarrow \uparrow }=c^\dagger_{j,\uparrow}c^\dagger_{i,\uparrow}\ket{0} \\\\
+&\ket{\alpha_5}= \ket{\uparrow \bullet}=c^\dagger_{i,\uparrow}\ket{0} &\ket{\alpha_6}=\ket{ \bullet  \uparrow}=c^\dagger_{j,\uparrow}\ket{0}\\
+&\ket{\alpha_7}=\ket{\downarrow \bullet}=c^\dagger_{j,\downarrow}\ket{0}&\ket{\alpha_8}=\ket{ \bullet  \downarrow }=c^\dagger_{j,\downarrow}\ket{0}\\
+\end{aligned}
+\end{equation}
+Označimo podprostor stanj brez vrzeli z $\{ \ket{\alpha^0}\}$ in podprostor stanj z vrzeljo $\{ \ket{\alpha^1}\}$.
+Prepovedana stanja z energijo $U$ in dvojno zasedenostjo mest bomo potrebovali pri perturbacijski obravnavi in jih zapišemo  kot 
+\begin{equation}\label{eq:vzbujena}
+\ket{\beta}=\ket{ \overset{i}{\uparrow\downarrow}\overset{j}{\bullet}}=c^\dagger_{i,\uparrow}c^\dagger_{i,\downarrow}\ket{0}, \hspace{10mm} 
+\ket{\beta'}=\ket{\overset{i}{\bullet}\overset{j}{\uparrow\downarrow}}=c^\dagger_{j,\uparrow}c^\dagger_{j,\downarrow}\ket{0}.
+\end{equation}
+ V modelu tJ so skoki delcev med posameznimi mesti dovoljeni le v primeru, ko je na ciljnem mestu pred skokom vrzel. Formalno zahtevi zadostimo z uvedbo projiciranih fermionskih operatorjev $\tilde{c}_{is}$ v skladu s predpisom 
+\begin{equation}\label{eq:projicirani}
+\tilde{c}^\dagger_{is}= c^\dagger_{is} \left(1-n_{i-s}\right),
+\end{equation}
+s čimer preprečimo možnost dvojne zasedenosti posameznega mesta. Kinetični del $\tilde{H}_\mathrm{kin}$ efektivne hamiltonke $\tilde{H}$ tako dobimo v prvem redu perturbacije z delovanjem operatorja $H_\mathrm{kin}$ na podprostoru $\{ \ket{\alpha^1} \}$. S projiciranimi operatorji ga zapišemo kot 
+\begin{equation}\label{eq:ef_kin}
+\tilde{H}_\mathrm{kin}=-t\sum\limits_{\langle ij \rangle s} \left(\tilde{c}^\dagger_{i,s} \tilde{c}_{js} + \tilde{c}^\dagger_{js}\tilde{c}_{is}\right).
+\end{equation}
+
+Pri nadaljnji perturbacijski obravnavi moramo upoštevati drugi red degenerirane perturbacijske teorije, saj v podprostoru $\{ \ket{\alpha^0}\}$ direktni matrični elementi $\bra{\alpha} H_\mathrm{kin} \ket{\alpha}$ ne obstajajo, vsa stanja $\ket{\alpha}$ pa so ob odsotnosti perturbacije degenerirana. 
+Matrične elemente efektivne hamiltonke v tem primeru podaja zveza 
+\begin{equation}
+\left(\tilde{H}_\mathrm{eff}\right)_{\alpha, \alpha'}=\sum\limits_{\beta\neq\alpha}\frac{\bra{\alpha}H_\mathrm{kin}\ket{\beta}\bra{\beta}H_\mathrm{kin}\ket{\alpha'}}{E_\alpha^0 - E_\beta^0},
+\end{equation}
+kjer vsota teče po vzbujenih stanjih, podanih z En. \eqref{eq:vzbujena}. Hitro vidimo, da je 
+$H_\mathrm{kin}\ket{\beta}=H_\mathrm{kin}\ket{\beta'}=-t\left(\ket{\alpha_3}+ \ket{\alpha_4}\right)$ in da so potemtakem neničelni le matrični elementi $\tilde{H}_{33}=\tilde{H}_{44}=\tilde{H}_{34}=\tilde{H}_{43}=-\frac{2t^2}{U}$. Tu smo upoštevali $E_\alpha^0- E_\beta^0 \sim -U$. Če zapišemo matrične elemente $\tilde{H}_\mathrm{eff}$ kot
+\begin{equation}
+\begin{aligned}\qquad
+&\tilde{H}_{33}=\ket{\alpha_3}\bra{\alpha_3}=\frac{-2t^2}{U} c^\dagger_{i,\uparrow}c^\dagger_{j,\downarrow}c_{j,\downarrow}c_{i,\uparrow}= \frac{2t^2}{U}c^\dagger_{i,\uparrow}c_{i,\uparrow}c^\dagger_{j,\downarrow}c_{j,\downarrow},\\
+&\tilde{H}_{44}=\ket{\alpha_4}\bra{\alpha_4}=\frac{-2t^2}{U} c^\dagger_{j,\uparrow}c^\dagger_{i,\downarrow}c_{i,\downarrow}c_{j,\uparrow}= \frac{2t^2}{U}c^\dagger_{j,\uparrow}c_{j,\uparrow}c^\dagger_{i,\downarrow}c_{i,\downarrow},\\
+&\tilde{H}_{34}=\ket{\alpha_3}\bra{\alpha_4}=\frac{-2t^2}{U} c^\dagger_{i,\uparrow}c^\dagger_{j,\downarrow}c_{i,\downarrow}c_{j,\uparrow}= \frac{2t^2}{U}c^\dagger_{i,\uparrow}c_{i,\downarrow}c^\dagger_{j,\downarrow}c_{j,\uparrow},\\
+&\tilde{H}_{43}=\ket{\alpha_4}\bra{\alpha_3}=\frac{-2t^2}{U} c^\dagger_{j,\uparrow}c^\dagger_{i,\downarrow}c_{j,\downarrow}c_{i,\uparrow}= \frac{2t^2}{U}c^\dagger_{j,\uparrow}c_{j,\downarrow}c^\dagger_{i,\downarrow}c_{i,\downarrow},
+\end{aligned}
+\end{equation}
+potem lahko  $\tilde{H}_\mathrm{eff}$ zapišemo kot 
+\begin{equation}\label{eq:efektivno}
+\tilde{H}_\mathrm{eff} = \frac{2t^2}{U}\sum\limits_{\langle ij\rangle s } \left[\tilde{c}^\dagger_{i,s}\tilde{c}_{i,-s}\tilde{c}^\dagger_{j,-s}\tilde{c}_{j,s} + n_{i,s}n_{j,-s}  \right].
+\end{equation}
+En. \eqref{eq:efektivno} lahko prikladneje zapišemo z uporabo spinskih operatorjev. Prepoznamo namreč $S_i^+=\tilde{c}^\dagger_{i,\uparrow}\tilde{c}_{i,\downarrow}$ in $S_i^-=\tilde{c}^\dagger_{i,\downarrow}\tilde{c}_{i,\uparrow}$, pri zapisu $\sum\limits_{s} n_{i,s}n_{j,-s}$ pa uporabimo zvezi $n_i=\left( n_{i,\uparrow} + n_{i, \downarrow}\right)$ in $S_i^z=\frac{1}{2}\left(n_{i, \uparrow} - n_{i, \downarrow} \right)$. Dobimo
+\begin{equation}\label{eq:mat_elti}
+\begin{split}
+\tilde{H}_\mathrm{eff}& = \frac{2t^2}{U} \sum\limits_{\langle ij \rangle}\left[ \left( S_i^+S_j^- + S_i^-S_j^+\right) - \frac{n_i n_j - 4S_i^zS_j^z}{2}\right]=\\
+&=J\sum\limits_{\langle ij \rangle} \left[ S_i\cdot  S_j - \frac{n_i n_j}{4}\right].
+\end{split}
+\end{equation}
+Pri tem smo vpeljali izmenjalno sklopitev $J=\frac{4t^2}{U}$, na vmesnem koraku zgornje izpeljave pa smo uporabili enakost $2S_i\cdot S_j = 2S_i^z S_j^z + S_i^+S_j^+ + S_i^-S_j^+$. Celotna hamiltonka $\tilde{H}$ se ob upoštevanju mobilnih vrzeli in sklopitve magnetnih prostorskih stopenj zapiše kot 
+\begin{equation}\label{eq:tjhamiltonka}
+\tilde{H} = -t\sum\limits_{\langle ij \rangle s} \left(\tilde{c}^\dagger_{i,s} \tilde{c}_{js} + \tilde{c}^\dagger_{js}\tilde{c}_{is}\right) +  J\sum\limits_{\langle ij \rangle} \left[ S_i\cdot  S_j - \frac{n_i n_j}{4}\right]
+\end{equation}
+\section{Dodatek nereda}
+Tokrat nas zanima, na kateri tip nereda v tJ modelu se preslika nered, ki ga v Hubbardovem modelu sklopimo bodisi s spini bodisi z vrzelmi. Hamiltonki, ki jo podaja En. \eqref{eq:hubbard}, v vsej splošnosti dodamo člen z neredom kot 
+\begin{equation}
+H=H_\mathrm{kin} + H_\mathrm{int} + H_\mathrm{dis}=-t\sum\limits_{\langle ij \rangle, s}\left(c^\dagger_{i,s} c_{js} + c^\dagger_{js}c_{is}\right) + U\sum_i n_{i\uparrow}n_{i\downarrow} + \sum\limits_{i,s} h_{i,s} n_{i, s}  
+\end{equation}
+kjer so $h_{i,s}$ v skladu z neko verjetnostno porazdelitvijo izžrebane naključne vrednosti, pri čemer sta porazdelitvi za posamezni projekciji spina v splošnem lahko različni. V prvem redu perturbacije dobimo za kinetični člen in člen z neredom naslednji izraz
+\begin{equation}
+\tilde{H}_\mathrm{kin} + \tilde{H}_\mathrm{dis} = -t\sum\limits_{\langle ij \rangle s} \left(\tilde{c}^\dagger_{i,s} \tilde{c}_{js} + \tilde{c}^\dagger_{js}\tilde{c}_{is}\right) +\sum\limits_{i,s} h_{i,s} \left(1-n_{i,-s}\right)n_{i,s}
+\end{equation}
+Na mestih $i, j$ smo tako dodali nered $h_{\{i,j\},s}$. Stanji $\ket{\beta}$ in $\ket{\beta'}$ imata sedaj energiji 
+\begin{equation}
+E_\beta = U + h_{i,\uparrow} + h_{i,\downarrow}, \hspace{5mm} E_{\beta'}= U + h_{j, \uparrow} + h_{j,\downarrow} 
+\end{equation}
+za uporabo perturbacijske teorije drugega reda pa potrebujemo bazo medsebojno degeneriranih stanj. Iz stanj, podanih v En. \eqref{eq:stanja}, sestavimo bazo 
+\begin{equation}
+\begin{split}
+%\ket{\tilde{\alpha}_1}=&\frac{1}{\sqrt{2}}\left( \ket{\alpha_1 } + \ket{\alpha_2}\right), \hspace{5mm} \ket{\tilde{\alpha}_2}= \frac{1}{\sqrt{2}}\left(\ket{\alpha_1 } - \ket{\alpha_2}\right)\\
+\ket{\tilde{\alpha_3}}=&\frac{1}{\sqrt{2}}\left( \ket{\alpha_3} + \ket{\alpha_4}\right), \hspace{ 5mm}\ket{\tilde{\alpha_4}}=\frac{1}{\sqrt{2}}\left(\ket{\alpha_3} - \ket{\alpha_4}\right).
+\end{split}
+\end{equation}
+Od prej vemo, da stanji $\ket{\alpha_1}$ in $\ket{\alpha_2}$ za našo izpeljavo nista pomembni, saj bosta prispevali le ničelne matrične elemente v efektivni hamiltonki, medtem ko sta zgornji stanji ob odsotnosti perturbacije degenerirani z energijo $$E_0^\alpha= \frac{1}{2} \left(h_{i,\uparrow} + h_{i,\downarrow} + h_{j,\uparrow} + h_{j,\downarrow}\right).$$ Takoj vidimo, da je 
+$H_\mathrm{kin}\ket{\beta}= H_\mathrm{kin}\ket{\beta'}=-t\left(\ket{\alpha_3}+\ket{\alpha_4}\right)=-t\sqrt{2} \ket{\tilde{\alpha}_3}$. V efektivni hamiltonki imamo tako samo člen 
+$$\tilde{H}_{\tilde{3},\tilde{3}}=2t^2\left(\frac{1}{U - \Xi_{i,j}} + \frac{1}{ U + \Xi_{i,j}}\right), $$
+kjer je 
+$$\Xi_{i,j}=\frac{1}{2}\sum\limits_s \left(h_{i,s} - h_{j,s}\right).$$
+V bazi stanj $\ket{\alpha_3}, \ket{\alpha_4}$ imamo tako 
+$$
+\tilde{H}_{3,3}=\tilde{H}_{4,4}=\tilde{H}_{3,4}=\tilde{H}_{4,3}=t^2\left( \frac{1}{U - \Xi_{i,j}} + \frac{1}{U + \Xi_{i,j}}\right).
+$$
+Od tu naprej je razprava enaka kot zgoraj, zaradi vpliva nereda očitno postane tudi sklopitvena konstanta krajevno odvisna, $J\rightarrow J_{i,j}$, kjer je 
+\begin{equation}
+J_{i,j}=2t^2 \left( \frac{1}{U-\Xi_{i,j}} + \frac{1}{U+ \Xi_{i,j}}\right).
+\end{equation}
+V odsotnosti nereda pridemo nazaj v predhodni primer, $J=\frac{4t^2}{U}$. Z dodatkom nereda se tako Hubbardova hamiltonka, podana z En. \eqref{eq:hubbard}, v hamiltonko modela tJ preslika kot 
+\begin{equation}
+\tilde{H}=-t\sum\limits_{\langle ij \rangle s} \left(\tilde{c}^\dagger_{i,s} \tilde{c}_{js} + \tilde{c}^\dagger_{js}\tilde{c}_{is}\right) +\sum\limits_{\langle ij \rangle} J_{i,j}\left[ S_i\cdot  S_j - \frac{n_i n_j}{4}\right] +\sum\limits_{i,s} h_{i,s} \left(1-n_{i,-s}\right)n_{i,s}.
+\end{equation}-
+\end{document}
+
+

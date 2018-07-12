@@ -1,0 +1,110 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=2.82cm,footskip=1.5cm,includefoot]{geometry}% spremenimo sirine robov
+\usepackage{floatrow}
+\usepackage{units}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{multirow}
+\usepackage[labelformat=simple]{subcaption}
+\usepackage{mathtools}
+\usepackage{caption}
+\addtolength\hoffset{0.5cm}%horizontalni premik
+%vse pametne funkcije ki jih lahko rabimo (lahko tudi kopiras direktno zraven)
+\include{template}
+\usepackage[export]{adjustbox}
+\usepackage{chngcntr}
+\usepackage{bm}
+\usepackage{url}
+%\counterwithin*{equation}{section}
+\usepackage{subcaption}
+\usepackage{color}
+\newcommand{\di}{i}
+\newcommand{\dc}{c}           %% default math "i"
+\usepackage{mhchem}
+ \usepackage[normalem]{ulem}
+\newcommand{\iu}{{i\mkern1mu}}
+ \useunder{\uline}{\ul}{}
+
+ \author{\normalsize Jan Šuntajs } %\\ \\\vspace{2mm}
+% \normalsize Vpisna številka: 28162015}
+\title{\large Preslikava med Hubbardovim modelom in modelom tJ \\ 
+\vspace{3mm}
+\Large Izračun preslikave med Hubbardovim in tJ modelom v primerih brez nereda in z neredom}
+\date{\normalsize \today}
+
+\begin{document}
+\maketitle
+\section{Uvod}
+Zanima nas izpeljava preslikave med Hubbardovim in tJ modelom, pri čemer želimo pravilno obravnavati vlogo potencialnega nereda, ki se sklaplja bodisi z nosilci naboja bodisi s spini. Uvodoma obravnavamo enostavnejši primer brez dodatnega naključnega nereda, v drugem delu pa vključimo tudi tega. 
+\section{Primer brez nereda}
+Obravnavamo Hubbardov model, ki ga v približku tesne vezi podaja hamiltonka
+\begin{equation}\label{eq:hubbard}
+H=H_\mathrm{kin} + H_\mathrm{int}=-t\sum\limits_{\langle ij \rangle, s}\left(c^\dagger_{i,s} c_{js} + c^\dagger_{js}c_{is}\right) + U\sum_i n_{i\uparrow}n_{i\downarrow},
+\end{equation}
+kjer $\langle ij \rangle$ označuje vsoto po najbližjih sosedih, $s$ pa vsoto po projekcijah spina na os $z$. 
+Kinetični člen $H_\mathrm{kin}$ opisuje skakanje elektronov med sosednjimi mesti v kristalni rešetki, pri čemer je $t$ verjetnost za tovrstno tuneliranje. Interakcijski člen $H_\mathrm{int}$ modelira coulombski odboj med elektroni in ob dvojni zasedenosti mesta v kristalni rešetki povzroči energijski prirastek $U$, sicer pa so konfiguracije brez dvojnih zasedenosti mest energijsko degenerirane pri poljubno izbrani ničli energije. \\\\
+%Pri danem številu mest $L$, številu vrzeli $N_\mathrm{h}$ in številu spinov s pozitivno projekcijo spina na os $z$ $N_\mathrm{u}$ je degeneracija enaka $\binom{L}{N_\mathrm{h}}\binom{L-N_\mathrm{h}}{N_\mathrm{u}}$.\\\\
+Preslikavo med Hubbardovim in tJ modelom bomo izpeljali perturbativno, pri čemer bomo v limiti popolnoma lokaliziranih valovnih funkcij kot neperturbirani del hamiltonke podane z En. \eqref{eq:hubbard} vzeli člen $H_\mathrm{int}$, $H_\mathrm{kin}$ pa bomo obravnavali kot perturbacijo. Obravnavamo naslednja stanja
+\begin{equation}\label{eq:stanja}
+\begin{split}
+\ket{\alpha_1}=& \ket{ \dots \overset{i}{\uparrow} \overset{j}{\uparrow} \dots }, \ket{\alpha_2}=\ket{\dots \downarrow \downarrow\dots }, \ket{\alpha_3}=\ket{\dots \uparrow \downarrow\dots }, \ket{\alpha_4}=\ket{\dots \downarrow \uparrow\dots } \\
+\ket{\alpha_5}=& \ket{\dots \uparrow \bullet\dots}, \ket{\alpha_6}=\ket{\dots  \bullet  \uparrow \dots}, \ket{\alpha_7}=\ket{\dots \downarrow \bullet\dots}, \ket{\alpha_8}=\ket{\dots  \bullet  \downarrow \dots}, 
+\end{split}
+\end{equation}
+pri čemer gre za projekcijo na podprostor stanj z največ enojno zasedenostjo posameznih mest.  Vzbujena stanja z energijo $U$ in dvojno zasedenostjo mest tipa 
+\begin{equation}\label{eq:vzbujena}
+\ket{\beta}=\ket{\dots \overset{i}{\uparrow\downarrow}\overset{j}{\bullet}\dots}, \hspace{5mm} 
+\ket{\beta'}=\ket{\dots \overset{i}{\bullet}\overset{j}{\uparrow\downarrow}\dots}
+\end{equation}
+ so namreč v modelu tJ prepovedana. To tudi pomeni, da so skoki elektronov med posameznimi mesti v modelu tJ dovoljeni le v primeru, ko je na ciljnem mestu pred skokom vrzel. Še pred perturbativno obravnavo lahko tako zapišemo kinetični del $\tilde{H}_\mathrm{kin}$ preslikane hamiltonke $\tilde{H}$ kot 
+$$
+\tilde{H}_\mathrm{kin}=-t\sum\limits_{\langle ij \rangle s} \left(\tilde{c}^\dagger_{i,s} \tilde{c}_{js} + \tilde{c}^\dagger_{js}\tilde{c}_{is}\right),
+$$
+kjer so $\tilde{c}_{is}$ fermionski operatorji, projicirani na podprostor stanj, v katerem dvojna zasedenost ni možna. Velja 
+\begin{equation}
+\tilde{c}_{is}=\left(1-n_{i-s}\right) c_{is}.
+\end{equation}
+Pri perturbacijski obravnavi moramo upoštevati drugi red degenerirane perturbacijske teorije, saj direktni matrični elementi $\bra{\alpha} H_\mathrm{kin} \ket{\alpha'}$ ne obstajajo, vsa stanja $\ket{\alpha}$ pa so ob odsotnosti perturbacije degenerirana. 
+Matrične elemente efektivne hamiltonke v tem primeru podaja zveza 
+\begin{equation}
+\left(\tilde{H}_\mathrm{eff}\right)_{\alpha, \alpha'}=\sum\limits_{\beta\neq\alpha}\frac{\bra{\alpha}H_\mathrm{kin}\ket{\beta}\bra{\beta}H_\mathrm{kin}\ket{\alpha'}}{E_\alpha^0 - E_\beta^0},
+\end{equation}
+kjer vsota teče po vzbujenih stanjih, podanih z En. \eqref{eq:vzbujena}. Hitro vidimo, da je 
+$H_\mathrm{kin}\ket{\beta}=H_\mathrm{kin}\ket{\beta'}=-t\left(\ket{\alpha_3}- \ket{\alpha_4}\right)$ in da so potemtakem neničelni le matrični elementi $\tilde{H}_{33}=\tilde{H}_{44}=-\tilde{H}_{34}=-\tilde{H}_{43}=-\frac{2t^2}{U}$. Tu smo upoštevali $E_\alpha^0- E_\beta^0 \sim U$. $\tilde{H}_\mathrm{eff}$ lahko zapišemo tudi kot 
+\begin{equation}\label{eq:efektivno}
+\tilde{H}_\mathrm{eff} = \frac{2t^2}{U}\sum\limits_{\langle ij\rangle s } \left[\tilde{c}^\dagger_{i,s}\tilde{c}_{i,-s}\tilde{c}^\dagger_{j,-s}\tilde{c}_{j,s} - n_{i,s}n_{j,-s}  \right], 
+\end{equation}
+kar se prikladneje zapiše s spinskimi operatorji. V En. \eqref{eq:efektivno} namreč lahko prepoznamo $S_i^+=\tilde{c}^\dagger_{i,\uparrow}\tilde{c}_{i,\downarrow}$ in $S_i^-=\tilde{c}^\dagger_{i,\downarrow}\tilde{c}_{i,\uparrow}$, pri zapisu $\sum\limits_{s} n_{i,s}n_{j,-s}$ pa uporabimo zvezi $n_i=\left( n_{i,\uparrow} + n_{i, \downarrow}\right)$ in $S_i^z=\frac{1}{2}\left(n_{i, \uparrow} - n_{i, \downarrow} \right)$. Dobimo
+\begin{equation}\label{eq:stanja}
+\begin{split}
+\tilde{H}_\mathrm{eff}& = \frac{2t^2}{U} \sum\limits_{\langle ij \rangle}\left[ \left( S_i^+S_j^- + S_i^-S_j^+\right) - \frac{n_i n_j - 4S_i^zS_j^z}{2}\right]=\\
+&=J\sum\limits_{\langle ij \rangle} \left[ S_i\cdot  S_j - \frac{n_i n_j}{4}\right].
+\end{split}
+\end{equation}
+Pri tem smo vpeljali izmenjalno sklopitev $J=\frac{4t^2}{U}$, na vmesnem koraku zgornje izpeljave pa smo uporabili enakost $2S_i\cdot S_j = 2S_i^z S_j^z + S_i^+S_j^+ + S_i^-S_j^+$. Celotna hamiltonka $\tilde{H}$ se ob upoštevanju mobilnih vrzeli in sklopitve magnetnih prostorskih stopenj zapiše kot 
+\begin{equation}\label{eq:tjhamiltonka}
+\tilde{H} = -t\sum\limits_{\langle ij \rangle s} \left(\tilde{c}^\dagger_{i,s} \tilde{c}_{js} + \tilde{c}^\dagger_{js}\tilde{c}_{is}\right) +  J\sum\limits_{\langle ij \rangle} \left[ S_i\cdot  S_j - \frac{n_i n_j}{4}\right]
+\end{equation}
+\section{Dodatek nereda}
+Tokrat nas zanima, na kateri tip nereda v tJ modelu se preslika potencialni nered, ki ga v Hubbardovem modelu sklopimo bodisi s spini bodisi z vrzelmi, ki jih označimo s simbolom $\bullet$. V vsej splošnosti zapišimo Hubbardovo hamiltonko z dodatkom nereda kot 
+\begin{equation}
+H=H_\mathrm{kin} + H_\mathrm{int}=-t\sum\limits_{\langle ij \rangle, s}\left(c^\dagger_{i,s} c_{js} + c^\dagger_{js}c_{is}\right) + U\sum_i n_{i\uparrow}n_{i\downarrow} + \sum\limits_{i,s} h_{i,s} n_{i, s} + \sum\limits_i w_i n_{i,\bullet}, 
+\end{equation}
+kjer so $h_i$ in $w_i$ v skladu z neko porazdelitvijo naključno izžrebane vrednosti nereda, ki se sklaplja s spini oziroma z vrzelmi. Podobno kot v prejšnjem primeru lahko še pred perturbativno obravnavo pišemo 
+\begin{equation}
+\tilde{H}_\mathrm{kin} + \tilde{H}_\mathrm{disord.} = -t\sum\limits_{\langle ij \rangle s} \left(\tilde{c}^\dagger_{i,s} \tilde{c}_{js} + \tilde{c}^\dagger_{js}\tilde{c}_{is}\right) +\sum\limits_{i,s} h_{i,s} \left(1-n_{i,-s}\right)n_{i,s} + \sum\limits_{i} w_i n_{i,\bullet} \hspace{10mm} \mathrm{DODELAJ!}
+\end{equation}
+Na mestih $i, j$ smo tako dodali nered $h_{\{i,j\},s}$ in $w_{\{i,j\}}$. Stanji $\ket{\beta}$ in $\ket{\beta'}$ imata sedaj energiji 
+\begin{equation}
+E_\beta = U + h_{i,\uparrow} + h_{i,\downarrow} + w_j, \hspace{5mm} E_{\beta'}= U + h_{j, \uparrow} + h_{j,\downarrow} + w_i, 
+\end{equation}
+za uporabo perturbacijske teorije drugega reda pa potrebujemo bazo medsebojno degeneriranih stanj. Iz stanj, podanih v En. \eqref{eq:stanja}, sestavimo bazo 
+\begin{equation}
+\begin{split}
+\ket{\tilde{\alpha}_1}=&\frac{1}{\sqrt{2}}\left( \ket{\alpha_1 } + \ket{\alpha_2}\right), \hspace{5mm} \ket{\tilde{\alpha}_2}= \frac{1}{\sqrt{2}}\left(\ket{\alpha_1 } - \ket{\alpha_2}\right)\\
+\ket{\tilde{\alpha_3}}=&\frac{1}{\sqrt{2}}\left( \ket{\alpha_3} + \ket{\alpha_4}\right), \hspace{ 5mm}\ket{\tilde{\alpha_4}}=\frac{1}{\sqrt{2}}\left(\ket{\alpha_3} - \ket{\alpha_4}\right).
+\end{split}
+\end{equation}
+Ob odsotnosti perturbacije so namreč ta stanja degenerirana z energijo $E_0^\alpha= \frac{1}{2} \left(h_{i,\uparrow} + h_{i,\downarrow} + h_{j,\uparrow} + h_{j,\downarrow}\right)$
+\end{document}
+
+

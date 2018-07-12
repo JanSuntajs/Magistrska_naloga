@@ -1,0 +1,16 @@
+Seminar Notes:
+
+What to study numerically: 1,2,3D dynamics - the hamiltonian is already written and works properly. Set the routine properly so it won't experience memory issues when submitted to queue. 
+
+
+THE INVERSE PARTICIPATION RATIO:
+
+The inverse participation ratio (see Kramer, MacKinnon, 1497, eq. 40, for a definition):
+A measure of the portion of the space where the amplitude of the wavefunction differs markedly from zero. It may also be considered as providing a measure for an average diameter R of the state via R=P^1/d. For plane waves one 
+obtains that P=L^d, i.e. equals the volume of the system, and diverges in the thermodynamic limit. Such a behaviour
+may be considered as being representative of extended states. 
+
+This is rather straightforward to implement once the states are obtained via diagonalization. Scaling analysis should be performed then on such states to see how they scale with system size. Localized states shoud most probably be size-independent in this respect. 
+
+
+Article: B. Kramer, A. MacKinnon:

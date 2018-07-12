@@ -1,0 +1,29 @@
+Presentation, text
+
+Slide 1:
+Introduction:
+
+Hello, first I would like to thank the professor for the introduction. My name is Jan Suntajs, and today I'll be giving a seminar on the Anderson localization. My masters thesis under the supervision of Janez Bonca and Lev Vidmar is about the localization in many-body systems with disorder. In plain language, this means I am studying how certain systems can go from a metallic to an insulating state if interactions between particles are changed or if the disorder is changed. I will be using the term disorder quite a lot during this presentation, so I would like to clarify right away that you can asocciate disorder with the presence of impurities, defects, dislocations or other irregularities in an otherwise ideal crystalline solid. 
+
+My today's talk will actually not concern the interacting systems. Given that we haven't heard much about localization here at the faculty, I figured it would be probably nice and more enlightening if I started with a somewhat simpler case of localization in systems of non-interacting particles with disorder. In other words, with the Anderson localization. 
+
+Slide 2: What is it about
+In the next five minutes or so, I'll show you five short slides with which I'll try to motivate you as per why the topic is interesting and relevant today. Let me start with what the Anderson localization is about - as already stated, it is a mechanism which provides a description of conduction in systems of non-interacting particles with disorder. We know that up untill now we have mostly been considering the Drude model of conduction, in which the electron conductivity sigma is proportional to the electron's mean free path, l. That is, the distance the electron travels before coliding with an impurity. If concentration of impurities is increased, the mean free path and the conductivity both decrease. The Drude model therefore predicts lowering of the conductivity but not its vanishing. 
+
+Slide 3: What does it predict?
+The Anderson model, on the other hand, does predict that the electron conductivity can vanish if the disorder is strong enough, and the system becomes an insulator. This is not merely a theoretical exercise ... (rephrase). The idea was formulated in a seminal paper by P.W. Anderson in 1958. The paper is a notoriously difficult read and was only cited for about 20 times in the first 10 years. Its significance was recognized later and it has now been cited for more than 6000 times and its author has been Awarded with the Nobel prize in 1977. Shown on the right are the results of the simulations I've done in the past few months. Here we see that for no disorder, an initial sharply localized wavefunction in one dimension spreads across the whole system with time in a ballistic manner. If disorder is sufficiently strong, however, the wave function remains more or less centered at its initial point even as times passes. We'll talk about the simulations more in detail at the end of the seminar. 
+
+Slide 4: Why does it still matter?
+Now, I've shown you some dates in the previous slide, and you might as well wonder why would something that was predicted in 1958 and already awarded with a Nobel prize in 1977 still be relevant today? Well, localization is a complex phenomenon and its complete and rigorous treatment is still lacking even today. Above is crop from the Anderson's 60-year old groundbreaking paper, while a crop from a paper of a younger date is shown below. It shows how the interest in the field has all but vanished. 
+Slide 5, go seamlessly - the hot topic
+Furthermore, understanding the Anderson localization is of paramount importance in understanding the interacting systems with disorder. Currently, the MBL is the hot topic in the research community. As an illustration - an article published in 2015 has already been quoted more than 670times as of April 2018 acc. to Google Scholar. As stated in the very beginning, the MBL itself is not the subject of this seminar. 
+
+Slide 6: the Outline of the seminar
+Finally, after I've hopefully managed to motivate you, we come to the outline of this seminar. In the beginning, I will explain the basic concepts of the Anderson localization. 
+Next, I will outline how different models of disorder can be constructed starting from the picture of an ideal translationally invariant crystal. We will focus on the Anderson Hamiltonian more in detail.
+Afterwards, the results of the numerical simulations I've done in the past few (two) months are presented and finally, the ideas for the follow-up discussion are presented in the conclusion. 
+
+Slide 7:
+So, here are the basics of the Anderson localization. As you may recall from your favourite solid state physics class, wavefunctions in a perfect crystal are Bloch waves and are spatially extended across the whole crystal. As Anderson pointed out in his paper, disorder can cause these states to become exponentially localized, meaning their envelope decays exponentially from some point in space, as shown both in this equation and in the figure here where an extended and a localized state are compared. If electrons are in extended states, they can contribute to transport and conductivity, while the localized states cannot. 
+Slide 8:
+What's parti

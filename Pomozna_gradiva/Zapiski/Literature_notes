@@ -1,0 +1,7 @@
+Seminar Notes:
+
+What to study numerically: 1,2,3D dynamics - the hamiltonian is already written and works properly. Set the routine properly so it won't experience memory issues when submitted to queue. 
+
+The inverse participation ratio (see Kramer, MacKinnon, 1497, eq. 40, for implementation )
+
+Article: B. Kramer, A. MacKinnon:

@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Jan_Suntajs_Modelska1_zakljucna.aux
+The style file: fmf-sl.bst
+Database file #1: literatura.bib
+You've used 9 entries,
+            2705 wiz_defined-function locations,
+            645 strings with 5995 characters,
+and the built_in function-call counts, 3525 in all, are:
+= -- 240
+> -- 119
+< -- 1
++ -- 59
+- -- 34
+* -- 252
+:= -- 460
+add.period$ -- 9
+call.type$ -- 9
+change.case$ -- 43
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 316
+empty$ -- 329
+format.name$ -- 41
+if$ -- 707
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 76
+newline$ -- 33
+num.names$ -- 18
+pop$ -- 126
+preamble$ -- 1
+purify$ -- 35
+quote$ -- 0
+skip$ -- 79
+stack$ -- 0
+substring$ -- 186
+swap$ -- 182
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 34
+warning$ -- 0
+while$ -- 28
+width$ -- 10
+write$ -- 79
