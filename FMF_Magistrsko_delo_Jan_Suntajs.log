@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.11)  12 JUL 2018 18:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.11)  17 JUL 2018 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1196,7 +1196,7 @@ Underfull \hbox (badness 1275) in paragraph at lines 93--96
 \OT1/lmr/m/n/10 Skupaj z in-te-gra-bil-nimi sis-temi pred-sta-
  []
 
-<nandkishore_huse_reservoir.pdf, id=63, 953.5625pt x 225.84375pt>
+<nandkishore_huse_reservoir.pdf, id=83, 953.5625pt x 225.84375pt>
 File: nandkishore_huse_reservoir.pdf Graphic file (type pdf)
 
 <use nandkishore_huse_reservoir.pdf>
@@ -1204,7 +1204,7 @@ Package pdftex.def Info: nandkishore_huse_reservoir.pdf used on input line 100.
 
 (pdftex.def)             Requested size: 249.13371pt x 59.00401pt.
 
-<abanin_thermalization_scheme.pdf, id=69, 877.2775pt x 297.11pt>
+<abanin_thermalization_scheme.pdf, id=89, 877.2775pt x 297.11pt>
 File: abanin_thermalization_scheme.pdf Graphic file (type pdf)
 
 <use abanin_thermalization_scheme.pdf>
@@ -1212,7 +1212,17 @@ Package pdftex.def Info: abanin_thermalization_scheme.pdf used on input line 11
 8.
 (pdftex.def)             Requested size: 236.67625pt x 80.15276pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--129
+Underfull \hbox (badness 10000) in paragraph at lines 91--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--133
 
  []
 
@@ -1220,7 +1230,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.129 
+l.133 
        [1
 
 
@@ -1231,16 +1241,419 @@ Faks/2._stopnja/IJS_delo/Magistrska_naloga/abanin_thermalization_scheme.pdf
 pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
 stopnja/IJS_delo/Magistrska_naloga/abanin_thermalization_scheme.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
->] [2]
+>] [2] <diff_loc_ext_mod.pdf, id=148, 578.16pt x 216.81pt>
+File: diff_loc_ext_mod.pdf Graphic file (type pdf)
+
+<use diff_loc_ext_mod.pdf>
+Package pdftex.def Info: diff_loc_ext_mod.pdf used on input line 160.
+(pdftex.def)             Requested size: 154.00783pt x 57.7521pt.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 162.
+
+ (/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 162
+.
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 162
+.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 162.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 162.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 162.
+LaTeX Font Info:    Try loading font information for U+msa on input line 162.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 162.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 162.
+
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 167.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 167.
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--168
+
+ []
+
+[3 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska
+_naloga/diff_loc_ext_mod.pdf>]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 151.
+(hyperref)                removing `\textasciicaron' on input line 170.
+
+<interference.jpg, id=171, 424.9476pt x 258.0039pt>
+File: interference.jpg Graphic file (type jpg)
+ <use interference.jpg>
+Package pdftex.def Info: interference.jpg used on input line 184.
+(pdftex.def)             Requested size: 158.99039pt x 96.53076pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--189
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--197
+
+ []
+
+[4 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska
+_naloga/interference.jpg>]
+<beta_diagram.png, id=191, 916.42375pt x 677.53125pt>
+File: beta_diagram.png Graphic file (type png)
+ <use beta_diagram.png>
+Package pdftex.def Info: beta_diagram.png used on input line 214.
+(pdftex.def)             Requested size: 155.81888pt x 115.19946pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--220
+
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 227--230
+\OT1/lmr/m/n/10 delca, $\OML/lmm/m/it/10 V[]$ \OT1/lmr/m/n/10 pa po-ten-ci-alna
+ ener-gija atoma na me-stu
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 227--230
+\OT1/lmr/m/n/10 z ne-kima iz-bra-nima nor-ma-li-zi-ra-nima ver-je-tno-stnima
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--230
+
+ []
+
+<disorder_scheme.pdf, id=195, 1011.78pt x 1011.78pt>
+File: disorder_scheme.pdf Graphic file (type pdf)
+ <use disorder_scheme.pdf>
+Package pdftex.def Info: disorder_scheme.pdf used on input line 234.
+(pdftex.def)             Requested size: 155.81888pt x 155.80533pt.
+
+Underfull \hbox (badness 1194) in paragraph at lines 235--235
+[]\OT1/lmr/m/n/9 Slika 6: |Od leve proti de-sni in od zgo-raj
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--239
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--239
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--239
+
+ []
+
+[5 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska
+_naloga/beta_diagram.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+<hopping_picture_50years.jpg, id=207, 631.6398pt x 570.2103pt>
+File: hopping_picture_50years.jpg Graphic file (type jpg)
+
+<use hopping_picture_50years.jpg>
+Package pdftex.def Info: hopping_picture_50years.jpg used on input line 258.
+(pdftex.def)             Requested size: 126.60117pt x 114.28366pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--268
+
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 265--268
+\OT1/lmr/m/n/10 V li-miti zelo mo^^Tcnega ne-reda, kjer ve-li-kost pa-ra-me-
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 265--268
+\OT1/lmr/m/n/10 te-o-rije lahko la-stne funk-cije ha-mil-tonke opi^^Tsemo kot
+ []
+
+
+Underfull \hbox (badness 3271) in paragraph at lines 265--268
+\OT1/lmr/m/n/10 pri-bli^^Tzku so ener-gije to-vr-stnih eno-e-lek-tron-skih stan
+j
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--268
+
+ []
+
+
+Underfull \hbox (badness 2591) in paragraph at lines 265--268
+\OT1/lmr/m/n/10 V treh di-men-zi-jah za pod-kriti^^Tcne vre-dno-sti ne-reda,
+ []
+
+<bands.png, id=214, 1255.69125pt x 860.21375pt>
+File: bands.png Graphic file (type png)
+ <use bands.png>
+Package pdftex.def Info: bands.png used on input line 272.
+(pdftex.def)             Requested size: 190.24568pt x 130.32594pt.
+
+<mobility_edge_DOS_modified.pdf, id=217, 867.24pt x 433.62pt>
+File: mobility_edge_DOS_modified.pdf Graphic file (type pdf)
+
+<use mobility_edge_DOS_modified.pdf>
+Package pdftex.def Info: mobility_edge_DOS_modified.pdf used on input line 278.
+
+(pdftex.def)             Requested size: 190.24568pt x 95.11879pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--290
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--290
+
+ []
+
+[6 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska
+_naloga/disorder_scheme.pdf> </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._s
+topnja/IJS_delo/Magistrska_naloga/hopping_picture_50years.jpg>]
+Underfull \hbox (badness 6526) in paragraph at lines 298--298
+[]\OT1/lmr/m/n/9 Slika 10: |Pri-mer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 ^^Tcasovnega ra-zvoja
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 za^^Tcetnega sta-nja v
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 pri-meru brez ne-
+ []
+
+
+Underfull \hbox (badness 3354) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 reda in z mo^^Tcnim
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 Pri tem $\OML/lmm/m/it/9 t$ \OT1/lmr/m/n/9 ozna^^Tcuje
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 ^^Tcas, $\OML/lmm/m/it/9 j$ \OT1/lmr/m/n/9 pa me-sto v
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 eno-di-men-zi-o-nalni
+ []
+
+
+<1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_cone_dou
+ble_presentation.pdf, id=234, 2168.1pt x 1011.78pt>
+File: 1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_con
+e_double_presentation.pdf Graphic file (type pdf)
+
+<use 1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_cone
+_double_presentation.pdf>
+Package pdftex.def Info: 1D_Anderson_localization_Seminar_scaling_analysis_D1_s
+hape_1000_light_cone_double_presentation.pdf used on input line 298.
+(pdftex.def)             Requested size: 362.37569pt x 169.09789pt.
+
+Underfull \hbox (badness 6526) in paragraph at lines 298--298
+[]\OT1/lmr/m/n/9 Slika 10: |Pri-mer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 ^^Tcasovnega ra-zvoja
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 za^^Tcetnega sta-nja v
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 pri-meru brez ne-
+ []
+
+
+Underfull \hbox (badness 3354) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 reda in z mo^^Tcnim
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 Pri tem $\OML/lmm/m/it/9 t$ \OT1/lmr/m/n/9 ozna^^Tcuje
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 ^^Tcas, $\OML/lmm/m/it/9 j$ \OT1/lmr/m/n/9 pa me-sto v
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 eno-di-men-zi-o-nalni
+ []
+
+File: 1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_con
+e_double_presentation.pdf Graphic file (type pdf)
+
+<use 1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_cone
+_double_presentation.pdf>
+Package pdftex.def Info: 1D_Anderson_localization_Seminar_scaling_analysis_D1_s
+hape_1000_light_cone_double_presentation.pdf used on input line 298.
+(pdftex.def)             Requested size: 362.37569pt x 169.09789pt.
+
+Underfull \hbox (badness 6526) in paragraph at lines 298--298
+[]\OT1/lmr/m/n/9 Slika 10: |Pri-mer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 ^^Tcasovnega ra-zvoja
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 za^^Tcetnega sta-nja v
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 pri-meru brez ne-
+ []
+
+
+Underfull \hbox (badness 3354) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 reda in z mo^^Tcnim
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 Pri tem $\OML/lmm/m/it/9 t$ \OT1/lmr/m/n/9 ozna^^Tcuje
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 ^^Tcas, $\OML/lmm/m/it/9 j$ \OT1/lmr/m/n/9 pa me-sto v
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+\OT1/lmr/m/n/9 eno-di-men-zi-o-nalni
+ []
+
+File: 1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_con
+e_double_presentation.pdf Graphic file (type pdf)
+
+<use 1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_cone
+_double_presentation.pdf>
+Package pdftex.def Info: 1D_Anderson_localization_Seminar_scaling_analysis_D1_s
+hape_1000_light_cone_double_presentation.pdf used on input line 298.
+(pdftex.def)             Requested size: 362.37569pt x 169.09789pt.
+
+Overfull \hbox (4.76605pt too wide) detected at line 298
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--299
+
+ []
+
+[7 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska
+_naloga/bands.png (PNG copy)> </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
+stopnja/IJS_delo/Magistrska_naloga/mobility_edge_DOS_modified.pdf>]
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 300.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--308
+
+ []
+
+[8 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska
+_naloga/1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_c
+one_double_presentation.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 309--311
+
+ []
+
+[9]
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 343.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 152.
+(hyperref)                removing `\textasciicaron' on input line 344.
 
 
 (/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
@@ -1250,84 +1663,57 @@ Underfull \hbox (badness 1038) in paragraph at lines 8--10
 gle-ment and many-body lo-ca-li-za-tion\OT1/lmr/m/n/10 , arXiv pre-print
  []
 
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 37.
-(/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 37.
-
-
-(/usr/share/texmf/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 37.
-
-
-(/usr/share/texmf/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 37.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 37.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 37.
-LaTeX Font Info:    Try loading font information for U+msa on input line 37.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 37.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 37.
-
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-))
+[10])
 
 Package caption Warning: Unused \captionsetup[sub] on input line 30.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
-[3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 358.
+[11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 358.
 
 (/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
 loga/FMF_Magistrsko_delo_Jan_Suntajs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 358.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 358.
 Package rerunfilecheck Info: File `FMF_Magistrsko_delo_Jan_Suntajs.out' has not
  changed.
-(rerunfilecheck)             Checksum: 4FF866FD32F62877EF9D36287A372B7C;786.
+(rerunfilecheck)             Checksum: 6198F5B334EF23CE0D7EA3EE18E9ADD0;1326.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 358.
  ) 
 Here is how much of TeX's memory you used:
- 19783 strings out of 493014
- 357214 string characters out of 6135690
- 474292 words of memory out of 5000000
- 23067 multiletter control sequences out of 15000+600000
- 52056 words of font info for 50 fonts, out of 8000000 for 9000
+ 19972 strings out of 493014
+ 361155 string characters out of 6135690
+ 481292 words of memory out of 5000000
+ 23188 multiletter control sequences out of 15000+600000
+ 61716 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,11n,45p,10403b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/
-public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri1
-0.pfb>
+ 40i,12n,51p,10403b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/u
+sr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/publi
+c/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lms
+y10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_d
-elo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.pdf (4 pages, 306458 byte
-s).
+elo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.pdf (12 pages, 1155139 by
+tes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 462 PDF objects out of 1000 (max. 8388607)
+ 375 compressed objects within 4 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
 

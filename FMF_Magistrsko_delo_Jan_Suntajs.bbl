@@ -16,18 +16,71 @@ E.~Abrahams in~dr., \emph{Scaling theory of localization: Absence of quantum
   diffusion in two dimensions}, Physical Review Letters \textbf{42}(10) (1979)
   673.
 
+\bibitem{altshuler1997quasiparticle}
+B.~L. Altshuler in~dr., \emph{Quasiparticle lifetime in a finite system: A
+  nonperturbative approach}, Physical review letters \textbf{78}(14) (1997)
+  2803.
+
 \bibitem{anderson1958absence}
 P.~W. Anderson, \emph{Absence of diffusion in certain random lattices},
   Physical review \textbf{109}(5) (1958) 1492.
+
+\bibitem{anderson1978local}
+P.~W. Anderson, \emph{Local moments and localized states}, Reviews of Modern
+  Physics \textbf{50}(2) (1978) 191.
+
+\bibitem{Atas_Distribution_PhysRevLett.110.084101}
+Y.~Y. Atas in~dr., \emph{Distribution of the ratio of consecutive level
+  spacings in random matrix ensembles}, Phys. Rev. Lett. \textbf{110} (2013)
+  084101, \doi{10.1103/PhysRevLett.110.084101}.
 
 \bibitem{basko2006metal}
 D.~Basko, I.~Aleiner in B.~Altshuler, \emph{Metal--insulator transition in a
   weakly interacting many-electron system with localized single-particle
   states}, Annals of physics \textbf{321}(5) (2006) 1126--1205.
 
+\bibitem{basko2006problem}
+D.~Basko, L.~Aleiner in B.~Altshuler, \emph{On the problem of many-body
+  localization}, Problems of Condensed Matter Physics  (2006) 50--70.
+
+\bibitem{PhysRevLett.116.140401}
+P.~Bordia in~dr., \emph{Coupling identical one-dimensional many-body localized
+  systems}, Phys. Rev. Lett. \textbf{116} (2016) 140401,
+  \doi{10.1103/PhysRevLett.116.140401}.
+
+\bibitem{d2016quantum}
+L.~D'Alessio in~dr., \emph{From quantum chaos and eigenstate thermalization to
+  statistical mechanics and thermodynamics}, Advances in Physics \textbf{65}(3)
+  (2016) 239--362.
+
+\bibitem{finkelshtein1983influence}
+A.~Finkelshtein, \emph{Influence of coulomb interaction on the properties of
+  disordered metals}, Sov. Phys. JETP \textbf{57}(1) (1983) 97--108.
+
+\bibitem{fleishman1980interactions}
+L.~Fleishman in P.~Anderson, \emph{Interactions and the anderson transition},
+  Physical Review B \textbf{21}(6) (1980) 2366.
+
+\bibitem{PhysRevLett.114.083002}
+S.~S. Kondov in~dr., \emph{Disorder-induced localization in a strongly
+  correlated atomic hubbard gas}, Phys. Rev. Lett. \textbf{114} (2015) 083002,
+  \doi{10.1103/PhysRevLett.114.083002}.
+
+\bibitem{kramer1993localization}
+B.~Kramer in A.~MacKinnon, \emph{Localization: theory and experiment}, Reports
+  on Progress in Physics \textbf{56}(12) (1993) 1469.
+
 \bibitem{lagendijk2009fifty}
 A.~Lagendijk, B.~Van~Tiggelen in D.~S. Wiersma, \emph{Fifty years of anderson
   localization}, Phys. Today \textbf{62}(8) (2009) 24--29.
+
+\bibitem{mehta2004random}
+M.~L. Mehta, \emph{Random matrices},  \textbf{142}, Elsevier, 2004.
+
+\bibitem{PhysRevA.92.041601}
+R.~Mondaini in M.~Rigol, \emph{Many-body localization and thermalization in
+  disordered hubbard chains}, Phys. Rev. A \textbf{92} (2015) 041601,
+  \doi{10.1103/PhysRevA.92.041601}.
 
 \bibitem{mott1990metal}
 N.~Mott, \emph{Metal-insulator transitions}, CRC Press, 1990.
@@ -35,6 +88,10 @@ N.~Mott, \emph{Metal-insulator transitions}, CRC Press, 1990.
 \bibitem{doi:10.1080/00018736100101271}
 N.~Mott in W.~Twose, \emph{The theory of impurity conduction}, Advances in
   Physics \textbf{10}(38) (1961) 107--163, \doi{10.1080/00018736100101271}.
+
+\bibitem{mott2012electronic}
+N.~F. Mott in E.~A. Davis, \emph{Electronic processes in non-crystalline
+  materials}, OUP Oxford, 2012.
 
 \bibitem{nandkishore2015many}
 R.~Nandkishore in D.~A. Huse, \emph{Many-body localization and thermalization
@@ -45,5 +102,23 @@ R.~Nandkishore in D.~A. Huse, \emph{Many-body localization and thermalization
 V.~Oganesyan in D.~A. Huse, \emph{Localization of interacting fermions at high
   temperature}, Phys. Rev. B \textbf{75} (2007) 155111,
   \doi{10.1103/PhysRevB.75.155111}.
+
+\bibitem{schreiber2015observation}
+M.~Schreiber in~dr., \emph{Observation of many-body localization of interacting
+  fermions in a quasi-random optical lattice}, Science  (2015) aaa7432.
+
+\bibitem{spalek2007tj}
+J.~Spalek, \emph{tj model then and now: a personal perspective from the
+  pioneering times}, arXiv preprint arXiv:0706.4236  (2007).
+
+\bibitem{wolfle2010self}
+P.~W{\"o}lfle in D.~Vollhardt, \emph{Self-consistent theory of anderson
+  localization: General formalism and applications}, International Journal of
+  Modern Physics B \textbf{24}(12n13) (2010) 1526--1554.
+
+\bibitem{vznidarivc2008many}
+M.~{\v{Z}}nidari{\v{c}}, T.~Prosen in P.~Prelov{\v{s}}ek, \emph{Many-body
+  localization in the heisenberg x x z magnet in a random field}, Physical
+  Review B \textbf{77}(6) (2008) 064426.
 
 \end{thebibliography}
