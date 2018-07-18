@@ -53,6 +53,10 @@ L.~D'Alessio in~dr., \emph{From quantum chaos and eigenstate thermalization to
   statistical mechanics and thermodynamics}, Advances in Physics \textbf{65}(3)
   (2016) 239--362.
 
+\bibitem{deutsch1991quantum}
+J.~M. Deutsch, \emph{Quantum statistical mechanics in a closed system},
+  Physical Review A \textbf{43}(4) (1991) 2046.
+
 \bibitem{finkelshtein1983influence}
 A.~Finkelshtein, \emph{Influence of coulomb interaction on the properties of
   disordered metals}, Sov. Phys. JETP \textbf{57}(1) (1983) 97--108.
@@ -110,6 +114,11 @@ M.~Schreiber in~dr., \emph{Observation of many-body localization of interacting
 \bibitem{spalek2007tj}
 J.~Spalek, \emph{tj model then and now: a personal perspective from the
   pioneering times}, arXiv preprint arXiv:0706.4236  (2007).
+
+\bibitem{srednicki1999approach}
+M.~Srednicki, \emph{The approach to thermal equilibrium in quantized chaotic
+  systems}, Journal of Physics A: Mathematical and General \textbf{32}(7)
+  (1999) 1163.
 
 \bibitem{wolfle2010self}
 P.~W{\"o}lfle in D.~Vollhardt, \emph{Self-consistent theory of anderson

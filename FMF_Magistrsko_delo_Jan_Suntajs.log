@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.11)  17 JUL 2018 15:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.11)  18 JUL 2018 19:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1196,7 +1196,7 @@ Underfull \hbox (badness 1275) in paragraph at lines 93--96
 \OT1/lmr/m/n/10 Skupaj z in-te-gra-bil-nimi sis-temi pred-sta-
  []
 
-<nandkishore_huse_reservoir.pdf, id=83, 953.5625pt x 225.84375pt>
+<nandkishore_huse_reservoir.pdf, id=91, 953.5625pt x 225.84375pt>
 File: nandkishore_huse_reservoir.pdf Graphic file (type pdf)
 
 <use nandkishore_huse_reservoir.pdf>
@@ -1204,7 +1204,7 @@ Package pdftex.def Info: nandkishore_huse_reservoir.pdf used on input line 100.
 
 (pdftex.def)             Requested size: 249.13371pt x 59.00401pt.
 
-<abanin_thermalization_scheme.pdf, id=89, 877.2775pt x 297.11pt>
+<abanin_thermalization_scheme.pdf, id=97, 877.2775pt x 297.11pt>
 File: abanin_thermalization_scheme.pdf Graphic file (type pdf)
 
 <use abanin_thermalization_scheme.pdf>
@@ -1241,7 +1241,7 @@ Faks/2._stopnja/IJS_delo/Magistrska_naloga/abanin_thermalization_scheme.pdf
 pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
 stopnja/IJS_delo/Magistrska_naloga/abanin_thermalization_scheme.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
->] [2] <diff_loc_ext_mod.pdf, id=148, 578.16pt x 216.81pt>
+>] [2] <diff_loc_ext_mod.pdf, id=156, 578.16pt x 216.81pt>
 File: diff_loc_ext_mod.pdf Graphic file (type pdf)
 
 <use diff_loc_ext_mod.pdf>
@@ -1306,7 +1306,7 @@ Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 170.
 
-<interference.jpg, id=171, 424.9476pt x 258.0039pt>
+<interference.jpg, id=179, 424.9476pt x 258.0039pt>
 File: interference.jpg Graphic file (type jpg)
  <use interference.jpg>
 Package pdftex.def Info: interference.jpg used on input line 184.
@@ -1328,7 +1328,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--197
 
 [4 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska
 _naloga/interference.jpg>]
-<beta_diagram.png, id=191, 916.42375pt x 677.53125pt>
+<beta_diagram.png, id=199, 916.42375pt x 677.53125pt>
 File: beta_diagram.png Graphic file (type png)
  <use beta_diagram.png>
 Package pdftex.def Info: beta_diagram.png used on input line 214.
@@ -1359,7 +1359,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--230
 
  []
 
-<disorder_scheme.pdf, id=195, 1011.78pt x 1011.78pt>
+<disorder_scheme.pdf, id=203, 1011.78pt x 1011.78pt>
 File: disorder_scheme.pdf Graphic file (type pdf)
  <use disorder_scheme.pdf>
 Package pdftex.def Info: disorder_scheme.pdf used on input line 234.
@@ -1395,7 +1395,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
-<hopping_picture_50years.jpg, id=207, 631.6398pt x 570.2103pt>
+<hopping_picture_50years.jpg, id=215, 631.6398pt x 570.2103pt>
 File: hopping_picture_50years.jpg Graphic file (type jpg)
 
 <use hopping_picture_50years.jpg>
@@ -1432,13 +1432,13 @@ Underfull \hbox (badness 2591) in paragraph at lines 265--268
 \OT1/lmr/m/n/10 V treh di-men-zi-jah za pod-kriti^^Tcne vre-dno-sti ne-reda,
  []
 
-<bands.png, id=214, 1255.69125pt x 860.21375pt>
+<bands.png, id=222, 1255.69125pt x 860.21375pt>
 File: bands.png Graphic file (type png)
  <use bands.png>
 Package pdftex.def Info: bands.png used on input line 272.
 (pdftex.def)             Requested size: 190.24568pt x 130.32594pt.
 
-<mobility_edge_DOS_modified.pdf, id=217, 867.24pt x 433.62pt>
+<mobility_edge_DOS_modified.pdf, id=225, 867.24pt x 433.62pt>
 File: mobility_edge_DOS_modified.pdf Graphic file (type pdf)
 
 <use mobility_edge_DOS_modified.pdf>
@@ -1499,7 +1499,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 298--298
 
 
 <1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_cone_dou
-ble_presentation.pdf, id=234, 2168.1pt x 1011.78pt>
+ble_presentation.pdf, id=242, 2168.1pt x 1011.78pt>
 File: 1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_con
 e_double_presentation.pdf Graphic file (type pdf)
 
@@ -1639,21 +1639,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 301--308
 
 [8 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska
 _naloga/1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_c
-one_double_presentation.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 309--311
+one_double_presentation.pdf>] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 349--352
 
  []
 
-[9]
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--364
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--364
+
+ []
+
+[10]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 343.
+(hyperref)                removing `\textasciicaron' on input line 373.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 344.
+(hyperref)                removing `\textasciicaron' on input line 386.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 387.
 
 
 (/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
@@ -1663,36 +1678,36 @@ Underfull \hbox (badness 1038) in paragraph at lines 8--10
 gle-ment and many-body lo-ca-li-za-tion\OT1/lmr/m/n/10 , arXiv pre-print
  []
 
-[10])
+[11])
 
 Package caption Warning: Unused \captionsetup[sub] on input line 30.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 358.
-[11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 358.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 401.
+[12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 401.
 
 (/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
 loga/FMF_Magistrsko_delo_Jan_Suntajs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 358.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 358.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 401.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 401.
 Package rerunfilecheck Info: File `FMF_Magistrsko_delo_Jan_Suntajs.out' has not
  changed.
-(rerunfilecheck)             Checksum: 6198F5B334EF23CE0D7EA3EE18E9ADD0;1326.
+(rerunfilecheck)             Checksum: D9405F1D23809074FD9C7A93D579063A;1507.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 358.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 401.
  ) 
 Here is how much of TeX's memory you used:
- 19972 strings out of 493014
- 361155 string characters out of 6135690
+ 19983 strings out of 493014
+ 361360 string characters out of 6135690
  481292 words of memory out of 5000000
- 23188 multiletter control sequences out of 15000+600000
+ 23192 multiletter control sequences out of 15000+600000
  61716 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,12n,51p,10403b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,17n,51p,10403b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/u
 sr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/publi
@@ -1709,11 +1724,11 @@ y10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_d
-elo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.pdf (12 pages, 1155139 by
+elo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.pdf (13 pages, 1162690 by
 tes).
 PDF statistics:
- 462 PDF objects out of 1000 (max. 8388607)
- 375 compressed objects within 4 object streams
- 80 named destinations out of 1000 (max. 500000)
- 187 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 490 PDF objects out of 1000 (max. 8388607)
+ 401 compressed objects within 5 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 203 words of extra memory for PDF output out of 10000 (max. 10000000)
 
