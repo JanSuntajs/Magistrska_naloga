@@ -344,7 +344,6 @@ Pri tem moramo dodati, da zaradi posledic efektov končnih velikosti sistemov $\
 % \hat{\rho}_\mathrm{A}(t)=\hat{\rho}_\mathrm{A}^{(\mathrm{eq})}(T).
 % \end{equation}
 
-
 \subsubsection{Termalizacija in hipoteza termalizacije lastnih stanj}
 Termalizacija v jeziku konvencionalne statistične fizike pomeni relaksacijo vseh, še tako neravnovesnih, stanj proti ravnovesju, v katerem pričakovane vrednosti opazljivk določajo ustrezna ansambelska povprečja. Poljubna začetna stanja z izbrano energijo v termalizirajočem sistemu vsa termalizirajo pri temperaturi $T$, ustrezajoči pričakovani vrednosti energije sistema po dolgem času $\langle\hat{H}\rangle_T$, kjer smo seveda privzeli ohranitev celotne energije sistema. Pri posplošitvi obravnave na zaprte kvantne sisteme predpostavimo da tudi v teh, v kolikor pride do termalizacije, vsa začetna stanja z dano energijo termalizirajo pri isti temperaturi. Izjava je splošna in do zdaj rigorozen dokaz trditve za splošne generične sisteme še ne obstaja, vendar se zdi v skladu s tem, kar vemo o naravi termalizirajočih sistemov~\cite{nandkishore2015many}.\\\\
 Če sistem za vsako začetno stanje $\hat{\rho}(0)$ z dano energijo resnično termalizira pri ustrezni temperaturi, potem je zaradi enostavne časovne dinamike  ugodno obravnavati  mnogodelčna lastna stanja hamiltonke sistema, $\hat{H}\ket{\alpha}=E_\alpha\ket{\alpha}$. Časovni razvoj začetne gostotne matrike sistema $\hat{\rho}(0)=\ket{\alpha}\bra{\alpha}$, je v tem primeru trivialen, namreč $\hat{\rho}(t)=\hat{\rho}(0)$. V kolikor je zgoraj omenjena predpostavka termalizacije vseh začetnih stanj upravičena, potem so lastna stanja hamiltonke že sama po sebi termalna. Domnevo imenujemo \emph{hipoteza termalizacije lastnih stanj}~\cite{deutsch1991quantum}~\cite{srednicki1999approach} (ang. \emph{eigenstate thermalization hypothesis}, v nadaljevanju ETH).
@@ -360,7 +359,8 @@ ETH napove, da za izbrano začetno stanje $\ket{\psi(0)}$ po dolgem času priča
 \begin{equation}
 \langle \hat{O}\rangle_\infty=\lim_{t\to\infty}\bra{\psi(t)}\hat{O}\ket{\psi(t)}=\frac{\sum_{\abs{E_\alpha - \bar{E}}\leq \Delta}\bra{\alpha}\hat{O}\ket{\alpha}}{N_\Delta}=_\mathrm{Typ}\bra{\alpha}\hat{O}\ket{\alpha}_\mathrm{Typ}.
 \end{equation}
-S tipičnim stanjem imamo v resnici v mislih katerokoli lastno stanje znotraj energijskega okna, pri čemer je $N_\Delta$ njihovo število na danem enerijskem intervalu. Bistvo zgornje enačbe in ETH nasploh je, da v termalizirajočem sistemu ravnovesne vrednosti opazljivk podajo kar pričakovane vrednosti posameznih lastnih stanj, ki ustrezajo energiji sistema. \\\\
+S tipičnim stanjem imamo v resnici v mislih katerokoli lastno stanje znotraj energijskega okna, pri čemer je $N_\Delta$ število lastnih stanj na danem enerijskem intervalu. Bistvo zgornje enačbe in ETH nasploh je, da v termalizirajočem sistemu ravnovesne vrednosti opazljivk podajo kar pričakovane vrednosti posameznih lastnih stanj, ki ustrezajo energiji sistema. \\\\
+Veljavnost ETH v sistemu pomeni njegovo termalizacijo in tako implicira ergodičnost v kvantnem primeru. Podrobnim numeričnim študijam ETH navkljub~\cite{d2016quantum} trenutno še ni povsem jasno, ali je veljavnost hipoteze potreben pogoj za termalizacijo - za zdaj vemo zgolj, da ETH velja v vseh termalizirajočih sistemih. Hipoteza ni veljavna v dveh pomembnih razredih sistemov, ki ne termalizirajo. V integrabilnih sistemih relaksacijo proti termalnim vrednostim preprečuje neskončen nabor ekstenzivnih ohranjenih količin. Drugi, za nas zanimivejši tip sistemov, so MBL sistemi. 
 
 
 
