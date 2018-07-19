@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex FMF_Magistrsko_delo_Jan_Suntajs"] 1531993218 "FMF_Magistrsko_delo_Jan_Suntajs.aux" "FMF_Magistrsko_delo_Jan_Suntajs.bbl" "FMF_Magistrsko_delo_Jan_Suntajs" 1531993486
+["bibtex FMF_Magistrsko_delo_Jan_Suntajs"] 1532004304 "FMF_Magistrsko_delo_Jan_Suntajs.aux" "FMF_Magistrsko_delo_Jan_Suntajs.bbl" "FMF_Magistrsko_delo_Jan_Suntajs" 1532004613
   "./fmf-sl.bst" 1526571439 27685 4d7e09844e055ce473f9aecc332a6010 ""
-  "FMF_Magistrsko_delo_Jan_Suntajs.aux" 1531993486 16594 f3678a44ca84e15767630dee98851737 ""
+  "FMF_Magistrsko_delo_Jan_Suntajs.aux" 1532004613 14508 402009f61231413e88e63ba6dd97f0f8 ""
   "FMF_Magistrsko_delo_Jan_Suntajs.bcf" 0 -1 0 ""
   "literatura.bib" 1531923929 10184 6e2e6bc4e1ebc21ea80147e16cf82d03 ""
   (generated)
-  "FMF_Magistrsko_delo_Jan_Suntajs.blg"
   "FMF_Magistrsko_delo_Jan_Suntajs.bbl"
-["pdflatex"] 1531993484 "FMF_Magistrsko_delo_Jan_Suntajs.tex" "/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.pdf" "FMF_Magistrsko_delo_Jan_Suntajs" 1531993486
+  "FMF_Magistrsko_delo_Jan_Suntajs.blg"
+["pdflatex"] 1532004612 "FMF_Magistrsko_delo_Jan_Suntajs.tex" "/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.pdf" "FMF_Magistrsko_delo_Jan_Suntajs" 1532004613
   "/etc/texmf/web2c/texmf.cnf" 1491942887 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.aux" 1531993486 16594 f3678a44ca84e15767630dee98851737 ""
+  "/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.aux" 1532004613 14508 402009f61231413e88e63ba6dd97f0f8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -163,11 +163,10 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1491942893 1888002 bbd21e0eec351ffb20562c5a7c949e0c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1491942902 3880761 12695ace62cbbba3ea0140f270808382 ""
   "1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_cone_double_presentation.pdf" 1531653706 88404 5524712c92334ce26527ac34e29db0f4 ""
-  "FMF_Magistrsko_delo_Jan_Suntajs.aux" 1531993486 16594 f3678a44ca84e15767630dee98851737 ""
-  "FMF_Magistrsko_delo_Jan_Suntajs.bbl" 1531993218 5443 8c84ceb3bb703a6a57f964547da0bff6 "bibtex FMF_Magistrsko_delo_Jan_Suntajs"
-  "FMF_Magistrsko_delo_Jan_Suntajs.out" 1531993486 1507 d9405f1d23809074fd9c7a93d579063a ""
-  "FMF_Magistrsko_delo_Jan_Suntajs.tex" 1531993484 57452 c0bb37059802b3c6f2ec8b67eacf8ed4 ""
-  "abanin_thermalization_scheme.pdf" 1525952802 92451 1264ec6d42cc93e6642124e195d48e38 ""
+  "FMF_Magistrsko_delo_Jan_Suntajs.aux" 1532004613 14508 402009f61231413e88e63ba6dd97f0f8 ""
+  "FMF_Magistrsko_delo_Jan_Suntajs.bbl" 1532004305 5443 8c84ceb3bb703a6a57f964547da0bff6 "bibtex FMF_Magistrsko_delo_Jan_Suntajs"
+  "FMF_Magistrsko_delo_Jan_Suntajs.out" 1532004613 1564 29887c34823a9d18d2461ef3c3e06ea9 ""
+  "FMF_Magistrsko_delo_Jan_Suntajs.tex" 1532004611 61317 1d3b36a23507ada968a5cc9744e0db5c ""
   "bands.png" 1522190676 37065 7655a363b24ee8b653338194ef7192ec ""
   "beta_diagram.png" 1522192491 52085 a105ee0eb8d86df2d5674080a747f2fb ""
   "diff_loc_ext_mod.pdf" 1523277290 6390 53e779246cba198a76d84316a0bc2733 ""
@@ -178,10 +177,10 @@
   "nandkishore_huse_reservoir.pdf" 1525951827 26517 4c817dd7e01336736d5e89ffa1652262 ""
   "template.tex" 1531236650 2706 81ec8695ef75604e00fdf3f506542120 ""
   (generated)
-  "FMF_Magistrsko_delo_Jan_Suntajs.aux"
-  "/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.pdf"
-  "FMF_Magistrsko_delo_Jan_Suntajs.out"
-  "FMF_Magistrsko_delo_Jan_Suntajs.log"
   "/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.log"
-  "template.aux"
   "FMF_Magistrsko_delo_Jan_Suntajs.pdf"
+  "FMF_Magistrsko_delo_Jan_Suntajs.out"
+  "/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.pdf"
+  "template.aux"
+  "FMF_Magistrsko_delo_Jan_Suntajs.aux"
+  "FMF_Magistrsko_delo_Jan_Suntajs.log"

@@ -1,19 +1,20 @@
 \BOOKMARK [1][-]{section.1}{Uvod}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{Andersonova lokalizacija in osnove neurejenih kvantnih sistemov}{section.1}% 2
-\BOOKMARK [3][-]{subsubsection.1.1.1}{Opis prevodnosti pred teorijo lokalizacije in po njej}{subsection.1.1}% 3
-\BOOKMARK [3][-]{subsubsection.1.1.2}{Ojacano povratno sipanje}{subsection.1.1}% 4
-\BOOKMARK [3][-]{subsubsection.1.1.3}{Skalirna teorija lokalizacije}{subsection.1.1}% 5
-\BOOKMARK [3][-]{subsubsection.1.1.4}{Modeli nereda}{subsection.1.1}% 6
-\BOOKMARK [2][-]{subsection.1.2}{Lokalizacija v sistemih z meddelcnimi interakcijami}{section.1}% 7
-\BOOKMARK [3][-]{subsubsection.1.2.1}{Fizika zaprtih kvantnih sistemov}{subsection.1.2}% 8
-\BOOKMARK [3][-]{subsubsection.1.2.2}{Termalizacija in hipoteza termalizacije lastnih stanj}{subsection.1.2}% 9
-\BOOKMARK [3][-]{subsubsection.1.2.3}{Znacilnosti MBL sistemov }{subsection.1.2}% 10
-\BOOKMARK [1][-]{section.2}{Modeli}{}% 11
-\BOOKMARK [2][-]{subsection.2.1}{Heisenbergova veriga}{section.2}% 12
-\BOOKMARK [2][-]{subsection.2.2}{Hubbardov model}{section.2}% 13
-\BOOKMARK [2][-]{subsection.2.3}{Model t-J}{section.2}% 14
-\BOOKMARK [2][-]{subsection.2.4}{Tocna diagonalizacija}{section.2}% 15
-\BOOKMARK [1][-]{section.3}{Statisticne lastnosti hamiltonskih spektrov}{}% 16
-\BOOKMARK [2][-]{subsection.3.1}{Statistika sosednjih energijskih nivojev}{section.3}% 17
-\BOOKMARK [2][-]{subsection.3.2}{Spektralni oblikovni faktor}{section.3}% 18
-\BOOKMARK [1][-]{section.4}{Prepletenostna entropija}{}% 19
+\BOOKMARK [1][-]{section.2}{Od Andersonove do vecdelcne lokalizacije}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Andersonova lokalizacija in osnove neurejenih sistemov}{section.2}% 3
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Opis prevodnosti pred teorijo lokalizacije in po njej}{subsection.2.1}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Ojacano povratno sipanje}{subsection.2.1}% 5
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Skalirna teorija lokalizacije}{subsection.2.1}% 6
+\BOOKMARK [3][-]{subsubsection.2.1.4}{Modeli nereda}{subsection.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.2}{Lokalizacija v sistemih z meddelcnimi interakcijami}{section.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Fizika zaprtih kvantnih sistemov}{subsection.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.3}{Termalizacija in hipoteza termalizacije lastnih stanj}{section.2}% 10
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Znacilnosti MBL sistemov }{subsection.2.3}% 11
+\BOOKMARK [1][-]{section.3}{Modeli}{}% 12
+\BOOKMARK [2][-]{subsection.3.1}{Heisenbergova veriga}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.2}{Hubbardov model}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.3}{Model t-J}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.4}{Tocna diagonalizacija}{section.3}% 16
+\BOOKMARK [1][-]{section.4}{Statisticne lastnosti hamiltonskih spektrov}{}% 17
+\BOOKMARK [2][-]{subsection.4.1}{Statistika sosednjih energijskih nivojev}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.2}{Spektralni oblikovni faktor}{section.4}% 19
+\BOOKMARK [1][-]{section.5}{Prepletenostna entropija}{}% 20
