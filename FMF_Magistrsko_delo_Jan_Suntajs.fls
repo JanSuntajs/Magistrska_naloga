@@ -272,6 +272,9 @@ INPUT /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
 INPUT /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/abanin_thermalization_scheme.pdf
 INPUT /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/abanin_thermalization_scheme.pdf
 INPUT /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/abanin_thermalization_scheme.pdf
+INPUT /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/unfolding_demo_three_slo.pdf
+INPUT /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/unfolding_demo_three_slo.pdf
+INPUT /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/unfolding_demo_three_slo.pdf
 INPUT /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.bbl
 INPUT /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.bbl
 INPUT /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.aux
@@ -281,6 +284,10 @@ INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb

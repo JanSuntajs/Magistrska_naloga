@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.11)  19 JUL 2018 23:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.11)  20 JUL 2018 11:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1676,19 +1676,36 @@ Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                removing `\textasciicaron' on input line 416.
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 419--422
-\OT1/lmr/m/n/10 sta-nja z la-stnimi funk-ci-jami sis-tema po
+Underfull \hbox (badness 1072) in paragraph at lines 420--424
+\OT1/lmr/m/n/10 gube faze med dolgo^^Tcasovnim ra-zvo-jem v
  []
 
-<abanin_thermalization_scheme.pdf, id=405, 877.2775pt x 297.11pt>
+<abanin_thermalization_scheme.pdf, id=408, 877.2775pt x 297.11pt>
 File: abanin_thermalization_scheme.pdf Graphic file (type pdf)
 
 <use abanin_thermalization_scheme.pdf>
 Package pdftex.def Info: abanin_thermalization_scheme.pdf used on input line 42
-6.
-(pdftex.def)             Requested size: 236.67625pt x 80.15276pt.
+8.
+(pdftex.def)             Requested size: 228.06805pt x 77.2377pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--440
+<unfolding_demo_three_slo.pdf, id=418, 1734.48pt x 505.89pt>
+File: unfolding_demo_three_slo.pdf Graphic file (type pdf)
+
+<use unfolding_demo_three_slo.pdf>
+Package pdftex.def Info: unfolding_demo_three_slo.pdf used on input line 440.
+(pdftex.def)             Requested size: 452.9679pt x 119.00827pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--444
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--444
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--444
 
  []
 
@@ -1696,15 +1713,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 417--440
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 449.
+(hyperref)                removing `\textasciicaron' on input line 461.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 450.
+(hyperref)                removing `\textasciicaron' on input line 462.
 
 [13 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
-a_naloga/abanin_thermalization_scheme.pdf>]
+a_naloga/unfolding_demo_three_slo.pdf> </media/jan/Data/Dropbox/Sync_WD_MyCloud
+/Faks/2._stopnja/IJS_delo/Magistrska_naloga/abanin_thermalization_scheme.pdf
+
+pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
+stopnja/IJS_delo/Magistrska_naloga/abanin_thermalization_scheme.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>] [14]
 (/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
 loga/FMF_Magistrsko_delo_Jan_Suntajs.bbl
 Underfull \hbox (badness 1038) in paragraph at lines 8--10
@@ -1712,53 +1735,57 @@ Underfull \hbox (badness 1038) in paragraph at lines 8--10
 gle-ment and many-body lo-ca-li-za-tion\OT1/lmr/m/n/10 , arXiv pre-print
  []
 
-[14])
+[15])
 
 Package caption Warning: Unused \captionsetup[sub] on input line 30.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 464.
-[15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 464.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 477.
+[16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 477.
 
 (/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
 loga/FMF_Magistrsko_delo_Jan_Suntajs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 464.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 464.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 477.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 477.
 Package rerunfilecheck Info: File `FMF_Magistrsko_delo_Jan_Suntajs.out' has not
  changed.
 (rerunfilecheck)             Checksum: BFB6749BEFC8B9925F34D0B7E4886B42;1547.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 464.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 477.
  ) 
 Here is how much of TeX's memory you used:
- 19998 strings out of 493014
- 361611 string characters out of 6135690
+ 20013 strings out of 493014
+ 361926 string characters out of 6135690
  482292 words of memory out of 5000000
- 23200 multiletter control sequences out of 15000+600000
+ 23212 multiletter control sequences out of 15000+600000
  61716 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,17n,51p,10403b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/u
-sr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/publi
-c/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lms
-y10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+sr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmm
+i5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/font
+s/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_d
-elo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.pdf (16 pages, 1170849 by
+elo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.pdf (17 pages, 1301714 by
 tes).
 PDF statistics:
- 522 PDF objects out of 1000 (max. 8388607)
- 429 compressed objects within 5 object streams
- 94 named destinations out of 1000 (max. 500000)
- 217 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 570 PDF objects out of 1000 (max. 8388607)
+ 467 compressed objects within 5 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 228 words of extra memory for PDF output out of 10000 (max. 10000000)
 
