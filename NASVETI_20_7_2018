@@ -1,0 +1,20 @@
+20.7.2018:
+
+Navodila za poganjanje in pisanje: 
+
+Napišeš modele,
+Heisenberg -> Bethe Ansatz, v principu omogoča izračun valovne funkcije itd
+DOKONČAJ POGLAVJE 3
+
+POGLAVJE 4: OBLIKUJ SLIKE
+
+POGLAVJE 5: Glej članek -> Luitz, La Florence -> zanka po vseh stanjih, narediš gostotna ploskev za nekaj neredov
+NASVETI: Energijo deli z L -> da je v končnem intervalu
+Izračunaš prepletenostno entropijo za vsako stanje, coarsed grain približek -> OPIS POSTOPKA: 
+
+Biparticija: polovičen sistem: S/L_A*log(2) ->L_A -> velikost podsistema, naj bo L_A=L/2
+Energijski interval razdelim na podintervale in v vsakem povprečim po podintervalu.
+Energijo deli z L -> E/L; 
+na x-osi je tip nereda, na y-osi so energije, E/L.
+
+IZRAČUNI GOSTOTNIH PLOSKVIC: dvakrat bolj na gosto

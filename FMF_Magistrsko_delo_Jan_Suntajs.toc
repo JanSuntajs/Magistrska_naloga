@@ -1,0 +1,21 @@
+\select@language {slovene}
+\contentsline {chapter}{\numberline {1}Uvod}{11}{chapter.1}
+\contentsline {chapter}{\numberline {2}Od Andersonove do ve\IeC {\v c}del\IeC {\v c}ne lokalizacije}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Andersonova lokalizacija in osnove neurejenih sistemov}{15}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Opis prevodnosti pred teorijo lokalizacije in po njej}{16}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Oja\IeC {\v c}ano povratno sipanje}{17}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Skalirna teorija lokalizacije}{18}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Modeli nereda}{19}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}Lokalizacija v sistemih z meddel\IeC {\v c}nimi interakcijami}{23}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Fizika zaprtih kvantnih sistemov}{25}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Hipoteza termalizacije lastnih stanj}{26}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Zna\IeC {\v c}ilnosti MBL sistemov }{27}{subsection.2.2.3}
+\contentsline {chapter}{\numberline {3}Modeli in metode}{31}{chapter.3}
+\contentsline {section}{\numberline {3.1}Fermionski modeli brez spinskih prostostnih stopenj}{31}{section.3.1}
+\contentsline {section}{\numberline {3.2}Model $t$-$J$}{33}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Preslikava med Hubbardovim modelom in modelom $t$-$J$}{36}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}To\IeC {\v c}na diagonalizacija modelskih hamiltonk}{36}{section.3.3}
+\contentsline {section}{\numberline {3.4}Statisti\IeC {\v c}ne lastnosti hamiltonskih spektrov}{36}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Statistika sosednjih energijskih nivojev}{36}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Spektralni oblikovni faktor}{36}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Prepletenostna entropija}{36}{section.3.5}

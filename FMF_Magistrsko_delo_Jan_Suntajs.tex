@@ -1,90 +1,206 @@
-\documentclass[10pt,a4paper]{article}
-%\documentclass[aps,prl]{revtex4-1}
-\usepackage[margin=2.5cm,footskip=1.cm,includefoot]{geometry}% spremenimo sirine robov
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%          METAPODATKI
+
+\begin{filecontents*}{\jobname.xmpdata}
+\Title{Naslov magistrskega dela}
+\Author{Ime in priimek}
+\Keywords{magisterij\sep navodila\sep ključne besede}
+\Publisher{Univerza v Ljubljani, Fakulteta za matematiko in fiziko}
+\end{filecontents*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[longbibliography,slovene,a4paper,12pt]{book}
+
 \usepackage{floatrow}
 \usepackage{hyperref}
 \usepackage{amsmath}
-\usepackage{fullpage}
+% \usepackage{fullpage}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{lmodern}
 \usepackage{url}
 \usepackage[labelformat=simple,font=small]{subcaption}
 \usepackage[font=small]{caption}
-%\usepackage{subcaption}
+\usepackage{subcaption}
 \usepackage[multiple]{footmisc}
 \usepackage[]{units}
 \usepackage{bm}
-\usepackage{fancyhdr}
-%\usepackage[demo]{graphicx}
-\usepackage{graphicx}
 \usepackage{mhchem}
 \newcommand{\iu}{{i\mkern1mu}}
-
-\addtolength\hoffset{0.5cm}%horizontalni premik
-%vse pametne funkcije ki jih lahko rabimo (lahko tudi kopiras direktno zraven)
 \include{template}
-\usepackage{titlesec}
-\usepackage{cleveref}
-\renewcommand{\thesubfigure}{(\alph{subfigure})}
-\captionsetup[sub]{labelformat=simple}
+%\usepackage[english]{babel}    % angleski delilni vzorci
+\usepackage[slovene]{babel}    % slovenski delilni vzorci
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+\usepackage[T1]{fontenc}
+\usepackage[pdftex]{graphicx}
+\usepackage{fancyhdr}
+\usepackage[sort, numbers]{natbib}
 
-\titleformat*{\section}{\Large\bfseries}
-\titleformat*{\subsection}{\large\bfseries}
-\titleformat*{\subsubsection}{\large\bfseries}
-\titleformat*{\paragraph}{\large\bfseries}
-\titleformat*{\subparagraph}{\large\bfseries}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%       PDF/A
 
-\usepackage{color}
+\usepackage{xmpincl}
+% \usepackage[a-1b]{pdfx}       
 
-\pagenumbering{arabic}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{hyperref}
+\usepackage[a4paper,inner=3.5cm,outer=2.5cm,top=2.5cm,bottom=2.5cm,pdftex]{geometry}
+\usepackage[titletoc,title]{appendix}
+\usepackage{epstopdf}
+\usepackage{url}
+\usepackage{makeidx}
+\pagestyle{headings}
+\makeindex
+
+
+%-------------------------
+
+
+%%
+%% Za pisanje sumnikov imamo tri moznosti:
+%%   --- vnasamo jih neposredno v kodnem sistemu UTF-8 
+%%   --- pisemo jih z latexovim ukazom, ki je namenjen natanko temu,
+%%       in sicer kot \v{c}, \v{s}, \v{z}, \v{C}, \v{S}, v{\Z} ali
+%%       malo manj pregledno kot \v c, \v s, \v z, \v C, \v S, \v Z,
+%%   --- pisemo jih kot "c, "s, "z, "C, "S, "Z), vendar tedaj potrebujemo
+%%       spodaj zapisani macro, ki znaku " pripise vlogo `izdelave' sumnika:
+% \catcode`\"=\active\def"#1{\v{#1}}
+%%       torej \v{S}krjan\v{c}ek == \v Skrjan\v cek == "Skrjan"cek
+%% Pozor: narekovaj potem ne smemo vec pisati kot " ampak kot `` in '',
+%%       torej: "Skrjan"cek je "civkal ``"ci-"ci-"ci''.
+
+%%
+%% Mozni nacini stevilcenja strani:
+%%  --- arabske stevilke v celotnem dokumentu, kot je uporabljeno v tej predlogi
+%%  --- del strani je lahko stevilcen z rimskimi stevilkami, razen uvoda, osrednjega dela, zakljucka in seznama literature.
+%% V vsakem primeru se stevilke na straneh izpisejo sele od kazala naprej.
+
+\def\epsfg#1#2{\epsfig{file=#1.eps,width=#2}}
+\def\legendamp#1#2{\vbox{\hsize=#1\caption{\small #2}}}
+
+\setcounter{topnumber}{4}
+\setcounter{bottomnumber}{4}
+\setcounter{totalnumber}{5}
+\renewcommand{\topfraction}{0.99}
+\renewcommand{\bottomfraction}{0.99}
+\renewcommand{\textfraction}{0.0}
+\setlength{\tabcolsep}{10pt}
+\renewcommand{\arraystretch}{1.5}
+
+\def\bi#1{\hbox{\boldmath{$#1$}}}
+\let\oldvec\vec
+\def\vec#1{\mbox{\boldmath$#1$}}
+\def\pol{{\textstyle{1\over2}}}
+\def\svec#1{\mbox{{\scriptsize \boldmath$#1$}}}
 
 \begin{document}
+
 %%% NASLOVNA STRAN
 
-
+\pagestyle{empty}
 \begin{center}
 
-% \includegraphics[width=0.35\textwidth]{logo_fmf_uni-lj_en.pdf}\\[8ex] 
-
-\vspace{3mm}
-
-
-%{\large }\\
-\vspace{2 cm}
-
-{ \Large }Magistrsko delo\\             
-\vspace{3cm}
+{\large UNIVERZA V LJUBLJANI\\
+FAKULTETA ZA MATEMATIKO IN FIZIKO\\
+ODDELEK ZA FIZIKO\\
+PROGRAM in SMER "STUDIJA\\}
 
 
-{\large Avtor: Jan Šuntajs\\
-\large Mentor: dr. Janez Bonča \\
-\large Mentor: doc. Lev Vidmar 
-\vspace{2cm}
+\vspace{4cm}
+
+
+{\Large Ime in priimek\\}
+
+\vspace{10mm}
+
+{\bf \Large NASLOV MAGISTRSKEGA DELA}\\
+\vspace{5mm}
+{\large Magistrsko delo}\\
 
 
 
-Ljubljana, 2018}
+
 \vfill
-\begin{abstract}
 
-\end{abstract}
+
+
+{\large MENTOR$\backslash$-ICA: naziv, Ime in priimek\\
+SOMENTOR$\backslash$-ICA: naziv, Ime in priimek\\
+
+
+\vspace{2cm}
+Ljubljana, leto}
 
 \end{center}
 
+%%% ZAHVALA (NEOBVEZNO)
+
+\cleardoublepage
+\mbox{}
+\vfill
+{\Large \bf Zahvala}
+\vspace{1cm}\\
+Hvala ker šumniki ne delajo
+Na tem mestu zapi"site, komu se zahvaljujete za pomo"c pri nastanku magistrskega dela.
+
+%%% IZVLECEK
+
+\cleardoublepage
+{\Large \bf Izvle"cek}
+\vspace{1cm}\\
+Kratek izvle"cek v slovenskem jeziku.\\
+\vspace{1cm}\\
+{\bf Klju"cne besede:}\\
+{\bf PACS:}
+
+%%% ABSTRACT
+
+\cleardoublepage
+{\Large \bf Abstract}
+\vspace{1cm}\\
+Kratek izvle"cek v angle"skem jeziku.
+\vspace{1cm}\\
+{\bf Keywords:}\\
+{\bf PACS:}
+
+%%% KAZALO
+
+\tableofcontents
+
+% %%% SEZNAM SLIK (NEOBVEZNO)
+
+% \cleardoublepage\phantomsection
+% \renewcommand\listfigurename{Seznam slik}
+% \addcontentsline{toc}{chapter}{\listfigurename}
+% \listoffigures
+
+% %%% SEZNAM TABEL (NEOBVEZNO)
+
+% \cleardoublepage\phantomsection
+% \renewcommand\listtablename{Seznam tabel}
+% \addcontentsline{toc}{chapter}{\listtablename}
+% \listoftables
+
 \cleardoublepage
 
-\thispagestyle{empty}
+%%% OSREDNJI DEL
 
-
-%\tableofcontents
-\clearpage
 \pagestyle{fancy}
-\fancyhf{}
-\cfoot{\thepage}
-\setcounter{page}{1}
+% \fancyhf{}
+\fancyhead[CE,RE]{}
+\fancyhead[LO,CO]{}
+\fancyhead[LE]{\textbf{\nouppercase{\leftmark}}}
+\fancyhead[RO]{\textbf{\nouppercase{\rightmark}}}
 
-\section{Uvod}
+
+
+
+
+
+% \include{Uvod}
+\chapter{Uvod}
 %VIRI: NANDKISHORE, HUSE, UVOD
 %ABANIN, UVOD
 %MONDAINI, RIGOL (za stil pisanja pri nanašanju na Andersona)
@@ -142,7 +258,7 @@ funkcije ne
 %ne sme manjkati: kaj so še razlike: poleg zloma ergodičnosti in odsotnosti transporta je tu še spektralna statistika in prepletenostna entropija -> to mi študiramo. Potem lahko pride na vrsto že predstavitev vsebine po poglavjih. 
 %sistem pripravljen v neravnovesnem stanju -> kaj se zgodi - > lahko termalizira, lahko pa ne; ETH ne ubogajo MBL 
 %integrabilni sistemi -> MBL: vanishing transport 
-\newpage
+
 %KLJUČNE TEME: 
 %MBL
 %TERMALIZACIJA, EKVILIBRACIJA, VLOGA NEREDA
@@ -152,40 +268,41 @@ funkcije ne
 % vloga nereda v sistemu -> vpelješ, glej Abanin => začneš z Andersonom, omembo prelomnega članka (1958), tu se lahko nanašaš na seminar. Sicer večino teksta pri seminarju pride v poštev v naslednjem podpoglavju
 % v uvodu: obvezno slika Abanin (kaj je to lokalizacija, kaj je značilnost sistema, kako je s termalizacijo). Glej Nandkishore, Huse za razlago, kaj je MBL in zakaj je pomemben
 % MBL represents a new frontier of quantum statistical mechanics. MBL systems fail to thermally equilibrate, so their long-time states are not captured by conventional equilibrium statistical mechanics ... 
-\section{Od Andersonove do večdelčne lokalizacije}
-\subsection{Andersonova lokalizacija in osnove neurejenih sistemov}
+\chapter{Od Andersonove do večdelčne lokalizacije}
+\section{Andersonova lokalizacija in osnove neurejenih sistemov}
 \label{anderson}
 Obravnavo lokalizacijskih pojavov začnem z vpeljavo pojma Andersonove lokalizacije, ki nastopi v neurejenih sistemih neinteragirajočih delcev. Razumevanje mehanizmov, ki vodijo do lokalizacije ob odsotnosti interakcij, je namreč dobrodošla osnova za razširitev obravnave z dodatkom meddelčnih interakcij in posledično preučevanje MBL pojavov. \\\\	
-Zahvaljujoč se translacijski simetriji lahko v idealno urejenih kristalnih strukturah elektronske valovne funkcije  opišemo kot prostorsko razsežne Blochove valovne funkcije. Stanja dejanskih sistemov se pogosto bistveno razlikujejo od tovrstnega idealiziranega opisa, saj je zaradi tako rekoč neizogibne prisotnosti nečistoč, defektov in vrzeli idealna kristalna urejenost v praksi le bolj ali manj dobra predpostavka. Pri tem se v razpravi o neurejenih sistemih uporabljan pojem \emph{nereda} nanaša na vsa omenjena odstopanja od idealne urejenosti.  V limiti majhnega nereda, ko se odstopanja od sicer popolne ureditve pojavijo le na nekaj mestih, so valovne funkcije sistema še vedno prostorsko razsežne in le malo odstopajo od ravnih valov. Z naraščanjem nereda se lahko njihova narava popolnoma spremeni, saj lahko nekatere  postanejo lokalizirane z eksponentno pojemajočo ovojno funkcijo, kot prikazuje Slika~\ref{fig:dif_loc_ext}.
-\begin{minipage}[t]{0.57\textwidth}
+Zahvaljujoč se translacijski simetriji lahko v idealno urejenih kristalnih strukturah elektronske valovne funkcije  opišemo kot prostorsko razsežne Blochove valovne funkcije. Stanja dejanskih sistemov se pogosto bistveno razlikujejo od tovrstnega idealiziranega opisa, saj je zaradi tako rekoč neizogibne prisotnosti nečistoč, defektov in vrzeli idealna kristalna urejenost v praksi le bolj ali manj dobra predpostavka. Pri tem se v razpravi o neurejenih sistemih uporabljan pojem \emph{nereda} nanaša na vsa omenjena odstopanja od idealne urejenosti.  V limiti majhnega nereda, ko se odstopanja od sicer popolne ureditve pojavijo le na nekaj mestih, so valovne funkcije sistema še vedno prostorsko razsežne in le malo odstopajo od ravnih valov. Z naraščanjem nereda se lahko njihova narava popolnoma spremeni, saj lahko nekatere  postanejo lokalizirane z eksponentno pojemajočo ovojno funkcijo, kot prikazuje Slika~\ref{fig:dif_loc_ext}. Elektroni z lokaliziranimi valovnimi funkcijami so\\
+\begin{minipage}[t]{0.54\textwidth}
 \noindent 
- Elektroni z lokaliziranimi valovnimi funkcijami so znotraj sistema omejeni na končna območja in zato zanemarljivo malo vplivajo na transportne lastnosti, medtem ko elektroni zasedajoč prostorsko razsežna stanja tipično prispevajo h končnemu transportu. Posledično je sistem izolator, če pod njegovo Fermijevo energijo obstajajo zgolj lokalizirana stanja, in prevodnik, v kolikor Fermijev nivo sovpada z energijo prostorsko razsežnih stanj~\cite{kramer1993localization}. Za razlago obstoja prevodnikov in izolatorjev in razlik med njimi je torej ključno razumevanje vloge nereda pri lokalizaciji kvantnomehanskih valovnih funkcij. Poleg vpliva količine nereda in dimenzionalnosti sistema so v tem podpoglavju razloženi tudi osnovni pojmi s področja Andersonove lokalizacije. V magistrski nalogi se pojem lokalizacija nikoli ne nanaša na
+    znotraj sistema omejeni na končna območja in zato zanemarljivo malo vplivajo na transportne lastnosti, medtem ko elektroni zasedajoč prostorsko razsežna stanja tipično prispevajo h končnemu transportu. Posledično je sistem izolator, če pod njegovo Fermijevo energijo obstajajo zgolj lokalizirana stanja, in prevodnik, v kolikor Fermijev nivo sovpada z energijo prostorsko razsežnih stanj~\cite{kramer1993localization}. Za razlago obstoja prevodnikov in izolatorjev in razlik med njimi je torej ključno razumevanje vloge nereda pri lokalizaciji kvantnomehanskih valovnih funkcij. Poleg vpliva količine nereda in dimenzionalnosti sistema so v tem podpoglavju razloženi tudi osnovni pojmi s področja Andersonove lokalizacije. V magistrski nalogi se pojem lokalizacija  
 \end{minipage}\hfill
-\begin{minipage}[t]{0.4\textwidth}
+\begin{minipage}[t]{0.42\textwidth}
 \begin{figure}[H]
 \centering{
-\includegraphics[width=0.85\textwidth]{diff_loc_ext_mod.pdf}}
+\includegraphics[width=0.95\textwidth]{diff_loc_ext_mod.pdf}}
 \caption{Teorija Andersonove lokalizacije napove možnost lokalizacije kvantnomehanskih stanj zaradi naključnih potencialov. \textbf{a)} Primer razsežnega stanja. \textbf{b)} Lokalizirano stanje, katerega ovojnica eksponentno pojema z razdaljo od neke točke v prostoru. $\xi$ je lokalizacijska dolžina. 
 }
 \label{fig:dif_loc_ext}
 \end{figure}
-\end{minipage}
- t.i. Mottovo lokalizacijo, ki je posledica močnih odbojnih medelektronskih interakcij in je v nalogi ne obravnavam. \\\\
+\end{minipage}\\
+nikoli ne nanaša na t.i. Mottovo lokalizacijo,
+ki je posledica močnih odbojnih medelektronskih interakcij in je v nalogi ne obravnavam. \\\\
 Možnost lokalizacije elektronskih valovnih funkcij ob prisotnosti dovolj močnega potencialnega nereda je leta 1958 prvi napovedal P.W. Anderson~\cite{anderson1958absence}. Medtem ko sta limitna primera šibkega in močnega nereda intuitivno razmeroma lahko predstavljiva, je bilo vprašanje o obnašanju sistemov v vmesnem režimu, posebej v dveh dimenzijah, dolgo časa odprto. Mott in Twose sta za enodimenzionalne sisteme eksaktno dokazala~\cite{doi:10.1080/00018736100101271} nastop lokalizacije ob prisotnosti vsakršnega končnega nereda, enak rezultat pa  v termodinamski limiti neskončnih sistemov velja tudi v dveh dimenzijah~\cite{abrahams1979scaling}. Kot je leta 1968 pokazal Mott, obstaja v treh dimenzijah kritična energija $E_c$ oziroma \emph{rob mobilnosti}~\cite{mott1990metal}, ki loči lokalizirana od razsežnih stanj. Energija prvih je manjša, drugih pa večja od kritične energije $E_c$. Obstoj roba mobilnosti danes označuje nastop z neredom vzbujenega faznega prehoda med kovino in izolatorjem. Leta 1977, manj kot 20 let po objavi prelomnega članka, je bila Andersonu za njegovo delo podeljena Nobelova nagrada za fiziko~\cite{anderson1978local}.
- \subsubsection{Opis prevodnosti pred teorijo lokalizacije in po njej}  
+ \subsection{Opis prevodnosti pred teorijo lokalizacije in po njej}  
  Lokalizacija kvantnomehanskih delcev v naključnih potencialih je zanimiv statističnofizikalni pojav. Pred razvojem teorije Andersonove lokalizacije je bila elektronska prevodnost tipično opisovana v okviru kvantnomehanske različice Drudejevega modela. Pri slednjem privzamemo sorazmernost prevodnosti s \emph{povprečno prosto potjo} $l$, torej razdaljo, ki jo delec v snovi prepotuje pred trkom z nečistočo. V kvantnomehanskem smislu to pomeni, da se valovni paketi pri propagaciji vzdolž neurejenega medija na naključnem potencialu v povprečju sipajo po prepotovani razdalji $l$. Čeprav zaradi sipanja na naključnem potencialu valovni paketi nimajo več ostro določenega valovnega vektorja, ostanejo valovne funkcije sipanju navkljub prostorsko razsežne. Na daljših razdaljah je tovrstna propagacija skozi medij difuzivna, povečanje količine nereda v sistemu pa vodi do zmanjšanja povprečne proste poti. Zaradi predpostavke sorazmernosti med prevodnostjo in povprečno prosto potjo Drudejev model pri nobenem končnem neredu ne napove ničelne prevodnosti. Napovedi modela so bile v nasprotju s presenetljivo dolgimi relaksacijskimi časi elektronskih spinov, izmerjenimi v poskusih z dopiranimi polprevodniki, ki jim je v petdesetih letih v Bellovih laboratorijih prisostvoval Anderson~\cite{lagendijk2009fifty}~\cite{anderson1978local}. V nasprotju z Drudejevim modelom rezultate uspešno razloži model, v katerem valovne funkcije pri dovolj močnem neredu postanejo lokalizirane z eksponentno pojemajočo ovojnico, $\left|\psi\left(\textbf{r}\right)\right|   \sim \exp\left(\left|\textbf{r}- \textbf{r}_0\right|\right/\xi)$, kjer je $\xi$ \emph{lokalizacijska dolžina}. V kolikor so vse valovne funkcije lokalizirane, se dizufivna propagacija v neurejenem mediju ne samo upočasni, temveč popolnoma ustavi - delci postanejo ujeti, prevodnost pa pade na ničelno vrednost~\cite{wolfle2010self}. Presenetljiv rezultat je možno razložiti preko obravnave večkratne interference valovnih komponent, sipanih na naključno porazdeljenih sipalcih - lokalizacija je namreč v svojem bistvu interferenčni pojav. 
- \subsubsection{Ojačano povratno sipanje}
+ \subsection{Ojačano povratno sipanje}
  Pomen interferenčnih pojavov pri nastopu Andersonove lokalizacije je vsaj intuitivno najlažje razložiti z uporabo osnovnih načel valovne mehanike. Privzemimo limito šibkega nereda in obravnavajmo delec, ki se v neurejenem mediju propagira med točkama $\textbf{r}_0$ in $\textbf{r}_1$. Za izračun verjetnosti delčevega prihoda v točko $\textbf{r}_1$ moramo sešteti vse kompleksne verjetnostne amplitude različnih poti med točkama in izračunati kvadrat absolutne vrednosti končne vsote. Verjetnost na koncu podajata vsota kvadratov posameznih verjetnostnih amplitud ter vsota mešanih, interferenčnih členov. Prva ustreza klasičnemu nekoherentnemu prispevku, drugo pa lahko v večini primerov upravičeno zanemarimo zaradi predpostavke naključne porazdelitve faz interferenčnih členov v neurejenem mediju. Z neupoštevanjem interferenčnih členov dobimo namesto napovedi lokalizacije Drudejev opis prevodnosti v neurejenih sistemih, torej očitno obstajajo primeri, v katerih interfenčnih členov ne smemo zanemariti. \\\\
- \begin{minipage}[t]{0.58\textwidth}
+ \begin{minipage}[t]{0.55\textwidth}
 \noindent  
 Naj bo delec uvodoma v točki $\mathbf{r}_0$ in naj bo $A_1$ verjetnostna amplituda za proces, v katerem se delec vzdolž neke poti $C_1$ vrne v izhodiščno točko, $A_2$ pa naj bo amplituda povratka v izhodiščno točko vzdolž neke druge poti $C_2$, kot prikazuje Slika~\ref{fig:paths}.
 Skupno verjetnost povratka podaja zveza 
 \begin{equation}
 w=|A_1 + A_2|^2=w_\mathrm{cl} + w_\mathrm{int},
 \end{equation}
-kjer je $w_\mathrm{cl}=|A_1|^2 + |A_2|^2$ in $w_\mathrm{int}=2\Re\left(A_1^*A_2\right)$ \cite{wolfle2010self}. Za različni poti $C_1$ in $C_2$ se interferenčni členi v povprečju izničijo in je njihovo neupoštevanje upravičeno. Drugače je v posebnem primeru, ko je  $A_2=A_r$ verjetnostna amplituda za proces, v katerem povratek poteka vzdolž poti $C_1$, vendar v obratni smeri. V kolikor je sistem simetričen na obrat časa, $A_1=A_r$, potem s pravilnim upoštevanjem interferenčnih  členov izračunamo dvakrat večjo verjetnost povratka kot v klasičnem primeru: 
+kjer je $w_\mathrm{cl}=|A_1|^2 + |A_2|^2$ in $w_\mathrm{int}=2\Re\left(A_1^*A_2\right)$ \cite{wolfle2010self}. Za različni poti $C_1$ in $C_2$ se interferenčni členi v povprečju izničijo in je njihovo neupoštevanje upravičeno. Drugače je v posebnem primeru, ko je  $A_2=A_r$ verjetnostna amplituda za proces, v katerem povratek poteka vzdolž poti 
 \end{minipage}\hfill
-\begin{minipage}[t]{0.39\textwidth}
+\begin{minipage}[t]{0.41\textwidth}
 \begin{figure}[H]
 \centering{
 \includegraphics[width=0.9\textwidth]{interference.jpg}}
@@ -193,11 +310,13 @@ kjer je $w_\mathrm{cl}=|A_1|^2 + |A_2|^2$ in $w_\mathrm{int}=2\Re\left(A_1^*A_2\
 \label{fig:paths} 
 \end{figure}
 \end{minipage}
+$C_1$, vendar v obratni smeri. V kolikor je sistem simetričen na obrat 
+časa, $A_1=A_r$, potem s pravilnim upoštevanjem interferenčnih  členov izračunamo dvakrat večjo verjetnost povratka kot v klasičnem primeru: 
 \begin{equation}
 w=4\left|A_1\right|^2=2w_\mathrm{cl}.
 \end{equation}
 Zaradi konstruktivne interference poti z njeno v času obrnjeno ustreznico je torej pri sipalnem dogodku verjetnost za povratno sipanje v izhodiščno točko večja od verjetnosti vseh preostalih izidov dogodka. Pojav imenovan \emph{ojačano povratno sipanje} zmanjša transmitivnost medija in posledično zmanjša tudi njegovo prevodnost. 
-\subsubsection{Skalirna teorija lokalizacije}
+\subsection{Skalirna teorija lokalizacije}
 Lokalizacija v neurejenih sistemih je netrivialno odvisna od njihove dimenzionalnosti. Medtem ko v eni dimenziji vsakršnen končni nered povzroči lokalizacijo vseh valovnih funkcij, obstaja v treh dimenzijah kritična vrednost nereda, nad katero so vsa stanja lokalizirana, za podkritične vrednosti nereda pa v sistemu soobstajajo razsežna in lokalizirana stanja. Medtem ko za dvodimenzionalne sisteme~\cite{kramer1993localization} rigorozen dokaz ne obstaja se zdi, da so v termodinamski limiti neskončnega sistema vse valovne funkcije lokalizirane pri vsakršni končni vrednosti nereda, podobno kot v enodimenzionalnem primeru. Za razliko od neskončnih sistemov lahko končni dvodimenzionalni sistemi kažejo prevodne lastnosti. \\\\ 
 Opisana zapletena vloga dimenzionalnosti pri nastopu lokalizacijskih pojavov je danes pogosto razložena v okviru \emph{skalirne teorije} lokalizacije, ki so jo leta 1979 razvili Abrahams, Anderson, Licciardello in Ramakrishnan~\cite{abrahams1979scaling}. Navkljub svoji preprostosti in fenomenološkemu pristopu teorija pravilno napove glavne lastnosti lokalizacije v različnih dimenzijah in tako ob odsotnosti rigoroznega teoretičnega modela ponuja dragocen uvid v značilnosti lokalizacijskih pojavov. Skalirna teorija opisuje Andersonovo lokalizacijo v jeziku kritičnih fenomenov zveznih kvantnih faznih prehodov. Slednji nastopijo pri ničelni temperaturi in jih namesto temperature vodi spreminjanje nekega drugega parametra - v primeru lokalizacijskih pojavov je to količina nereda v sistemu. Ker gre za teorijo faznih prehodov, skalirna teorija za različne količine napove skalirne zakone. Tu bo na kratko predstavljena le skalirna zveza za specifično prevodnost.\\\\
 Pred nadaljevanjem se spomnimo, da sta v tridimenzionalnem ohmskem prevodniku prevodnost $g$ in specifična prevodnost $\sigma$ povezani z zvezo $g=\sigma\frac{S}{L}.$ Pri tem je $S$ prečni presek prevodnika in $L$ njegova dolžina. Pri skalirni teoriji v splošnem obravnavamo odvisnost prevodnosti $d$-dimenzionalne hiperkocke od dolžine njene stranice $L$, zato uvedemo logaritemski odvod $\beta$ kot 
@@ -224,16 +343,15 @@ Zgoraj zapisana zveza za ohmski prevodnik je le poseben primer En.~\eqref{eq:g_p
 \end{figure}
 \end{minipage}\\\\
 Prehod med izolatorjem in prevodnikom se zgodi v kritični točki $\beta(g_c)=0$. To je možno zgolj v treh dimenzijah, kjer $\beta$ zavzame tako negativne kot pozitivne vrednosti. V nižjih dimenzijah prevodnost z naraščanjem velikosti sistema vedno pada in tako kritična točka ni nikoli dosežena. 
-\subsubsection{Modeli nereda}
+\subsection{Modeli nereda}
 V tem podpoglavju predstavim različne modele nereda v kvantnomehanskih sistemih. Podana je razlaga uvedbe nereda v idealno urejene kristalne sisteme, kot najpogosteje uporabljan model neurejenega sistema neinteragirajočih delcev pa je podrobneje predstavljen Andersonov model. \\\\
-Opis translacijsko invariantnih sistemov je zaradi njihove translacijske simetrije razmeroma enostaven. Enoelektronske valovne funkcije so v teh sistemih Blochovega tipa, posledično so elektroni prosto gibljivi. V večini dejanskih sistemov je idealna translacijska simetrija zlomljena zaradi prisotnosti nereda, ki lahko bistveno vpliva na fizikalne lastnosti sistemov. V primeru nizke koncentracije defektov lahko pri opisu neurejenih sistemov kot izhodišče uporabimo koncepte, veljavne v translacijsko invariantnih sistemih. Na drugi strani velika koncentracija defektov terja popolno opustitev predpostavke translacijske simetrije in uporabo novih pristopov. \\\\
+Opis translacijsko invariantnih sistemov je zaradi njihove translacijske simetrije razmeroma enostaven. Enoelektronske valovne funkcije so v teh sistemih Blochovega tipa, posledično so elektroni prosto gibljivi. V večini dejanskih sistemov je idealna translacijska simetrija zlomljena zaradi prisotnosti nereda, ki lahko bistveno vpliva na fizikalne lastnosti sistemov. V primeru nizke koncentracije defektov lahko pri opisu neurejenih sistemov kot izhodišče uporabimo koncepte, veljavne v translacijsko invariantnih sistemih. Na drugi strani velika koncentracija defektov terja popolno opustitev predpostavke translacijske simetrije in uporabo novih pristopov. \\
 \begin{minipage}[t]{0.54\textwidth}
 Kot prikazuje Slika~\ref{fig:disorder_scheme}, lahko različne modele nereda dobimo s takšno ali drugačno deformacijo idealne kristalne strukture. Modele za opis \emph{strukturno neurejenih} sistemov, kot so npr. amorfni polprevodniki,  dobimo z naključnimi premiki delcev z mest na urejeni kristalni rešetki. Enodelčno hamiltonko takšnega sistema podaja 
 \begin{equation}\label{eq:cont_ham}
-H=\frac{\hat{p}^2}{2m} + \sum\limits_{j=1}^N V_j(\textbf{r}- \textbf{R}_j), 
+H=\frac{\hat{p}^2}{2m} + \sum\limits_{j=1}^N U_j(\textbf{r}- \textbf{R}_j), 
 \end{equation}
-kjer je $\hat{p}$ operator gibalne količine, $m$ efektivna masa delca, $V_j$ pa potencialna energija atoma na mestu $\textbf{R}_j$. Nered vpeljemo z naključno izbiro potencialnih energij in položajev $\textbf{R}_j$, kjer vrednosti žrebamo v skladu z nekima izbranima normaliziranima verjetnostnima porazdelitvama. \\\\
-\emph{Kompozicijsko neurejene} sisteme, ki so tudi osrednji predmet preučevanja v magistrski nalogi, najpogosteje opiše hamiltonka v približku tesne vezi na diskretni mreži:
+kjer je $\hat{p}$ operator gibalne količine, $m$ efektivna masa delca, $U_j$ pa potencialna energija atoma na mestu $\textbf{R}_j$. Nered vpeljemo z naključno izbiro potencialnih energij in položajev $\textbf{R}_j$, kjer vrednosti žrebamo v skladu z nekima izbranima normaliziranima verjetnostnima porazdelitvama. \\\\
 \end{minipage}\hfill
 \begin{minipage}[t]{0.43\textwidth}
 \begin{figure}[H]
@@ -242,47 +360,84 @@ kjer je $\hat{p}$ operator gibalne količine, $m$ efektivna masa delca, $V_j$ pa
 \caption{Od leve proti desni in od zgoraj navzdol so razzvrščeni shematski prikazi idealnega kristala, kompozicijsko neurejenega sistema, strukturno neurejenega sistema in sistema s kinetičnim neredom.  }
 \label{fig:disorder_scheme} 
 \end{figure}
-\end{minipage}\\\\
+\end{minipage}
+\emph{Kompozicijsko neurejene} sisteme, ki so tudi osrednji predmet preučevanja v magistrski nalogi, najpogosteje opiše hamiltonka v približku tesne vezi na diskretni mreži:
 \begin{equation}\label{eq:disc_ham}
-H=\sum\limits_{j\nu}U_{j\nu}c^\dagger_{j\nu}c_{j\nu} + \sum\limits_{j\nu, k\mu} t_{j\nu, k\mu} c^\dagger_{j,\nu}c_{k\mu}.
+H=\sum\limits_{j\nu}u_{j\nu}c^\dagger_{j\nu}c_{j\nu} + \sum\limits_{j\nu, k\mu} t_{j\nu, k\mu} c^\dagger_{j,\nu}c_{k\mu}.
 \end{equation}
-Tu so $c^\dagger_{j\nu}, c_{j\nu}$ fermionski kreacijski in anihilacijski operatorji za mesto $j$ v kristalni rešetki in stanje $\nu$. Z $U_{j\nu}$ so v diagonalnem delu označene potencialne energije stanj na danih mestih v kristalni rešetki, medtem ko izvendiagonalni matrični elementi $t_{j\nu, k\mu}$ ustrezajo tunelskim prehodom med stanji na različnih mestih na mreži. Nered je vpeljan preko naključnih vrednosti potencialnih členov $U_{j\nu}$ ali skakalnih členov $t_{j\nu, k\mu}$, kjer pri žrebanju vrednosti ponovno privzamemo neko verjetnostno porazdelitev. V nasprotju z modelom, ki ga podaja En.~\eqref{eq:cont_ham}, tu ni strukturnega nereda, saj so mesta v kristalni rešetki dobro definirana in sovpadajo z mesti urejene kristalne mreže.  \\\\
-\begin{minipage}[t]{0.54\textwidth}
-\noindent
-\textbf{Andersonov model}~\cite{anderson1958absence} je poseben primer modela, ki ga podaja En.~\eqref{eq:disc_ham}. Dobimo ga z upoštevanjem predpostavk izključno diagonalnega prispevka k neredu, skakanja elektronov zgolj med najbližjimi sosedi s konstantno hitrostjo tuneliranja $t$ in prisotnostjo le ene orbitale, $\nu=1$. Naključne potencialne energije $V_j$ so porazdeljene enakomerno na intervalu $\left[-W,W\right]$ v skladu s porazdelitvijo
+Tu so $c^\dagger_{j\nu}, c_{j\nu}$ fermionski kreacijski in anihilacijski operatorji za mesto $j$ v kristalni rešetki in stanje $\nu$. Z $u_{j\nu}$ so v diagonalnem delu označene potencialne energije stanj na danih mestih v kristalni rešetki, medtem ko izvendiagonalni matrični elementi $t_{j\nu, k\mu}$ ustrezajo tunelskim prehodom med stanji na različnih mestih na mreži. Nered je vpeljan preko naključnih vrednosti potencialnih členov $u_{j\nu}$ ali \emph{skakalnih} (ang. \emph{hopping}) členov $t_{j\nu, k\mu}$, kjer pri žrebanju vrednosti ponovno privzamemo neko verjetnostno porazdelitev. V nasprotju z modelom, ki ga podaja En.~\eqref{eq:cont_ham}, tu ni strukturnega nereda, saj so mesta v kristalni rešetki dobro definirana in sovpadajo z mesti urejene kristalne mreže.  \\\\
+\textbf{Andersonov model}~\cite{anderson1958absence} je poseben primer modela, ki ga podaja En.~\eqref{eq:disc_ham}. Dobimo ga z upoštevanjem predpostavk izključno diagonalnega prispevka k neredu, skakanja elektronov zgolj med najbližjimi sosedi s konstantno hitrostjo tuneliranja $t$ in prisotnostjo le ene orbitale, $\nu=1$. Naključne potencialne energije $u_j$ so porazdeljene enakomerno na intervalu $\left[-W,W\right]$ v skladu s porazdelitvijo
 \begin{equation}\label{eq:and_prob}
-p(V_j)= \frac{1}{2W}\Theta \left(W - \abs{V_j} \right),
+p(u_j)= \frac{1}{2W}\Theta \left(W - \abs{u_j} \right),
 \end{equation}
 kjer je $W$ \emph{parameter moči nereda}. Hamiltonka Andersonovega modela se tako zapiše kot 
 \begin{equation}\label{eq:Anderson_ham}
-H=\sum\limits_j U_j c^\dagger_jc_j + t\sum\limits_{\mathrm{n. s.}}\left(c^\dagger_i c_j + \mathrm{h.c.}\right).
-\end{equation}\\\\
-
+H=\sum\limits_j u_j n_j + t\sum\limits_{\mathrm{n. s.}}\left(c^\dagger_i c_j + \mathrm{h.c.}\right),
+\end{equation}
+kjer je $n_j=c^\dagger_jc_j$ operator številske gostote delcev na $j$-tem mestu kristalne mreže.\\\\
+\begin{minipage}[t]{0.55\textwidth}
+V Andersonovem modelu lahko delec na urejeni mreži skače med sosednjimi mesti z naključno porazdeljenimi potencialnimi energijami, kar shematsko prikazuje Slika~\ref{fig:hopping_picture}. Andersonov model pogosto služi kot izhodišče za konstrukcijo modelov MBL sistemov, o čemer se bomo prepričali pri njihovi obravnavi v Poglavju~\ref{modelimetode}.\\\\
+Ob odsotnosti nereda je Andersonova hamiltonka običajna hamiltonka v približku tesne vezi, ki opisuje urejeno mrežo enakih potencialnih jam, ki je prikazana na shemi \textbf{a)} na Sliki~\ref{fig:band_structure}.  V tem primeru jo diagonaliziramo z uporabo Fourierove transformacije in pri izračunu spektra dobimo energijski pas širine $2zt$, kjer je $z$ koordinacijsko število kristalne rešetke. Hamiltonko Andersonovega modela dobimo z naključnim spreminjanjem globin posameznih potencialnih jam za vrednosti $U_j$, ki so porazdeljene v skladu s porazdelitvijo, ki jo podaja En.~\eqref{eq:and_prob}. Kot prikazuje shema \textbf{b)} na Sliki~\ref{fig:band_structure}, dodatek nereda razširi energijski pas in odpravi singularnosti v gostoti stanj, ki so sicer značilne za sisteme z redom dolgega dosega. \\\\
+V limiti zelo močnega nereda, kjer velikost parametra nereda $W$ primerjamo s hitrostjo tuneliranja $t$, lahko privzamemo, da potencialni člen v En.~\eqref{eq:Anderson_ham} močno prevlada nad izvendiagonalnim skakalnim členom in tako povzroči lokalizacijo valovnih funkcij. V okviru perturbacijske teorije lahko lastne funkcije hamiltonke opišemo kot vezana stanja ali orbitale, ki postanejo lokalizirane zaradi 
 \end{minipage}\hfill
-\begin{minipage}[t]{0.43\textwidth}
+\begin{minipage}[t]{0.4\textwidth}
 \begin{figure}[H]
 \centering{
-\includegraphics[width=0.65\textwidth]{hopping_picture_50years.jpg}}
-\caption{Shematski prikaz Andersonovega modela v dveh dimenzijah. Elektron lahko na urejeni kristalni mreži skače med sosednjimi mesti, ki imajo naključno porazdeljene potencialne energije. Slika je bila vzeta iz~\cite{lagendijk2009fifty}.  }
+\includegraphics[width=0.9\textwidth]{hopping_picture_50years.jpg}}
+\caption{Shematski prikaz Andersonovega modela v dveh dimenzijah. Slika je bila vzeta iz~\cite{lagendijk2009fifty}.  }
 \label{fig:hopping_picture} 
 \end{figure}
-\end{minipage}\\\\
-\noindent 
-\begin{minipage}[t]{0.56\textwidth} 
-Ob odsotnosti nereda je Andersonova hamiltonka običajna hamiltonka v približku tesne vezi, ki opisuje urejeno mrežo enakih potencialnih jam, ki je prikazana na shemi \textbf{a)} na Sliki~\ref{fig:band_structure}.  V tem primeru jo diagonaliziramo z uporabo Fourierove transformacije in pri izračunu spektra dobimo energijski pas širine $2zt$, kjer je $z$ koordinacijsko število kristalne rešetke. Hamiltonko Andersonovega modela dobimo z naključnim spreminjanjem globin posameznih potencialnih jam za vrednosti $U_j$, ki so porazdeljene v skladu s porazdelitvijo, ki jo podaja En.~\eqref{eq:and_prob}. Kot prikazuje shema \textbf{b)} na Sliki~\ref{fig:band_structure}, dodatek nereda razširi energijski pas in odpravi singularnosti v gostoti stanj, ki so sicer značilne za sisteme z redom dolgega dosega. \\\\
-V limiti zelo močnega nereda, kjer velikost parametra nereda $W$ primerjamo s hitrostjo tuneliranja $t$, lahko privzamemo, da potencialni člen v En.~\eqref{eq:Anderson_ham} močno prevlada nad izvendiagonalnim skakalnim členom in tako povzroči lokalizacijo valovnih funkcij. V okviru perturbacijske teorije lahko lastne funkcije hamiltonke opišemo kot vezana stanja ali orbitale, ki postanejo lokalizirane zaradi velikih fluktuacij naključnega potenciala. V prvem približku so energije tovrstnih enoelektronskih stanj določene kar z globinami naključnih potencialnih jam, zato se energije stanj z velikim prostorskim prekrivanjem tipično močno razlikujejo. Na drugi strani so stanja s podobnimi energijami v prostoru oddaljena in se le malo prekrivajo. Ker stanja ne v enem ne v drugem primeru ne morejo medsebojno hibridizirati, ostanejo v primeru dovolj močnega nereda lokalizirana. \\\\
-V treh dimenzijah za podkritične vrednosti nereda, $W<W_c$, v sistemu obstajajo tako lokalizirana kot razsežna stanja. V odsotnosti nereda so lastne funkcije Andersonove hamiltonke razsežna stanja Blochovega tipa. Uvedba majhnega nereda, ki ustreza majhnim vrednosti $W$, povzroči šibke naključne fluktuacije potenciala, ki vplivajo zgolj na stanja v bližini robov pasu, medtem ko ostanejo stanja v okolici sredine pasu bolj ali manj nespremenjena. Majhne fluktuacije potenciala namreč povzročijo nastanek plitkih \emph{naključnih} potencialnih jam, 
-\end{minipage}\hfill
-\begin{minipage}[t]{0.42\textwidth} 
 \begin{figure}[H]
 \centering{
 \includegraphics[width=1\textwidth]{bands.png}}
 \caption{\textbf{a)} Shematski prikaz potencialnih jam za hamiltonko v približku tesne vezi ob odsotnosti nereda. \textbf{b)} Potencialne jame v Andersonovem modelu z naključnim potencialom. Na desni sta v obeh primerih shematsko prikazani gostoti stanj v treh dimenzijah. Uvedba nereda razširi pas in odpravi singularnosti gostote stanj. Slika je bila vzeta iz~\cite{mott2012electronic}.}
 \label{fig:band_structure} 
 \end{figure}
+\end{minipage}{}
+velikih fluktuacij naključnega potenciala. V prvem približku so energije tovrstnih enoelektronskih stanj določene kar z globinami naključnih potencialnih jam,
+ zato se energije stanj z velikim prostorskim prekrivanjem tipično močno razlikujejo. Na drugi strani so stanja s podobnimi energijami v prostoru oddaljena in se le malo prekrivajo. Ker stanja ne v enem ne v drugem primeru ne morejo medsebojno hibridizirati, ostanejo v primeru dovolj močnega nereda lokalizirana. \\\\
+
+% \begin{figure}[H]
+% \floatbox[{\capbeside\thisfloatsetup{capbesideposition={left,center},capbesidewidth=5cm}}]{figure}[\FBwidth]
+% {\caption{Shematski prikaz Andersonovega modela v dveh dimenzijah. Elektron lahko na urejeni kristalni mreži skače med sosednjimi mesti, ki imajo naključno porazdeljene potencialne energije. Slika je bila vzeta iz~\cite{lagendijk2009fifty}. }\label{fig:hopping_picture}}
+% {\includegraphics[width=0.4\textwidth]{hopping_picture_50years.jpg}}
+% \end{figure} 
+% \begin{minipage}[t]{0.5\textwidth}
+% \noindent
+% \textbf{Andersonov model}~\cite{anderson1958absence} je poseben primer modela, ki ga podaja En.~\eqref{eq:disc_ham}. Dobimo ga z upoštevanjem predpostavk izključno diagonalnega prispevka k neredu, skakanja elektronov zgolj med najbližjimi sosedi s konstantno hitrostjo tuneliranja $t$ in prisotnostjo le ene orbitale, $\nu=1$. Naključne potencialne energije $U_j$ so porazdeljene enakomerno na intervalu $\left[-W,W\right]$ v skladu s porazdelitvijo
+% \begin{equation}\label{eq:and_prob}
+% p(U_j)= \frac{1}{2W}\Theta \left(W - \abs{U_j} \right),
+% \end{equation}
+% kjer je $W$ \emph{parameter moči nereda}. Hamiltonka Andersonovega modela se tako zapiše kot 
+% \begin{equation}\label{eq:Anderson_ham}
+% H=\sum\limits_j U_j n_j + t\sum\limits_{\mathrm{n. s.}}\left(c^\dagger_i c_j + \mathrm{h.c.}\right),
+% \end{equation}\\\\
+% kjer je $n_j=c^\dagger_jc_j$ operator številske gostote delcev na $j$-tem mestu kristalne mreže.
+
+% \end{minipage}\hfill
+% \begin{minipage}[t]{0.47\textwidth}
+% \begin{figure}[H]
+% \centering{
+% \includegraphics[width=0.65\textwidth]{hopping_picture_50years.jpg}}
+% \caption{Shematski prikaz Andersonovega modela v dveh dimenzijah. Elektron lahko na urejeni kristalni mreži skače med sosednjimi mesti, ki imajo naključno porazdeljene potencialne energije. Slika je bila vzeta iz~\cite{lagendijk2009fifty}.  }
+% \label{fig:hopping_picture} 
+% \end{figure}
+% \end{minipage}\\\\
+\noindent 
+\begin{minipage}[t]{0.56\textwidth} 
+
+V treh dimenzijah za podkritične vrednosti nereda, $W<W_c$, v sistemu obstajajo tako lokalizirana kot razsežna stanja. V odsotnosti nereda so lastne funkcije Andersonove hamiltonke razsežna stanja Blochovega tipa. Uvedba majhnega nereda, ki ustreza majhnim vrednosti $W$, povzroči šibke naključne fluktuacije potenciala, ki vplivajo zgolj na stanja v bližini robov pasu, medtem ko ostanejo stanja v okolici sredine pasu bolj ali manj nespremenjena. Majhne fluktuacije potenciala namreč povzročijo nastanek plitkih \emph{naključnih} potencialnih jam, ki lahko lokalizirajo le nizkoenergijska lastna stanja hamiltonke. S povečevanjem parametra nereda amplituda potencialnih fluktuacij narašča, kar posledično vodi do lokalizacije stanj z višjo energijo. Lokalizirana in razsežna stanja ne morejo soobstajati pri istih energijah, 
+\end{minipage}\hfill
+\begin{minipage}[t]{0.42\textwidth} 
+% \begin{figure}[H]
+% \centering{
+% \includegraphics[width=1\textwidth]{bands.png}}
+% \caption{\textbf{a)} Shematski prikaz potencialnih jam za hamiltonko v približku tesne vezi ob odsotnosti nereda. \textbf{b)} Potencialne jame v Andersonovem modelu z naključnim potencialom. Na desni sta v obeh primerih shematsko prikazani gostoti stanj v treh dimenzijah. Uvedba nereda razširi pas in odpravi singularnosti gostote stanj. Slika je bila vzeta iz~\cite{mott2012electronic}.}
+% \label{fig:band_structure} 
+% \end{figure}
 \begin{figure}[H]
 \centering{
-\includegraphics[width=1\textwidth]{mobility_edge_DOS_modified.pdf}}
+\includegraphics[width=0.95\textwidth]{mobility_edge_DOS_modified.pdf}}
 \caption{Shematski prikaz tipične gostote stanj v odvisnosti od energije za tridimenzionalni Andersenov model za neko podkritično vrednost nereda, $W<W_c$. Stanja v robovih pasu (ki sta obarvana rdeče) so lokalizirana, medtem ko so stanja v sredini pasu (ki je obarvana modro) razsežna. $E_c$ in $E_c'$ označujeta roba mobilnosti, \textbf{EXT} pa razsežna stanja. }
 \label{fig:mob_edge_DOS} 
 \end{figure}
@@ -293,7 +448,8 @@ V treh dimenzijah za podkritične vrednosti nereda, $W<W_c$, v sistemu obstajajo
 % \label{fig:DOS} 
 % \end{figure}
 \end{minipage}
-ki lahko lokalizirajo le nizkoenergijska lastna stanja hamiltonke. S povečevanjem parametra nereda amplituda potencialnih fluktuacij narašča, kar posledično vodi do lokalizacije stanj z višjo energijo. Lokalizirana in razsežna stanja ne morejo soobstajati pri istih energijah, saj bi v tem primeru lokalizirana stanja zaradi znatnega prekrivalnega integrala in ujemajočih se energij z razsežnimi stanji tvorila hibridizirana stanja in tako postala razsežna. Energije lokaliziranih in razsežnih stanj v splošnem loči kritična energija $E_c$ oziroma rob mobilnosti. Ker je Andersonova hamiltonka simetrična na zamenjavo delcev in vrzeli ima Andersonov model kar dva mobilnostna roba $E_c$ in $E_c'$. Kot prikazuje Slika~\ref{fig:mob_edge_DOS}, nastopata simetrično glede na središče pasu, ki se mu približujeta z naraščanjem parametra $W$. Polna lokalizacija vseh valovnih funkcij nastopi, ko se mobilnostna roba združita, saj tedaj v sistemu ni več razsežnih stanj. To se zgodi pri kritični vrednosti parametra nereda $W_c$. V primeru obstoja roba mobilnosti je sistem pri ničelni temperaturi izolator, če je njegova Fermijeva energija $\varepsilon_\mathrm{F}$ znotraj energijskega območja lokaliziranih stanj. V tem primeru je pri končnih temperaturah specifična prevodnost končna in sorazmerna eksponentno majhnemu številu zasedenih razsežnih stanj,
+saj bi v tem primeru lokalizirana stanja zaradi znatnega prekrivalnega integrala in ujemajočih se energij z razsežnimi stanji tvorila hibridizirana stanja in tako postala razsežna.
+ Energije lokaliziranih in razsežnih stanj v splošnem loči kritična energija $E_c$ oziroma rob mobilnosti. Ker je Andersonova hamiltonka simetrična na zamenjavo delcev in vrzeli ima Andersonov model kar dva mobilnostna roba $E_c$ in $E_c'$. Kot prikazuje Slika~\ref{fig:mob_edge_DOS}, nastopata simetrično glede na središče pasu, ki se mu približujeta z naraščanjem parametra $W$. Polna lokalizacija vseh valovnih funkcij nastopi, ko se mobilnostna roba združita, saj tedaj v sistemu ni več razsežnih stanj. To se zgodi pri kritični vrednosti parametra nereda $W_c$. V primeru obstoja roba mobilnosti je sistem pri ničelni temperaturi izolator, če je njegova Fermijeva energija $\varepsilon_\mathrm{F}$ znotraj energijskega območja lokaliziranih stanj. V tem primeru je pri končnih temperaturah specifična prevodnost končna in sorazmerna eksponentno majhnemu številu zasedenih razsežnih stanj,
 \begin{equation}
 \sigma(T)\propto \exp\left(\frac{\varepsilon_1 - \varepsilon_\mathrm{F}}{T}\right).
 \end{equation}
@@ -304,7 +460,7 @@ Na Sliki~\ref{fig:light_cone} je za enodimenzionalni Andersonov model prikazana 
 {\caption{Primer časovnega razvoja začetnega stanja v primeru brez nereda in z močnim neredom ($W=3.0$). Pri tem $t$ označuje čas, $j$ pa mesto v enodimenzionalni verigi. }\label{fig:light_cone}}
 {\includegraphics[width=0.8\textwidth]{1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_cone_double_presentation.pdf}}
 \end{figure} 
-\subsection{Lokalizacija v sistemih z meddelčnimi interakcijami}
+\section{Lokalizacija v sistemih z meddelčnimi interakcijami}
 Do sedaj smo se ukvarjali z lokalizacijo v sistemih neinteragirajočih delcev. Pri opisu dejanskih sistemov predstavlja predpostavka odsotnosti meddelčnih interakcij glavno pomanjkljivost modelov enodelčne lokalizacije. V praksi so namreč interakcije vselej prisotne, njihov vpliv pa vse od Andersonovega prelomnega članka ostaja eno pomembnejših odprtih vprašanj področja. Polno lokaliziran Andersonov izolator brez roba mobilnosti namreč pri nobeni temperaturi ne omogoča transporta energije ali naboja in tako zaradi ničelne prevodnosti vselej preprečuje termalizacijo. Da bi v interagirajočih sistemih lahko z gotovostjo potrdili oziroma ovrgli odsotnost termalizacije in nastop večdelčne lokalizacije, moramo v dosedanjo obravnavo neinteragirajočih sistemov neizogibno vključiti meddelčne interakcije in preučiti njihov vpliv. Zavoljo pregleda nad raziskovalno dejavnostjo in za lažjo umestitev v časovni okvir je na tem mestu navedenih nekaj zgodovinsko pomembnejših del s področja, v katerih je bil obravnavan preplet interakcij in nereda. Pri tem sledimo Ref.~\cite{abanin2018ergodicity}.\\\\
 Leta 1980 sta Fleishman in Anderson~\cite{fleishman1980interactions} podala kvalitativne argumente v prid nastopu lokalizacije ob prisotnosti šibkih interakcij kratkega dosega. Uporaba teorije renormalizacijske grupe je omogočila posplošitev koncepta Andersonovega izolatorja in posledično opis osnovnih stanj neurejenih sistemov z interakcijami. V ta okvir spada delo Finkelsteina~\cite{finkelshtein1983influence}, ki je leta 1983 pri nadgraditvi skalirne teorije lokalizacije upošteval preplet vpliva meddelčnih interakcij in nereda. Mnogo kasneje so se pojavile utemeljitve obstoja lokalizirane faze ob prisotnosti interakcij pri \emph{končnih} temperaturah. Med prvimi so na to možnost leta 1997 pokazali Altshuler in sodelavci~\cite{altshuler1997quasiparticle} na primeru ničdimenzionalne kvantne pike. Obstoj lokalizacije v višjedimenzionalnih sistemih z lokalnimi interakcijami so leta 2006 utemeljili Basko, Aleiner in Altshuler~\cite{basko2006metal}, in sicer za nizke temperature oziroma nizke energijske gostote. V Ref.~\cite{basko2006metal} uporabljeni modelski sistem je namreč idealen izolator z ničelno prevodnostjo pri nizkih energijskih gostotah, medtem ko postanejo večdelčna lastna stanja pri visokih energijskih gostotah delokalizirana. To označuje fazni prehod med izolatorsko in prevodno fazo, ki nastopi pri končni temperaturi, oziroma točneje, pri končni energijski gostoti nad osnovnim stanjem, poimenovani \emph{večdelčni rob mobilnosti}. Fazni prehod v večdelčno lokalizirano stanje je kvalitativno drugačen od konvencionalnih končnotemperaturnih prehodov med kovino in izolatorjem v Mottovih in pasovnih izolatorjih. V slednjih je namreč specifična prevodnost pri končni temperaturi končna, vendar eksponentno majhna, medtem ko je v nizkotemperaturnem režimu večdelčno lokalizirane faze \emph{identično} enaka nič~\cite{basko2006problem}. Obstoj večdelčno lokalizirane faze tudi pri neskončni temperaturi v neurejenem interagirajočem sistemu na diskretni mreži sta leta 2007 utemeljila Oganesyan in Huse~\cite{PhysRevB.75.155111}, in sicer na podlagi numerične analize enodimenzionalnega modela s fermioni brez spinskih prostostnih stopenj. Z uporabo polne diagonalizacije modelskih hamiltonk in študijo spektralnih statistik sta prišla do rezultatov, ki napovedujejo obstoj večdelčno lokalizirane faze v neurejenih modelih na diskretnih mrežah tudi ob neskončnih temperaturah oziroma pri energijskih gostotah visoko nad osnovnim stanjem. Napoved velja za sisteme s končnodimenzionalnimi lokalnimi Hilbertovimi prostori, torej sisteme s končnim številom stanj na mesto. 
 Članek je navdahnil številne kasnejše numerične raziskave MBL pojavov, po njem pa se pri analizi spektralnih statistik v magistrski nalogi obravnavanih modelov zgledujemo tudi mi.
@@ -312,7 +468,7 @@ Leta 1980 sta Fleishman in Anderson~\cite{fleishman1980interactions} podala kval
 Čeprav koncepti v podpoglavju~\ref{anderson} obravnavane Andersonove lokalizacije služijo kot izhodišče za obravnavo fenomenov večdelčne lokalizacije, se problema bistveno razlikujeta. Interakcije v interagirajočih večdelčnih sistemih sklapljajo različna večdelčna stanja. V kolikor v sistemu obstajajo delokalizirana stanja, lahko interakcije denimo omogočijo prehod iz lokaliziranega osnovnega stanja v vzbujeno delokalizirano večdelčno stanje in povzročijo fazni prehod med izolatorskim in prevodnim obnašanjem. Pri presoji obstoja večdelčno lokalizirane faze moramo tako preučiti naravo vseh večdelčnih lastnih stanj sistema in ugotoviti, ali so lokalizirana ali ne. Ker preučujemo stanja s končnimi energijskimi gostotami nad energijo osnovnega stanja, nas zanimajo končne temperature. Na drugi strani so bili zaradi odsotnosti meddelčnih interakcij pri Andersonovem izolatorju v večini študij preučevani le osnovno stanje in končno število vzbuditev nad njim. V termodinamski limiti neskončnega sistema je energijska gostota vzbuditev enaka nič, kar ustreza ničelni temperaturi. 
 \\\\
 V nadaljevanju razložimo osnovne koncepte fizike zaprtih kvantnih sistemov. Ker je poglavitna lastnost MBL sistemov odsotnost termalizacije, je zatem podrobneje predstavljen mehanizem termalizacije v kvantnih sistemih skupaj s \emph{hipotezo termalizacije lastnih stanj} (ang. \emph{eigenstate thermalization hypothesis}, v nadaljevanju ETH). Nazadnje so navedene najpomembnejše značilnosti MBL sistemov. 
-\subsubsection{Fizika zaprtih kvantnih sistemov}
+\subsection{Fizika zaprtih kvantnih sistemov}
 \begin{minipage}[t]{0.42\textwidth}
 \noindent \\
 Pojav MBL se tipično preučuje v zaprtih kvantnih sistemih, kjer zaprtost pomeni odsotnost sklopitve z okolico oziroma zunanjim rezervoarjem, kot prikazuje Slika~\ref{fig:nandkishore_huse_reservoir}. V tem podpoglavju navedemo osnovne koncepte, ki določajo obnašanje tovrstnih sistemov. V razpravi imamo vselej v mislih časovno neodvisne hamiltonke z interakcijami kratkega dosega. \\\\
@@ -332,30 +488,30 @@ Slika je bila vzeta iz Ref.~\cite{nandkishore2015many}.
 \end{minipage}
  stanja določen z delovanjem unitarnega časovnega propagatorja, 
 \begin{equation}\label{eq:cas_razvoj}
-\ket{\psi(t)}=\mathrm{e}^{-\iu \hat{H} t}\ket{\psi(0)},
+\ket{\psi(t)}=\mathrm{e}^{-\iu H t}\ket{\psi(0)},
 \end{equation}
  je časovni razvoj gostotne matrike določen z zvezami 	
 % Pojav MBL se tipično preučuje v zaprtih kvantnih sistemih, kjer zaprtost pomeni odsotnost sklopitve z okolico oziroma zunanjim rezervoarjem. V tem podpoglavju navedemo osnovne koncepte, ki določajo obnašanje tovrstnih sistemov. V razpravi imamo vselej v mislih časovno neodvisne hamiltonke z interakcijami kratkega dosega. 
 % \paragraph{Unitaren časovni razvoj kvantnih sistemov}
 % Ker se pri obravnavi ne omejujemo izključno na čista stanja, opisuje poljubno stanje zaprtega kvantnega sistema gostotna matrika, $\hat{\rho}(t)=\ket{\psi(t)}\bra{\psi(t)}$. V Schrödingerjevi sliki, kjer je časovni razvoj poljubnega začetnega stanja določen z delovanjem unitarnega časovnega propagatorja, 
 % \begin{equation}\label{eq:cas_razvoj}
-% \ket{\psi(t)}=\mathrm{e}^{-\iu \hat{H} t}\ket{\psi(0)},
+% \ket{\psi(t)}=\mathrm{e}^{-\iu H t}\ket{\psi(0)},
 % \end{equation}
 %  je časovni razvoj gostotne matrike določen z zvezami 	
 \begin{equation}
-\hat{\rho}(t)=\mathrm{e}^{-\iu \hat{H} t}\hat{\rho}(0)\ \mathrm{e}^{\iu \hat{H} t}, \hspace{5mm} \iu\hbar\frac{\dd \hat{\rho}}{\dd t}=\left[\hat{H}, \hat{\rho}\right]; \hspace{5mm} \Tr{\hat{\rho}}=1.
+\hat{\rho}(t)=\mathrm{e}^{-\iu H t}\hat{\rho}(0)\ \mathrm{e}^{\iu H t}, \hspace{5mm} \iu\hbar\frac{\dd \hat{\rho}}{\dd t}=\left[H, \hat{\rho}\right]; \hspace{5mm} \Tr{\hat{\rho}}=1.
 \end{equation}
 Vsi drugi kvantnomehanski operatorji $\hat{O}$ so časovno neodvisni, pričakovana vrednost poljubnemu operatorju $\hat{O}$ pripadajoče opazljivke $O$ pa se ob času $t$ zapiše kot 
 \begin{equation}
 \langle \hat{O}\rangle_t = \Tr\left(\hat{O}\hat{\rho}(t)\right).
 \end{equation}
-V klasični statistični mehaniki temelji koncept termalizacije na predpostavki \emph{ergodičnosti}, v skladu s katero so na dolgem časovnem intervalu vsa mikrostanja sistema obiskana z enako verjetnostjo. Zaradi linearnosti kvantne mehanike moramo v kvantnih sistemih pojem ergodičnosti nekoliko prilagoditi. Vzemimo namreč poljubno začetno neravnovesno stanje večdelčnega sistema $\ket{\psi(0)}$ in ga razvijmo po bazi večdelčnih lastnih stanj hamiltonke $\hat{H}$, ki določa dinamiko sistema:
+V klasični statistični mehaniki temelji koncept termalizacije na predpostavki \emph{ergodičnosti}, v skladu s katero so na dolgem časovnem intervalu vsa mikrostanja sistema obiskana z enako verjetnostjo. Zaradi linearnosti kvantne mehanike moramo v kvantnih sistemih pojem ergodičnosti nekoliko prilagoditi. Vzemimo namreč poljubno začetno neravnovesno stanje večdelčnega sistema $\ket{\psi(0)}$ in ga razvijmo po bazi večdelčnih lastnih stanj hamiltonke $H$, ki določa dinamiko sistema:
 \begin{equation}\label{eq:lastna_stanja}
-\ket{\psi(0)}=\sum\limits_\alpha A_\alpha \ket{\alpha}, \hspace{5mm} \hat{H}\ket{\alpha}=E_\alpha\ket{\alpha}.
+\ket{\psi(0)}=\sum\limits_\alpha A_\alpha \ket{\alpha}, \hspace{5mm} H\ket{\alpha}=E_\alpha\ket{\alpha}.
 \end{equation}
  Pri časovnem razvoju v skladu z En.~\eqref{eq:cas_razvoj} pridobi vsak izmed koeficientov razvoja $A_\alpha$ multiplikativni fazni faktor, ki ustreza dani večdelčni lastni energiji $E_\alpha$, 
 $$
-\ket{\psi(t)}=\mathrm{e}^{-\iu \hat{H} t}\ket{\psi(0)}=\sum\limits_\alpha A_\alpha \mathrm{e}^{-\iu E_\alpha t}\ket{\alpha}.
+\ket{\psi(t)}=\mathrm{e}^{-\iu H t}\ket{\psi(0)}=\sum\limits_\alpha A_\alpha \mathrm{e}^{-\iu E_\alpha t}\ket{\alpha}.
 $$
 Verjetnost $p_\alpha$, da se sistem nahaja v enem izmed lastnih stanj $\ket{\alpha}$, se s časom seveda ne spreminja in je določena z začetno izbiro stanja, saj velja $p_\alpha=\abs{A_\alpha}^2$. To je popolnoma drugače kot v klasičnih sistemih, ki med časovnim razvojem obiščejo različne dele faznega prostora. V kvantnih sistemih je pojem termalizacije namesto s samimi valovnimi funkcijami	ali gostotnimi matrikami smiselno povezati  s pričakovanimi vrednostmi \emph{lokalnih} opazljivk po dolgem času, ki jih podaja izraz~\cite{deutsch1991quantum}~\cite{abanin2018ergodicity}
 \begin{equation}\label{eq:ergodicnost_kvantno}
@@ -367,7 +523,8 @@ Verjetnost $p_\alpha$, da se sistem nahaja v enem izmed lastnih stanj $\ket{\alp
 \end{equation}
 Iz En.~\eqref{eq:ergodicnost_kvantno} vidimo, da vrednost $\langle \hat{O}\rangle_\infty$ določajo verjetnosti $p_\alpha$ skupaj s pričakovanimi vrednostmi opazljivke $\bra{\alpha}\hat{O}\ket{\alpha}$. Izvendiagonalni matrični elementi v zgornji enačbi namreč oscilirajo pri različnih frekvencah in se pri časovni integraciji v procesu \emph{izgube faze} (ang. \emph{dephasing}) izpovprečijo, pri čemer smo privzeli nedegeneriranost lastnih stanj $\ket{\alpha}.$ 
 \\\\
-Pri eksperimentih in numeričnih simulacijah je limita neskončnega časa v zgornji enačbi seveda nedosegljiva. V praksi mora biti integracijski čas $t'$ daljši vsaj od Heisenbergovega časa~\cite{srednicki1999approach}, $\tau_\mathrm{H}\equiv 2\pi/\delta.$ Pri tem je $\delta$ povprečen razmik med energijskimi nivoji v hamiltonki $\hat{H}.$ Ker gre za eno izmed odprtih vprašanj s področja, podrobnejša obravnava najprimernejše dolžine integracijskega intervala presega okvire magistrske naloge.
+Pri eksperimentih in numeričnih simulacijah je limita neskončnega časa v zgornji enačbi seveda nedosegljiva. Numerične študije kažejo, da mora biti $t'$ daljši od tipičnega relaksacijskega časa sistema. Ker je določitev relaksacijskih časov specifična od modela do modela, gre za eno izmed odprtih vprašanj s področja. Podrobnejša obravnava najprimernejše dolžine integracijskega intervala zato presega okvire magistrske naloge. 
+% V praksi mora biti integracijski čas $t'$ daljši vsaj od Heisenbergovega časa~\cite{srednicki1999approach}, $\tau_\mathrm{H}\equiv 2\pi/\delta.$ Pri tem je $\delta$ povprečen razmik med energijskimi nivoji v hamiltonki $H.$ Ker gre za eno izmed odprtih vprašanj s področja, podrobnejša obravnava najprimernejše dolžine integracijskega intervala presega okvire magistrske naloge.
 \\\\
 V generičnih sistemih fluktuacije okrog povprečne vrednosti $\langle\hat{O}\rangle_\infty$ z velikostjo sistema padajo eksponentno, njihovo časovno odvisnost pa določajo izvendiagonalni matrični elementi v En.~\eqref{eq:ergodicnost_kvantno}. Čeprav so slednji pomembni tudi v hipotezi termalizacije lastnih stanj, ki je predstavljena v nadaljevanju, za nas niso bistveni. Zanimajo nas namreč le ravnovesne vrednosti opazljivk, medtem ko tudi natančnejša obravnava časovne dinamike relaksacije proti ravnovesnim vrednostim presega okvire magistrske naloge. 
   
@@ -386,7 +543,7 @@ V generičnih sistemih fluktuacije okrog povprečne vrednosti $\langle\hat{O}\ra
 % \hat{\rho}_\mathrm{A}(t)= \mathrm{Tr}_\mathrm{B}\left\{\hat{\rho}(t)\right\}.
 % \end{equation}
 % Ravnovesna gostotna matrika celotnega sistema je pri temperaturi $T$ podana z Boltzmannovim operatorjem, medtem ko ravnovesno gostotno matriko podsistema A ponovno dobimo z delno sledjo po podsistemu B, torej
-%  \begin{equation}\hat{\rho}^\mathrm{(eq)}(T)=Z^{-1}(T)\exp\left(-\hat{H}/k_\mathrm{B}T\right),\hspace{5mm} \hat{\rho}_\mathrm{A}^\mathrm{(eq)}(T)=\mathrm{Tr}_\mathrm{B}\left\{\hat{\rho}^{(\mathrm{eq})}(T)\right\}.
+%  \begin{equation}\hat{\rho}^\mathrm{(eq)}(T)=Z^{-1}(T)\exp\left(-H/k_\mathrm{B}T\right),\hspace{5mm} \hat{\rho}_\mathrm{A}^\mathrm{(eq)}(T)=\mathrm{Tr}_\mathrm{B}\left\{\hat{\rho}^{(\mathrm{eq})}(T)\right\}.
 %  \end{equation}
 % Termalizacija pri temperaturi $T$ nastopi, če v hkrati vzetih limitah neskončnega sistema in neskončnega časa za vse možne 	izbire podsistemov A velja 
 % \begin{equation}
@@ -394,31 +551,26 @@ V generičnih sistemih fluktuacije okrog povprečne vrednosti $\langle\hat{O}\ra
 % \end{equation}
 
 \subsection{Hipoteza termalizacije lastnih stanj}
-Termalizacija v jeziku konvencionalne statistične fizike pomeni relaksacijo vseh, še tako neravnovesnih, stanj proti ravnovesju, v katerem pričakovane vrednosti opazljivk določajo ustrezna ansambelska povprečja. Poljubna začetna stanja z izbrano energijo v termalizirajočem sistemu vsa termalizirajo pri temperaturi $T$, ki ustreza pričakovani vrednosti energije sistema po dolgem času $\langle\hat{H}\rangle_T$, kjer smo seveda privzeli ohranitev celotne energije sistema. Pri posplošitvi obravnave na zaprte kvantne sisteme predpostavimo, da tudi v teh, v kolikor pride do termalizacije, vsa začetna stanja z dano energijo termalizirajo pri isti temperaturi. Izjava je splošna in do zdaj rigorozen dokaz trditve za splošne generične sisteme še ne obstaja, vendar se zdi v skladu s tem, kar vemo o naravi termalizirajočih sistemov~\cite{nandkishore2015many}.\\\\
-Če sistem za \emph{vsako} začetno stanje z dano energijo $E$ resnično termalizira pri ustrezni temperaturi, potem je v En.~\eqref{eq:ergodicnost_kvantno} kot začetno stanje ugodno vzeti kar eno od lastnih stanj, podanih z En.~\eqref{eq:lastna_stanja}. Upoštevamo še, da je ravnovesna vrednost $\langle\hat{O}\rangle_\infty$ v termalizirajočem sistemu identična pričakovani vrednosti opazljivke $\hat{O}$ v mikrokanoničnem ansamblu, pa imamo
-\begin{equation}\label{eq:microcan}
-\langle\hat{O}\rangle_\infty=\bra{\alpha}\hat{O}\ket{\alpha}=O_\mathrm{mc}\left(E_\alpha\right).
-\end{equation}
-% Če sistem za vsako začetno stanje $\hat{\rho}(0)$ z dano energijo resnično termalizira pri ustrezni temperaturi, potem je zaradi enostavne časovne dinamike  ugodno obravnavati  večdelčna lastna stanja hamiltonke sistema, podana z En.~\eqref{eq:lastna_stanja}. Časovni razvoj začetne gostotne matrike sistema $\hat{\rho}(0)=\ket{\alpha}\bra{\alpha}$ je v tem primeru trivialen, namreč $\hat{\rho}(t)=\hat{\rho}(0)$. 
-Z En.~\eqref{eq:microcan} smo zapisali \emph{hipotezo termalizacije lastnih stanj}~\cite{deutsch1991quantum}~\cite{srednicki1999approach} (ang. \emph{eigenstate thermalization hypothesis}, v nadaljevanju ETH). V primeru veljavnosti ETH so pričakovane vrednosti opazljivk v lastnih stanjih $\ket{\alpha}$ enaka pričakovanim vrednostim v mikrokanoničnem ansamblu z energijo $E_\alpha.$ Preverimo trditev podrobneje. Začetno stanje $\ket{\psi(0)}$ z dobro definirano povprečno energijo $\bar{E}$ in majhnimi fluktuacijami $\Delta$, $\Delta\ll\bar{E}$, razvijmo v skladu z En.~\eqref{eq:lastna_stanja}. Velja~\cite{srednicki1999approach}
+Termalizacija v jeziku konvencionalne statistične fizike pomeni relaksacijo vseh, še tako neravnovesnih, stanj proti ravnovesju, v katerem pričakovane vrednosti opazljivk določajo ustrezna ansambelska povprečja. Poljubna začetna stanja z izbrano energijo v termalizirajočem sistemu vsa termalizirajo pri temperaturi $T$, ki ustreza pričakovani vrednosti energije sistema po dolgem času $\langle H\rangle_T$, kjer smo seveda privzeli ohranitev celotne energije sistema. Pri posplošitvi obravnave na zaprte kvantne sisteme predpostavimo, da tudi v teh, v kolikor pride do termalizacije, vsa začetna stanja z dano energijo termalizirajo pri isti temperaturi. Izjava je splošna in do zdaj rigorozen dokaz trditve za splošne generične sisteme še ne obstaja, vendar se zdi v skladu s tem, kar vemo o naravi termalizirajočih sistemov~\cite{nandkishore2015many}.\\\\
+Da bi pokazali, da sistem za \emph{vsako} začetno stanje z dano energijo $E$ termalizira pri ustrezni temperaturi, moramo v En.~\eqref{eq:lastna_stanja} preučiti statistične lastnosti koeficientov $\abs{A_\alpha}^2.$ Naj bo  $\ket{\psi(0)}$ začetno stanje z dobro definirano povprečno energijo $\bar{E}$ in majhnimi fluktuacijami $\Delta_E, \Delta_E\ll\bar{E}.$ Velja~\cite{srednicki1999approach}
 \begin{equation}
 \begin{split}
 \bar{E}&=\sum\limits_\alpha \abs{A_\alpha}^2E_\alpha, \\
-\Delta^2&=\sum\limits_\alpha \abs{A_\alpha}^2\left(E_\alpha - \bar{E}\right).
+\Delta_E^2&=\sum\limits_\alpha \abs{A_\alpha}^2\left(E_\alpha - \bar{E}\right)^2.
 \end{split}
 \end{equation}
-Širina energijskega okna $\Delta$ pojema s korenom velikosti sistema, $\Delta \propto 1/\sqrt{L}$ (izpeljava je navedena v prilogi k Ref.~\cite{rigol2008thermalization}). To pomeni, da je $\ket{\psi}$ superpozicija lastnih stanj $\ket{\alpha}$ znotraj \emph{ozkega} energijskega okna $\Delta$, v katerem so vse verjetnosti $p_\alpha$ enake~\cite{rigol2008thermalization}. Z upoštevanjem veljavnosti ETH in ozkega energijskega okna prepišemo En.~\eqref{eq:ergodicnost_kvantno} kot
+Širina energijskega okna $\Delta_E$ tipično pojema s korenom velikosti sistema, $\Delta \propto 1/\sqrt{L}$ (izpeljava je navedena v prilogi k Ref.~\cite{rigol2008thermalization}). To pomeni, da je $\ket{\psi}$ superpozicija lastnih stanj $\ket{\alpha}$ znotraj \emph{ozkega} energijskega okna $\Delta_E$, v katerem so vse verjetnosti $p_\alpha$ enake~\cite{rigol2008thermalization}. Z upoštevanjem ozkega energijskega okna En.~\eqref{eq:ergodicnost_kvantno} prepišemo 
 \begin{equation}\label{eq:ETH}
-\langle \hat{O}\rangle_\infty=\lim_{t\to\infty}\bra{\psi(t)}\hat{O}\ket{\psi(t)}\approx\frac{\sum_{\abs{E_\alpha - \bar{E}}\leq \Delta}\bra{\alpha}\hat{O}\ket{\alpha}}{N_\Delta}=\bra{\alpha}\hat{O}\ket{\alpha}.
+\langle \hat{O}\rangle_\infty=\lim_{t\to\infty}\bra{\psi(t)}\hat{O}\ket{\psi(t)}\approx\frac{\sum_{\abs{E_\alpha - \bar{E}}\leq \Delta_E}\bra{\alpha}\hat{O}\ket{\alpha}}{N_\Delta}=\bra{\alpha}\hat{O}\ket{\alpha}.
 \end{equation}
-Pri tem je $N_\Delta$ število lastnih stanj na energijskem intervalu $\Delta$ okrog $\bar{E}.$ V kolikor ETH velja, potem za poljubno začetno stanje z energijo $\bar{E}$ pričakovane vrednosti opazljivk relaksirajo proti ravnovesnim termalnim vrednostim. Namesto z izračunom ansambelskih povprečij slednje dobimo kar z izračunom pričakovanih vrednosti opazljivk v lastnem stanju $\ket{\alpha}$, katerega energija se ujema z $\bar{E}.$\\\\
+Pri tem je $N_\Delta$ število lastnih stanj na energijskem intervalu $\Delta_E$ okrog $\bar{E}.$ Z En.~\eqref{eq:ETH} smo zapisali \emph{hipotezo termalizacije lastnih stanj} (ang. \emph{eigenstate thermalization hypothesis}, v nadaljevanju ETH). V kolikor ETH velja, potem za poljubno začetno stanje z energijo $\bar{E}$ pričakovane vrednosti opazljivk relaksirajo proti ravnovesnim termalnim vrednostim. Namesto z izračunom ansambelskih povprečij slednje dobimo kar z izračunom pričakovanih vrednosti opazljivk v lastnem stanju $\ket{\alpha}$, katerega energija se ujema z $\bar{E}.$\\\\
 Veljavnost ETH v sistemu pomeni njegovo termalizacijo in tako implicira ergodičnost v kvantnem primeru. Podrobnim numeričnim študijam ETH navkljub~\cite{d2016quantum} trenutno še ni povsem jasno, ali je veljavnost hipoteze potreben pogoj za termalizacijo - za zdaj vemo zgolj, da ETH velja v vseh termalizirajočih sistemih. Hipoteza ni veljavna v dveh pomembnih razredih netermalizirajočih sistemov. V integrabilnih sistemih relaksacijo proti termalnim vrednostim preprečuje nabor lokalnih konstant  gibanja. Kljub temu lahko v integrabilnih sistemih pričakujemo relaksacijo proti stanjem z maksimalno entropijo in posplošeno verzijo termalizacije proti t.i. generaliziranemu Gibbsovemu ansamblu~\cite{rigol2008thermalization}. Drugi tip sistemov so za nas zanimivejši MBL sistemi, ki jih zaznamuje odsotnost termalizacije v kakršnemkoli smislu. 
-\subsubsection{Značilnosti MBL sistemov } 
+\subsection{Značilnosti MBL sistemov } 
 MBL sistemi se v več pogledih ločijo od termalizirajočih oziroma ergodičnih sistemov. Omejili se bomo na štiri njihove ključne lastnosti, in sicer neergodičnost v času, značilno spektralno statistiko, ničelni transport in skaliranje prepletenostne entropije. \\\\
 Kot smo opisali v predhodnem poglavju, so v ergodičnih sistemih večdelčna lastna stanja termalna, kar v izoliranem sistemu dovoljuje relaksacijo poljubnega začetnega stanja proti ravnovesni vrednosti - pravimo, da sistem lahko sam sebi služi \emph{toplotna kopel}. V MBL sistemih je drugače, saj zanje ETH ne velja in lastna stanja niso termalna. Tudi po dolgem času so pričakovane vrednosti lokalnih opazljivk namesto s termalnimi vrednostmi določene s podrobnostmi lokalnih konfiguracij začetnih stanj, kot shematsko prikazuje Slika~\ref{fig:abanin_thermalization}.\\\\
 \begin{minipage}[t]{0.44\textwidth}
 \noindent 
-Razlika med ergodičnimi in MBL sistemi je razvidna neposredno iz En.~\eqref{eq:ergodicnost_kvantno} in~\eqref{eq:ETH}. Tako v ergodičnih kot MBL sistemih proces izgube faze med dolgočasovnim razvojem v En.~\eqref{eq:ergodicnost_kvantno} uniči izvendiagonalne matrične elemente $\bra{\alpha}\hat{O}\ket{\beta},$ ki tipično nosijo glavnino informacije o prekrivanju začetnega stanja z lastnimi funkcijami hamiltonke. Zaradi veljavnosti ETH so v ergodičnem sistemu lastna stanja termalna in neodvisno od začetnih pogojev odražajo lastnosti sistema pri dani energiji - informacija o začetnem stanju se tako med časovnim razvojem popolnoma zabriše. V MBL sistemih je drugače, saj zaradi neveljavnosti ETH lastna stanja niso termalna. Informacija prekrivanju začetnega stanja z lastnimi funkcijami hamiltonke se v diagonalnih matričnih elementih ohrani tudi po dolgem
+Razlika med ergodičnimi in MBL sistemi je razvidna neposredno iz En.~\eqref{eq:ergodicnost_kvantno} in~\eqref{eq:ETH}. Tako v ergodičnih kot MBL sistemih proces izgube faze med dolgočasovnim razvojem v En.~\eqref{eq:ergodicnost_kvantno} uniči izvendiagonalne matrične elemente $\bra{\alpha}\hat{O}\ket{\beta},$ ki tipično nosijo glavnino informacije o prekrivanju začetnega stanja z lastnimi funkcijami hamiltonke. Zaradi veljavnosti ETH so v ergodičnem sistemu lastna stanja termalna in neodvisno od začetnih pogojev odražajo lastnosti sistema pri dani energiji - informacija o začetnem stanju se tako med časovnim razvojem popolnoma zabriše. V MBL sistemih je drugače, saj zaradi neveljavnosti ETH lastna stanja niso termalna. Informacija o prekrivanju začetnega stanja z lastnimi funkcijami hamiltonke se v diagonalnih matričnih elementih ohrani tudi po dolgem
 % Začetna stanja se z gostotno matriko v bazi lastnih stanj zapišejo kot $\hat{\rho}=\sum\limits_{\alpha,\beta}\rho_{\alpha\beta}\ket{\alpha}\bra{\beta}.$ V ergodičnem primeru se vsa informacija o prekrivanju začetnega stanja z lastnimi funkcijami sistema po dolgočasovnem razvoju porazgubi, oziroma točneje rečeno, preplete s preostalimi lokalnimi prostostnimi stopnjami. Izvendiagonalni matrični elementi se zaradi dekoherence namreč kot v En.~\eqref{eq:ergodicnost_kvantno} po dolgem času izpovprečijo, diagonalni elementi pa ostanejo nespremenjeni. Ker so lastna stanja v ergodičnem primeru termalna, vodi unitarna hamiltonska dinamika do termalnega ravnovesja. V MBL primeru dekoherenca izvendiagonalnih matričnih elementov sicer tudi zabriše informacijo o naravi začetnega stanja, 
 % vendar se slednja ohrani v diagonalnih elementih gostotne matrike. Ker v MBL primeru lastna stanja niso termalna, so diagonalni matrični elementi določeni z lokalnimi značilnostmi lastnih stanj.  
 \end{minipage}\hfill
@@ -438,10 +590,40 @@ Zgoraj opisana odsotnost termalizacije v MBL sistemih vpliva tudi na spektralne 
 \begin{figure}[H]
 \centering{
 \includegraphics[trim=0 0 0 50,clip,width=1\textwidth]{unfolding_demo_three_slo.pdf}}
-\caption{Ilustrativen primer uporabe spektralne statistike za presojo ergodičnosti oziroma lokaliziranosti sistema. Prikazana je porazdelitev statistike sosednjih energijskih nivojev za model t-J z naključnim potencialnim neredom, v katerem pride do prehoda med ergodično in MBL fazo. Formalno je model vpeljan v poglavju~\ref{t-J}. V ergodičnem primeru se mora statistika ujemati z rdečo Wigner-Dysonovo krivuljo, v MBL primeru pa z zeleno Poissonovo krivuljo. Razlogi so razloženi v poglavju~\ref{statisticne_lastnosti}.
+\caption{Ilustrativen primer uporabe spektralne statistike za presojo ergodičnosti oziroma lokaliziranosti sistema. Prikazana je porazdelitev statistike sosednjih energijskih nivojev za model t-J z naključnim potencialnim neredom, v katerem pride do prehoda med ergodično in MBL fazo. Formalno je model vpeljan v poglavju~\ref{spinfull}. V ergodičnem primeru se mora statistika ujemati z rdečo Wigner-Dysonovo krivuljo, v MBL primeru pa z zeleno Poissonovo krivuljo. Razlogi so razloženi v poglavju~\ref{statisticne_lastnosti}.
 }
 \label{fig:unfolding_demo}
 \end{figure}
+\noindent
+\begin{minipage}[t]{0.65\textwidth}
+\noindent \\
+Pomemben kriterij za razločanje med ergodičnimi in MBL sistemi je tudi skaliranje prepletenostne entropije lastnih stanj sistema. Prepletenostna entropija podsistema A je definirana kot von Neumannova entropija reducirane gostotne matrike $\hat{\rho}_\mathrm{A}$ podsistema A: 
+\begin{equation}\label{eq:entanglement}
+S_\mathrm{ent}\left(A\right)=\mathrm{Tr}\left\{ \hat{\rho}_\mathrm{A}\log \hat{\rho}_\mathrm{A}\right\}.
+\end{equation}
+Pri tem smo privzeli, da je celoten sistem razdeljen na dva podsistema, denimo A in B, kot prikazuje Slika~\ref{fig:nandkishore_huse_subsystems}. Reducirano gostotno matriko $\hat{\rho}_\mathrm{A}$ dobimo z delno sledjo  po prostostnih stopnjah podsistema B nad gostotno matriko $\hat{\rho}$:
+\begin{equation}
+\hat{\rho}_\mathrm{A}=\mathrm{Tr}_\mathrm{B}\	 \hat{\rho}.
+\end{equation}
+Za lastna stanja $\ket{\alpha}$ mora biti reducirana gostotna matrika $\hat{\rho}_\mathrm{A}^\alpha=\mathrm{Tr}_\mathrm{B}\ \ket{\alpha}\bra{\alpha}$ ob predpostavki veljavnosti ETH podobna termalni gostotni matriki podsistema A, saj se pričakovane vrednosti opazljivk
+\end{minipage}\hfill
+\begin{minipage}[t]{0.32\textwidth}
+\begin{figure}[H]
+\centering{
+\includegraphics[trim=660 0 0 0,clip, width=0.87\textwidth]{nandkishore_huse_reservoir.pdf}}
+\caption{
+Shema v pomoč k vpeljavi pojma prepletenostne entropije. Izoliran kvantni sistem razdelimo na podsistema A in B.
+Slika je bila vzeta iz Ref.~\cite{nandkishore2015many}. 
+}
+\label{fig:nandkishore_huse_subsystems}
+\end{figure}
+\end{minipage}
+  sistema 
+ujemajo s tistimi v termalnem stanju.
+To pomeni, da je za lastna stanja v ergodičnih sistemih $S_\mathrm{ent}(A)$ enaka termodinamski entropiji podsistema A in je zato ekstenzivna - skalira z velikostjo
+podsistema A, $S_\mathrm{ent}(A)\propto \mathrm{vol}(A).$ Temu pravimo \emph{volumsko skaliranje} prepletenostne entropije (ang. \emph{volume-law scaling}). \\\\Obnašanje v 
+MBL sistemih je drugačno, saj so njihova lastna stanja v \emph{celotnem spektru} šibko prepletena. Numerične študije~\cite{serbyn2013local}~\cite{bauer2013area} nakazujejo, da je skaliranje prepletenostne entropije \emph{površinsko} (ang. \emph{area-law scaling}) oziroma sorazmerno površini roba podsistema A, $S_\mathrm{ent}(A)\propto \mathrm{vol}(\partial A)$. Z numerično analizo prepletenostne entropije v konkretnih modelskih sistemih se ukvarjamo v poglavju~\ref{prepletenostna_numericno}.
+
 % Kot smo opisali v predhodnem poglavju, so v ergodičnih sistemih večdelčna lastna stanja termalna, kar v izoliranem sistemu dovoljuje relaksacijo poljubnega začetnega stanja proti ravnovesni vrednosti - sistem lahko \emph{sam sebi služi kot toplotna kopel}. V MBL sistemih je drugače, saj zanje ETH ne velja in lastna stanja niso termalna. Tudi po dolgem času so pričakovane vrednosti lokalnih opazljivk namesto s termalnimi vrednostmi določene s podrobnostmi lokalnih konfiguracij začetnih stanj. Začetna stanja se z gostotno matriko v bazi lastnih stanj zapišejo kot $\hat{\rho}=\sum\limits_{\alpha,\beta}\rho_{\alpha\beta}\ket{\alpha}\bra{\beta}.$ V ergodičnem primeru se vsa informacija o prekrivanju začetnega stanja z lastnimi funkcijami sistema po dolgočasovnem razvoju porazgubi, oziroma točneje rečeno, preplete s preostalimi lokalnimi prostostnimi stopnjami. Izvendiagonalni matrični elementi se zaradi dekoherence namreč kot v En.~\eqref{eq:ergodicnost_kvantno} po dolgem času izpovprečijo, diagonalni elementi pa ostanejo nespremenjeni. Ker so lastna stanja v ergodičnem primeru termalna, vodi unitarna hamiltonska dinamika do termalnega ravnovesja. V MBL primeru dekoherenca izvendiagonalnih matričnih elementov sicer tudi zabriše informacijo o naravi začetnega stanja, 
 % vendar se slednja ohrani v diagonalnih elementih gostotne matrike. Ker v MBL primeru lastna stanja niso termalna, so diagonalni matrični elementi določeni z lokalnimi značilnostmi lastnih stanj.  
 %TO DO: 
@@ -452,18 +634,129 @@ Zgoraj opisana odsotnost termalizacije v MBL sistemih vpliva tudi na spektralne 
 %NAJPREJ ZA UVOD: ETH, INTEGRABILNI, MBL -> 4 lastnosti: STATISTIKA, NEERGODIČNOST V ČASU , TRANSPORT 0, ENTENGLEMENT ŠE TREBA
 %ENAČBE ZA ZAPRTE KVANTNE SISTEME -> ČASOVNI RAZVOJ:  CHECK
 %Nandkishore, Huse: kje se to lahko študira: sistemi z mobilnimi delci, glej poglavje 4.2
-\section{Modeli}
-V poglavju predstavimo modele, v katerih 
-\subsection{Heisenbergova veriga}
-\subsection{Hubbardov model}
-\subsection{Model t-J}
-\label{t-J}
-\subsection{Točna diagonalizacija}
+
+\chapter{Modeli in metode}\label{modelimetode}
+vi pojavov MBL omejili na opis lastnosti netermalizirajočih sistemov, zdaj pa nas zanimajo konkretni modeli, v katerih je termalizacija ob prisotnosti interakcij onemogočena. Ker odsotnost transporta preprečuje termalizacijo, je Andersonov izolator, obravnavan v poglavju~\ref{anderson}, primerno izhodišče za konstrukcijo modelov MBL. Obravnava fermionskih modelov brez spinskih prostostnih stopenj (ang. \emph{spinless fermions} v nadaljevanju \emph{brezspinski} fermioni) v poglavju~\ref{Heis_spinless} služi predvsem kot splošen pregled področja in nekaterih ključnih rezultatov. Predstavljena sta enodimenzionalni model $t$-$V$ z dodatkom nereda in enodimenzionalni Heisenbergov model XXZ z naključnim magnetnim poljem. Zaradi obstoja Jordan-Wignerjeve transformacije sta si modela ekvivalentna.
+Izmed fermionskih modelov s spinskimi prostostnimi stopnjami (ang. \emph{spinful fermions}, v nadaljevanju \emph{spinski} fermioni) je v poglavju~\ref{spinfull} podrobjene predstavljen model $t$-$J$ z dodanim neredom. Poleg predstavitve modela je podana tudi izpeljava preslikave med Hubbardovim modelom in modelom $t$-$J$. V poglavju~\ref{diagonalizacija_metoda} je opisana točna diagonalizacija modelskih hamiltonk, na kateri temelji presoja ergodičnosti oziroma lokaliziranosti v poglavjih~\ref{statisticne_lastnosti} in~\ref{prepletenostna_numericno}.
+\section{Fermionski modeli brez spinskih prostostnih stopenj}
+\label{Heis_spinless}
+Eden izmed prvih in do danes najpogosteje uporabljanih modelov fizike sistemov MBL je enodimenzionalni model $t$-$V$ z dodanim neredom. Gre za enodimenzionalno verigo brezspinskih fermionov z interakcijami med najbližjimi sosedi in lokalnim neredom Andersonovega tipa. Pri nadaljnji razpravi bomo zavoljo jedrnatosti s poimenovanjem $t$-$V$ v mislih vselej privzeli tudi prisotnost nereda. \\\\Model dobimo, če v hamiltonko Andersonovega modela, podano z En.~\eqref{eq:Anderson_ham}, vključimo medsosedske interakcije, katerih moč določa parameter $V$:
+\begin{equation}\label{eq:tV}
+H=t\sum\limits_i\left(c^\dagger_i c_{i+1} + \mathrm{h.c.}\right) + V\sum\limits_i n_in_{i+1} + \sum\limits_i u_in_i.
+\end{equation} 
+Tako kot v Andersonovem modelu so vrednosti naključnih potencialov $u_i$ porazdeljene enakomerno na intervalu $[-W,W]$ v skladu z En.~\eqref{eq:and_prob}, v kateri je $W$ parameter moči nereda. V tem primeru sta pri ničelni temperaturi in polovični zasedenosti pasu možna  dva režima, ki ju ločimo glede na velikost \emph{parametra anizotropije } $\Delta=V/(2t)$.  Za šibko oziroma zmerno interakcijo v primeru $\Delta<1$ je sistem prevodnik, v režimu močne interakcije pri $\Delta\geq 1$ pa izolator~\cite{prelovvsek2017density}. \\\\
+Leta 2007 sta s točno diagonalizacijo končnih sistemov Oganesyan in Huse~\cite{PhysRevB.75.155111} v modelu $t$-$V$  pokazala obstoj MBL faze tudi pri neskončnih temperaturah. \\\\
+Model $t$-$V$ lahko z uporabo Jordan-Wignerjeve transformacije preslikamo na model anizotropne Heisenbergove spinske verige spinov $S=1/2$  z naključnimi lokalnimi vrednostmi magnetnega polja $h_i$ vzdolž smeri $z$. Hamiltonka modela, ki ga sicer imenujemo tudi model XXZ z naključnim magnetnim poljem, je podana z 
+\begin{equation}\label{eq:XXZ}
+H=J\sum\limits_i\left[\frac{1}{2}\left(S_{i+1}^+S_i^- + S_i^+S_{i+1}^-\right) + \Delta S_{i+1}^zS_i^z\right] + \sum\limits_i h_i S_i^z.
+\end{equation}
+Tu so $S_i^+, S_i^-$ in $S_i^z$ standardni operatorji za spin $S=1/2$ na $i$-tem mestu v enodimenzionalni spinski verigi. Izmenjalna konstanta se z modelskimi parametri modela $t$-$V$ izrazi kot $J=2t$~\cite{prelovvsek2017density}, parameter anizotropije $\Delta$ pa smo definirali že zgoraj. Fermionski skakalni člen v modelu XXZ ustreza izmenjalnemu členu, medtem ko medsosedska fermionska interakcija ustreza členu s parametrom $\Delta$. V odsotnosti naključnega člena je model rešljiv z uporabo Bethejevega nastavka~\cite{karabach1997introduction}. Naključne vrednosti magnetnega polja so porazdeljene enakomerno na intervalu $[-2W,2W]$.  Jordan-Wignerjevo transformacijo v eni dimenziji podajajo zveze
+\begin{equation}\label{eq:Jordan-Wigner}
+S_i^+=c^\dagger_i\prod_{j<i}\mathrm{e}^{\iu\pi n_j}, \hspace{5mm} S_i^-=\left(\prod_{j<i}\mathrm{e}^{-\iu\pi n_j}\right)c_i,\hspace{5mm} S^z_i= n_i - \frac{1}{2}.
+\end{equation}  
+Limita $\Delta\to0$ ustreza neinteragirajočemu primeru, ko lahko spinski model preslikamo na model prostih fermionov v naključnem potencialu, torej na Andersonov model, ki smo ga obravnavali v poglavju~\ref{anderson}. Kot smo tedaj pokazali, so v eni dimenziji vsa lastna stanja sistema lokalizirana za vsakršno končno vrednost parametra nereda $W$. \\\\
+Interakcijo modeliramo s končnimi vrednostmi $\Delta$. Vpliv prepleta interakcij in nereda na nastop MBL faze je shematsko prikazan na Sliki~\ref{fig:XXZ_t_V}. Pri neki fiksni vrednosti parametra $W$ so vsa lastna stanja sistema lokalizirana, če je velikost interaktivne sklopitve $J_z=J\Delta$ manjša od neke kritične in od nereda odvisne vrednosti $J_z^*(W).$ Če nered ni prevelik, ima $J_z^*$ končno vrednost in tedaj nadkritične vrednosti $J_z$ omogočajo termalizacijo. Podobno pri fiksni vrednosti $J_z$ obstaja kritična vrednost parametra nereda $W^*$, nad katero so vsa stanja sistema lokalizirana. Medtem ko so stanja na robovih pasu lokalizirana tudi pri podkritičnih vrednostih nereda $W<W^*$, nakazujejo numerične študije~\cite{luitz2015many} na obstoj delokaliziranih stanj v sredini pasu. V nasprotju z Andersonovim modelom torej ob prisotnosti interakcij \emph{večdelčni} rob mobilnosti obstaja že v eni dimenziji.  
+\begin{figure}[H]
+\floatbox[{\capbeside\thisfloatsetup{capbesideposition={left,center},capbesidewidth=7cm}}]{figure}[\FBwidth]
+{\caption{\textbf{a)} in \textbf{b)} Shematski prikaz modela XXZ oziroma modela $t$-$V$ v eni dimenziji in ekvivalence med njima. Rumene puščice označujejo interakcijo. \textbf{c)} Prehod med MBL in ergodično fazo pri fiksnem $W$ v odvisnosti od $J_z$. Točka $J_z=0$ ustreza Andersonovemu izolatorju. \textbf{d)} Prehod med ergodično in MBL fazo kot funkcija parametra nereda $W$. Lokalizacija nastopi nad kritično vrednostjo $W^*$. Slika je bila vzeta iz Ref.~\cite{abanin2018ergodicity}. }\label{fig:XXZ_t_V}}
+{\includegraphics[width=0.5\textwidth]{scheme_XXZ_t_V.pdf}}
+\end{figure} 
+\noindent
+V izotropnem primeru za $\Delta=1$ in $J=1$ znaša numerično izračunana kritična vrednost parametra nereda $W^*\approx 3.5.$ Pri tej vrednosti nastopi prehod med ergodično in lokalizirano fazo~\cite{pal2010many}. Model XXZ je bil podrobno preučevan tudi v enem izmed prelomnih del s področja~\cite{vznidarivc2008many}, v katerem je bila pokazana logaritemska rast prepletenostne entropije v odvisnosti od časa za začetno produktno (neprepleteno) stanje dveh podsistemov na spinski verigi. To nakazuje na kvalitativno razliko med Andersonovimi izolatorji in MBL sistemi, saj v prvih rast prepletenostne entropije ni opažena. 
+
+% Pri fiksnih vendar ne prevelikih vrednostih parametra $W$ so vsa lastna stanja sistema lokalizirana, če je sklopitev vzdolž osi $z$ šibkejša od neke kritične vrednosti, $\abs{J_z}<J_z^*(W)$, kjer je $J_z=J\Delta$. Podobno je pri fiksni
+
+\section{Model $t$-$J$}
+\label{spinfull}
+V poglavju v obravnavo fermionskih sistemov vključimo tudi spinske prostostne stopnje in podrobneje predstavimo model $t$-$J$, ki ga numerično preučujemo v poglavjih~\ref{statisticne_lastnosti} in~\ref{prepletenostna_numericno}. Model izpeljemo iz Hubbardovega modela v limiti močne meddelčne interakcije in sicer s projekcijo na podprostor nizkoenergijskih stanj Hubbardovega modela. V besedilu model $t$-$J$ najprej predstavimo, nato pa izpeljemo omenjeno preslikavo, in sicer tako v urejenem primeru kot ob prisotnosti različnih tipov nereda. Posebej nas zanimata \emph{potencialni} in \emph{spinski} nered, torej nereda, ki se sklapljata z nosilci naboja oziroma spini. V tem vrstnem redu smo oba tipa nereda že srečali v En.~\eqref{eq:tV} in~\eqref{eq:XXZ}.\\\\
+V magistrski nalogi z numeričnimi metodami preučujemo model $t$-$J$~\cite{spalek2007tj} s periodičnimi robnimi pogoji na enodimenzionalni verigi. V približku tesne vezi model podaja hamiltonka 
+\begin{equation}\label{eq:tJ_ham}
+\begin{split}
+H&=-t\sum\limits_{i, \sigma} \left(\tilde{c}_{i,\sigma}^\dagger\tilde{c}_{i+1,\sigma} + c.c. \right) + J\sum\limits_i \left(S_i\cdot S_{i+1} - \frac{n_i n_{i+1}}{4}\right) + \sum\limits_i h_iS_i^z + \sum\limits_{i,\sigma} u_i n_{i,\sigma}=  \\
+&=
+H_t + H_J + H_h + H_u.
+\end{split}
+\end{equation}
+Pri tem so $\tilde{c}_{i,\sigma}^\dagger$ in  $\tilde{c}_{i,\sigma}$ \emph{projicirani} fermionski kreacijski in anihilacijski operatorji, ki jih vpeljemo v skladu s predpisom 
+\begin{equation}
+\tilde{c}_{i,\sigma}^\dagger=c_{i,\sigma}^\dagger(1-n_{i,-\sigma}) \hspace{5mm}\tilde{c}_{i,\sigma}=(1-n_{i,-\sigma})c_{i,\sigma}.
+\end{equation}
+Tako definirani kreacijski operatorji lahko na $i$-tem mestu v kristalni verigi ustvarijo delec z dano $z$-projekcijo spina $\sigma$ samo v primeru, ko se na mestu predhodno še ne nahaja delec z nasprotno projekcijo spina na os $z$. Na ta način preprečimo dvojno fermionsko zasedenost mest, ki je sicer možna v Hubbardovem modelu. Kot se bomo prepričali ob izpeljavi modela, ustrezajo v limiti močnih meddelčnih interakcij stanjem z dvojno zasedenostjo mest v spektru visoke energije, te pa nas pri obravnavi nizkoenergijskih stanj ne zanimajo. Kot vselej do sedaj člen $H_t$ v hamiltonki predstavlja skakanje nosilcev naboja s tuneliranjem med najbližjimi mesti. \\\\ 
+Pri zapisu zgornje hamiltonke upoštevamo t.i. \emph{bazo zasedenosti posameznih mest} (ang. \emph{site-occupational basis}), kjer so na $i$-tem mestu v kristalni rešetki možna tri stanja, in sicer 
+\begin{equation}\label{eq:tjstates}
+\ket{\psi_{i_0}}=\ket{0}_i, \hspace{5mm} \ket{\psi_{i_1}}=\ket{\uparrow}_i,\hspace{5mm} \ket{\psi_{i_{-1}}}=\ket{\downarrow}_i.
+\end{equation}
+V prvem stanju na $i$-tem mestu ni elektrona oziroma se tam nahaja vrzel, preostali dve stanji pa ustrezata prisotnosti elektrona s spinom $1/2$ in eno izmed dveh možnih projekcih spina na os $z$, medtem ko je dvojna zasedenost mesta prepovedana.  \\\\
+Meddelčno interakcijo v hamiltonki modelira Heisenbergov izmenjalni člen $H_J$, pri čemer za spinske operatorje za spin $S=1/2$ velja $S_i\cdot S_{j}=\frac{1}{2}\left(S_i^+S_j^- + S_i^-S_j^+\right) + S_i^zS_j^z$. Pri numeričnih simulacijah za izmenjalno interakcijo $J$ vselej privzamemo izotropijo. 
+Delovanje členov $H_t$ in $H_J$ je shematsko prikazano in razloženo na Sliki \ref{fig:tJ_scheme}. \\\\
+S členom $H_w$ v hamiltonki modeliramo prispevek naključnega magnetnega polja v smeri osi $z$, ki se zeemansko sklaplja s 
+spinskimi prostostnimi stopnjami, pri čemer je $w_i$ velikost naključno izžrebanega magnetnega polja na $i$-tem mestu v kristalni rešetki. Podobno člen $H_h$ modelira potencialni nered, ki se sklaplja z vrzelmi v kristalni rešetki, $h_i$ pa je naključno izžrebana vrednost energije vrzeli, ki se nahaja na $i$-tem mestu v kristalni rešetki. Vrednosti $w_i$ in $h_i$ tipično izžrebamo v skladu s škatlasto verjetnostno porazdelitvijo, kot prikazuje Slika \ref{fig:prob_dist}, na kateri sta $W$ in $H$	 parametra 
+nereda, s katerima določamo velikost spinskega in vrzelnega potencialnega nereda. Prehod med ergodično in MBL fazo
+v modelu zasledujemo kot funkcijo velikosti obeh omenjenih parametrov.\\\\
+V besedilu velikost sistema označuje $L$, $N_h$ število vrzeli, $N_u$ pa število spinov $1/2$ s projekcijo spina navzgor. Pri analizi se vselej osredotočimo na podprostor hamiltonke, podane z En. \eqref{eq:tJ_ham}, s fiksnim številom vrzeli in ničelno skupno projekcijo spina na os $z$, $S^z=0$. Stanja z ničelno skupno projekcijo spina so v hamiltonki najštevilčnejša in se pojavljajo v vseh spinskih blokih, zato gre za statistično najbolj zastopan sektor. Število stanj v podprostoru s fiksnim številom vrzeli in ničelnim spinom določimo s pomočjo kombinatorike - najprej prešteje{}mo število razporeditev $N_h$ vrzeli na $L$ mest v verigi, kar nato pomnožimo še s številom razporeditev $N_u$ spinov na preostalih $L-N_h$ mest. Število stanj torej podaja zveza
+\begin{equation}\label{eq:nstat}
+N_\mathrm{stat}=\binom{L}{N_j}\binom{L-N_h}{N_u},
+\end{equation}
+\begin{figure}[H]
+\floatbox[{\capbeside\thisfloatsetup{capbesideposition={left,center},capbesidewidth=5cm}}]{figure}[\FBwidth]
+{\caption{Shematski prikaz modela t-J na verigi z $L=7$ mesti, $N_h=2$ vrzelma in $N_u=2$ navzgor obrnjenima spinoma in odprtimi robnimi pogoji.	 $J$ označuje velikost izmenjalne interakcije med spini sosednjih elektronov, ki obrne par nasprotno obrnjenih spinov (ang. \emph{spin-flips}). Verjetnost za tuneliranje elektrona na prazno mesto označuje $t$. }\label{fig:tJ_scheme}}
+{\includegraphics[width=0.62\textwidth]{tJ_scheme.pdf}}
+\end{figure}
+\begin{figure}[H]
+\floatbox[{\capbeside\thisfloatsetup{capbesideposition={left,center},capbesidewidth=5cm}}]{figure}[\FBwidth]
+{\caption{Naključne vrednosti magnetnega polja $w_i$ in potenciala $h_i$ tipično izžrebam v skladu s škatlasto verjetnostjo porazdelitvijo, kjer sta $W$ in $H$ parametra nereda. }\label{fig:prob_dist}}
+{\includegraphics[width=0.62\textwidth]{prob_dist.pdf}}
+\end{figure}
+\begin{figure}[H]
+\centering{
+\includegraphics[width=0.8\textwidth]{tJ_num_states.pdf}}
+\caption{Odvisnost števila stanj od velikosti sistema in števila dopantov (vrzeli) razkrije, da smo pri študijah s polno diagonalizacijo precej omejeni s številom dostopnih sistemov, ki so nam na voljo, kar precej oteži skalirno analizo, s katero bi radi napovedali obnašanje sistema v termodinamski limiti neskončnega sistema.}
+\label{fig:tJ_num_states}
+\end{figure}
+\subsection{Preslikava med Hubbardovim modelom in modelom $t$-$J$}
+% \begin{minipage}[t]{0.37\textwidth}
+% \noindent
+%  \\\\ 
+%  V besedilu velikost sistema označuje $L$, $N_h$ število vrzeli, $N_u$ pa število spinov $1/2$ s projekcijo spina navzgor. Pri analizi se vselej osredotočimo na podprostor hamiltonke, podane z En. \eqref{eq:tJ_ham}, s fiksnim številom vrzeli in ničelno skupno projekcijo spina na os $z$, $S^z=0$. Stanja z ničelno skupno projekcijo spina so v hamiltonki najštevilčnejša in se pojavljajo v vseh spinskih blokih, zato gre za statistično najbolj zastopan sektor. Število stanj v podprostoru s fiksnim številom vrzeli in ničelnim spinom določimo s pomočjo kombinatorike - najprej prešteje{}mo število razporeditev $N_h$ vrzeli na $L$ mest v verigi, kar nato pomnožimo še s številom razporeditev $N_u$ spinov na preostalih $L-N_h$ mest. Število stanj torej podaja zveza
+% \begin{equation}\label{eq:nstat}
+% N_\mathrm{stat}=\binom{L}{N_j}\binom{L-N_h}{N_u},
+% \end{equation}
+% kar je za različna števila vrzeli in različne velikosti sistemov grafično prikazano na Sliki~\ref{fig:tJ_num_states}.
+% \end{minipage}\hfill
+% \begin{minipage}[t]{0.6\textwidth}
+% \begin{figure}[H]
+% \centering{
+% \includegraphics[width=0.85\textwidth]{tJ_scheme.pdf}}
+% \caption{Shematski prikaz modela t-J na verigi z $L=7$ mesti, $N_h=2$ vrzelma in $N_u=2$ navzgor obrnjenima spinoma in odprtimi robnimi pogoji.	 $J$ označuje velikost izmenjalne interakcije med spini sosednjih elektronov, ki obrne par nasprotno obrnjenih spinov (ang. \emph{spin-flips}). Verjetnost za tuneliranje elektrona na prazno mesto označuje $t$. }
+% \label{fig:tJ_scheme}
+% \end{figure}
+% \begin{figure}[H]
+% \centering{
+% \includegraphics[width=1\textwidth]{prob_dist.pdf}}
+% \caption{Naključne vrednosti magnetnega polja $w_i$ in potenciala $h_i$ izžrebamo v skladu s škatlasto verjetnostno porazdelitvijo, kjer sta $W$ in $H$ parametra nereda. Varianca takšne porazdelitve je enaka $\frac{A^2}{3}$, kjer je $A$ eden izmed obeh parametrov nereda.  }
+% \label{fig:prob_dist}
+% \end{figure}
+% \end{minipage}
+
+% % \begin{figure}[H]
+% % \floatbox[{\capbeside\thisfloatsetup{capbesideposition={left,center},capbesidewidth=6cm}}]{figure}[\FBwidth]
+% % {\caption{Naključne vrednosti magnetnega polja $w_i$ in potenciala $h_i$ tipično izžrebam v skladu s škatlasto verjetnostjo porazdelitvijo, kjer sta $W$ in $H$ parametra nereda. }\label{fig:prob_dist}}
+% % {\includegraphics[width=0.62\textwidth]{prob_dist.pdf}}
+% % \end{figure}
+
+% \begin{figure}[H]
+% \floatbox[{\capbeside\thisfloatsetup{capbesideposition={left,center},capbesidewidth=6cm}}]{figure}[\FBwidth]
+% {\caption{Odvisnost števila stanj od velikosti sistema in števila dopantov (vrzeli) razkrije, da smo pri študijah s polno diagonalizacijo precej omejeni s številom dostopnih sistemov, ki so nam na voljo, kar precej oteži skalirno analizo, s katero bi radi napovedali obnašanje sistema v termodinamski limiti neskončnega sistema. }\label{fig:tJ_num_states}}
+% {\includegraphics[width=0.62\textwidth]{tJ_num_states.pdf}}
+% \end{figure}
+\section{Točna diagonalizacija modelskih hamiltonk}
+\label{diagonalizacija_metoda}
 \section{Statistične lastnosti hamiltonskih spektrov}
 \label{statisticne_lastnosti}
 \subsection{Statistika sosednjih energijskih nivojev}
 \subsection{Spektralni oblikovni faktor}	
 \section{Prepletenostna entropija}
+\label{prepletenostna_numericno}
 
 
 

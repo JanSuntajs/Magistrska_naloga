@@ -43,6 +43,11 @@ D.~Basko, I.~Aleiner in B.~Altshuler, \emph{Metal--insulator transition in a
 D.~Basko, L.~Aleiner in B.~Altshuler, \emph{On the problem of many-body
   localization}, Problems of Condensed Matter Physics  (2006) 50--70.
 
+\bibitem{bauer2013area}
+B.~Bauer in C.~Nayak, \emph{Area laws in a many-body localized state and its
+  implications for topological order}, Journal of Statistical Mechanics: Theory
+  and Experiment \textbf{2013}(09) (2013) P09005.
+
 \bibitem{PhysRevLett.116.140401}
 P.~Bordia in~dr., \emph{Coupling identical one-dimensional many-body localized
   systems}, Phys. Rev. Lett. \textbf{116} (2016) 140401,
@@ -65,6 +70,10 @@ A.~Finkelshtein, \emph{Influence of coulomb interaction on the properties of
 L.~Fleishman in P.~Anderson, \emph{Interactions and the anderson transition},
   Physical Review B \textbf{21}(6) (1980) 2366.
 
+\bibitem{karabach1997introduction}
+M.~Karabach in~dr., \emph{Introduction to the bethe ansatz i}, Computers in
+  Physics \textbf{11}(1) (1997) 36--43.
+
 \bibitem{PhysRevLett.114.083002}
 S.~S. Kondov in~dr., \emph{Disorder-induced localization in a strongly
   correlated atomic hubbard gas}, Phys. Rev. Lett. \textbf{114} (2015) 083002,
@@ -77,6 +86,11 @@ B.~Kramer in A.~MacKinnon, \emph{Localization: theory and experiment}, Reports
 \bibitem{lagendijk2009fifty}
 A.~Lagendijk, B.~Van~Tiggelen in D.~S. Wiersma, \emph{Fifty years of anderson
   localization}, Phys. Today \textbf{62}(8) (2009) 24--29.
+
+\bibitem{luitz2015many}
+D.~J. Luitz, N.~Laflorencie in F.~Alet, \emph{Many-body localization edge in
+  the random-field heisenberg chain}, Physical Review B \textbf{91}(8) (2015)
+  081103.
 
 \bibitem{mehta2004random}
 M.~L. Mehta, \emph{Random matrices},  \textbf{142}, Elsevier, 2004.
@@ -107,6 +121,15 @@ V.~Oganesyan in D.~A. Huse, \emph{Localization of interacting fermions at high
   temperature}, Phys. Rev. B \textbf{75} (2007) 155111,
   \doi{10.1103/PhysRevB.75.155111}.
 
+\bibitem{pal2010many}
+A.~Pal in D.~A. Huse, \emph{Many-body localization phase transition}, Physical
+  review b \textbf{82}(17) (2010) 174411.
+
+\bibitem{prelovvsek2017density}
+P.~Prelov{\v{s}}ek in~dr., \emph{Density correlations and transport in models
+  of many-body localization}, Annalen der Physik \textbf{529}(7) (2017)
+  1600362.
+
 \bibitem{rigol2008thermalization}
 M.~Rigol, V.~Dunjko in M.~Olshanii, \emph{Thermalization and its mechanism for
   generic isolated quantum systems}, Nature \textbf{452}(7189) (2008) 854.
@@ -114,6 +137,11 @@ M.~Rigol, V.~Dunjko in M.~Olshanii, \emph{Thermalization and its mechanism for
 \bibitem{schreiber2015observation}
 M.~Schreiber in~dr., \emph{Observation of many-body localization of interacting
   fermions in a quasi-random optical lattice}, Science  (2015) aaa7432.
+
+\bibitem{serbyn2013local}
+M.~Serbyn, Z.~Papi{\'c} in D.~A. Abanin, \emph{Local conservation laws and the
+  structure of the many-body localized states}, Physical review letters
+  \textbf{111}(12) (2013) 127201.
 
 \bibitem{spalek2007tj}
 J.~Spalek, \emph{tj model then and now: a personal perspective from the
