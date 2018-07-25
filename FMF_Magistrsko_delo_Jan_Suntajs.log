@@ -1,11 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.7.23)  25 JUL 2018 18:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.7.23)  26 JUL 2018 00:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **FMF_Magistrsko_delo_Jan_Suntajs.tex
-
-(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
-loga/FMF_Magistrsko_delo_Jan_Suntajs.tex
+(./FMF_Magistrsko_delo_Jan_Suntajs.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 
@@ -649,14 +647,10 @@ Package mhchem Warning: You did not specify a 'version' option for the mhchem
 \@input{template.aux}
 \openout2 = `template.aux'.
 
-
-(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
-loga/template.tex
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+(./template.tex (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup9
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -1085,9 +1079,7 @@ Writing index file FMF_Magistrsko_delo_Jan_Suntajs.idx
 LaTeX Warning: Unused global option(s):
     [longbibliography].
 
-
-(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
-loga/FMF_Magistrsko_delo_Jan_Suntajs.aux)
+(./FMF_Magistrsko_delo_Jan_Suntajs.aux)
 \openout1 = `FMF_Magistrsko_delo_Jan_Suntajs.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
@@ -1105,8 +1097,7 @@ LaTeX Font Info:    ... okay on input line 98.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
 LaTeX Font Info:    ... okay on input line 98.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 98.
-
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -1114,8 +1105,7 @@ Package caption Info: floatrow package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box47
 Package hyperref Info: Link coloring OFF on input line 98.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1127,10 +1117,7 @@ LaTeX Info: Redefining \ref on input line 98.
 LaTeX Info: Redefining \pageref on input line 98.
 LaTeX Info: Redefining \nameref on input line 98.
 
-(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
-loga/FMF_Magistrsko_delo_Jan_Suntajs.out)
-(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
-loga/FMF_Magistrsko_delo_Jan_Suntajs.out)
+(./FMF_Magistrsko_delo_Jan_Suntajs.out) (./FMF_Magistrsko_delo_Jan_Suntajs.out)
 \@outlinefile=\write4
 \openout4 = `FMF_Magistrsko_delo_Jan_Suntajs.out'.
 
@@ -1139,7 +1126,6 @@ loga/FMF_Magistrsko_delo_Jan_Suntajs.out)
 . 
 . Activating mapping `default' on line 98.
 .................................................
-
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count292
@@ -1243,8 +1229,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ] [7] [8
 
 ]
-(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
-loga/FMF_Magistrsko_delo_Jan_Suntajs.toc
+(./FMF_Magistrsko_delo_Jan_Suntajs.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1322,7 +1307,7 @@ Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 271.
 
-<diff_loc_ext_mod.pdf, id=213, pagebox=cropbox, 578.16pt x 216.81pt>
+<diff_loc_ext_mod.pdf, id=254, pagebox=cropbox, 578.16pt x 216.81pt>
 File: diff_loc_ext_mod.pdf Graphic file (type pdf)
 <use diff_loc_ext_mod.pdf>
 Package pdftex.def Info: diff_loc_ext_mod.pdf  used on input line 283. on input
@@ -1351,14 +1336,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
-a_naloga/diff_loc_ext_mod.pdf>]
+[16 <./diff_loc_ext_mod.pdf>]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 294.
 
-<interference.jpg, id=241, 424.9476pt x 258.0039pt>
+<interference.jpg, id=282, 424.9476pt x 258.0039pt>
 File: interference.jpg Graphic file (type jpg)
 <use interference.jpg>
 Package pdftex.def Info: interference.jpg  used on input line 308. on input lin
@@ -1380,8 +1364,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
-a_naloga/interference.jpg>]
+[17 <./interference.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 320--323
 
  []
@@ -1391,7 +1374,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 320--323
 
  []
 
-<beta_diagram.png, id=259, 916.42375pt x 677.53125pt>
+<beta_diagram.png, id=299, 916.42375pt x 677.53125pt>
 File: beta_diagram.png Graphic file (type png)
 <use beta_diagram.png>
 Package pdftex.def Info: beta_diagram.png  used on input line 340. on input lin
@@ -1434,7 +1417,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 353--355
 
  []
 
-<disorder_scheme.pdf, id=269, pagebox=cropbox, 1011.78pt x 1011.78pt>
+<disorder_scheme.pdf, id=309, pagebox=cropbox, 1011.78pt x 1011.78pt>
 File: disorder_scheme.pdf Graphic file (type pdf)
 <use disorder_scheme.pdf>
 Package pdftex.def Info: disorder_scheme.pdf  used on input line 359. on input 
@@ -1456,8 +1439,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
-a_naloga/beta_diagram.png (PNG copy)>]
+[19 <./beta_diagram.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 367--370
 
  []
@@ -1503,14 +1485,14 @@ Underfull \hbox (badness 3148) in paragraph at lines 379--382
 i-mer-jamo s
  []
 
-<hopping_picture_50years.jpg, id=287, 631.6398pt x 570.2103pt>
+<hopping_picture_50years.jpg, id=327, 631.6398pt x 570.2103pt>
 File: hopping_picture_50years.jpg Graphic file (type jpg)
 <use hopping_picture_50years.jpg>
 Package pdftex.def Info: hopping_picture_50years.jpg  used on input line 386. o
 n input line 386.
 Package pdftex.def Info: Requested size: 153.64148pt x 138.69781pt on input lin
 e 386.
-<bands.png, id=290, 1255.69125pt x 860.21375pt>
+<bands.png, id=330, 1255.69125pt x 860.21375pt>
 File: bands.png Graphic file (type png)
 <use bands.png>
 Package pdftex.def Info: bands.png  used on input line 392. on input line 392.
@@ -1537,9 +1519,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
-a_naloga/disorder_scheme.pdf>]
-<mobility_edge_DOS_modified.pdf, id=305, pagebox=cropbox, 867.24pt x 433.62pt>
+[20 <./disorder_scheme.pdf>]
+<mobility_edge_DOS_modified.pdf, id=346, pagebox=cropbox, 867.24pt x 433.62pt>
 File: mobility_edge_DOS_modified.pdf Graphic file (type pdf)
 <use mobility_edge_DOS_modified.pdf>
 Package pdftex.def Info: mobility_edge_DOS_modified.pdf  used on input line 440
@@ -1556,9 +1537,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
-a_naloga/hopping_picture_50years.jpg> </media/jan/Data/Dropbox/Sync_WD_MyCloud/
-Faks/2._stopnja/IJS_delo/Magistrska_naloga/bands.png (PNG copy)>]
+[21 <./hopping_picture_50years.jpg> <./bands.png (PNG copy)>]
 Underfull \hbox (badness 3525) in paragraph at lines 461--461
 []\T1/lmr/m/n/10.95 Slika 2.8: |Pri-
  []
@@ -1579,7 +1558,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 461--461
  []
 
 <1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_cone_dou
-ble_presentation.pdf, id=316, pagebox=cropbox, 2168.1pt x 1011.78pt>
+ble_presentation.pdf, id=356, pagebox=cropbox, 2168.1pt x 1011.78pt>
 File: 1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_con
 e_double_presentation.pdf Graphic file (type pdf)
 <use 1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_cone
@@ -1667,8 +1646,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
-a_naloga/mobility_edge_DOS_modified.pdf>]
+[22 <./mobility_edge_DOS_modified.pdf>]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
@@ -1695,9 +1673,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
-a_naloga/1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_
-cone_double_presentation.pdf>]
+[23 <./1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_co
+ne_double_presentation.pdf>]
 Underfull \hbox (badness 7888) in paragraph at lines 473--476
 \T1/lmr/m/n/12 V tem pod-po-glavju na-ve-demo
  []
@@ -1727,7 +1704,7 @@ Underfull \hbox (badness 3601) in paragraph at lines 473--476
 \T1/lmr/m/n/12 Poljubno sta-nje za-pr-tega kvan-
  []
 
-<nandkishore_huse_reservoir.pdf, id=434, pagebox=cropbox, 953.5625pt x 225.8437
+<nandkishore_huse_reservoir.pdf, id=475, pagebox=cropbox, 953.5625pt x 225.8437
 5pt>
 File: nandkishore_huse_reservoir.pdf Graphic file (type pdf)
 <use nandkishore_huse_reservoir.pdf>
@@ -1752,8 +1729,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
-a_naloga/nandkishore_huse_reservoir.pdf>]
+[25 <./nandkishore_huse_reservoir.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 523--530
 
  []
@@ -1789,7 +1765,7 @@ Underfull \hbox (badness 1122) in paragraph at lines 572--576
 \T1/lmr/m/n/12 sis-temi je raz-vi-dna ne-po-sre-dno iz
  []
 
-<abanin_thermalization_scheme.pdf, id=486, pagebox=cropbox, 877.2775pt x 297.11
+<abanin_thermalization_scheme.pdf, id=526, pagebox=cropbox, 877.2775pt x 297.11
 pt>
 File: abanin_thermalization_scheme.pdf Graphic file (type pdf)
 <use abanin_thermalization_scheme.pdf>
@@ -1797,7 +1773,7 @@ Package pdftex.def Info: abanin_thermalization_scheme.pdf  used on input line 5
 80. on input line 580.
 Package pdftex.def Info: Requested size: 214.88824pt x 72.77672pt on input line
  580.
-<unfolding_demo_three_slo.pdf, id=496, pagebox=cropbox, 1734.48pt x 505.89pt>
+<unfolding_demo_three_slo.pdf, id=536, pagebox=cropbox, 1734.48pt x 505.89pt>
 File: unfolding_demo_three_slo.pdf Graphic file (type pdf)
 <use unfolding_demo_three_slo.pdf>
 Package pdftex.def Info: unfolding_demo_three_slo.pdf  used on input line 592. 
@@ -1835,8 +1811,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
-a_naloga/abanin_thermalization_scheme.pdf>]
+[28 <./abanin_thermalization_scheme.pdf>]
 File: nandkishore_huse_reservoir.pdf Graphic file (type pdf)
 <use nandkishore_huse_reservoir.pdf>
 Package pdftex.def Info: nandkishore_huse_reservoir.pdf  used on input line 613
@@ -1854,8 +1829,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
-a_naloga/unfolding_demo_three_slo.pdf>]
+[29 <./unfolding_demo_three_slo.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1867,42 +1841,42 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Poglavje 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 643--644
+Underfull \hbox (badness 10000) in paragraph at lines 645--646
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 646--650
+Underfull \hbox (badness 10000) in paragraph at lines 648--652
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 646--650
+Underfull \hbox (badness 10000) in paragraph at lines 648--652
 
  []
 
 [31]
-<scheme_XXZ_t_V.pdf, id=587, pagebox=cropbox, 540.54547pt x 281.82455pt>
+<scheme_XXZ_t_V.pdf, id=629, pagebox=cropbox, 540.54547pt x 281.82455pt>
 File: scheme_XXZ_t_V.pdf Graphic file (type pdf)
 <use scheme_XXZ_t_V.pdf>
-Package pdftex.def Info: scheme_XXZ_t_V.pdf  used on input line 662. on input l
-ine 662.
+Package pdftex.def Info: scheme_XXZ_t_V.pdf  used on input line 664. on input l
+ine 664.
 Package pdftex.def Info: Requested size: 213.39568pt x 111.25711pt on input lin
-e 662.
+e 664.
 File: scheme_XXZ_t_V.pdf Graphic file (type pdf)
 <use scheme_XXZ_t_V.pdf>
-Package pdftex.def Info: scheme_XXZ_t_V.pdf  used on input line 662. on input l
-ine 662.
+Package pdftex.def Info: scheme_XXZ_t_V.pdf  used on input line 664. on input l
+ine 664.
 Package pdftex.def Info: Requested size: 213.39568pt x 111.25711pt on input lin
-e 662.
+e 664.
 File: scheme_XXZ_t_V.pdf Graphic file (type pdf)
 <use scheme_XXZ_t_V.pdf>
-Package pdftex.def Info: scheme_XXZ_t_V.pdf  used on input line 662. on input l
-ine 662.
+Package pdftex.def Info: scheme_XXZ_t_V.pdf  used on input line 664. on input l
+ine 664.
 Package pdftex.def Info: Requested size: 213.39568pt x 111.25711pt on input lin
-e 662.
+e 664.
 
-Underfull \hbox (badness 10000) in paragraph at lines 656--663
+Underfull \hbox (badness 10000) in paragraph at lines 658--665
 
  []
 
@@ -1917,32 +1891,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [32]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 669.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 669.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 669.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 669.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 669.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 671--673
+Underfull \hbox (badness 10000) in paragraph at lines 672--673
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 683--686
+Underfull \hbox (badness 10000) in paragraph at lines 672--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 677--680
 
  []
 
@@ -1952,63 +1911,41 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
-a_naloga/scheme_XXZ_t_V.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 688--697
+[33 <./scheme_XXZ_t_V.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 682--685
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 688--697
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 689.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 689.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 689.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 689.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 705--714
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 688--697
+Underfull \hbox (badness 10000) in paragraph at lines 705--714
 
  []
 
-<tJ_scheme.pdf, id=623, pagebox=cropbox, 845.1575pt x 361.35pt>
-File: tJ_scheme.pdf Graphic file (type pdf)
-<use tJ_scheme.pdf>
-Package pdftex.def Info: tJ_scheme.pdf  used on input line 703. on input line 7
-03.
-Package pdftex.def Info: Requested size: 264.60855pt x 113.13663pt on input lin
-e 703.
-File: tJ_scheme.pdf Graphic file (type pdf)
-<use tJ_scheme.pdf>
-Package pdftex.def Info: tJ_scheme.pdf  used on input line 703. on input line 7
-03.
-Package pdftex.def Info: Requested size: 264.60855pt x 113.13663pt on input lin
-e 703.
-File: tJ_scheme.pdf Graphic file (type pdf)
-<use tJ_scheme.pdf>
-Package pdftex.def Info: tJ_scheme.pdf  used on input line 703. on input line 7
-03.
-Package pdftex.def Info: Requested size: 264.60855pt x 113.13663pt on input lin
-e 703.
-<prob_dist.pdf, id=624, pagebox=cropbox, 867.24pt x 433.62pt>
-File: prob_dist.pdf Graphic file (type pdf)
-<use prob_dist.pdf>
-Package pdftex.def Info: prob_dist.pdf  used on input line 708. on input line 7
-08.
-Package pdftex.def Info: Requested size: 264.60855pt x 132.30353pt on input lin
-e 708.
-File: prob_dist.pdf Graphic file (type pdf)
-<use prob_dist.pdf>
-Package pdftex.def Info: prob_dist.pdf  used on input line 708. on input line 7
-08.
-Package pdftex.def Info: Requested size: 264.60855pt x 132.30353pt on input lin
-e 708.
-File: prob_dist.pdf Graphic file (type pdf)
-<use prob_dist.pdf>
-Package pdftex.def Info: prob_dist.pdf  used on input line 708. on input line 7
-08.
-Package pdftex.def Info: Requested size: 264.60855pt x 132.30353pt on input lin
-e 708.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 705--714
 
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2017,43 +1954,51 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [34]
-<tJ_num_states.pdf, id=634, pagebox=cropbox, 1156.32pt x 650.43pt>
+<tJ_scheme.pdf, id=679, pagebox=cropbox, 845.1575pt x 361.35pt>
+File: tJ_scheme.pdf Graphic file (type pdf)
+<use tJ_scheme.pdf>
+Package pdftex.def Info: tJ_scheme.pdf  used on input line 720. on input line 7
+20.
+Package pdftex.def Info: Requested size: 264.60855pt x 113.13663pt on input lin
+e 720.
+File: tJ_scheme.pdf Graphic file (type pdf)
+<use tJ_scheme.pdf>
+Package pdftex.def Info: tJ_scheme.pdf  used on input line 720. on input line 7
+20.
+Package pdftex.def Info: Requested size: 264.60855pt x 113.13663pt on input lin
+e 720.
+File: tJ_scheme.pdf Graphic file (type pdf)
+<use tJ_scheme.pdf>
+Package pdftex.def Info: tJ_scheme.pdf  used on input line 720. on input line 7
+20.
+Package pdftex.def Info: Requested size: 264.60855pt x 113.13663pt on input lin
+e 720.
+<prob_dist.pdf, id=680, pagebox=cropbox, 867.24pt x 433.62pt>
+File: prob_dist.pdf Graphic file (type pdf)
+<use prob_dist.pdf>
+Package pdftex.def Info: prob_dist.pdf  used on input line 725. on input line 7
+25.
+Package pdftex.def Info: Requested size: 264.60855pt x 132.30353pt on input lin
+e 725.
+File: prob_dist.pdf Graphic file (type pdf)
+<use prob_dist.pdf>
+Package pdftex.def Info: prob_dist.pdf  used on input line 725. on input line 7
+25.
+Package pdftex.def Info: Requested size: 264.60855pt x 132.30353pt on input lin
+e 725.
+File: prob_dist.pdf Graphic file (type pdf)
+<use prob_dist.pdf>
+Package pdftex.def Info: prob_dist.pdf  used on input line 725. on input line 7
+25.
+Package pdftex.def Info: Requested size: 264.60855pt x 132.30353pt on input lin
+e 725.
+<tJ_num_states.pdf, id=681, pagebox=cropbox, 1156.32pt x 650.43pt>
 File: tJ_num_states.pdf Graphic file (type pdf)
 <use tJ_num_states.pdf>
-Package pdftex.def Info: tJ_num_states.pdf  used on input line 712. on input li
-ne 712.
+Package pdftex.def Info: tJ_num_states.pdf  used on input line 729. on input li
+ne 729.
 Package pdftex.def Info: Requested size: 341.43437pt x 192.05383pt on input lin
-e 712.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 716.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 716.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 716.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 716.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+c'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 752.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+c'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 754.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+e 729.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2061,29 +2006,111 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
-a_naloga/tJ_scheme.pdf> </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnj
-a/IJS_delo/Magistrska_naloga/prob_dist.pdf
+[35 <./tJ_scheme.pdf>]
 
-pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
-stopnja/IJS_delo/Magistrska_naloga/prob_dist.pdf): PDF inclusion: multiple pdfs
- with page group included in a single page
-> </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_
-naloga/tJ_num_states.pdf
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 735.
 
-pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
-stopnja/IJS_delo/Magistrska_naloga/tJ_num_states.pdf): PDF inclusion: multiple 
-pdfs with page group included in a single page
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36 <./prob_dist.pdf> <./tJ_num_states.pdf
+
+pdfTeX warning: pdflatex (file ./tJ_num_states.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
 >]
+Poglavje 4.
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 737.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 742--745
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 742--745
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 747--751
+
+ []
+
+[37
+
+]
+Overfull \hbox (11.21812pt too wide) detected at line 773
+\OML/lmm/m/it/12 P\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 s\OT1/lmr/m/n/12 ) = [] [] 
+ d\OML/lmm/m/it/12 "[] []  \OT1/lmr/m/n/12 d\OML/lmm/m/it/12 "[] []  \OT1/lmr/m
+/n/12 d\OML/lmm/m/it/12 V^^N [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 785--788
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36]
-(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
-loga/FMF_Magistrsko_delo_Jan_Suntajs.bbl [37
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 790--792
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 793--795
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39]
+
+LaTeX Warning: Reference `fig:unfolding_demo_three_slo' on page 40 undefined on
+ input line 808.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 805--809
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 805--809
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 809.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 809.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40] (./FMF_Magistrsko_delo_Jan_Suntajs.bbl [41
+
 
 ]
 
@@ -2092,63 +2119,129 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38])
-
-Package caption Warning: Unused \captionsetup[sub] on input line 25.
-See the caption package documentation for explanation.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 770.
+[42])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 770.
+[43]
 
-(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
-loga/FMF_Magistrsko_delo_Jan_Suntajs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 770.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 770.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44
+
+]
+Dodatek A.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 836.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 836.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 836.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 836.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <24.88> on input line 836.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.74> on input line 836.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 836.
+
+Underfull \hbox (badness 10000) in paragraph at lines 847--857
+
+ []
+
+[45
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[47]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48] (./FMF_Magistrsko_delo_Jan_Suntajs.ind)
+
+Package caption Warning: Unused \captionsetup[sub] on input line 25.
+See the caption package documentation for explanation.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 953.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 953.
+(./FMF_Magistrsko_delo_Jan_Suntajs.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 953.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 953.
 Package rerunfilecheck Info: File `FMF_Magistrsko_delo_Jan_Suntajs.out' has not
  changed.
-(rerunfilecheck)             Checksum: 733C77341DCACC93F0E9E1CD41E7A271;1629.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 770.
- ) 
+(rerunfilecheck)             Checksum: 23DFACBB706DF119B98923C609BC33AB;2270.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 953.
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 740 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 19207 strings out of 492995
- 340120 string characters out of 6135073
- 435638 words of memory out of 5000000
- 22364 multiletter control sequences out of 15000+600000
- 644324 words of font info for 113 fonts, out of 8000000 for 9000
+ 19315 strings out of 492995
+ 340264 string characters out of 6135073
+ 437001 words of memory out of 5000000
+ 22419 multiletter control sequences out of 15000+600000
+ 659928 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,17n,58p,10403b,646s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
--mathex.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-ri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_d
-elo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.pdf (39 pages, 1628302 by
-tes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texm
+f/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.e
+nc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/e
+nc/dvips/lm/lm-mathex.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on FMF_Magistrsko_delo_Jan_Suntajs.pdf (48 pages, 1673197 bytes)
+.
 PDF statistics:
- 940 PDF objects out of 1000 (max. 8388607)
- 716 compressed objects within 8 object streams
- 140 named destinations out of 1000 (max. 500000)
- 254 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1092 PDF objects out of 1200 (max. 8388607)
+ 858 compressed objects within 9 object streams
+ 191 named destinations out of 1000 (max. 500000)
+ 318 words of extra memory for PDF output out of 10000 (max. 10000000)
 

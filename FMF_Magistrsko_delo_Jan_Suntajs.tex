@@ -637,7 +637,9 @@ MBL sistemih je drugačno, saj so njihova lastna stanja v \emph{celotnem spektru
 
 \chapter{Modeli in metode}\label{modelimetode}
 vi pojavov MBL omejili na opis lastnosti netermalizirajočih sistemov, zdaj pa nas zanimajo konkretni modeli, v katerih je termalizacija ob prisotnosti interakcij onemogočena. Ker odsotnost transporta preprečuje termalizacijo, je Andersonov izolator, obravnavan v poglavju~\ref{anderson}, primerno izhodišče za konstrukcijo modelov MBL. Obravnava fermionskih modelov brez spinskih prostostnih stopenj (ang. \emph{spinless fermions} v nadaljevanju \emph{brezspinski} fermioni) v poglavju~\ref{Heis_spinless} služi predvsem kot splošen pregled področja in nekaterih ključnih rezultatov. Predstavljena sta enodimenzionalni model $t$-$V$ z dodatkom nereda in enodimenzionalni Heisenbergov model XXZ z naključnim magnetnim poljem. Zaradi obstoja Jordan-Wignerjeve transformacije sta si modela ekvivalentna.
-Izmed fermionskih modelov s spinskimi prostostnimi stopnjami (ang. \emph{spinful fermions}, v nadaljevanju \emph{spinski} fermioni) je v poglavju~\ref{spinfull} podrobjene predstavljen model $t$-$J$ z dodanim neredom. Poleg predstavitve modela je podana tudi izpeljava preslikave med Hubbardovim modelom in modelom $t$-$J$. V poglavju~\ref{diagonalizacija_metoda} je opisana točna diagonalizacija modelskih hamiltonk, na kateri temelji presoja ergodičnosti oziroma lokaliziranosti v poglavjih~\ref{statisticne_lastnosti} in~\ref{prepletenostna_numericno}.
+Izmed fermionskih modelov s spinskimi prostostnimi stopnjami (ang. \emph{spinful fermions}, v nadaljevanju \emph{spinski} fermioni) je v poglavju~\ref{spinfull} podrobjene predstavljen model $t$-$J$ z dodanim neredom. 
+% Poleg predstavitve modela je podana tudi izpeljava preslikave med Hubbardovim modelom in modelom $t$-$J$. 
+V poglavju~\ref{diagonalizacija_metoda} je opisana točna diagonalizacija modelskih hamiltonk, na kateri temelji presoja ergodičnosti oziroma lokaliziranosti v poglavjih~\ref{statisticne_lastnosti} in~\ref{prepletenostna_numericno}.
 \section{Fermionski modeli brez spinskih prostostnih stopenj}
 \label{Heis_spinless}
 Eden izmed prvih in do danes najpogosteje uporabljanih modelov fizike sistemov MBL je enodimenzionalni model $t$-$V$ z dodanim neredom. Gre za enodimenzionalno verigo brezspinskih fermionov z interakcijami med najbližjimi sosedi in lokalnim neredom Andersonovega tipa. Pri nadaljnji razpravi bomo zavoljo jedrnatosti s poimenovanjem $t$-$V$ v mislih vselej privzeli tudi prisotnost nereda. \\\\Model dobimo, če v hamiltonko Andersonovega modela, podano z En.~\eqref{eq:Anderson_ham}, vključimo medsosedske interakcije, katerih moč določa parameter $V$:
@@ -665,11 +667,31 @@ Interakcijo modeliramo s končnimi vrednostmi $\Delta$. Vpliv prepleta interakci
 V izotropnem primeru za $\Delta=1$ in $J=1$ znaša numerično izračunana kritična vrednost parametra nereda $W^*\approx 3.5.$ Pri tej vrednosti nastopi prehod med ergodično in lokalizirano fazo~\cite{pal2010many}. Model XXZ je bil podrobno preučevan tudi v enem izmed prelomnih del s področja~\cite{vznidarivc2008many}, v katerem je bila pokazana logaritemska rast prepletenostne entropije v odvisnosti od časa za začetno produktno (neprepleteno) stanje dveh podsistemov na spinski verigi. To nakazuje na kvalitativno razliko med Andersonovimi izolatorji in MBL sistemi, saj v prvih rast prepletenostne entropije ni opažena. 
 
 % Pri fiksnih vendar ne prevelikih vrednostih parametra $W$ so vsa lastna stanja sistema lokalizirana, če je sklopitev vzdolž osi $z$ šibkejša od neke kritične vrednosti, $\abs{J_z}<J_z^*(W)$, kjer je $J_z=J\Delta$. Podobno je pri fiksni
-
-\section{Model $t$-$J$}
+\section{Fermionski modeli s spinskimi prostostnimi stopnjami}
 \label{spinfull}
-V poglavju v obravnavo fermionskih sistemov vključimo tudi spinske prostostne stopnje in podrobneje predstavimo model $t$-$J$, ki ga numerično preučujemo v poglavjih~\ref{statisticne_lastnosti} in~\ref{prepletenostna_numericno}. Model izpeljemo iz Hubbardovega modela v limiti močne meddelčne interakcije in sicer s projekcijo na podprostor nizkoenergijskih stanj Hubbardovega modela. V besedilu model $t$-$J$ najprej predstavimo, nato pa izpeljemo omenjeno preslikavo, in sicer tako v urejenem primeru kot ob prisotnosti različnih tipov nereda. Posebej nas zanimata \emph{potencialni} in \emph{spinski} nered, torej nereda, ki se sklapljata z nosilci naboja oziroma spini. V tem vrstnem redu smo oba tipa nereda že srečali v En.~\eqref{eq:tV} in~\eqref{eq:XXZ}.\\\\
-V magistrski nalogi z numeričnimi metodami preučujemo model $t$-$J$~\cite{spalek2007tj} s periodičnimi robnimi pogoji na enodimenzionalni verigi. V približku tesne vezi model podaja hamiltonka 
+V poglavju v obravnavo fermionskih sistemov vključimo tudi spinske prostostne stopnje in podrobneje predstavimo model $t$-$J$, ki ga numerično preučujemo v poglavjih~\ref{statisticne_lastnosti} in~\ref{prepletenostna_numericno}. Gre za model, ki v limiti močne meddelčne interakcije ustreza fiziki nizkoenergijskih stanj Hubbardovega modela. Zavoljo formalne vpeljave pojmov je najprej na kratko predstavljen Hubbardov model, medtem ko se modelu $t$-$J$ posvetimo podrobneje, saj ga v nadaljnjih poglavjih preučujemo tudi numerično. V Dodatku~\ref{tj_hubb_preslikava} je podana izpeljava preslikave med modeloma, in sicer tako v za primer urejenega sistema kot v prisotnosti različnih tipov nereda.  Posebej nas zanimata \emph{potencialni} in \emph{spinski} nered, torej nereda, ki se sklapljata z nosilci naboja oziroma spini. V tem vrstnem redu smo oba tipa nereda že srečali v En.~\eqref{eq:tV} in~\eqref{eq:XXZ}.\\\\
+\subsection{Hubbardov model}
+Kot izhodišče za obravnavo modela $t$-$J$ najprej formalno uvedemo Hubbardov model, iz katerega prvega izpeljemo. Za splošen tip nereda je hamiltonka Hubbardovega modela podana z 
+\begin{equation}\label{eq:hubbard_main_text}
+H=H_t + H_U+ H_\mathrm{dis}=-t\sum\limits_{\langle ij \rangle, \sigma}\left(c^\dagger_{i,\sigma} c_{j\sigma} + c^\dagger_{j\sigma}c_{i\sigma}\right) + U\sum_i n_{i\uparrow}n_{i\downarrow} +  \sum\limits_{i,\sigma} h_{i,\sigma} n_{i, \sigma}. 
+\end{equation}
+Pri tem  $\langle ij \rangle$ označuje vsoto po najbližjih sosedih, $\sigma$ pa vsoto po projekcijah spina $S=1/2$ na os $z$. Fermionski kreacijski in anihilacijski operatorji $c^\dagger_{i,\sigma}, c_{i,\sigma}$ ustvarijo oziroma uničijo delec z dano projekcijo spina $\sigma$ na $i$-tem mestu v kristalni rešetki.  V Hubbardovi hamiltonki tako kot vselej do sedaj skakalni člen $H_t$ opisuje skakanje elektronov med sosednjimi mesti v kristalni rešetki, kjer je $t$ verjetnost za tovrstno tuneliranje. Interakcijski člen $H_U$ modelira coulombski odboj med elektroni in ob dvojni zasedenosti mesta povzroči energijski prirastek $U.$ V členu $H_\mathrm{dis},$ ki modelira prispevek nereda v sistemu, so  $h_{i,\sigma}$ v skladu z neko verjetnostno porazdelitvijo izžrebane naključne vrednosti, pri čemer sta porazdelitvi za posamezni projekciji spina v splošnem lahko različni. \\\\
+Pri zapisu Hubbardove hamiltonke smo upoštevali t.i. \emph{bazo zasedenosti posameznih mest} (ang. \emph{site-occupational basis}), kjer so na $i$-tem mestu v kristalni rešetki možna štiri stanja, in sicer 
+\begin{equation}\label{eq:hubstates}
+\ket{\psi_{i_0}}=\ket{0}_i, \hspace{5mm} \ket{\psi_{i_1}}=\ket{\uparrow}_i,\hspace{5mm} \ket{\psi_{i_{2}}}=\ket{\downarrow}_i, \hspace{5mm} \ket{\psi_{i_{3}}}=\ket{\uparrow\downarrow}_i
+\end{equation}
+V prvem stanju na $i$-tem mestu ni elektrona oziroma se tam nahaja vrzel, naslednji dve stanji pa ustrezata prisotnosti elektrona s spinom $1/2$ in eno izmed dveh možnih projekcih spina na os $z$. Zadnje stanje pomeni zasedenost mesta z dvema elektronoma z nasprotnim spinom. \\\\
+Za številsko gostoto delcev in skupno projekcijo spina na os $z$ na $i$-tem mestu  veljata zvezi
+\begin{equation}\label{eq:hubb_zveze}
+n_i=n_{i,\uparrow}+n_{i,\downarrow},\hspace{5mm} S_i^z=\frac{1}{2}\left(n_{i,\uparrow} - n_{i,\downarrow}\right).
+\end{equation}
+Če želimo v En.~\eqref{eq:hubbard_main_text} modelirati prispevek nereda, ki se sklaplja le z nosilci naboja, ne pa tudi njihovimi spinskimi prostostnimi stopnjami, potem za porazdelitev $h_{i,\sigma}$ predpišemo $h_{i, \uparrow}=h_{i,\downarrow}.$ Tak tip nereda smo srečali denimo v En.~\eqref{eq:tV}. Nered, ki se sklaplja s spinskimi prostostnimi stopnjami in je odvisen od projekcije spina na os $z$, pa dobimo prek predpisa $h_{i,\uparrow}=-h_{i,\downarrow}.$ Ta tip nereda poznamo iz En.~\eqref{eq:XXZ}.
+\subsection{Model $t$-$J$}
+V magistrski nalogi z numeričnimi metodami preučujemo model $t$-$J$~\cite{spalek2007tj} s periodičnimi robnimi pogoji na enodimenzionalni verigi. V limiti močnega coulombskega odboja $U$ model opisuje fiziko nizkoenergijskih stanj Hubbardovega modela. Ker je za velike $U$ dvojna zasedenost mest energijsko neugodna, je v modelu $t$-$J$ prepovedana in so za razliko od En.~\eqref{eq:hubstates} na vsakem mestu možna le tri stanja: 
+\begin{equation}\label{eq:tjstates}
+\ket{\psi_{i_0}}=\ket{0}_i, \hspace{5mm} \ket{\psi_{i_1}}=\ket{\uparrow}_i,\hspace{5mm} \ket{\psi_{i_{-1}}}=\ket{\downarrow}_i.
+\end{equation}
+Sledeč izpeljavi, navedeni v Dodatku~\ref{tj_hubb_preslikava}, dobimo za model $t$-$J$ v prisotnosti nereda hamiltonko
 \begin{equation}\label{eq:tJ_ham}
 \begin{split}
 H&=-t\sum\limits_{i, \sigma} \left(\tilde{c}_{i,\sigma}^\dagger\tilde{c}_{i+1,\sigma} + c.c. \right) + J\sum\limits_i \left(S_i\cdot S_{i+1} - \frac{n_i n_{i+1}}{4}\right) + \sum\limits_i h_iS_i^z + \sum\limits_{i,\sigma} u_i n_{i,\sigma}=  \\
@@ -681,13 +703,8 @@ Pri tem so $\tilde{c}_{i,\sigma}^\dagger$ in  $\tilde{c}_{i,\sigma}$ \emph{proji
 \begin{equation}
 \tilde{c}_{i,\sigma}^\dagger=c_{i,\sigma}^\dagger(1-n_{i,-\sigma}) \hspace{5mm}\tilde{c}_{i,\sigma}=(1-n_{i,-\sigma})c_{i,\sigma}.
 \end{equation}
-Tako definirani kreacijski operatorji lahko na $i$-tem mestu v kristalni verigi ustvarijo delec z dano $z$-projekcijo spina $\sigma$ samo v primeru, ko se na mestu predhodno še ne nahaja delec z nasprotno projekcijo spina na os $z$. Na ta način preprečimo dvojno fermionsko zasedenost mest, ki je sicer možna v Hubbardovem modelu. Kot se bomo prepričali ob izpeljavi modela, ustrezajo v limiti močnih meddelčnih interakcij stanjem z dvojno zasedenostjo mest v spektru visoke energije, te pa nas pri obravnavi nizkoenergijskih stanj ne zanimajo. Kot vselej do sedaj člen $H_t$ v hamiltonki predstavlja skakanje nosilcev naboja s tuneliranjem med najbližjimi mesti. \\\\ 
-Pri zapisu zgornje hamiltonke upoštevamo t.i. \emph{bazo zasedenosti posameznih mest} (ang. \emph{site-occupational basis}), kjer so na $i$-tem mestu v kristalni rešetki možna tri stanja, in sicer 
-\begin{equation}\label{eq:tjstates}
-\ket{\psi_{i_0}}=\ket{0}_i, \hspace{5mm} \ket{\psi_{i_1}}=\ket{\uparrow}_i,\hspace{5mm} \ket{\psi_{i_{-1}}}=\ket{\downarrow}_i.
-\end{equation}
-V prvem stanju na $i$-tem mestu ni elektrona oziroma se tam nahaja vrzel, preostali dve stanji pa ustrezata prisotnosti elektrona s spinom $1/2$ in eno izmed dveh možnih projekcih spina na os $z$, medtem ko je dvojna zasedenost mesta prepovedana.  \\\\
-Meddelčno interakcijo v hamiltonki modelira Heisenbergov izmenjalni člen $H_J$, pri čemer za spinske operatorje za spin $S=1/2$ velja $S_i\cdot S_{j}=\frac{1}{2}\left(S_i^+S_j^- + S_i^-S_j^+\right) + S_i^zS_j^z$. Pri numeričnih simulacijah za izmenjalno interakcijo $J$ vselej privzamemo izotropijo. 
+Tako definirani kreacijski operatorji lahko na $i$-tem mestu v kristalni verigi ustvarijo delec z dano $z$-projekcijo spina $\sigma$ samo v primeru, ko se na mestu predhodno še ne nahaja delec z nasprotno projekcijo spina na os $z$. Na ta način upoštevamo prepoved dvojne fermionske zasedenosti mest. Ob upoštevanju omenjene prepovedi je vloga člena $H_t$ sicer enaka kot v Hubbardovem modelu. \\\\ 
+Meddelčno interakcijo v hamiltonki modelira Heisenbergov izmenjalni člen $H_J$, pri čemer za spinske operatorje za spin $S=1/2$ velja $S_i\cdot S_{j}=\frac{1}{2}\left(S_i^+S_j^- + S_i^-S_j^+\right) + S_i^zS_j^z$. Pri numeričnih simulacijah za izmenjalno interakcijo $J$ vselej privzamemo izotropijo. V Dodatku~\ref{tj_hubb_preslikava} pokažemo, da se $J$ z modelskimi parametri Hubbardovega modela izraža kot $J=\frac{4t^2}{U}.$ 
 Delovanje členov $H_t$ in $H_J$ je shematsko prikazano in razloženo na Sliki \ref{fig:tJ_scheme}. \\\\
 S členom $H_w$ v hamiltonki modeliramo prispevek naključnega magnetnega polja v smeri osi $z$, ki se zeemansko sklaplja s 
 spinskimi prostostnimi stopnjami, pri čemer je $w_i$ velikost naključno izžrebanega magnetnega polja na $i$-tem mestu v kristalni rešetki. Podobno člen $H_h$ modelira potencialni nered, ki se sklaplja z vrzelmi v kristalni rešetki, $h_i$ pa je naključno izžrebana vrednost energije vrzeli, ki se nahaja na $i$-tem mestu v kristalni rešetki. Vrednosti $w_i$ in $h_i$ tipično izžrebamo v skladu s škatlasto verjetnostno porazdelitvijo, kot prikazuje Slika \ref{fig:prob_dist}, na kateri sta $W$ in $H$	 parametra 
@@ -713,60 +730,227 @@ N_\mathrm{stat}=\binom{L}{N_j}\binom{L-N_h}{N_u},
 \caption{Odvisnost števila stanj od velikosti sistema in števila dopantov (vrzeli) razkrije, da smo pri študijah s polno diagonalizacijo precej omejeni s številom dostopnih sistemov, ki so nam na voljo, kar precej oteži skalirno analizo, s katero bi radi napovedali obnašanje sistema v termodinamski limiti neskončnega sistema.}
 \label{fig:tJ_num_states}
 \end{figure}
-\subsection{Preslikava med Hubbardovim modelom in modelom $t$-$J$}
-% \begin{minipage}[t]{0.37\textwidth}
-% \noindent
-%  \\\\ 
-%  V besedilu velikost sistema označuje $L$, $N_h$ število vrzeli, $N_u$ pa število spinov $1/2$ s projekcijo spina navzgor. Pri analizi se vselej osredotočimo na podprostor hamiltonke, podane z En. \eqref{eq:tJ_ham}, s fiksnim številom vrzeli in ničelno skupno projekcijo spina na os $z$, $S^z=0$. Stanja z ničelno skupno projekcijo spina so v hamiltonki najštevilčnejša in se pojavljajo v vseh spinskih blokih, zato gre za statistično najbolj zastopan sektor. Število stanj v podprostoru s fiksnim številom vrzeli in ničelnim spinom določimo s pomočjo kombinatorike - najprej prešteje{}mo število razporeditev $N_h$ vrzeli na $L$ mest v verigi, kar nato pomnožimo še s številom razporeditev $N_u$ spinov na preostalih $L-N_h$ mest. Število stanj torej podaja zveza
-% \begin{equation}\label{eq:nstat}
-% N_\mathrm{stat}=\binom{L}{N_j}\binom{L-N_h}{N_u},
-% \end{equation}
-% kar je za različna števila vrzeli in različne velikosti sistemov grafično prikazano na Sliki~\ref{fig:tJ_num_states}.
-% \end{minipage}\hfill
-% \begin{minipage}[t]{0.6\textwidth}
-% \begin{figure}[H]
-% \centering{
-% \includegraphics[width=0.85\textwidth]{tJ_scheme.pdf}}
-% \caption{Shematski prikaz modela t-J na verigi z $L=7$ mesti, $N_h=2$ vrzelma in $N_u=2$ navzgor obrnjenima spinoma in odprtimi robnimi pogoji.	 $J$ označuje velikost izmenjalne interakcije med spini sosednjih elektronov, ki obrne par nasprotno obrnjenih spinov (ang. \emph{spin-flips}). Verjetnost za tuneliranje elektrona na prazno mesto označuje $t$. }
-% \label{fig:tJ_scheme}
-% \end{figure}
-% \begin{figure}[H]
-% \centering{
-% \includegraphics[width=1\textwidth]{prob_dist.pdf}}
-% \caption{Naključne vrednosti magnetnega polja $w_i$ in potenciala $h_i$ izžrebamo v skladu s škatlasto verjetnostno porazdelitvijo, kjer sta $W$ in $H$ parametra nereda. Varianca takšne porazdelitve je enaka $\frac{A^2}{3}$, kjer je $A$ eden izmed obeh parametrov nereda.  }
-% \label{fig:prob_dist}
-% \end{figure}
-% \end{minipage}
+% \subsection{Preslikava med Hubbardovim modelom in modelom $t$-$J$}
 
-% % \begin{figure}[H]
-% % \floatbox[{\capbeside\thisfloatsetup{capbesideposition={left,center},capbesidewidth=6cm}}]{figure}[\FBwidth]
-% % {\caption{Naključne vrednosti magnetnega polja $w_i$ in potenciala $h_i$ tipično izžrebam v skladu s škatlasto verjetnostjo porazdelitvijo, kjer sta $W$ in $H$ parametra nereda. }\label{fig:prob_dist}}
-% % {\includegraphics[width=0.62\textwidth]{prob_dist.pdf}}
-% % \end{figure}
-
-% \begin{figure}[H]
-% \floatbox[{\capbeside\thisfloatsetup{capbesideposition={left,center},capbesidewidth=6cm}}]{figure}[\FBwidth]
-% {\caption{Odvisnost števila stanj od velikosti sistema in števila dopantov (vrzeli) razkrije, da smo pri študijah s polno diagonalizacijo precej omejeni s številom dostopnih sistemov, ki so nam na voljo, kar precej oteži skalirno analizo, s katero bi radi napovedali obnašanje sistema v termodinamski limiti neskončnega sistema. }\label{fig:tJ_num_states}}
-% {\includegraphics[width=0.62\textwidth]{tJ_num_states.pdf}}
-% \end{figure}
 \section{Točna diagonalizacija modelskih hamiltonk}
 \label{diagonalizacija_metoda}
-\section{Statistične lastnosti hamiltonskih spektrov}
+\chapter{Statistične lastnosti hamiltonskih spektrov}
 \label{statisticne_lastnosti}
-\subsection{Statistika sosednjih energijskih nivojev}
-\subsection{Spektralni oblikovni faktor}	
+\section{Statistika sosednjih energijskih nivojev}
+Za presojo ergodičnosti oziroma večdelčne lokaliziranosti sistema analiziramo{at
+
+istiko energijskih spektrov modelske hamiltonke pri različnih vrednostih parametrov nereda $W$ in $H$. Pri tem se zanašamo na spoznanja teorije naključnih matrik~\cite{mehta2004random} (RMT), ki temelji na pionirskem delu Eugenea Wignerja in Freemana J. Dysona, ki sta razvila teoretični model za opis energijskih spektrov kompleksnih atomskih jeder. Njuna ideja temelji na predpostavki, da je točna napoved energijskih nivojev in njim pripadajočih lastnih stanj v kompleksnih sistemih, kot so jedra težkih elementov, tako rekoč brezupna naloga. Namesto točnega izračuna je zato smiselneje preučevati statistične lastnosti spektrov. Druga ključna opazka je, da imajo modelske hamiltonke kompleksnih sistemov v generičnih bazah strukturo, ki je močno podobna strukturi naključnih matrik. Slednje velja v primeru, ko matrične elemente opazujemo v dovolj ozkem energijskem oknu, v katerem je gostota stanj približno konstantna. Analiza spektralnih lastnosti naključnih matrik tako lahko omogoči vpogled tudi v spektralne lastnosti hamiltonk kompleksnih sistemov, v kolikor zagotovimo, da naključne matrike pripadajo simetrijskemu razredu preučevane modelske hamiltonke. \\\\
+ Generičnost baze pomeni splošno izbiro baze, ki ni posebej `prikrojena' za potrebe našega problema. V Poglavju~\ref{modelimetode} predstavljena baza zasedenosti stanj ali baza lastnih stanj hamiltonke seveda nista generični bazi, saj ima v njih hamiltonka redko pasovno oziroma diagonalno strukturo, neničelni matrični elementi pa so vse prej kot naključni~\cite{d2016quantum}. Napovedi RMT so kljub temu veljavne, saj predpostavka naključnih matričnih elementov velja za izbiro splošne baze. \\\\
+ V naslednjih poglavjih predstavimo Wigner-Dysonovo in Poissonovo statistiko, ki opišeta razmik med sosednjimi energijskimi nivoji v ergodičnem in MBL ali integrabilnem sistemu. Razmik med sosednjimi energijskimi nivoji je definiran kot 
+ \begin{equation}\label{eq:razmik}
+ s_n=E_{n+1}-E_n,
+ \end{equation}
+ kjer je $E_n$ $n$-ti energijski nivo. \\\\
+ Poleg statistike odmikov med sosednjimi nivoji 
+ preučujemo tudi statistiko razmerij odmikov med sosednjimi energijskimi nivoji, ki sta jo v članku iz leta 2007~\cite{PhysRevB.75.155111} prva uvedla Oganesyan in Huse:
+ \begin{equation}\label{eq:oganesyan_huse}
+ \tilde{r}_n=\frac{\min\left(s_n,s_{n-1}\right)}{\max\left(s_n,s_{n-1}\right)}, \hspace{5mm} r_n=\frac{s_n}{s_{n-1}}.
+ \end{equation}
+ V praksi ergodičnost oziroma večdelčno lokaliziranost sistema presojamo na podlagi povprečne vrednosti $\langle \tilde{r}\rangle$, za katero v obeh režimih obstajata dobro določeni limitni vrednosti~\cite{atas2013distribution}. Poleg tega je povprečje $\langle \tilde{r}\rangle$ za vizualizacijo prikladnejša količina kot porazdelitev energijskih nivojev. 
+ \subsection{Wigner-Dysonova statistika razmikov med sosednjimi nivoji} 
+ V tem poglavju je izpeljana Wigner-Dysonova statistika za razmik med sosednjimi energijskimi nivoji v naključnih matrikah. Pri izpeljavi sledimo preglednemu članku navedenem v Ref.~\cite{d2016quantum}.
+ Osnovno idejo RMT lahko predstavimo z analizo hamiltonke velikosti $2\times2$, v kateri matrične elemente izžrebamo v skladu z Gaussovo verjetnostno porazdelitvijo z ničelnim povprečjem in varianco $\sigma$.  Pri tem upoštevamo še simetrije našega problema:
+
+ \begin{equation}\label{eq:rnd_ham}
+ \hat{H}=
+ \begin{bmatrix}
+ \varepsilon_1 & \frac{V}{\sqrt{2}} \\
+ \frac{V^*}{\sqrt{2}} & \varepsilon_2
+ \end{bmatrix}
+ \end{equation}
+ Če velja simetrija na obrat časa, $V=V^*$, lahko hamiltonko zapišemo kot realno matriko. Slednje drži tudi v primeru hamiltonke, podane z En. \eqref{eq:tJ_ham}. Diagonalizacija naključne $2\times2$ hamiltonke je enostavna, lastni energiji sta
+ \begin{equation}
+ E_{1,2}=\frac{\varepsilon_1+\varepsilon_2}{2}\pm \frac{1}{2}\sqrt{\left(\varepsilon_1 +\varepsilon_2\right)^2 + 2V^2}
+ \end{equation}
+ Od tod lahko izračunamo statistiko razmikov med energijskimi nivoji, $P(E_1-E_2=s)\equiv P(s),$
+\begin{equation}
+ P(s)=\frac{1}{\left(2\pi\right)^{3/2}\sigma^3}\int \dd\varepsilon_1\int\dd\varepsilon_2\int \dd V \delta\left(\sqrt{\left(\varepsilon_1 +\varepsilon_2\right)^2 + 2V^2}-s\right)\exp\left( -\frac{\varepsilon_1^2+\varepsilon_2^2+V^2}{2\sigma^2}\right)
+ \end{equation}
+ Z zamenjavo spremenljivk, $\varepsilon_2=\varepsilon_1+\sqrt{2}\xi$ in integracijo po $\varepsilon_1$ dobimo 
+ \begin{equation}
+ P(s)=\frac{1}{2\pi\sigma^2}\int\int\dd\xi\dd V\delta\left(\sqrt{2\xi^2+2V^2}\right)\exp\left(-\frac{\xi^2+V^2}{2\sigma^2}\right)
+ \end{equation}
+ Z uvedbo cilindričnih koordinat, $V=r\cos(x)$, $\xi=r\sin(x),$ dobimo 
+ \begin{equation}\label{eq:wigner_surmise}
+ P(s)=\frac{s}{2\sigma^2}\exp\left(-\frac{s^2}{4\sigma^2} \right)
+\end{equation}
+ Nazadnje porazdelitev še normirano in povprečni razmik med nivoji $\bar{s}$ postavimo na vrednost 1, pa dobimo za realne simetrične naključne matrike \emph{Wigner-Dysonovo} statistiko za razmik med energijskimi nivoji: 
+ \begin{equation}\label{eq:wigner-dyson}
+ P_\mathrm{WD}(s)=\frac{\pi s}{2}\exp\left(-\frac{\pi}{4}s^2\right)
+ \end{equation}
+ Zgornja statistika izkazuje dve splošni generični lastnosti, značilni za nivojske statistike kvantnih kaotičnih sistemov. V limiti $s\to 0$ je verjetnost za ničeln razmik med nivoji ničelna, kar kaže na odboj med nivoji (ang. \emph{level repulsion}). Kot bomo videli nekoliko kasneje, je to bistveno drugače od nivojskih statistik v integrabilnem ali MBL primeru. Za velike razmike $s$ verjetnost $P_\mathrm{WD}(s)$ pada kot gaussovska porazdelitev. Lastnosti statistike so bile sprva izpeljane za kvantne sisteme s klasičnim kaotičnim analogom, a se je kasneje izkazalo, da veljajo tudi za sisteme brez omenjene analogije.\\\\
+ Izraz \eqref{eq:wigner_surmise} je eksakten za hamiltonke velikosti $2\times2$, izkaže pa se~\cite{abanin2018ergodicity}~\cite{atas2013distribution}, da je ujemanje dobro tudi za višjedimezionalne hamiltonke. V tem primeru definiramo ansambel naključnih matrik, ki jih žrebamo v skladu z naključno Gaussovsko porazdelitvijo kot
+ \begin{equation}
+ P_\mathrm{GOE}(\hat{H})\propto \exp\left(-\frac{1}{2a^2}\Tr\left(\hat{H}^2\right) \right) \equiv \exp\left(-\frac{1}{2a^2}\sum\limits_{ij}H_{ij}H_{ji} \right)
+ \end{equation}
+ Tako definiran ansambel matrik se imenuje gaussovski ortogonalni ansambel (GOE), z zgornjo definicijo pa zadostimo zahtevi po invariantnosti ansambla na vsakršne ortogonalne transformacije, saj je porazdelitev odvisna zgolj od sledi kvadrata posamezne hamiltonke, kar je po definiciji invariantna količina. Hkrati je porazdelitev gaussovska, saj je sled vsota kvadratov naključno porazdeljenih matričnih elementov in kot takšna zadošča centralnemu limitnemu izreku. \\\\Izpeljava natančnih izrazov za nivojske statistike hamiltonk iz GOE ni predmet te magistrske naloge, v splošnem zanje zaključena analitična oblika niti ne obstaja. Podrobnejša analiza je navedena v članku v Ref.~\cite{atas2013distribution}, tu bomo za presojo uporabljali rezultat, podan z En. \eqref{eq:wigner_surmise}, ki dobro popiše tudi večdimenzionalne primere. 
+ \subsection{Poissonova statistika razmikov med sosednjimi nivoji}
+ V predhodnem podpoglavju smo obravnavali nivojsko statistiko v kvantnokaotičnih sistemih, v katerih so razmiki med sosednjimi energijskimi nivoji porazdeljeni v skladu z Wigner-Dysonovo statistiko. Porazdelitev za kvantne integrabilne sisteme sta prva obravnavala Berry in Tabor v članku iz leta 1977~\cite{berry1977level}. Za potrebe razjasnitve pojmov, ki nastopajo v zaključni nalogi, bom tu navedel zgolj ključne rezultate. \\\\
+ Med enostavnejše primere neergodičnega sistema sodi veriga neodvisnih kvantnih harmonskih oscilatorjev z nesoizmerljivimi frekvencami. V odsotnosti medsebojne sklopitve lahko vsakega izmed oscilatorjev diagonaliziramo neodvisno od preostalih, skupno energijo pa dobimo s seštevanjem enooscilatorskih energij kot 
+ $$
+ E=\sum_j n_j\omega_j,
+ $$ 
+ kjer je $j$ lastna frekvenca, $n_j$ pa zasedbeno število $j$-tega oscilatorja. Za velike vrednosti $E$ dobimo podobne vrednosti energije za različne nabore zasedbenih števil $\{n_j\}$, zato lahko energijske nivoje obravnavamo kot nekorelirana naključna števila. V tem primeru je verjetnost, da se na energijskem intervalu dolžine $\delta E$ nahaja $m$ energijskih nivojev, enaka Poissonovi porazdelitvi 
+ \begin{equation}
+ P_m=\frac{\lambda^m}{m!}\exp\left(-\lambda \delta E\right),
+ \end{equation}
+ kjer je $\lambda$ enaka inverznemu povprečnemu razmiku med nivoji v spektru. Porazdelitev razmikov med nivoji tako dobimo na enak način kot porazdelitev čakalnih časov med dogodki v Poissonovem procesu:
+ \begin{equation}\label{eq:poisson}
+ P_\mathrm{Poisson}(s)=P_0=\exp\left(-s\right)
+ \end{equation}
+ Pri tem smo postavili $\lambda=1$ in vpeljali $s$ kot  $s=\delta E$. V nasprotju z Wigner-Dysonovo porazdelitvijo pri Poissonovi statistiki ni odboja med nivoji, saj ima porazdelitev vrh pri $s=0$. V integrabilnih sistemih je slednje posledica ohranjenih količin. Podobno je v MBL sistemih veljavnost Poissonove statistike posledica uvedbe naključnih členov v modelsko hamiltonko. \\\\
+ Splošna izjava, ki povzame vsebino tega podpoglavja, pravi, da izkazujejo kvantni sistemi s klasičnim analogom Poissonovo statistiko razmikov med sosednjimi energijskimi nivoji. Izjava drži tudi v primeru mnogih kvantnih sistemov brez klasične ustreznice, kljub temu pa obstajajo tudi protiprimeri, npr. en delec v harmonskem potencialu. Predpostavka veljavnosti Poissonove statistike je zato danes znana kot \emph{domneva} Berrya in Taborja (ang. \emph{Berry-Tabor conjecture})~\cite{berry1977level}.\\\\
+ Na Sliki \ref{fig:unfolding_demo_three_slo} so prikazani primeri numerično izračunanih nivojskih statistik v ergodičnem, vmesnem in MBL režimu skupaj z Wigner-Dysonovo in Poissonovo statistiko. 
+ \subsection{Statistika razmerij odmikov sosednjih nivojev $\tilde{r}$}
+ Po postopku, ki ga opišem v poglavju o numerični implementaciji izračunov, izračunam povprečno vrednost količine $\tilde{r}$, ki jo podaja En. \eqref{eq:oganesyan_huse}. V ergodičnem primeru mora izračunana vrednost $\langle \tilde{r}\rangle$ čim bolje ustrezati GOE vrednosti, ki znaša:
+ \begin{equation}\label{eq:r_GOE}
+ \langle \tilde{r}\rangle_\mathrm{GOE}=0.5307
+ \end{equation}
+ V integrabilnem ali MBL primeru ustreza povprečno razmerje razmikov sosednjih nivojev vrednosti za Poissonovo porazdeljen spekter lastnih vrednosti: 
+ \begin{equation}\label{eq:r_poisson}
+ \langle \tilde{r}\rangle_\mathrm{Poisson}=0.38629
+ \end{equation}
+
+\section{Spektralni oblikovni faktor}	
 \section{Prepletenostna entropija}
 \label{prepletenostna_numericno}
 
 
 
-\newpage
+\cleardoublepage\phantomsection
+\addcontentsline{toc}{chapter}{Literatura}
 \bibliographystyle{fmf-sl}
 \bibliography{literatura}
 
+%%% DODATKI
 
+\cleardoublepage
+\renewcommand\appendixname{Dodatek}
+\begin{appendices}
 
+\chapter{Preslikava med Hubbardovim modelom in modelom $t$-$J$}
+\label{tj_hubb_preslikava}
+Zanima nas izpeljava preslikave med Hubbardovim modelom in modelom $t$-$J$, pri čemer želimo pravilno obravnavati vlogo potencialnega nereda, ki se sklaplja bodisi z nosilci naboja bodisi s spini. Uvodoma obravnavamo enostavnejši primer brez dodatnega naključnega nereda, v drugem delu pa vključimo tudi tega. 
+\section{Primer brez nereda}
+Obravnavamo Hubbardov model, ki ga v približku tesne vezi podaja hamiltonka
+\begin{equation}\label{eq:hubbard}
+H=H_t + H_U=-t\sum\limits_{\langle ij \rangle, \sigma}\left(c^\dagger_{i,\sigma} c_{j\sigma} + c^\dagger_{j\sigma}c_{i\sigma}\right) + U\sum_i n_{i\uparrow}n_{i\downarrow}.
+\end{equation}
+Pri tem  $\langle ij \rangle$ označuje vsoto po najbližjih sosedih, $\sigma$ pa vsoto po projekcijah spina na os $z$. Fermionski kreacijski in anihilacijski operatorji $c^\dagger_{i,\sigma}, c_{i,\sigma}$ ustvarijo oziroma uničijo delec z dano projekcijo spina $\sigma$ na $i$-tem mestu v kristalni rešetki.  Med izpeljavo bomo pri zapisu večdelčnih stanj upoštevali naslednjo ureditev fermionskih operatorjev
+$$
+\ket{\psi}=\prod\limits_{\{i_\uparrow \}} c_{i, \uparrow}^\dagger \prod\limits_{\{j_\downarrow \}} c_{j, \downarrow}^\dagger \ket{0},
+$$
+kjer je $\ket{0}$ vakuumsko stanje, produkta pa tečeta po vseh mestih, na katerih se nahajajo spini z dano projekcijo. \\\\
+V hamiltonki, ki jo podaja En. \eqref{eq:hubbard}, skakalni člen $H_t$ opisuje skakanje elektronov med sosednjimi mesti v kristalni rešetki, pri čemer je $t$ verjetnost za tovrstno tuneliranje. Interakcijski člen $H_U$ modelira coulombski odboj med elektroni in ob dvojni zasedenosti mesta povzroči energijski prirastek $U$. V limitnem primeru $t\to 0$, oziroma v limiti popolnoma lokaliziranih enodelčnih valovnih funkcij, so večdelčna stanja brez dvojne zasedenosti mest medsebojno degenerirana pri ničelni energiji. Pri izpeljavi modela tJ predpostavimo močno coulombsko interakcijo $U$ in posledično nizko koncentracijo energijsko neugodnih dvojno zasedenih mest. V tem primeru so visokoenergijska stanja z dvojno zasedenimi mesti v energijskem spektru dobro ločena od stanj z največ enojno zasedenimi mesti. Za opis nizkoenergijskih stanj Hubbardove hamiltonke, podane z En. \eqref{eq:hubbard}, torej v tej limiti zadošča obravnava problema na podprostoru največ enojno zasedenih stanj.  \\
+Preslikavo med Hubbardovim modelom in modelom $t$-$J$ bomo izpeljali perturbativno, začenši v limiti popolnoma lokaliziranih enodelčnih valovnih funkcij, kjer kot neperturbirani del hamiltonke vzamemo interakcijski člen $H_t$, kinetični člen $H_U$ pa vključimo kot perturbacijo. Zanima nas oblika efektivne hamiltonke $\tilde{H}$, s katero v limiti močne coulombske interakcije opišemo fiziko nizkoenergijskih stanj Hubbardove hamiltonke. Ker se v slednji sklapljajo le sosednja mesta, lahko problem brez škode za splošnost obravnavamo na dveh sosednjih mestih. Ob upoštevanju prepovedi dvojne zasedenosti mest razpenjajo bazo pripadajočega Hilbertovega podprostora naslednja stanja:
+%\begin{equation}
+%\begin{aligned}\qquad
+%&\ket{\alpha_1}= \ket{  \overset{i}{\uparrow} \overset{j}{\uparrow}}=c^\dagger_{i,\uparrow}c^\dagger_{j,\uparrow}\ket{0} & \ket{\alpha_2}=\ket{ \downarrow \downarrow}=c^\dagger_{i,\downarrow}c^\dagger_{j,\downarrow}\ket{0},\hspace{5mm} &\ket{\alpha_5}= \ket{\uparrow \bullet}=c^\dagger_i\ket{0} &\ket{\alpha_6}=\ket{ \bullet  \uparrow}=c^\dagger_{j,\uparrow}\ket{0}\\
+%&\ket{\alpha_3}=\ket{ \uparrow \downarrow }=c^\dagger_{i,\uparrow}c^\dagger_{j,\downarrow}\ket{0} &\ket{\alpha_4}=\ket{ \downarrow \uparrow }=c^\dagger_{j,\uparrow}c^\dagger_{i,\uparrow}\ket{0},\hspace{5mm} &\ket{\alpha_7}=\ket{\downarrow \bullet}=c^\dagger_j\ket{0}&\ket{\alpha_8}=\ket{ \bullet  \downarrow }=c^\dagger_{j,\downarrow}\ket{0}\\\\
+%\end{aligned}
+%\end{equation}
+\begin{equation}\label{eq:stanja}
+\begin{aligned}\qquad
+&\ket{\alpha_1}= \ket{  \overset{i}{\uparrow} \overset{j}{\uparrow}}=c^\dagger_{i,\uparrow}c^\dagger_{j,\uparrow}\ket{0} & \ket{\alpha_2}=\ket{ \downarrow \downarrow}=c^\dagger_{i,\downarrow}c^\dagger_{j,\downarrow}\ket{0}\\
+&\ket{\alpha_3}=\ket{ \uparrow \downarrow }=c^\dagger_{i,\uparrow}c^\dagger_{j,\downarrow}\ket{0} &\ket{\alpha_4}=\ket{ \downarrow \uparrow }=c^\dagger_{j,\uparrow}c^\dagger_{i,\uparrow}\ket{0} \\\\
+&\ket{\alpha_5}= \ket{\uparrow \bullet}=c^\dagger_{i,\uparrow}\ket{0} &\ket{\alpha_6}=\ket{ \bullet  \uparrow}=c^\dagger_{j,\uparrow}\ket{0}\\
+&\ket{\alpha_7}=\ket{\downarrow \bullet}=c^\dagger_{j,\downarrow}\ket{0}&\ket{\alpha_8}=\ket{ \bullet  \downarrow }=c^\dagger_{j,\downarrow}\ket{0}\\
+\end{aligned}
+\end{equation}
+Označimo podprostor stanj brez vrzeli z $\{ \ket{\alpha^0}\}$ in podprostor stanj z vrzeljo $\{ \ket{\alpha^1}\}$.
+Prepovedana stanja z energijo $U$ in dvojno zasedenostjo mest bomo potrebovali pri perturbacijski obravnavi in jih zapišemo  kot 
+\begin{equation}\label{eq:vzbujena}
+\ket{\beta}=\ket{ \overset{i}{\uparrow\downarrow}\overset{j}{\bullet}}=c^\dagger_{i,\uparrow}c^\dagger_{i,\downarrow}\ket{0}, \hspace{10mm} 
+\ket{\beta'}=\ket{\overset{i}{\bullet}\overset{j}{\uparrow\downarrow}}=c^\dagger_{j,\uparrow}c^\dagger_{j,\downarrow}\ket{0}.
+\end{equation}
+ V modelu $t$-$J$ so skoki delcev med posameznimi mesti dovoljeni le v primeru, ko je na ciljnem mestu pred skokom vrzel. Formalno zahtevi zadostimo z uvedbo projiciranih fermionskih operatorjev $\tilde{c}_{is}$ v skladu s predpisom 
+\begin{equation}\label{eq:projicirani}
+\tilde{c}^\dagger_{is}= c^\dagger_{is} \left(1-n_{i-s}\right),
+\end{equation}
+s čimer preprečimo možnost dvojne zasedenosti posameznega mesta. Kinetični del $\tilde{H}_\mathrm{kin}$ efektivne hamiltonke $\tilde{H}$ tako dobimo v prvem redu perturbacije z delovanjem operatorja $H_\mathrm{kin}$ na podprostoru $\{ \ket{\alpha^1} \}$. S projiciranimi operatorji ga zapišemo kot 
+\begin{equation}\label{eq:ef_kin}
+\tilde{H}_t=-t\sum\limits_{\langle ij \rangle s} \left(\tilde{c}^\dagger_{i,s} \tilde{c}_{js} + \tilde{c}^\dagger_{js}\tilde{c}_{is}\right).
+\end{equation}
+Pri nadaljnji perturbacijski obravnavi moramo upoštevati drugi red degenerirane perturbacijske teorije, saj v podprostoru $\{ \ket{\alpha^0}\}$ direktni matrični elementi $\bra{\alpha} H_t \ket{\alpha}$ ne obstajajo, vsa stanja $\ket{\alpha}$ pa so ob odsotnosti perturbacije degenerirana. 
+Matrične elemente efektivne hamiltonke v tem primeru podaja zveza 
+\begin{equation}
+\left(\tilde{H}_\mathrm{eff}\right)_{\alpha, \alpha'}=\sum\limits_{\beta\neq\alpha}\frac{\bra{\alpha}H_t\ket{\beta}\bra{\beta}H_t\ket{\alpha'}}{E_\alpha^0 - E_\beta^0},
+\end{equation}
+kjer vsota teče po vzbujenih stanjih, podanih z En. \eqref{eq:vzbujena}. Hitro vidimo, da je 
+$H_t\ket{\beta}=H_t\ket{\beta'}=-t\left(\ket{\alpha_3}+ \ket{\alpha_4}\right)$ in da so potemtakem neničelni le matrični elementi $\tilde{H}_{33}=\tilde{H}_{44}=\tilde{H}_{34}=\tilde{H}_{43}=-\frac{2t^2}{U}$. Tu smo upoštevali $E_\alpha^0- E_\beta^0 \sim -U$. Če zapišemo matrične elemente $\tilde{H}_\mathrm{eff}$ kot
+\begin{equation}
+\begin{aligned}\qquad
+&\tilde{H}_{33}=\ket{\alpha_3}\bra{\alpha_3}=\frac{-2t^2}{U} c^\dagger_{i,\uparrow}c^\dagger_{j,\downarrow}c_{j,\downarrow}c_{i,\uparrow}= \frac{2t^2}{U}c^\dagger_{i,\uparrow}c_{i,\uparrow}c^\dagger_{j,\downarrow}c_{j,\downarrow},\\
+&\tilde{H}_{44}=\ket{\alpha_4}\bra{\alpha_4}=\frac{-2t^2}{U} c^\dagger_{j,\uparrow}c^\dagger_{i,\downarrow}c_{i,\downarrow}c_{j,\uparrow}= \frac{2t^2}{U}c^\dagger_{j,\uparrow}c_{j,\uparrow}c^\dagger_{i,\downarrow}c_{i,\downarrow},\\
+&\tilde{H}_{34}=\ket{\alpha_3}\bra{\alpha_4}=\frac{-2t^2}{U} c^\dagger_{i,\uparrow}c^\dagger_{j,\downarrow}c_{i,\downarrow}c_{j,\uparrow}= \frac{2t^2}{U}c^\dagger_{i,\uparrow}c_{i,\downarrow}c^\dagger_{j,\downarrow}c_{j,\uparrow},\\
+&\tilde{H}_{43}=\ket{\alpha_4}\bra{\alpha_3}=\frac{-2t^2}{U} c^\dagger_{j,\uparrow}c^\dagger_{i,\downarrow}c_{j,\downarrow}c_{i,\uparrow}= \frac{2t^2}{U}c^\dagger_{j,\uparrow}c_{j,\downarrow}c^\dagger_{i,\downarrow}c_{i,\downarrow},
+\end{aligned}
+\end{equation}
+potem lahko  $\tilde{H}_\mathrm{eff}$ zapišemo kot 
+\begin{equation}\label{eq:efektivno}
+\tilde{H}_\mathrm{eff} = \frac{2t^2}{U}\sum\limits_{\langle ij\rangle s } \left[\tilde{c}^\dagger_{i,s}\tilde{c}_{i,-s}\tilde{c}^\dagger_{j,-s}\tilde{c}_{j,s} + n_{i,s}n_{j,-s}  \right].
+\end{equation}
+En. \eqref{eq:efektivno} lahko prikladneje zapišemo z uporabo spinskih operatorjev. Prepoznamo namreč $S_i^+=\tilde{c}^\dagger_{i,\uparrow}\tilde{c}_{i,\downarrow}$ in $S_i^-=\tilde{c}^\dagger_{i,\downarrow}\tilde{c}_{i,\uparrow}$, pri zapisu $\sum\limits_{s} n_{i,s}n_{j,-s}$ pa uporabimo zvezi $n_i=\left( n_{i,\uparrow} + n_{i, \downarrow}\right)$ in $S_i^z=\frac{1}{2}\left(n_{i, \uparrow} - n_{i, \downarrow} \right)$. Dobimo
+\begin{equation}\label{eq:mat_elti}
+\begin{split}
+\tilde{H}_\mathrm{eff}& = \frac{2t^2}{U} \sum\limits_{\langle ij \rangle}\left[ \left( S_i^+S_j^- + S_i^-S_j^+\right) - \frac{n_i n_j - 4S_i^zS_j^z}{2}\right]=\\
+&=J\sum\limits_{\langle ij \rangle} \left[ S_i\cdot  S_j - \frac{n_i n_j}{4}\right].
+\end{split}
+\end{equation}
+Pri tem smo vpeljali izmenjalno sklopitev $J=\frac{4t^2}{U}$, na vmesnem koraku zgornje izpeljave pa smo uporabili enakost $2S_i\cdot S_j = 2S_i^z S_j^z + S_i^+S_j^+ + S_i^-S_j^+$. Celotna hamiltonka $\tilde{H}$ se ob upoštevanju mobilnih vrzeli in sklopitve magnetnih prostorskih stopenj zapiše kot 
+\begin{equation}\label{eq:tjhamiltonka}
+\tilde{H} = -t\sum\limits_{\langle ij \rangle s} \left(\tilde{c}^\dagger_{i,s} \tilde{c}_{js} + \tilde{c}^\dagger_{js}\tilde{c}_{is}\right) +  J\sum\limits_{\langle ij \rangle} \left[ S_i\cdot  S_j - \frac{n_i n_j}{4}\right]
+\end{equation}
+\section{Dodatek nereda}
+Tokrat nas zanima, na kateri tip nereda v modelu $t$-$J$ se preslika nered, ki ga v Hubbardovem modelu sklopimo bodisi s spini bodisi z vrzelmi. Hamiltonki, ki jo podaja En. \eqref{eq:hubbard}, v vsej splošnosti dodamo člen z neredom kot 
+\begin{equation}
+H=H_t + H_U + H_\mathrm{dis}=-t\sum\limits_{\langle ij \rangle, s}\left(c^\dagger_{i,s} c_{js} + c^\dagger_{js}c_{is}\right) + U\sum_i n_{i\uparrow}n_{i\downarrow} + \sum\limits_{i,s} h_{i,s} n_{i, s}  
+\end{equation}
+kjer so $h_{i,s}$ v skladu z neko verjetnostno porazdelitvijo izžrebane naključne vrednosti, pri čemer sta porazdelitvi za posamezni projekciji spina v splošnem lahko različni. V prvem redu perturbacije dobimo za kinetični člen in člen z neredom naslednji izraz
+\begin{equation}
+\tilde{H}_\mathrm{kin} + \tilde{H}_\mathrm{dis} = -t\sum\limits_{\langle ij \rangle s} \left(\tilde{c}^\dagger_{i,s} \tilde{c}_{js} + \tilde{c}^\dagger_{js}\tilde{c}_{is}\right) +\sum\limits_{i,s} h_{i,s} \left(1-n_{i,-s}\right)n_{i,s}
+\end{equation}
+Na mestih $i, j$ smo tako dodali nered $h_{\{i,j\},s}$. Stanji $\ket{\beta}$ in $\ket{\beta'}$ imata sedaj energiji 
+\begin{equation}
+E_\beta = U + h_{i,\uparrow} + h_{i,\downarrow}, \hspace{5mm} E_{\beta'}= U + h_{j, \uparrow} + h_{j,\downarrow} 
+\end{equation}
+za uporabo perturbacijske teorije drugega reda pa potrebujemo bazo medsebojno degeneriranih stanj. Iz stanj, podanih v En. \eqref{eq:stanja}, sestavimo bazo 
+\begin{equation}
+\begin{split}
+%\ket{\tilde{\alpha}_1}=&\frac{1}{\sqrt{2}}\left( \ket{\alpha_1 } + \ket{\alpha_2}\right), \hspace{5mm} \ket{\tilde{\alpha}_2}= \frac{1}{\sqrt{2}}\left(\ket{\alpha_1 } - \ket{\alpha_2}\right)\\
+\ket{\tilde{\alpha_3}}=&\frac{1}{\sqrt{2}}\left( \ket{\alpha_3} + \ket{\alpha_4}\right), \hspace{ 5mm}\ket{\tilde{\alpha_4}}=\frac{1}{\sqrt{2}}\left(\ket{\alpha_3} - \ket{\alpha_4}\right).
+\end{split}
+\end{equation}
+Od prej vemo, da stanji $\ket{\alpha_1}$ in $\ket{\alpha_2}$ za našo izpeljavo nista pomembni, saj bosta prispevali le ničelne matrične elemente v efektivni hamiltonki, medtem ko sta zgornji stanji ob odsotnosti perturbacije degenerirani z energijo $$E_0^\alpha= \frac{1}{2} \left(h_{i,\uparrow} + h_{i,\downarrow} + h_{j,\uparrow} + h_{j,\downarrow}\right).$$ Takoj vidimo, da je 
+$H_\mathrm{kin}\ket{\beta}= H_\mathrm{kin}\ket{\beta'}=-t\left(\ket{\alpha_3}+\ket{\alpha_4}\right)=-t\sqrt{2} \ket{\tilde{\alpha}_3}$. V efektivni hamiltonki imamo tako samo člen 
+$$\tilde{H}_{\tilde{3},\tilde{3}}=2t^2\left(\frac{1}{U - \Xi_{i,j}} + \frac{1}{ U + \Xi_{i,j}}\right), $$
+kjer je 
+$$\Xi_{i,j}=\frac{1}{2}\sum\limits_s \left(h_{i,s} - h_{j,s}\right).$$
+V bazi stanj $\ket{\alpha_3}, \ket{\alpha_4}$ imamo tako 
+$$
+\tilde{H}_{3,3}=\tilde{H}_{4,4}=\tilde{H}_{3,4}=\tilde{H}_{4,3}=t^2\left( \frac{1}{U - \Xi_{i,j}} + \frac{1}{U + \Xi_{i,j}}\right).
+$$
+Od tu naprej je razprava enaka kot zgoraj, zaradi vpliva nereda očitno postane tudi sklopitvena konstanta krajevno odvisna, $J\rightarrow J_{i,j}$, kjer je 
+\begin{equation}
+J_{i,j}=2t^2 \left( \frac{1}{U-\Xi_{i,j}} + \frac{1}{U+ \Xi_{i,j}}\right).
+\end{equation}
+V odsotnosti nereda pridemo nazaj v predhodni primer, $J=\frac{4t^2}{U}$. Z dodatkom nereda se tako Hubbardova hamiltonka, podana z En. \eqref{eq:hubbard}, v hamiltonko modela $t$-$J$ preslika kot 
+\begin{equation}
+\tilde{H}=-t\sum\limits_{\langle ij \rangle s} \left(\tilde{c}^\dagger_{i,s} \tilde{c}_{js} + \tilde{c}^\dagger_{js}\tilde{c}_{is}\right) +\sum\limits_{\langle ij \rangle} J_{i,j}\left[ S_i\cdot  S_j - \frac{n_i n_j}{4}\right] +\sum\limits_{i,s} h_{i,s} \left(1-n_{i,-s}\right)n_{i,s}.
+\end{equation}
+\end{appendices}
+
+%%% KAZALO (NEOBVEZNO)
+
+\cleardoublepage
+\printindex
 
 \end{document}
+
 
 

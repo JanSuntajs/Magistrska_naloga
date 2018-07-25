@@ -12,10 +12,18 @@
 \contentsline {subsection}{\numberline {2.2.3}Zna\IeC {\v c}ilnosti MBL sistemov }{27}{subsection.2.2.3}
 \contentsline {chapter}{\numberline {3}Modeli in metode}{31}{chapter.3}
 \contentsline {section}{\numberline {3.1}Fermionski modeli brez spinskih prostostnih stopenj}{31}{section.3.1}
-\contentsline {section}{\numberline {3.2}Model $t$-$J$}{33}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Preslikava med Hubbardovim modelom in modelom $t$-$J$}{36}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.2}Fermionski modeli s spinskimi prostostnimi stopnjami}{33}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Hubbardov model}{33}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Model $t$-$J$}{34}{subsection.3.2.2}
 \contentsline {section}{\numberline {3.3}To\IeC {\v c}na diagonalizacija modelskih hamiltonk}{36}{section.3.3}
-\contentsline {section}{\numberline {3.4}Statisti\IeC {\v c}ne lastnosti hamiltonskih spektrov}{36}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Statistika sosednjih energijskih nivojev}{36}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Spektralni oblikovni faktor}{36}{subsection.3.4.2}
-\contentsline {section}{\numberline {3.5}Prepletenostna entropija}{36}{section.3.5}
+\contentsline {chapter}{\numberline {4}Statisti\IeC {\v c}ne lastnosti hamiltonskih spektrov}{37}{chapter.4}
+\contentsline {section}{\numberline {4.1}Statistika sosednjih energijskih nivojev}{37}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Wigner-Dysonova statistika razmikov med sosednjimi nivoji}{38}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Poissonova statistika razmikov med sosednjimi nivoji}{39}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Statistika razmerij odmikov sosednjih nivojev $\mathaccentV {tilde}07E{r}$}{40}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Spektralni oblikovni faktor}{40}{section.4.2}
+\contentsline {section}{\numberline {4.3}Prepletenostna entropija}{40}{section.4.3}
+\contentsline {chapter}{Literatura}{41}{section*.18}
+\contentsline {chapter}{Dodatek \numberline {A}Preslikava med Hubbardovim modelom in modelom $t$-$J$}{45}{Dodatek.1.A}
+\contentsline {section}{\numberline {A.1}Primer brez nereda}{45}{section.1.A.1}
+\contentsline {section}{\numberline {A.2}Dodatek nereda}{47}{section.1.A.2}

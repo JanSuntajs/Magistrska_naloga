@@ -3,44 +3,46 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: FMF_Magistrsko_delo_Jan_Suntajs.aux
 The style file: fmf-sl.bst
 Database file #1: literatura.bib
-You've used 36 entries,
+Warning--I didn't find a database entry for ""
+You've used 38 entries,
             2705 wiz_defined-function locations,
-            832 strings with 10532 characters,
-and the built_in function-call counts, 14306 in all, are:
-= -- 959
-> -- 490
+            844 strings with 10831 characters,
+and the built_in function-call counts, 15151 in all, are:
+= -- 1018
+> -- 518
 < -- 1
-+ -- 246
-- -- 140
-* -- 1042
-:= -- 1827
-add.period$ -- 36
-call.type$ -- 36
-change.case$ -- 174
++ -- 260
+- -- 148
+* -- 1106
+:= -- 1934
+add.period$ -- 38
+call.type$ -- 38
+change.case$ -- 184
 chr.to.int$ -- 0
-cite$ -- 36
-duplicate$ -- 1292
-empty$ -- 1354
-format.name$ -- 167
-if$ -- 2887
+cite$ -- 38
+duplicate$ -- 1366
+empty$ -- 1433
+format.name$ -- 177
+if$ -- 3057
 int.to.chr$ -- 0
-int.to.str$ -- 36
-missing$ -- 310
-newline$ -- 114
-num.names$ -- 72
-pop$ -- 495
+int.to.str$ -- 38
+missing$ -- 328
+newline$ -- 120
+num.names$ -- 76
+pop$ -- 520
 preamble$ -- 1
-purify$ -- 142
+purify$ -- 150
 quote$ -- 0
-skip$ -- 321
+skip$ -- 339
 stack$ -- 0
-substring$ -- 757
-swap$ -- 782
+substring$ -- 810
+swap$ -- 831
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 136
+type$ -- 144
 warning$ -- 0
-while$ -- 114
-width$ -- 38
-write$ -- 300
+while$ -- 121
+width$ -- 40
+write$ -- 316
+(There was 1 warning)
