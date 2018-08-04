@@ -1,0 +1,3 @@
+NASVETI POPRAVILO: 
+
+popravi ncu v num states in podobnih funkcijah; num_states za energije dela bp, ko pa to kličeš še enkrat v rdm izračunih, nastopijo težave, saj se ncu ponastavi na drugo vrednost, zato indeksacija ne deluje več. 
