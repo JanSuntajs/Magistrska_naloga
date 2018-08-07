@@ -67,6 +67,11 @@ P.~Bordia in~dr., \emph{Coupling identical one-dimensional many-body localized
   systems}, Phys. Rev. Lett. \textbf{116} (2016) 140401,
   \doi{10.1103/PhysRevLett.116.140401}.
 
+\bibitem{chen2017universal}
+X.~Chen in A.~W. Ludwig, \emph{Universal spectral correlations in the chaotic
+  wave function, and the development of quantum chaos}, arXiv preprint
+  arXiv:1710.02686  (2017).
+
 \bibitem{d2016quantum}
 L.~D'Alessio in~dr., \emph{From quantum chaos and eigenstate thermalization to
   statistical mechanics and thermodynamics}, Advances in Physics \textbf{65}(3)
@@ -84,6 +89,9 @@ A.~Finkelshtein, \emph{Influence of coulomb interaction on the properties of
 L.~Fleishman in P.~Anderson, \emph{Interactions and the anderson transition},
   Physical Review B \textbf{21}(6) (1980) 2366.
 
+\bibitem{grassellientanglement}
+F.~Grasselli in G.~Grignani, \emph{Entanglement entropy} .
+
 \bibitem{karabach1997introduction}
 M.~Karabach in~dr., \emph{Introduction to the bethe ansatz i}, Computers in
   Physics \textbf{11}(1) (1997) 36--43.
@@ -92,6 +100,11 @@ M.~Karabach in~dr., \emph{Introduction to the bethe ansatz i}, Computers in
 S.~S. Kondov in~dr., \emph{Disorder-induced localization in a strongly
   correlated atomic hubbard gas}, Phys. Rev. Lett. \textbf{114} (2015) 083002,
   \doi{10.1103/PhysRevLett.114.083002}.
+
+\bibitem{kos2018many}
+P.~Kos, M.~Ljubotina in T.~Prosen, \emph{Many-body quantum chaos: Analytic
+  connection to random matrix theory}, Physical Review X \textbf{8}(2) (2018)
+  021062.
 
 \bibitem{kramer1993localization}
 B.~Kramer in A.~MacKinnon, \emph{Localization: theory and experiment}, Reports
@@ -161,6 +174,11 @@ M.~Schreiber in~dr., \emph{Observation of many-body localization of interacting
 M.~Serbyn, Z.~Papi{\'c} in D.~A. Abanin, \emph{Local conservation laws and the
   structure of the many-body localized states}, Physical review letters
   \textbf{111}(12) (2013) 127201.
+
+\bibitem{sieber2001correlations}
+M.~Sieber in K.~Richter, \emph{Correlations between periodic orbits and their
+  r{\^o}le in spectral statistics}, Physica Scripta \textbf{2001}(T90) (2001)
+  128.
 
 \bibitem{spalek2007tj}
 J.~Spalek, \emph{tj model then and now: a personal perspective from the

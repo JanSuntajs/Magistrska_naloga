@@ -3,44 +3,47 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: FMF_Magistrsko_delo_Jan_Suntajs.aux
 The style file: fmf-sl.bst
 Database file #1: literatura.bib
-You've used 40 entries,
+Warning--empty journal in grassellientanglement
+Warning--empty year in grassellientanglement
+You've used 44 entries,
             2705 wiz_defined-function locations,
-            856 strings with 11179 characters,
-and the built_in function-call counts, 16041 in all, are:
-= -- 1081
-> -- 553
+            875 strings with 11756 characters,
+and the built_in function-call counts, 17516 in all, are:
+= -- 1174
+> -- 616
 < -- 1
-+ -- 278
-- -- 158
-* -- 1174
-:= -- 2042
-add.period$ -- 40
-call.type$ -- 40
-change.case$ -- 195
++ -- 310
+- -- 176
+* -- 1280
+:= -- 2228
+add.period$ -- 44
+call.type$ -- 44
+change.case$ -- 216
 chr.to.int$ -- 0
-cite$ -- 40
-duplicate$ -- 1440
-empty$ -- 1511
-format.name$ -- 189
-if$ -- 3236
+cite$ -- 46
+duplicate$ -- 1574
+empty$ -- 1639
+format.name$ -- 211
+if$ -- 3527
 int.to.chr$ -- 0
-int.to.str$ -- 40
-missing$ -- 347
-newline$ -- 126
-num.names$ -- 80
-pop$ -- 553
+int.to.str$ -- 44
+missing$ -- 380
+newline$ -- 138
+num.names$ -- 88
+pop$ -- 622
 preamble$ -- 1
-purify$ -- 159
+purify$ -- 176
 quote$ -- 0
-skip$ -- 360
+skip$ -- 398
 stack$ -- 0
-substring$ -- 863
-swap$ -- 879
+substring$ -- 910
+swap$ -- 956
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 152
-warning$ -- 0
-while$ -- 128
-width$ -- 42
-write$ -- 332
+type$ -- 168
+warning$ -- 2
+while$ -- 138
+width$ -- 46
+write$ -- 362
+(There were 2 warnings)
