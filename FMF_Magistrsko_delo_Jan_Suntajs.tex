@@ -877,7 +877,7 @@ Pri diagonalizaciji dobimo spekter po velikosti urejenih lastnih vrednosti $E_i$
 \end{equation}
 gostoto stanj pa določa zveza 
 \begin{equation}\label{eq:DOS}
-\rho(E)=\frac{\dd \tilde{N}(E)}{\dd E}.
+\tilde{\rho}(E)=\frac{\dd \tilde{N}(E)}{\dd E}.
 \end{equation}
 V odvisnosti $\tilde{N}(E_j),$ kjer je $j$ zaporedni indeks lastnega stanja, je razmik med zaporednimi nivoji po definiciji En. \eqref{eq:unfolding} enak 1. Diskretni kumulativni porazdelitvi $\tilde{N}(E_j)$ priredimo polinomsko krivuljo $g(E_j)$ dovolj visoke stopnje in jo tako zgladimo. V našem programu za prilagoditev krivulje uporabimo funkciji \url{polyfit} in \url{poly1d} iz knjižnice \url{numPy} v programskem jeziku \url{python}.
  Namesto razmika med nivojema $E_n$ in $E_{n+1}$ v energijskem spektru tako spremljamo razmik med nivojema prilagojenega polinoma $g(E_{n})$ in $g(E_{n+1})$. Vlogo razmika med sosednjimi nivoji $s$, podanega z En. \eqref{eq:razmik}, ima tako v naših izračunih v resnici količina $\tilde{s}$, podana kot
@@ -933,7 +933,7 @@ Z dodanim lokalnim zlomom simetrije so nivojske statistike dobro definirane tudi
 {\includegraphics[width=0.6\textwidth]{r_density_9_3_3.pdf}}
 \end{figure}
 \newpage
-\section{Spektralni oblikovni faktor}
+ \section{Spektralni oblikovni faktor}
 V tem poglavju namesto korelacij med zgolj sosednjimi energijskimi nivoji obravnavamo korelacije med \emph{vsemi} energijskimi nivoji, in sicer z analizo \emph{spektralnega oblikovnega faktorja} (ang.~\emph{spectral form factor}). Količino najprej vpeljemo, nato pa predstavimo rezultate numeričnih analiz, s katerimo smo presojali ergodičnost oziroma prisotnost večdelčne lokalizacije v obravnavanih sistemih. 
 \label{spektralni_oblikovni_faktor}
 \subsection{Vpeljava}
@@ -957,9 +957,9 @@ Z(\tau)=\frac{1}{\sqrt{N}}\sum\limits_i \mathrm{e}^{-\iu E_i \tau}.
 Iz En.~\eqref{eq:SFF} sta nemudoma očitni vrednosti $K(\tau)$ v limitah $\tau\to0$ in $\tau\to\infty$. V prvem primeru so vsi členi v dvojni vsoti enaki ena in je zato $K(\tau=0)=N.$ V skladu s povedanim v poglavju~\ref{lokalizacija_v_sistemih_z_med} dolgočasovni razvoj izniči izvendiagonalne člene v vsoti, zato po dolgem času k vsoti prispeva le $N$ diagonalnih členov in je $K(\tau\to\infty)=1.$\\\\
 Kot pri spektralnih statistikah, obravnavanih v poglavju~\ref{statistika_sosednjih_nivojev}, je tudi tokrat za našo analizo najpomembnejše dejstvo, da ima SFF v različnih tipih sistemov univerzalne lastnosti, kar izkoristimo pri razločevanju med ergodično in MBL fazo. Začenši pri $\tau=0$ funkcija $K(\tau)$ za kratke čase uvodoma pada, vse dokler ne doseže minimalne vrednosti. Relaksacija $K(\tau)$ proti minimalni vrednosti ni univerzalna temveč modelsko specifična, saj jo v En.~\eqref{eq:SFF} določajo členi z velikimi energijskimi razlikami $E_i-E_j.$ Čas, po katerem $K(\tau)$ ne kaže več neuniverzalnih lastnosti in preide v univerzalni režim, se v literaturi pogosto označuje kot \emph{Thoulessov čas} $\tau_\mathrm{T}.$ Univerzalna lastnost $K(\tau)$ je  za ergodične sisteme območje linearne rasti (ang.~\emph{ramp}), ki nastopi med $\tau_\mathrm{T}$ in \emph{Heisenbergovim časom} $\tau_\mathrm{H},$ po katerem $K(\tau)$ saturira pri limitni vrednosti. Heisenbergov čas je definiran kot
 \begin{equation}
-\tau_\mathrm{H}=2\pi\bar{\rho},
+\tau_\mathrm{H}=2\pi\bar{\tilde{\rho}},
 \end{equation}
-kjer je $\bar{\rho}$ povprečna gostota stanj. Ker tudi izračune $K(\tau)$ izvajamo na razgrnjenem spektru, ima $\bar{\rho}$ v naših računih enotsko vrednost, $\bar{\rho}=1.$ V nadaljevanju bomo čas $\tau$ vselej podajali v enotah $\tau_\mathrm{H},$ kot je to v navadi v literaturi. V teh enotah saturacija nastopi pri $\tau=\tau_\mathrm{H}=1.$\\\\
+kjer je $\bar{\tilde{\rho}}$ povprečna gostota stanj. Ker tudi izračune $K(\tau)$ izvajamo na razgrnjenem spektru, ima $\bar{\tilde{\rho}}$ v naših računih enotsko vrednost, $\bar{\tilde{\rho}}=1.$ V nadaljevanju bomo čas $\tau$ vselej podajali v enotah $\tau_\mathrm{H},$ kot je to v navadi v literaturi. V teh enotah saturacija nastopi pri $\tau=\tau_\mathrm{H}=1.$\\\\
 V sistemih, katerih spektralne lastnosti ustrezajo GOE sistemom, podaja univerzalno obnašanje $K(\tau)$ zveza~\cite{sieber2001correlations}
 \begin{equation}\label{eq:ramp}
 K_\mathrm{GOE}(\tau)=
@@ -1157,6 +1157,11 @@ Poleg že omenjenega Heisenbergovega modela so na Slikah~\ref{fig:W_ent_entro_de
 \end{figure} 
 
 \chapter{Zaključek}
+V magistrski nalogi smo prisotnost ergodične oziroma MBL faze v preučevanih sistemih analizirali s tremi različnimi numeričnimi metodami, temelječimi na polni diagonalizaciji modelskih hamiltonk. Pri različnih vrednostih parametrov velikosti nereda smo izračunali povprečno razmerje zaporednih razmikov med energijskimi nivoji $\langle \tilde{r}\rangle$ ter spektralni oblikovni faktor $K(\tau)$ (v nadaljevanju SFF). Medtem ko se prva količina zaradi razmeroma enostavne implementacije v literaturi pogosto uporablja pri presojanju ergodičnosti oziroma lokaliziranosti sistemov, so študije MBL pojavov z uporabo SFF redkejše. Izračuni spektralnih statistik, ki temeljijo na korelacijah med sosednjimi energijskimi nivoji, razkrijejo informacije o obnašanju sistema le na najdaljših časovnih skalah, ki so v komplementarnih študijah časovne dinamike sistemov praviloma nedosegljive. Na drugi strani izračun SFF zaradi upoštevanja korelacij med vsemi energijskimi nivoji v sistemu vključuje vse časovne skale, hkrati pa se rezultati za dolge čase ujemajo z izračuni povprečnega razmerja razmikov med nivoji. Poleg omenjenih spektralnih metod smo ergodičnost oziroma lokaliziranost presojali še na podlagi izračuna prepletenostne entropije vseh lastnih stanj. V nasprotju s spektralnima metodama smo tako dobili tudi informacijo o ergodičnosti oziroma lokaliziranosti posameznih večdelčnih stanj.\\\\
+ Osredotočili smo se na model $t$-$J$ v prisotnosti spinskega ter potencialnega nereda za primer dopiranja z eno vrzeljo in primer tretjinskega dopiranja.
+ Rezultati vseh treh metod v primeru dopiranja z eno vrzeljo ob prisotnosti potencialnega nereda izključujejo možnost prehoda v MBL fazo. Za velike vrednosti parametra velikosti potencialnega nereda se vrednost $\langle \tilde{r}\rangle$ ustali pri vrednosti, ki ne ustreza niti Poissonovi niti Wigner-Dysonovi spektralni statistiki. Podobno za velike jakosti potencialnega nereda krivulja SFF ne zavzame konstantne vrednosti, ki bi ustrezala Poissonovi statistiki in bi naznanjala nastop MBL faze. Napovedim na spektralni statistiki temelječih metod ustrezajo tudi izračuni prepletenostne entropije vseh lastnih stanj sistema, ki pri vseh preučevanih vrednostih nereda kažejo na obstoj znatno prepletenih stanj. V vseh preostalih obravnavanih primerih povečevanje nereda vodi do prehoda med ergodično in lokalizirano fazo, za katero so značilne šibka prepletenost vseh stanj v spektru, vrednost $\langle \tilde{r}\rangle \approx 0.39$ in konstantna vrednost krivulje SFF v univerzalnem režimu, $K(\tau)=1.$ Zaradi hitrega naraščanja dimenzije Hilbertovega prostora z velikostjo sistema v modelu $t$-$J$ smo bili pri izvedbi polne diagonalizacije omejeni na razmeroma majhno število primernih sistemov. Skalirna analiza, s katero bi točneje napovedali vrednosti kritičnih parametrov nereda v termodinamski limiti neskončnega sistema, je pri našem pristopu neizvedljiva, zato so vrednosti parametrov nereda, pri katerih pride do prehoda v naših izračunih, zgolj ocene. Dimenzija največjega preučevanega Hilbertovega prostora je znašala 34650 stanj, in sicer v sistemu z $L=12$ mesti, $N_h=4$ vrzelmi in skupno projekcijo spina $S^z=0.$\\\\
+ Tipični modelski sistemi pri preučevanju MBL pojavov so sistemi brezspinskih fermionov in Hubbardove verige. Kolikor nam je znano, zato rezultati za model $t$-$J$, predstavljeni v tem magistrskem delu, še niso bili predhodno izračunani. Podobno velja za samo uporabo izračuna SFF za presojo ergodičnosti oziroma večdelčne lokaliziranosti sistemov. Ne samo, da je bil tovrsten pristop prvikrat uporabljen pri analizi modela $t$-$J$, dosedanjega primera uporabe ne poznamo niti na širšem področju analize MBL pojavov v drugih sistemih. Hkrati s presojo ergodičnosti oziroma večdelčne lokaliziranosti na podlagi ujemanja izračunov z limitinimi napovedmi omogoča izračun SFF tudi vpogled v značilne časovne skale sistema. Vrednost Thoulessovega časa $\tau_\mathrm{H},$ po katerem v odvisnosti $K(\tau)$ ne opazimo več neuniverzalnih pojavov, je pomembna pri preučevanju ergodičnosti na podlagi časovne dinamike tipičnih začetnih stanj. Pristop je komplementaren našemu, $\tau_\mathrm{H}$ pa podaja informacijo o tem, najmanj kako dolg naj bo časovni razvoj, če želimo z njim preučevati ergodičnost oziroma večdelčno lokaliziranost sistema. \\\\
+ Medtem ko smo v nalogi izračune za Heisenbergovo spinsko verigo prikazovali le kot ilustrativne zglede ob vpeljavah konceptov SFF in prepletenostne entropije, se zdi sistem primeren za podrobnejšo analizo SFF kot primernega orodja za presojo ergodičnosti oziroma večdelčne lokaliziranosti. Heisenbergova veriga namreč omogoča bistveno lažjo izvedbo skalirne analize, hkrati pa je možna tudi primerjava izračunov z že znanimi napovedmi drugih metod. Drugo izhodišče za prihodnje raziskave je vpeljava mikrokanonične različice izračuna SFF, s katero bi namesto lastnosti celotnega spektra slednje preučevali le v ozkem energijskem oknu. Ker bi v energijskem oknu morali zagotoviti zadostno število stanj, bi to terjalo preučevanje večjih sistemov. Posledično izračun lastnih stanj ne bi več temeljil na polni diagonalizaciji, medtem ko bi sam postopek izračuna SFF na dobljenem spektru ostal  enak postopku, predstavljenem v tem magistrskem delu. 
 \cleardoublepage\phantomsection
 \addcontentsline{toc}{chapter}{Literatura}
 \bibliographystyle{fmf-sl}
@@ -1266,7 +1271,9 @@ Od prej vemo, da stanji $\ket{\alpha_1}$ in $\ket{\alpha_2}$ za našo izpeljavo 
 $H_\mathrm{kin}\ket{\beta}= H_\mathrm{kin}\ket{\beta'}=-t\left(\ket{\alpha_3}+\ket{\alpha_4}\right)=-t\sqrt{2} \ket{\tilde{\alpha}_3}$. V efektivni hamiltonki imamo tako samo člen 
 $$\tilde{H}_{\tilde{3},\tilde{3}}=2t^2\left(\frac{1}{U - \Xi_{i,j}} + \frac{1}{ U + \Xi_{i,j}}\right), $$
 kjer je 
-$$\Xi_{i,j}=\frac{1}{2}\sum\limits_\sigma \left(h_{i,\sigma} - h_{j,\sigma}\right).$$
+\begin{equation}\label{eq:izpeljava_vpeljava_xi}
+\Xi_{i,j}=\frac{1}{2}\sum\limits_\sigma \left(h_{i,\sigma} - h_{j,\sigma}\right).
+\end{equation}
 V bazi stanj $\ket{\alpha_3}, \ket{\alpha_4}$ imamo tako 
 $$
 \tilde{H}_{3,3}=\tilde{H}_{4,4}=\tilde{H}_{3,4}=\tilde{H}_{4,3}=t^2\left( \frac{1}{U - \Xi_{i,j}} + \frac{1}{U + \Xi_{i,j}}\right).
@@ -1279,8 +1286,25 @@ V odsotnosti nereda pridemo nazaj v predhodni primer, $J=\frac{4t^2}{U}$. Z doda
 \begin{equation}
 \tilde{H}=-t\sum\limits_{\langle ij \rangle \sigma} \left(\tilde{c}^\dagger_{i,\sigma} \tilde{c}_{j\sigma} + \tilde{c}^\dagger_{j\sigma}\tilde{c}_{i\sigma}\right) +\sum\limits_{\langle ij \rangle} J_{i,j}\left[ \vec{S}_i\cdot  \vec{S}_j - \frac{n_i n_j}{4}\right] +\sum\limits_{i,\sigma} h_{i,\sigma} \left(1-n_{i,-\sigma}\right)n_{i,\sigma}.
 \end{equation}
-V tem magistrskem delu privzamemo, da je $J$ konstanten, $J_{i,j}=J.$ Vrzelni in spinski nered lahko uvedemo kot ustrezno linearno kombinacijo, 
+V tem magistrskem delu privzamemo, da je $J$ konstanten, $J_{i,j}=J.$ Vrzelni in spinski nered lahko uvedemo kot ustrezno linearno kombinacijo členov $h_{i,\uparrow}$ in $h_{i,\downarrow}.$ Spinski nered ustreza izbiri
+\begin{equation}\label{eq:izpeljava_vpeljava_spinski}
+h_{i,\uparrow}=-h_{i,\downarrow},
+\end{equation}
+vrzelni nered pa izbiri 
+\begin{equation}\label{eq:izpeljava_vpeljava_vrzelni}
+h_{i,\uparrow}=h_{i,\downarrow}.
+\end{equation}
+Iz En.~\eqref{eq:izpeljava_vpeljava_xi} lahko razberemo, da uvedba spinskega nereda ne vpliva na vrednost izmenjalne konstante, saj je $\Xi_{i,j}$ v tem primeru enak nič. Možne so tudi vpeljave drugih tipov nereda, denimo takšnega, ki se sklaplja zgolj z eno vrsto spinov, v tem primeru izžrebamo $h_{i,\sigma}$ in postavimo $h_{i,-\sigma}=0.$ 
+% \section{Numerična primerjava}
+% Na Sliki~\ref{fig:diffs_graph} so prikazani rezultati numerične primerjave 
+% \begin{figure}[H]
+% \centering{
+% \includegraphics[width=1.\textwidth]{diffs_graph.pdf}}
+% \caption{}
+% \label{fig:diffs_graph}
+% \end{figure}
 \end{appendices}
+
 
 %%% KAZALO (NEOBVEZNO)
 

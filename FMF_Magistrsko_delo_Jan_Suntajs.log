@@ -1,9 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.7.23)  7 AUG 2018 14:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.7.23)  9 AUG 2018 14:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **FMF_Magistrsko_delo_Jan_Suntajs.tex
-(./FMF_Magistrsko_delo_Jan_Suntajs.tex
+
+(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
+loga/FMF_Magistrsko_delo_Jan_Suntajs.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 
@@ -667,10 +669,14 @@ Package mhchem Warning: You did not specify a 'version' option for the mhchem
 \@input{template.aux}
 \openout2 = `template.aux'.
 
-(./template.tex (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+
+(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
+loga/template.tex
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup9
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -1099,7 +1105,9 @@ Writing index file FMF_Magistrsko_delo_Jan_Suntajs.idx
 LaTeX Warning: Unused global option(s):
     [longbibliography].
 
-(./FMF_Magistrsko_delo_Jan_Suntajs.aux)
+
+(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
+loga/FMF_Magistrsko_delo_Jan_Suntajs.aux)
 \openout1 = `FMF_Magistrsko_delo_Jan_Suntajs.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
@@ -1117,7 +1125,8 @@ LaTeX Font Info:    ... okay on input line 99.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
 LaTeX Font Info:    ... okay on input line 99.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 99.
- (/usr/share/texmf/tex/latex/lm/t1lmr.fd
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -1125,7 +1134,8 @@ Package caption Info: floatrow package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box47
 Package hyperref Info: Link coloring OFF on input line 99.
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1137,7 +1147,10 @@ LaTeX Info: Redefining \ref on input line 99.
 LaTeX Info: Redefining \pageref on input line 99.
 LaTeX Info: Redefining \nameref on input line 99.
 
-(./FMF_Magistrsko_delo_Jan_Suntajs.out) (./FMF_Magistrsko_delo_Jan_Suntajs.out)
+(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
+loga/FMF_Magistrsko_delo_Jan_Suntajs.out)
+(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
+loga/FMF_Magistrsko_delo_Jan_Suntajs.out)
 \@outlinefile=\write4
 \openout4 = `FMF_Magistrsko_delo_Jan_Suntajs.out'.
 
@@ -1146,6 +1159,7 @@ LaTeX Info: Redefining \nameref on input line 99.
 . 
 . Activating mapping `default' on line 99.
 .................................................
+
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count293
@@ -1247,7 +1261,8 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ] [5] [6
 
 ]
-(./FMF_Magistrsko_delo_Jan_Suntajs.toc
+(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
+loga/FMF_Magistrsko_delo_Jan_Suntajs.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1351,7 +1366,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14 <./diff_loc_ext_mod.pdf>]
+[14 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/diff_loc_ext_mod.pdf>]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
@@ -1379,7 +1395,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15 <./interference.jpg>]
+[15 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/interference.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 320--323
 
  []
@@ -1454,7 +1471,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17 <./beta_diagram.png (PNG copy)>]
+[17 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/beta_diagram.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 367--370
 
  []
@@ -1534,7 +1552,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18 <./disorder_scheme.pdf>]
+[18 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/disorder_scheme.pdf>]
 <mobility_edge_DOS_modified.pdf, id=378, pagebox=cropbox, 867.24pt x 433.62pt>
 File: mobility_edge_DOS_modified.pdf Graphic file (type pdf)
 <use mobility_edge_DOS_modified.pdf>
@@ -1552,7 +1571,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19 <./hopping_picture_50years.jpg> <./bands.png (PNG copy)>]
+[19 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/hopping_picture_50years.jpg> </media/jan/Data/Dropbox/Sync_WD_MyCloud/
+Faks/2._stopnja/IJS_delo/Magistrska_naloga/bands.png (PNG copy)>]
 <1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_cone_dou
 ble_presentation.pdf, id=389, pagebox=cropbox, 2168.1pt x 1011.78pt>
 File: 1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_con
@@ -1579,7 +1600,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20 <./mobility_edge_DOS_modified.pdf>]
+[20 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/mobility_edge_DOS_modified.pdf>]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
@@ -1606,8 +1628,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21 <./1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_co
-ne_double_presentation.pdf>]
+[21 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_
+cone_double_presentation.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 482--484
 
  []
@@ -1662,7 +1685,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23 <./nandkishore_huse_reservoir.pdf>]
+[23 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/nandkishore_huse_reservoir.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 533--540
 
  []
@@ -1751,7 +1775,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26 <./abanin_thermalization_scheme.pdf>]
+[26 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/abanin_thermalization_scheme.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 619--620
 
  []
@@ -1773,7 +1798,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27 <./unfolding_demo_three_slo.pdf>]
+[27 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/unfolding_demo_three_slo.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1855,7 +1881,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31 <./scheme_XXZ_t_V.pdf>]
+[31 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/scheme_XXZ_t_V.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 694--697
 
  []
@@ -1965,14 +1992,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34 <./tJ_scheme.pdf> <./prob_dist.pdf
+[34 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/tJ_scheme.pdf> </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnj
+a/IJS_delo/Magistrska_naloga/prob_dist.pdf
 
-pdfTeX warning: pdflatex (file ./prob_dist.pdf): PDF inclusion: multiple pdfs w
-ith page group included in a single page
-> <./tJ_num_states.pdf
+pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
+stopnja/IJS_delo/Magistrska_naloga/prob_dist.pdf): PDF inclusion: multiple pdfs
+ with page group included in a single page
+> </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_
+naloga/tJ_num_states.pdf
 
-pdfTeX warning: pdflatex (file ./tJ_num_states.pdf): PDF inclusion: multiple pd
-fs with page group included in a single page
+pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
+stopnja/IJS_delo/Magistrska_naloga/tJ_num_states.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
 >]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
@@ -2018,7 +2050,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35 <./Eigenstates_spin_hole_disorder_13_1_6.pdf>]
+[35 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/Eigenstates_spin_hole_disorder_13_1_6.pdf>]
 <DOS_spin_hole_disorder_12_4_4.pdf, id=948, pagebox=cropbox, 1156.32pt x 505.89
 pt>
 File: DOS_spin_hole_disorder_12_4_4.pdf Graphic file (type pdf)
@@ -2037,11 +2070,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36 <./DOS_spin_hole_disorder_13_1_6.pdf> <./Eigenstates_spin_hole_disorder_12_
-4_4.pdf
+[36 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/DOS_spin_hole_disorder_13_1_6.pdf> </media/jan/Data/Dropbox/Sync_WD_My
+Cloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/Eigenstates_spin_hole_disorder
+_12_4_4.pdf
 
-pdfTeX warning: pdflatex (file ./Eigenstates_spin_hole_disorder_12_4_4.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
+stopnja/IJS_delo/Magistrska_naloga/Eigenstates_spin_hole_disorder_12_4_4.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2049,7 +2085,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37 <./DOS_spin_hole_disorder_12_4_4.pdf>]
+[37 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/DOS_spin_hole_disorder_12_4_4.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2167,7 +2204,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[43 <./unfolding_demo_three_error_slo.pdf>]
+[43 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/unfolding_demo_three_error_slo.pdf>]
 <unfolding_schematics.pdf, id=1081, pagebox=cropbox, 578.16pt x 505.89pt>
 File: unfolding_schematics.pdf Graphic file (type pdf)
 <use unfolding_schematics.pdf>
@@ -2203,7 +2241,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44 <./unfolding_schematics.pdf>]
+[44 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/unfolding_schematics.pdf>]
 Underfull \hbox (badness 2245) in paragraph at lines 905--905
 \T1/lmr/m/n/10.95 va-nju pa-ra-me-trov $\OML/lmm/m/it/10.95 W[]$ \T1/lmr/m/n/10
 .95 in
@@ -2287,7 +2326,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45 <./hole_spin_disorder_sym_break_13_1_6_slo.pdf>]
+[45 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/hole_spin_disorder_sym_break_13_1_6_slo.pdf>]
 Underfull \hbox (badness 2042) in paragraph at lines 928--928
 \T1/lmr/m/n/10.95 nem spin-skem ne-redu opa-
  []
@@ -2383,11 +2423,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46 <./double_plot_disorder_sym_break_13_1_6_slo.pdf> <./double_plot_disorder_s
-ym_break_12_4_4_slo.pdf
+[46 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/double_plot_disorder_sym_break_13_1_6_slo.pdf> </media/jan/Data/Dropbo
+x/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/double_plot_disord
+er_sym_break_12_4_4_slo.pdf
 
-pdfTeX warning: pdflatex (file ./double_plot_disorder_sym_break_12_4_4_slo.pdf)
-: PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
+stopnja/IJS_delo/Magistrska_naloga/double_plot_disorder_sym_break_12_4_4_slo.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2395,10 +2438,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[47 <./r_density_11_1_5.pdf> <./r_density_9_3_3.pdf
+[47 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/r_density_11_1_5.pdf> </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2.
+_stopnja/IJS_delo/Magistrska_naloga/r_density_9_3_3.pdf
 
-pdfTeX warning: pdflatex (file ./r_density_9_3_3.pdf): PDF inclusion: multiple 
-pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
+stopnja/IJS_delo/Magistrska_naloga/r_density_9_3_3.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
 >]
 Underfull \hbox (badness 10000) in paragraph at lines 940--942
 
@@ -2450,7 +2496,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50 <./scheme_sff_disorder_14_0_7.pdf>]
+[50 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/scheme_sff_disorder_14_0_7.pdf>]
 <W_sweep_sff_disorder_11_1_5.pdf, id=1315, pagebox=cropbox, 1156.32pt x 505.89p
 t>
 File: W_sweep_sff_disorder_11_1_5.pdf Graphic file (type pdf)
@@ -2483,10 +2530,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51 <./W_sweep_sff_disorder_11_1_5.pdf> <./H_sweep_sff_disorder_11_1_5.pdf
+[51 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/W_sweep_sff_disorder_11_1_5.pdf> </media/jan/Data/Dropbox/Sync_WD_MyCl
+oud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/H_sweep_sff_disorder_11_1_5.pdf
 
-pdfTeX warning: pdflatex (file ./H_sweep_sff_disorder_11_1_5.pdf): PDF inclusio
-n: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
+stopnja/IJS_delo/Magistrska_naloga/H_sweep_sff_disorder_11_1_5.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
 >]
 <double_sweep_sff_disorder_11_1_5_four_.pdf, id=1356, pagebox=cropbox, 1156.32p
 t x 1011.78pt>
@@ -2503,7 +2553,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[52 <./double_sweep_sff_disorder_11_1_5_four_.pdf>]
+[52 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/double_sweep_sff_disorder_11_1_5_four_.pdf>]
 <W_sweep_sff_disorder_9_3_3.pdf, id=1378, pagebox=cropbox, 1156.32pt x 505.89pt
 >
 File: W_sweep_sff_disorder_9_3_3.pdf Graphic file (type pdf)
@@ -2527,10 +2578,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53 <./W_sweep_sff_disorder_9_3_3.pdf> <./H_sweep_sff_disorder_9_3_3.pdf
+[53 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/W_sweep_sff_disorder_9_3_3.pdf> </media/jan/Data/Dropbox/Sync_WD_MyClo
+ud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/H_sweep_sff_disorder_9_3_3.pdf
 
-pdfTeX warning: pdflatex (file ./H_sweep_sff_disorder_9_3_3.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
+stopnja/IJS_delo/Magistrska_naloga/H_sweep_sff_disorder_9_3_3.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
 >]
 <double_sweep_sff_disorder_9_3_3_four_.pdf, id=1414, pagebox=cropbox, 1156.32pt
  x 1011.78pt>
@@ -2547,7 +2601,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54 <./double_sweep_sff_disorder_9_3_3_four_.pdf>]
+[54 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/double_sweep_sff_disorder_9_3_3_four_.pdf>]
 Poglavje 5.
 <W_sweep_ent_entropy_scaling_14_0_7.pdf, id=1436, pagebox=cropbox, 722.7pt x 36
 1.35pt>
@@ -2584,11 +2639,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56 <./W_sweep_ent_entropy_scaling_14_0_7.pdf> <./W_sweep_ent_entropy_scaling_s
-ystems_14_0_7.pdf
+[56 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/W_sweep_ent_entropy_scaling_14_0_7.pdf> </media/jan/Data/Dropbox/Sync_
+WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/W_sweep_ent_entropy_scali
+ng_systems_14_0_7.pdf
 
-pdfTeX warning: pdflatex (file ./W_sweep_ent_entropy_scaling_systems_14_0_7.pdf
-): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
+stopnja/IJS_delo/Magistrska_naloga/W_sweep_ent_entropy_scaling_systems_14_0_7.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 <W_sweep_ent_entropy_density_plot_14_0_7_cuts.pdf, id=1487, pagebox=cropbox, 11
 56.32pt x 505.89pt>
@@ -2613,7 +2671,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[57 <./W_sweep_ent_entropy_density_plot_14_0_7_cuts.pdf>]
+[57 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/W_sweep_ent_entropy_density_plot_14_0_7_cuts.pdf>]
 <H_sweep_ent_entropy_density_plot_11_1_5.pdf, id=1519, pagebox=cropbox, 578.16p
 t x 505.89pt>
 File: H_sweep_ent_entropy_density_plot_11_1_5.pdf Graphic file (type pdf)
@@ -2648,11 +2707,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58 <./W_sweep_ent_entropy_density_plot_11_1_5_cuts.pdf> <./H_sweep_ent_entropy
-_density_plot_11_1_5.pdf
+[58 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/W_sweep_ent_entropy_density_plot_11_1_5_cuts.pdf> </media/jan/Data/Dro
+pbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/H_sweep_ent_ent
+ropy_density_plot_11_1_5.pdf
 
-pdfTeX warning: pdflatex (file ./H_sweep_ent_entropy_density_plot_11_1_5.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
+stopnja/IJS_delo/Magistrska_naloga/H_sweep_ent_entropy_density_plot_11_1_5.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2660,11 +2722,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[59 <./W_sweep_ent_entropy_density_plot_9_3_3_cuts.pdf> <./H_sweep_ent_entropy_
-density_plot_9_3_3.pdf
+[59 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
+a_naloga/W_sweep_ent_entropy_density_plot_9_3_3_cuts.pdf> </media/jan/Data/Drop
+box/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/H_sweep_ent_entr
+opy_density_plot_9_3_3.pdf
 
-pdfTeX warning: pdflatex (file ./H_sweep_ent_entropy_density_plot_9_3_3.pdf): P
-DF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
+stopnja/IJS_delo/Magistrska_naloga/H_sweep_ent_entropy_density_plot_9_3_3.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2681,16 +2746,35 @@ Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 1159.
 
-[61]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1160--1165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1160--1165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1160--1165
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62
+[62]
+(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
+loga/FMF_Magistrsko_delo_Jan_Suntajs.bbl [63
 
-] (./FMF_Magistrsko_delo_Jan_Suntajs.bbl [63
 
 ]
 
@@ -2719,26 +2803,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Dodatek A.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1171.
+(hyperref)                removing `math shift' on input line 1176.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1171.
+(hyperref)                removing `math shift' on input line 1176.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1171.
+(hyperref)                removing `math shift' on input line 1176.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1171.
+(hyperref)                removing `math shift' on input line 1176.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 1171.
+(Font)              <24.88> on input line 1176.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 1171.
+(Font)              <20.74> on input line 1176.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1182--1192
+Underfull \hbox (badness 10000) in paragraph at lines 1187--1197
 
  []
 
@@ -2765,27 +2849,31 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[70] (./FMF_Magistrsko_delo_Jan_Suntajs.ind)
+[70]
+(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
+loga/FMF_Magistrsko_delo_Jan_Suntajs.ind)
 
 Package caption Warning: Unused \captionsetup[sub] on input line 26.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1290.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1290.
-(./FMF_Magistrsko_delo_Jan_Suntajs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1290.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1290.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1314.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1314.
+
+(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
+loga/FMF_Magistrsko_delo_Jan_Suntajs.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1314.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1314.
 
 Package rerunfilecheck Info: File `FMF_Magistrsko_delo_Jan_Suntajs.out' has not
  changed.
 (rerunfilecheck)             Checksum: D090D91D9A7BDD14DC8CB6093CD35579;2774.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1290.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1314.
  ) 
 Here is how much of TeX's memory you used:
- 20088 strings out of 492995
- 357908 string characters out of 6135073
- 466198 words of memory out of 5000000
- 23082 multiletter control sequences out of 15000+600000
+ 20095 strings out of 492995
+ 359772 string characters out of 6135073
+ 466375 words of memory out of 5000000
+ 23085 multiletter control sequences out of 15000+600000
  660246 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,19n,58p,10403b,642s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2816,11 +2904,12 @@ mf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lms
 y6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/font
 s/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/symbols/msbm10.pfb>
-Output written on FMF_Magistrsko_delo_Jan_Suntajs.pdf (70 pages, 4253284 bytes)
-.
+Output written on /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_d
+elo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.pdf (70 pages, 4261582 by
+tes).
 PDF statistics:
- 1829 PDF objects out of 2073 (max. 8388607)
- 1474 compressed objects within 15 object streams
- 265 named destinations out of 1000 (max. 500000)
+ 1833 PDF objects out of 2073 (max. 8388607)
+ 1478 compressed objects within 15 object streams
+ 268 named destinations out of 1000 (max. 500000)
  507 words of extra memory for PDF output out of 10000 (max. 10000000)
 
