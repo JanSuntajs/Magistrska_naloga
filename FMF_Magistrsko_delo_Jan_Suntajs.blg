@@ -7,37 +7,37 @@ Warning--empty journal in grassellientanglement
 Warning--empty year in grassellientanglement
 You've used 44 entries,
             2705 wiz_defined-function locations,
-            875 strings with 11756 characters,
-and the built_in function-call counts, 17516 in all, are:
-= -- 1174
+            880 strings with 11833 characters,
+and the built_in function-call counts, 17512 in all, are:
+= -- 1175
 > -- 616
 < -- 1
 + -- 310
 - -- 176
-* -- 1280
-:= -- 2228
+* -- 1283
+:= -- 2224
 add.period$ -- 44
 call.type$ -- 44
 change.case$ -- 216
 chr.to.int$ -- 0
 cite$ -- 46
-duplicate$ -- 1574
-empty$ -- 1639
+duplicate$ -- 1572
+empty$ -- 1637
 format.name$ -- 211
-if$ -- 3527
+if$ -- 3526
 int.to.chr$ -- 0
 int.to.str$ -- 44
 missing$ -- 380
 newline$ -- 138
 num.names$ -- 88
-pop$ -- 622
+pop$ -- 625
 preamble$ -- 1
 purify$ -- 176
 quote$ -- 0
 skip$ -- 398
 stack$ -- 0
 substring$ -- 910
-swap$ -- 956
+swap$ -- 953
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
@@ -45,5 +45,5 @@ type$ -- 168
 warning$ -- 2
 while$ -- 138
 width$ -- 46
-write$ -- 362
+write$ -- 363
 (There were 2 warnings)

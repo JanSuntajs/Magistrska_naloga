@@ -1,37 +1,38 @@
 \select@language {slovene}
-\contentsline {chapter}{\numberline {1}Uvod}{9}{chapter.1}
-\contentsline {chapter}{\numberline {2}Od Andersonove do ve\IeC {\v c}del\IeC {\v c}ne lokalizacije}{13}{chapter.2}
-\contentsline {section}{\numberline {2.1}Andersonova lokalizacija in osnove neurejenih sistemov}{13}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Opis prevodnosti pred teorijo lokalizacije in po njej}{14}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Oja\IeC {\v c}ano povratno sipanje}{15}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Skalirna teorija lokalizacije}{16}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Vpeljava nereda in Andersonov model}{17}{subsection.2.1.4}
-\contentsline {section}{\numberline {2.2}Lokalizacija v sistemih z meddel\IeC {\v c}nimi interakcijami}{21}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Fizika zaprtih kvantnih sistemov}{23}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Hipoteza termalizacije lastnih stanj}{24}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Zna\IeC {\v c}ilnosti MBL sistemov }{25}{subsection.2.2.3}
-\contentsline {chapter}{\numberline {3}Modeli in metode}{29}{chapter.3}
-\contentsline {section}{\numberline {3.1}Fermionski modeli brez spinskih prostostnih stopenj}{29}{section.3.1}
-\contentsline {section}{\numberline {3.2}Fermionski modeli s spinskimi prostostnimi stopnjami}{31}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Hubbardov model}{31}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Model $t$-$J$}{32}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}To\IeC {\v c}na diagonalizacija modelskih hamiltonk}{35}{section.3.3}
-\contentsline {chapter}{\numberline {4}Statisti\IeC {\v c}ne lastnosti hamiltonskih spektrov}{39}{chapter.4}
-\contentsline {section}{\numberline {4.1}Statistika sosednjih energijskih nivojev}{39}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Wigner-Dysonova statistika razmikov med sosednjimi nivoji}{40}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Poissonova statistika razmikov med sosednjimi nivoji}{41}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Statistika razmerij odmikov sosednjih nivojev $\mathaccentV {tilde}07E{r}$}{42}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Razgrnjenje spektra}{43}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}Lokalni zlom simetrije}{44}{subsection.4.1.5}
-\contentsline {subsection}{\numberline {4.1.6}Rezultati}{45}{subsection.4.1.6}
-\contentsline {section}{\numberline {4.2}Spektralni oblikovni faktor}{48}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Vpeljava}{48}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Rezultati}{51}{subsection.4.2.2}
-\contentsline {chapter}{\numberline {5}Prepletenostna entropija}{55}{chapter.5}
-\contentsline {section}{\numberline {5.1}Vpeljava}{55}{section.5.1}
-\contentsline {section}{\numberline {5.2}Rezultati}{57}{section.5.2}
-\contentsline {chapter}{\numberline {6}Zaklju\IeC {\v c}ek}{61}{chapter.6}
-\contentsline {chapter}{Literatura}{63}{section*.41}
-\contentsline {chapter}{Dodatek \numberline {A}Preslikava med Hubbardovim modelom in modelom $t$-$J$}{67}{Dodatek.1.A}
-\contentsline {section}{\numberline {A.1}Primer brez nereda}{67}{section.1.A.1}
-\contentsline {section}{\numberline {A.2}Dodatek nereda}{69}{section.1.A.2}
+\contentsline {chapter}{Seznam slik}{11}{section*.2}
+\contentsline {chapter}{\numberline {1}Uvod}{17}{chapter.1}
+\contentsline {chapter}{\numberline {2}Od Andersonove do ve\IeC {\v c}del\IeC {\v c}ne lokalizacije}{21}{chapter.2}
+\contentsline {section}{\numberline {2.1}Andersonova lokalizacija in osnove neurejenih sistemov}{21}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Opis prevodnosti pred teorijo lokalizacije in po njej}{22}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Oja\IeC {\v c}ano povratno sipanje}{23}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Skalirna teorija lokalizacije}{24}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Vpeljava nereda in Andersonov model}{25}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}Lokalizacija v sistemih z meddel\IeC {\v c}nimi interakcijami}{29}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Fizika zaprtih kvantnih sistemov}{31}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Hipoteza termalizacije lastnih stanj}{32}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Zna\IeC {\v c}ilnosti MBL sistemov }{33}{subsection.2.2.3}
+\contentsline {chapter}{\numberline {3}Modeli in metode}{37}{chapter.3}
+\contentsline {section}{\numberline {3.1}Fermionski modeli brez spinskih prostostnih stopenj}{37}{section.3.1}
+\contentsline {section}{\numberline {3.2}Fermionski modeli s spinskimi prostostnimi stopnjami}{39}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Hubbardov model}{39}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Model $t$-$J$}{40}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}To\IeC {\v c}na diagonalizacija modelskih hamiltonk}{43}{section.3.3}
+\contentsline {chapter}{\numberline {4}Statisti\IeC {\v c}ne lastnosti hamiltonskih spektrov}{47}{chapter.4}
+\contentsline {section}{\numberline {4.1}Statistika sosednjih energijskih nivojev}{47}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Wigner-Dysonova statistika razmikov med sosednjimi nivoji}{48}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Poissonova statistika razmikov med sosednjimi nivoji}{49}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Statistika razmerij odmikov sosednjih nivojev $\mathaccentV {tilde}07E{r}$}{50}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Razgrnjenje spektra}{51}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Lokalni zlom simetrije}{53}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.6}Rezultati}{53}{subsection.4.1.6}
+\contentsline {section}{\numberline {4.2}Spektralni oblikovni faktor}{56}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Vpeljava}{56}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Rezultati}{59}{subsection.4.2.2}
+\contentsline {chapter}{\numberline {5}Prepletenostna entropija}{63}{chapter.5}
+\contentsline {section}{\numberline {5.1}Vpeljava}{63}{section.5.1}
+\contentsline {section}{\numberline {5.2}Rezultati}{65}{section.5.2}
+\contentsline {chapter}{\numberline {6}Zaklju\IeC {\v c}ek}{69}{chapter.6}
+\contentsline {chapter}{Literatura}{71}{section*.43}
+\contentsline {chapter}{Dodatek \numberline {A}Preslikava med Hubbardovim modelom in modelom $t$-$J$}{75}{Dodatek.1.A}
+\contentsline {section}{\numberline {A.1}Primer brez nereda}{75}{section.1.A.1}
+\contentsline {section}{\numberline {A.2}Dodatek nereda}{77}{section.1.A.2}

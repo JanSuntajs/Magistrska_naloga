@@ -34,11 +34,6 @@ P.~W. Anderson, \emph{Absence of diffusion in certain random lattices},
 P.~W. Anderson, \emph{Local moments and localized states}, Reviews of Modern
   Physics \textbf{50}(2) (1978) 191.
 
-\bibitem{atas2013distribution}
-Y.~Atas in~dr., \emph{Distribution of the ratio of consecutive level spacings
-  in random matrix ensembles}, Physical review letters \textbf{110}(8) (2013)
-  084101.
-
 \bibitem{Atas_Distribution_PhysRevLett.110.084101}
 Y.~Y. Atas in~dr., \emph{Distribution of the ratio of consecutive level
   spacings in random matrix ensembles}, Phys. Rev. Lett. \textbf{110} (2013)
@@ -61,6 +56,11 @@ B.~Bauer in C.~Nayak, \emph{Area laws in a many-body localized state and its
 \bibitem{berry1977level}
 M.~V. Berry in M.~Tabor, \emph{Level clustering in the regular spectrum}, Proc.
   R. Soc. Lond. A \textbf{356}(1686) (1977) 375--394.
+
+\bibitem{PhysRevB.95.214201}
+J.~Bon\ifmmode~\check{c}\else \v{c}\fi{}a in M.~Mierzejewski, \emph{Delocalized
+  carriers in the $t\text{\ensuremath{-}}j$ model with strong charge disorder},
+  Phys. Rev. B \textbf{95} (2017) 214201, \doi{10.1103/PhysRevB.95.214201}.
 
 \bibitem{PhysRevLett.116.140401}
 P.~Bordia in~dr., \emph{Coupling identical one-dimensional many-body localized
