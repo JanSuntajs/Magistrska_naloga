@@ -1,10 +1,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%          METAPODATKI
 
 \begin{filecontents*}{\jobname.xmpdata}
-\Title{SPEKTRALNE LASTNOSTI MODELA $t$-$J$ IN VEČDELČNA LOKALIZACIJA}
+\Title{Spektralne lastnosti modela $t$-$J$ in večdelčna lokalizacija}
 \Author{Jan Šuntajs}
-\Keywords{magisterij\sep navodila\sep ključne besede}
-\Publisher{Univerza v Ljubljani, Fakulteta za matematiko in fiziko}
+\Keywords{model t-J \sep nered\sep večdelčna lokalizacija\sep statistika energijskega spektra\sep spektralni oblikovni faktor\sep prepletenostna entropija}
 \end{filecontents*}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -41,7 +40,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%       PDF/A
 
 \usepackage{xmpincl}
-% \usepackage[a-1b]{pdfx}       
+\usepackage[a-1b]{pdfx}       
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -157,7 +156,7 @@ V magistrskem delu preučujemo prehod med ergodično in večdelčno lokalizirano
   Izračunane vrednosti $\langle\tilde{r}\rangle$ in SFF se  v ergodični fazi ujemajo z vrednostmi, ki jih dobimo z izračunom omenjenih količin v t.i. gaussovskem ortogonalnem ansamblu (v nadaljevanju GOE) naključnih matrik. Na drugi strani dobimo v primeru nastopa MBL rezultate, značilne za sisteme, v katerih so energijski nivoji medsebojno neodvisno porazdeljeni v skladu s Poissonovo verjetnostno porazdelitvijo. V primeru izračuna prepletenostne entropije je za ergodične sisteme značilno volumsko skaliranje prepletenostne entropije visoko vzbujenih lastnih stanj v spektru. V MBL sistemih so vsa lastna stanja v spektru šibko prepletena in je zanje značilno površinsko skaliranje prepletenostne entropije. V modelu $t$-$J$ za primer tretjinskega dopiranja z vrzelmi vsi naši indikatorji nakazujejo, da povečevanje nereda v sistemu vodi do prehoda med ergodično in MBL fazo tako v primeru spinskega kot potencialnega nereda. Enako velja za primer dopiranja z eno vrzeljo ob prisotnosti spinskega nereda, medtem ko se zdi primer ene vrzeli in potencialnega nereda drugačen od preostalih. Naši indikatorji namreč nakazujejo, da povečevanje nereda v tem primeru ne vodi do prehoda v MBL fazo. Kolikor nam je znano, je naše delo eden izmed prvih primerov uporabe izračuna SFF pri presoji ergodičnosti oziroma večdelčne lokaliziranosti preučevanih sistemov. Zaradi enostavne implementacije je v literaturi pogosta uporaba izračuna $\langle\tilde{r}\rangle$, pri katerem upoštevamo le korelacije med najbližjimi nivoji v energijskem spektru. Pri izračunu SFF na drugi strani upoštevamo korelacije med vsemi energijskimi nivoji v spektru, s čimer za ceno zahtevnejše implementacije dobimo precej podrobnejši vpogled v lastnosti sistema, denimo v obnašanje sistema na različnih časovnih skalah. Kot pokažemo, je naša presoja ergodičnosti oziroma večdelčne lokaliziranosti na podlagi izračunov SFF konsistentna s presojo na podlagi izračunov $\langle\tilde{r}\rangle$.
   % Kot pokažemo, se napovedi naših izračunov SFF ujemajo z rezultati izračunov mnogo pogosteje uporabljane količine $\langle\tilde{r}\rangle$
 \vspace{1cm}\\
-{\bf Klju"cne besede:}\\
+{\bf Klju"cne besede: model $t$-$J$, nered, večdelčna lokalizacija, statistika energijskega spektra, spektralni oblikovni faktor, prepletenostna entropija}\\
 {\bf PACS: 71.23.-k, 71.27.+a, 71.30.+h, 71.10.Fd}
 
 %%% ABSTRACT
@@ -165,10 +164,10 @@ V magistrskem delu preučujemo prehod med ergodično in večdelčno lokalizirano
 \cleardoublepage
 {\Large \bf Abstract}
 \vspace{1cm}\\
-In this final thesis we investigate the transition between the ergodic and many-body localized (MBL) phase in the $t$-$J$ model in the presence of spin or potential disorder. We concentrate on the two distinct cases, namely the case of one-hole doping and the case of one-third doping, where the transition between phases is investigated as a function of the magnitude of the appropriate type of disorder. Our numerical approach is based on full numerical diagonalization of the model hamiltonians, where three different indicators are used in order to test the systems for their ergodic or MBL properties. The calculations of the mean ratio of the adjacent level-spacings $\langle \tilde{r}\rangle$ and of the spectral form-factor (SFF) are based on the analysis of the statistical properties of the investigated hamiltonians' energy spectra. The third indicator we use is the calculation of the entanglement entropy of all system's eigenstates. In the ergodic phase, the calculated values of $\langle\tilde{r}\rangle$ and SFF match the ones obtained in the so-called gaussian orthogonal ensemble (GOE) of random matrices. The results are completely different in the MBL phase where they match those for systems in which the energy levels are distributed independently according to the Poisson probability distribution. The entanglement entropy of the highly excited eigenstates in the ergodic regime obeys the so-called volume-law scaling while in the MBL phase all the states in the spectrum are weakly entangled and thus obey the area law scaling of the entanglement entropy. All of our indicators imply that an increase in system's disorder leads towards a transition between an ergodic and MBL phase in the case of one-third doping for both spin and potential disorder.
+In this final thesis we investigate the transition between the ergodic and many-body localized (MBL) phase in the $t$-$J$ model in the presence of spin or potential disorder. We concentrate on the two distinct cases, namely the case of one-hole doping and the case of one-third doping, where the transition between phases is investigated as a function of the magnitude of the appropriate type of disorder. Our numerical approach is based on full numerical diagonalization of the model Hamiltonians, where three different indicators are used in order to test the systems for their ergodic or MBL properties. The calculations of the mean ratio of the adjacent level-spacings $\langle \tilde{r}\rangle$ and of the spectral form-factor (SFF) are based on the analysis of the statistical properties of the investigated Hamiltonians' energy spectra. The third indicator we use is the calculation of the entanglement entropy of all system's eigenstates. In the ergodic phase, the calculated values of $\langle\tilde{r}\rangle$ and SFF match the ones obtained in the so-called gaussian orthogonal ensemble (GOE) of random matrices. The results are completely different in the MBL phase where they match those for systems in which the energy levels are distributed independently according to the Poisson probability distribution. The entanglement entropy of the highly excited eigenstates in the ergodic regime obeys the so-called volume-law scaling while in the MBL phase all the states in the spectrum are weakly entangled and thus obey the area law scaling of the entanglement entropy. All of our indicators imply that an increase in system's disorder leads towards a transition between an ergodic and the MBL phase in the case of one-third doping for both spin and potential disorder.
 The same holds true in the case of one-hole doping in the presence of spin disorder while the case of only one hole and potential disorder is somewhat different from the remaining ones. As our indicators show, an increase in disorder does not lead towards a transition in the MBL phase in this case. As far as we know, we are among the very first to use the calculation of SFF as an idicator of system's ergodicity or the presence of MBL. Due to its rather simple implementation, the calculation of $\langle\tilde{r}\rangle$ is commonly used in order to test for ergodicity or the presence of MBL in a given system. In calculating $\langle\tilde{r}\rangle$, we only consider the correlations between the nearest levels in an energy spectrum. The calculation of SFF, on the other hand, accounts for correlations between all the energy levels in the spectrum. It thus allows for a more comprehensive insight in the system's properties, such as its behaviour at different time scales, at the expense of a more involved numerical implementation. In terms of determining the systems' ergodicity or the presence of MBL, the results of our SFF calculations match the predictions of our $\langle\tilde{r}\rangle$ calculations. 
 \vspace{1cm}\\
-{\bf Keywords:}\\
+{\bf Keywords: $t$-$J$ model, disorder, many-body localization, energy spectrum statistics, spectral form factor, entanglement entropy}\\
 {\bf PACS: 71.23.-k, 71.27.+a, 71.30.+h, 71.10.Fd}
 
 %%% KAZALO
@@ -507,7 +506,7 @@ Slika je bila vzeta iz Ref.~\cite{nandkishore2015many}.
 \label{fig:nandkishore_huse_reservoir}
 \end{figure}
 \end{minipage}
-Poljubno stanje zaprtega kvantnega sistema ob času $t$ opisuje gostotna matrika, $\hat{\rho}(t)=\ket{\psi(t)}\bra{\psi(t)}$. 
+Poljubno stanje zaprtega kvantnega sistema ob času $t$ opisuje gostotna matrika, $\rho(t)=\ket{\psi(t)}\bra{\psi(t)}$. 
 V Schrödingerjevi sliki, kjer je časovni razvoj poljubnega začetnega 
  stanja določen z delovanjem unitarnega časovnega propagatorja, 
 \begin{equation}\label{eq:cas_razvoj}
@@ -522,7 +521,7 @@ V Schrödingerjevi sliki, kjer je časovni razvoj poljubnega začetnega
 % \end{equation}
 %  je časovni razvoj gostotne matrike določen z zvezami 	
 \begin{equation}\label{eq:cas_razvoj_matrike}
-\hat{\rho}(t)=\mathrm{e}^{-\iu H t}\hat{\rho}(0)\ \mathrm{e}^{\iu H t}, \hspace{5mm} \iu\frac{\dd \hat{\rho}}{\dd t}=\left[H, \hat{\rho}\right]; \hspace{5mm} \Tr{\hat{\rho}}=1.
+\rho(t)=\mathrm{e}^{-\iu H t}\rho(0)\ \mathrm{e}^{\iu H t}, \hspace{5mm} \iu\frac{\dd \rho}{\dd t}=\left[H, \rho\right]; \hspace{5mm} \Tr{\rho}=1.
 \end{equation}
 Na vmesnem koraku med En.~\eqref{eq:cas_razvoj} in \eqref{eq:cas_razvoj_matrike} smo postavili $\hbar=1.$ Vsi drugi kvantnomehanski operatorji $\hat{O}$ so časovno neodvisni, pričakovana vrednost poljubnemu operatorju $\hat{O}$ pripadajoče opazljivke $O$ pa se ob času $t$ zapiše kot 
 \begin{equation}
@@ -912,7 +911,7 @@ Razgrnitev spektra je potrebna pri izračunih statistike razmikov med sosednjimi
 \label{lokalni_zlom_simetrije}
 Obravnava katerekoli izmed do zdaj navedenih nivojskih statistik je smiselna samo v primeru, ko v spektru nimamo degeneracij, ki so posledica nezlomljenih simetrij hamiltonke. Za primerno analizo moramo torej bodisi na primeren način izbrati bazo sistema in spekter preučevati samo na enem izmed simetrijskih podprostorov hamiltonke bodisi moramo hamiltonki dodati šibko perturbacijo, ki zlomi simetrije, vendar bistveno ne spremeni energijske skale sistema. Pri analizi, predstavljeni v magistrski nalogi, uporabljamo drugo možnost, in sicer hamiltonki dodamo lokalna člena, ki se sklapljata s spinom oziroma z vrzeljo:
 \begin{equation}\label{eq:sym_break_terms}
-\hat{h}_\mathrm{spin}=W_\mathrm{sym}\hat{S}_1^z, \hspace{5mm} \hat{h}_\mathrm{hole}=H_\mathrm{sym}\hat{n}_L.
+h_\mathrm{spin}=W_\mathrm{sym}S_1^z, \hspace{5mm} h_\mathrm{hole}=H_\mathrm{sym}n_L.
 \end{equation}
 Pri tem sta $W_\mathrm{sym}$ in $H_\mathrm{sym}$ parametra spinskega in vrzelnega zloma simetrije. Njuno najprimernejšo velikost določimo iz pogoja, da moramo v ergodičnem režimu ob odsotnosti vsakršnega nereda za povprečje $\langle\tilde{r} \rangle$ dobiti vrednost $\langle\tilde{r}\rangle_\mathrm{GOE}=0.5307$. Rezultati analize zloma simetrije so prikazani na Sliki~\ref{fig:hole_spin_disorder_sym_break_13_1_6_slo}.
 

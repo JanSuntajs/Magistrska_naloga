@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.7.23)  20 AUG 2018 09:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.7.23)  22 AUG 2018 18:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1052,6 +1052,1735 @@ LaTeX Info: Redefining \cite on input line 694.
 (/usr/share/texlive/texmf-dist/tex/latex/xmpincl/xmpincl.sty
 Package: xmpincl 2008/05/10 v2.2 Include XMP data in pdflatex
 )
+(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
+loga/pdfx.sty
+Package: pdfx 2014/08/17 v1.5 PDF/X and PDF/A support (CVR/HTH/RRM/PS)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+pdfTeX warning: pdflatex: fontmap entry for `dummy-space' already exists, dupli
+cates ignored
+
+Package hyperref Warning: Option `pdftex' has already been used,
+(hyperref)                setting the option has no effect on input line 89.
+
+
+Package hyperref Warning: Option `pdfa' has already been used,
+(hyperref)                setting the option has no effect on input line 89.
+
+Package hyperref Info: Option `unicode' set `true' on input line 91.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2017/03/14 v6.85a Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
+loga/8bit.def
+File: 8bit.def 2008/03/30 v1.1d Input encoding file
+)
+(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
+loga/FMF_Magistrsko_delo_Jan_Suntajs.xmpdata)
+(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
+loga/8bit.def
+File: 8bit.def 2008/03/30 v1.1d Input encoding file
+)
+pdfTeX warning (Object streams): \pdfobjcompresslevel > 0 requires \pdfminorver
+sion > 4. Object streams disabled now.
+<<sRGB_IEC61966-2-1_black_scaled.icc>>
+(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
+loga/8bit.def
+File: 8bit.def 2008/03/30 v1.1d Input encoding file
+)
+\xmpinclWrite=\write3
+\xmpinclRead=\read1
+\openout3 = `pdfa.xmpi'.
+
+
+! Undefined control sequence.
+\xmpinclReadln ->\paddingline 
+                              
+l.370  \includexmp{\xmp@template}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ->\paddingline 
+                              
+l.370  \includexmp{\xmp@template}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ->\paddingline 
+                              
+l.370  \includexmp{\xmp@template}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ->\paddingline 
+                              
+l.370  \includexmp{\xmp@template}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ->\paddingline 
+                              
+l.370  \includexmp{\xmp@template}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ->\paddingline 
+                              
+l.370  \includexmp{\xmp@template}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ->\paddingline 
+                              
+l.370  \includexmp{\xmp@template}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xmpinclReadln ->\paddingline 
+                              
+l.370  \includexmp{\xmp@template}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<<pdfa.xmpi>> (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 395.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 396.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 398.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 399.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 400.
+
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
+(/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
+loga/glyphtounicode-cmr.tex))
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count286
@@ -1096,8 +2825,8 @@ e
 (/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
-\@indexfile=\write3
-\openout3 = `FMF_Magistrsko_delo_Jan_Suntajs.idx'.
+\@indexfile=\write4
+\openout4 = `FMF_Magistrsko_delo_Jan_Suntajs.idx'.
 
 
 Writing index file FMF_Magistrsko_delo_Jan_Suntajs.idx
@@ -1110,21 +2839,23 @@ LaTeX Warning: Unused global option(s):
 loga/FMF_Magistrsko_delo_Jan_Suntajs.aux)
 \openout1 = `FMF_Magistrsko_delo_Jan_Suntajs.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 99.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 98.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1133,7 +2864,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: floatrow package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box47
-Package hyperref Info: Link coloring OFF on input line 99.
+Package hyperref Info: Link coloring OFF on input line 98.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1143,21 +2874,21 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count292
 )
-LaTeX Info: Redefining \ref on input line 99.
-LaTeX Info: Redefining \pageref on input line 99.
-LaTeX Info: Redefining \nameref on input line 99.
+LaTeX Info: Redefining \ref on input line 98.
+LaTeX Info: Redefining \pageref on input line 98.
+LaTeX Info: Redefining \nameref on input line 98.
 
 (/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
 loga/FMF_Magistrsko_delo_Jan_Suntajs.out)
 (/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
 loga/FMF_Magistrsko_delo_Jan_Suntajs.out)
-\@outlinefile=\write4
-\openout4 = `FMF_Magistrsko_delo_Jan_Suntajs.out'.
+\@outlinefile=\write5
+\openout5 = `FMF_Magistrsko_delo_Jan_Suntajs.out'.
 
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 99.
+. Activating mapping `default' on line 98.
 .................................................
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1207,46 +2938,46 @@ loga/FMF_Magistrsko_delo_Jan_Suntajs.out)
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 119.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 118.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 119.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 118.
 
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 119
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 118
 .
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 119
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 118
 .
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 119.
+(Font)              <17.28> on input line 118.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 119.
+(Font)              <12> on input line 118.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 119.
-LaTeX Font Info:    Try loading font information for U+msa on input line 119.
+(Font)              <10> on input line 118.
+LaTeX Font Info:    Try loading font information for U+msa on input line 118.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 119.
+LaTeX Font Info:    Try loading font information for U+msb on input line 118.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 119.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 118.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -1254,10 +2985,10 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+] [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 144--149
+Underfull \hbox (badness 10000) in paragraph at lines 143--148
 
  []
 
@@ -1265,9 +2996,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--149
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 156.
+(Font)              <8> on input line 155.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 156.
+(Font)              <6> on input line 155.
  [5] [6
 
 ] [7] [8
@@ -1275,8 +3006,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ]
 (/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
 loga/FMF_Magistrsko_delo_Jan_Suntajs.toc [9])
-\tf@toc=\write5
-\openout5 = `FMF_Magistrsko_delo_Jan_Suntajs.toc'.
+\tf@toc=\write6
+\openout6 = `FMF_Magistrsko_delo_Jan_Suntajs.toc'.
 
  [10]
 (/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
@@ -1295,28 +3026,28 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
 [15])
-\tf@lof=\write6
-\openout6 = `FMF_Magistrsko_delo_Jan_Suntajs.lof'.
+\tf@lof=\write7
+\openout7 = `FMF_Magistrsko_delo_Jan_Suntajs.lof'.
 
  [16]
 Poglavje 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--260
+Underfull \hbox (badness 10000) in paragraph at lines 212--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--260
+Underfull \hbox (badness 10000) in paragraph at lines 212--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--260
+Underfull \hbox (badness 10000) in paragraph at lines 212--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--260
+Underfull \hbox (badness 10000) in paragraph at lines 212--259
 
  []
 
@@ -1355,41 +3086,31 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Poglavje 2.
 
-Package hyperref Warning: Composite letter `\textasciicaron+c'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 277.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+c'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 277.
-
-
-Underfull \hbox (badness 1430) in paragraph at lines 284--286
+Underfull \hbox (badness 1430) in paragraph at lines 283--285
 \T1/lmr/m/n/12 Moºnost lo-ka-li-za-cije ele-k-tron-skih va-lov-nih
  []
 
-<diff_loc_ext_mod.pdf, id=669, pagebox=cropbox, 578.16pt x 216.81pt>
+<diff_loc_ext_mod.pdf, id=666, pagebox=cropbox, 578.16pt x 216.81pt>
 File: diff_loc_ext_mod.pdf Graphic file (type pdf)
 <use diff_loc_ext_mod.pdf>
-Package pdftex.def Info: diff_loc_ext_mod.pdf  used on input line 290. on input
- line 290.
+Package pdftex.def Info: diff_loc_ext_mod.pdf  used on input line 289. on input
+ line 289.
 Package pdftex.def Info: Requested size: 170.28844pt x 63.85583pt on input line
- 290.
+ 289.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 292.
+(Font)              <10.95> on input line 291.
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--297
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--297
+Underfull \hbox (badness 10000) in paragraph at lines 279--296
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--297
+Underfull \hbox (badness 10000) in paragraph at lines 279--296
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--296
 
  []
 
@@ -1405,20 +3126,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [22 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
 a_naloga/diff_loc_ext_mod.pdf>]
-
-Package hyperref Warning: Composite letter `\textasciicaron+c'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 299.
-
-<interference.jpg, id=694, 424.9476pt x 258.0039pt>
+<interference.jpg, id=690, 424.9476pt x 258.0039pt>
 File: interference.jpg Graphic file (type jpg)
 <use interference.jpg>
-Package pdftex.def Info: interference.jpg  used on input line 313. on input lin
-e 313.
+Package pdftex.def Info: interference.jpg  used on input line 312. on input lin
+e 312.
 Package pdftex.def Info: Requested size: 157.48633pt x 95.61742pt on input line
- 313.
+ 312.
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--320
+Underfull \hbox (badness 10000) in paragraph at lines 299--319
 
  []
 
@@ -1430,29 +3146,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [23 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
 a_naloga/interference.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 325--328
+Underfull \hbox (badness 10000) in paragraph at lines 324--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--328
+Underfull \hbox (badness 10000) in paragraph at lines 324--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--333
+Underfull \hbox (badness 10000) in paragraph at lines 329--332
 
  []
 
-<beta_diagram.png, id=709, 916.42375pt x 677.53125pt>
+<beta_diagram.png, id=705, 916.42375pt x 677.53125pt>
 File: beta_diagram.png Graphic file (type png)
 <use beta_diagram.png>
-Package pdftex.def Info: beta_diagram.png  used on input line 352. on input lin
-e 352.
+Package pdftex.def Info: beta_diagram.png  used on input line 351. on input lin
+e 351.
 Package pdftex.def Info: Requested size: 170.71718pt x 126.20973pt on input lin
-e 352.
+e 351.
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--358
+Underfull \hbox (badness 10000) in paragraph at lines 334--357
 
  []
 
@@ -1463,7 +3179,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
+Underfull \hbox (badness 10000) in paragraph at lines 358--359
 
  []
 
@@ -1475,103 +3191,103 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [25 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
 a_naloga/beta_diagram.png (PNG copy)>]
-Underfull \hbox (badness 5288) in paragraph at lines 366--368
+Underfull \hbox (badness 5288) in paragraph at lines 365--367
 \T1/lmr/m/n/12 na-klju£no iz-biro po-ten-ci-al-nih ener-gij in
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 366--368
+Underfull \hbox (badness 2142) in paragraph at lines 365--367
 \T1/lmr/m/n/12 po-lo-ºa-jev $[][]$, kjer vre-dno-sti ºre-bamo v
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--368
+Underfull \hbox (badness 10000) in paragraph at lines 365--367
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--368
+Underfull \hbox (badness 10000) in paragraph at lines 365--367
 
  []
 
-<disorder_scheme.pdf, id=725, pagebox=cropbox, 1011.78pt x 1011.78pt>
+<disorder_scheme.pdf, id=721, pagebox=cropbox, 1011.78pt x 1011.78pt>
 File: disorder_scheme.pdf Graphic file (type pdf)
 <use disorder_scheme.pdf>
-Package pdftex.def Info: disorder_scheme.pdf  used on input line 372. on input 
-line 372.
+Package pdftex.def Info: disorder_scheme.pdf  used on input line 371. on input 
+line 371.
 Package pdftex.def Info: Requested size: 146.81427pt x 146.80469pt on input lin
-e 372.
+e 371.
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--383
+Underfull \hbox (badness 10000) in paragraph at lines 379--382
 
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 392--395
+Underfull \hbox (badness 2435) in paragraph at lines 391--394
 []\T1/lmr/m/n/12 V An-der-so-no-vem mo-delu lahko de-lec na
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 392--395
+Underfull \hbox (badness 1237) in paragraph at lines 391--394
 \T1/lmr/m/n/12 ure-jeni mreºi ska£e med so-se-dnjimi me-sti
  []
 
 
-Underfull \hbox (badness 6445) in paragraph at lines 392--395
+Underfull \hbox (badness 6445) in paragraph at lines 391--394
 \T1/lmr/m/n/12 z na-klju£no po-raz-de-lje-nimi po-ten-ci-al-nimi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--395
+Underfull \hbox (badness 10000) in paragraph at lines 391--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--395
+Underfull \hbox (badness 10000) in paragraph at lines 391--394
 \T1/lmr/m/n/12 Ob od-so-tno-sti ne-reda je An-der-so-nova
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--395
+Underfull \hbox (badness 10000) in paragraph at lines 391--394
 
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 392--395
+Underfull \hbox (badness 1845) in paragraph at lines 391--394
 \T1/lmr/m/n/12 V li-miti zelo mo£-nega ne-reda, kjer ve-li-
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 392--395
+Underfull \hbox (badness 3148) in paragraph at lines 391--394
 \T1/lmr/m/n/12 kost pa-ra-me-tra ne-reda $\OML/lmm/m/it/12 W$ \T1/lmr/m/n/12 pr
 i-mer-jamo s
  []
 
-<hopping_picture_50years.jpg, id=735, 631.6398pt x 570.2103pt>
+<hopping_picture_50years.jpg, id=731, 631.6398pt x 570.2103pt>
 File: hopping_picture_50years.jpg Graphic file (type jpg)
 <use hopping_picture_50years.jpg>
-Package pdftex.def Info: hopping_picture_50years.jpg  used on input line 399. o
-n input line 399.
+Package pdftex.def Info: hopping_picture_50years.jpg  used on input line 398. o
+n input line 398.
 Package pdftex.def Info: Requested size: 153.64148pt x 138.69781pt on input lin
-e 399.
-<bands.png, id=738, 1255.69125pt x 860.21375pt>
+e 398.
+<bands.png, id=734, 1255.69125pt x 860.21375pt>
 File: bands.png Graphic file (type png)
 <use bands.png>
-Package pdftex.def Info: bands.png  used on input line 405. on input line 405.
+Package pdftex.def Info: bands.png  used on input line 404. on input line 404.
 Package pdftex.def Info: Requested size: 170.71393pt x 116.93764pt on input lin
-e 405.
+e 404.
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--412
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--412
+Underfull \hbox (badness 10000) in paragraph at lines 388--411
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--412
+Underfull \hbox (badness 10000) in paragraph at lines 388--411
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--411
 
  []
 
@@ -1583,13 +3299,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [26 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
 a_naloga/disorder_scheme.pdf>]
-<mobility_edge_DOS_modified.pdf, id=752, pagebox=cropbox, 867.24pt x 433.62pt>
+<mobility_edge_DOS_modified.pdf, id=748, pagebox=cropbox, 867.24pt x 433.62pt>
 File: mobility_edge_DOS_modified.pdf Graphic file (type pdf)
 <use mobility_edge_DOS_modified.pdf>
-Package pdftex.def Info: mobility_edge_DOS_modified.pdf  used on input line 453
-. on input line 453.
+Package pdftex.def Info: mobility_edge_DOS_modified.pdf  used on input line 452
+. on input line 452.
 Package pdftex.def Info: Requested size: 170.28844pt x 85.14111pt on input line
- 453.
+ 452.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1603,7 +3319,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [27 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
 a_naloga/hopping_picture_50years.jpg> </media/jan/Data/Dropbox/Sync_WD_MyCloud/
 Faks/2._stopnja/IJS_delo/Magistrska_naloga/bands.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 468--470
+Underfull \hbox (badness 10000) in paragraph at lines 467--469
 
  []
 
@@ -1615,35 +3331,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [28 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
 a_naloga/mobility_edge_DOS_modified.pdf>]
+
+pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
+stopnja/IJS_delo/Magistrska_naloga/1D_Anderson_localization_Seminar_scaling_ana
+lysis_D1_shape_1000_light_cone_double_presentation.pdf): PDF inclusion: found P
+DF version <1.5>, but at most version <1.4> allowed
 <1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_cone_dou
-ble_presentation.pdf, id=778, pagebox=cropbox, 2168.1pt x 1011.78pt>
+ble_presentation.pdf, id=774, pagebox=cropbox, 2168.1pt x 1011.78pt>
 File: 1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_con
 e_double_presentation.pdf Graphic file (type pdf)
 <use 1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_cone
 _double_presentation.pdf>
 Package pdftex.def Info: 1D_Anderson_localization_Seminar_scaling_analysis_D1_s
-hape_1000_light_cone_double_presentation.pdf  used on input line 478. on input 
-line 478.
+hape_1000_light_cone_double_presentation.pdf  used on input line 477. on input 
+line 477.
 Package pdftex.def Info: Requested size: 405.45047pt x 189.1988pt on input line
- 478.
+ 477.
 
-
-Package hyperref Warning: Composite letter `\textasciicaron+c'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 482.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 484--493
+Underfull \hbox (badness 10000) in paragraph at lines 483--492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--493
+Underfull \hbox (badness 10000) in paragraph at lines 483--492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--493
+Underfull \hbox (badness 10000) in paragraph at lines 483--492
 
  []
 
@@ -1656,43 +3371,43 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [29 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
 a_naloga/1D_Anderson_localization_Seminar_scaling_analysis_D1_shape_1000_light_
 cone_double_presentation.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 495--497
+Underfull \hbox (badness 10000) in paragraph at lines 494--496
 
  []
 
 
-Underfull \hbox (badness 4341) in paragraph at lines 495--497
+Underfull \hbox (badness 4341) in paragraph at lines 494--496
 \T1/lmr/m/n/12 Pojav MBL se ti-pi£no pre-u-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 495--497
+Underfull \hbox (badness 10000) in paragraph at lines 494--496
 \T1/lmr/m/n/12 do-lo-£ajo ob-na-²a-nje to-vr-stnih
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 495--497
+Underfull \hbox (badness 1728) in paragraph at lines 494--496
 \T1/lmr/m/n/12 sis-te-mov. V raz-pravi imamo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 495--497
+Underfull \hbox (badness 10000) in paragraph at lines 494--496
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 495--497
+Underfull \hbox (badness 10000) in paragraph at lines 494--496
 
  []
 
-<nandkishore_huse_reservoir.pdf, id=876, pagebox=cropbox, 953.5625pt x 225.8437
+<nandkishore_huse_reservoir.pdf, id=871, pagebox=cropbox, 953.5625pt x 225.8437
 5pt>
 File: nandkishore_huse_reservoir.pdf Graphic file (type pdf)
 <use nandkishore_huse_reservoir.pdf>
-Package pdftex.def Info: nandkishore_huse_reservoir.pdf  used on input line 501
-. on input line 501.
+Package pdftex.def Info: nandkishore_huse_reservoir.pdf  used on input line 500
+. on input line 500.
 Package pdftex.def Info: Requested size: 204.21964pt x 75.3247pt on input line 
-501.
+500.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1712,17 +3427,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [31 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
 a_naloga/nandkishore_huse_reservoir.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 546--553
+Underfull \hbox (badness 10000) in paragraph at lines 545--552
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 546--553
+Underfull \hbox (badness 10000) in paragraph at lines 545--552
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 577--579
+Underfull \hbox (badness 10000) in paragraph at lines 576--578
 
  []
 
@@ -1733,54 +3448,49 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [32]
-Overfull \hbox (0.13148pt too wide) in paragraph at lines 588--591
+Overfull \hbox (0.13148pt too wide) in paragraph at lines 587--590
 \T1/lmr/m/n/12 smo za-pi-sali \T1/lmr/m/it/12 hi-po-tezo ter-ma-li-za-cije la-s
 tnih stanj \T1/lmr/m/n/12 (ang. \T1/lmr/m/it/12 ei-gen-state ther-ma-li-za-tion
  hypo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--591
+Underfull \hbox (badness 10000) in paragraph at lines 587--590
 
  []
 
 
-Package hyperref Warning: Composite letter `\textasciicaron+c'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 591.
-
-
-Underfull \hbox (badness 1122) in paragraph at lines 596--600
+Underfull \hbox (badness 1122) in paragraph at lines 595--599
 \T1/lmr/m/n/12 sis-temi je raz-vi-dna ne-po-sre-dno iz
  []
 
-<abanin_thermalization_scheme.pdf, id=928, pagebox=cropbox, 877.2775pt x 297.11
+<abanin_thermalization_scheme.pdf, id=923, pagebox=cropbox, 877.2775pt x 297.11
 pt>
 File: abanin_thermalization_scheme.pdf Graphic file (type pdf)
 <use abanin_thermalization_scheme.pdf>
 Package pdftex.def Info: abanin_thermalization_scheme.pdf  used on input line 6
-04. on input line 604.
+03. on input line 603.
 Package pdftex.def Info: Requested size: 214.88824pt x 72.77672pt on input line
- 604.
-<unfolding_demo_three_slo.pdf, id=938, pagebox=cropbox, 1734.48pt x 505.89pt>
+ 603.
+<unfolding_demo_three_slo.pdf, id=933, pagebox=cropbox, 1734.48pt x 505.89pt>
 File: unfolding_demo_three_slo.pdf Graphic file (type pdf)
 <use unfolding_demo_three_slo.pdf>
-Package pdftex.def Info: unfolding_demo_three_slo.pdf  used on input line 617. 
-on input line 617.
+Package pdftex.def Info: unfolding_demo_three_slo.pdf  used on input line 616. 
+on input line 616.
 Package pdftex.def Info: Requested size: 426.79135pt x 112.13132pt on input lin
-e 617.
+e 616.
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--621
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 593--621
+Underfull \hbox (badness 10000) in paragraph at lines 592--620
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--621
+Underfull \hbox (badness 10000) in paragraph at lines 592--620
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--620
 
  []
 
@@ -1802,18 +3512,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [34 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
 a_naloga/abanin_thermalization_scheme.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 632--633
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
 
  []
 
 File: nandkishore_huse_reservoir.pdf Graphic file (type pdf)
 <use nandkishore_huse_reservoir.pdf>
-Package pdftex.def Info: nandkishore_huse_reservoir.pdf  used on input line 637
-. on input line 637.
+Package pdftex.def Info: nandkishore_huse_reservoir.pdf  used on input line 636
+. on input line 636.
 Package pdftex.def Info: Requested size: 118.82076pt x 92.18988pt on input line
- 637.
+ 636.
 
-Underfull \hbox (badness 10000) in paragraph at lines 622--651
+Underfull \hbox (badness 10000) in paragraph at lines 621--650
 
  []
 
@@ -1836,42 +3546,42 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Poglavje 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--671
+Underfull \hbox (badness 10000) in paragraph at lines 669--670
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 673--677
+Underfull \hbox (badness 10000) in paragraph at lines 672--676
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 673--677
+Underfull \hbox (badness 10000) in paragraph at lines 672--676
 
  []
 
 [37]
-<scheme_XXZ_t_V.pdf, id=1029, pagebox=cropbox, 540.54547pt x 281.82455pt>
+<scheme_XXZ_t_V.pdf, id=1023, pagebox=cropbox, 540.54547pt x 281.82455pt>
 File: scheme_XXZ_t_V.pdf Graphic file (type pdf)
 <use scheme_XXZ_t_V.pdf>
-Package pdftex.def Info: scheme_XXZ_t_V.pdf  used on input line 689. on input l
-ine 689.
+Package pdftex.def Info: scheme_XXZ_t_V.pdf  used on input line 688. on input l
+ine 688.
 Package pdftex.def Info: Requested size: 213.39568pt x 111.25711pt on input lin
-e 689.
+e 688.
 File: scheme_XXZ_t_V.pdf Graphic file (type pdf)
 <use scheme_XXZ_t_V.pdf>
-Package pdftex.def Info: scheme_XXZ_t_V.pdf  used on input line 689. on input l
-ine 689.
+Package pdftex.def Info: scheme_XXZ_t_V.pdf  used on input line 688. on input l
+ine 688.
 Package pdftex.def Info: Requested size: 213.39568pt x 111.25711pt on input lin
-e 689.
+e 688.
 File: scheme_XXZ_t_V.pdf Graphic file (type pdf)
 <use scheme_XXZ_t_V.pdf>
-Package pdftex.def Info: scheme_XXZ_t_V.pdf  used on input line 689. on input l
-ine 689.
+Package pdftex.def Info: scheme_XXZ_t_V.pdf  used on input line 688. on input l
+ine 688.
 Package pdftex.def Info: Requested size: 213.39568pt x 111.25711pt on input lin
-e 689.
+e 688.
 
-Underfull \hbox (badness 10000) in paragraph at lines 683--690
+Underfull \hbox (badness 10000) in paragraph at lines 682--689
 
  []
 
@@ -1886,17 +3596,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [38]
-Underfull \hbox (badness 10000) in paragraph at lines 697--698
+Underfull \hbox (badness 10000) in paragraph at lines 696--697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 697--698
+Underfull \hbox (badness 10000) in paragraph at lines 696--697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 702--705
+Underfull \hbox (badness 10000) in paragraph at lines 701--704
 
  []
 
@@ -1908,42 +3618,42 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [39 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
 a_naloga/scheme_XXZ_t_V.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 707--710
+Underfull \hbox (badness 10000) in paragraph at lines 706--709
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 714.
+(Font)              <14.4> on input line 713.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 714.
+(Font)              <7> on input line 713.
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 714.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 714.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 713.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 714.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 713.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 714.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 713.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 730--739
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 713.
 
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 730--739
+Underfull \hbox (badness 10000) in paragraph at lines 729--738
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 730--739
+Underfull \hbox (badness 10000) in paragraph at lines 729--738
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--738
 
  []
 
@@ -1961,51 +3671,51 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [41]
-<tJ_scheme.pdf, id=1083, pagebox=cropbox, 845.1575pt x 361.35pt>
+<tJ_scheme.pdf, id=1076, pagebox=cropbox, 845.1575pt x 361.35pt>
 File: tJ_scheme.pdf Graphic file (type pdf)
 <use tJ_scheme.pdf>
-Package pdftex.def Info: tJ_scheme.pdf  used on input line 747. on input line 7
-47.
+Package pdftex.def Info: tJ_scheme.pdf  used on input line 746. on input line 7
+46.
 Package pdftex.def Info: Requested size: 264.60855pt x 113.13663pt on input lin
-e 747.
+e 746.
 File: tJ_scheme.pdf Graphic file (type pdf)
 <use tJ_scheme.pdf>
-Package pdftex.def Info: tJ_scheme.pdf  used on input line 747. on input line 7
-47.
+Package pdftex.def Info: tJ_scheme.pdf  used on input line 746. on input line 7
+46.
 Package pdftex.def Info: Requested size: 264.60855pt x 113.13663pt on input lin
-e 747.
+e 746.
 File: tJ_scheme.pdf Graphic file (type pdf)
 <use tJ_scheme.pdf>
-Package pdftex.def Info: tJ_scheme.pdf  used on input line 747. on input line 7
-47.
+Package pdftex.def Info: tJ_scheme.pdf  used on input line 746. on input line 7
+46.
 Package pdftex.def Info: Requested size: 264.60855pt x 113.13663pt on input lin
-e 747.
-<prob_dist.pdf, id=1084, pagebox=cropbox, 867.24pt x 433.62pt>
+e 746.
+<prob_dist.pdf, id=1077, pagebox=cropbox, 867.24pt x 433.62pt>
 File: prob_dist.pdf Graphic file (type pdf)
 <use prob_dist.pdf>
-Package pdftex.def Info: prob_dist.pdf  used on input line 752. on input line 7
-52.
+Package pdftex.def Info: prob_dist.pdf  used on input line 751. on input line 7
+51.
 Package pdftex.def Info: Requested size: 264.60855pt x 132.30353pt on input lin
-e 752.
+e 751.
 File: prob_dist.pdf Graphic file (type pdf)
 <use prob_dist.pdf>
-Package pdftex.def Info: prob_dist.pdf  used on input line 752. on input line 7
-52.
+Package pdftex.def Info: prob_dist.pdf  used on input line 751. on input line 7
+51.
 Package pdftex.def Info: Requested size: 264.60855pt x 132.30353pt on input lin
-e 752.
+e 751.
 File: prob_dist.pdf Graphic file (type pdf)
 <use prob_dist.pdf>
-Package pdftex.def Info: prob_dist.pdf  used on input line 752. on input line 7
-52.
+Package pdftex.def Info: prob_dist.pdf  used on input line 751. on input line 7
+51.
 Package pdftex.def Info: Requested size: 264.60855pt x 132.30353pt on input lin
-e 752.
-<tJ_num_states.pdf, id=1085, pagebox=cropbox, 1156.32pt x 650.43pt>
+e 751.
+<tJ_num_states.pdf, id=1078, pagebox=cropbox, 1156.32pt x 650.43pt>
 File: tJ_num_states.pdf Graphic file (type pdf)
 <use tJ_num_states.pdf>
-Package pdftex.def Info: tJ_num_states.pdf  used on input line 756. on input li
-ne 756.
+Package pdftex.def Info: tJ_num_states.pdf  used on input line 755. on input li
+ne 755.
 Package pdftex.def Info: Requested size: 341.43437pt x 192.05383pt on input lin
-e 756.
+e 755.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2027,24 +3737,19 @@ pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
 stopnja/IJS_delo/Magistrska_naloga/tJ_num_states.pdf): PDF inclusion: multiple 
 pdfs with page group included in a single page
 >]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 763.
 
-Package hyperref Warning: Composite letter `\textasciicaron+c'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 762.
-
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 764.
-
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<Eigenstates_spin_hole_disorder_13_1_6.pdf, id=1279, pagebox=cropbox, 1156.32pt
+<Eigenstates_spin_hole_disorder_13_1_6.pdf, id=1271, pagebox=cropbox, 1156.32pt
  x 505.89pt>
 File: Eigenstates_spin_hole_disorder_13_1_6.pdf Graphic file (type pdf)
 <use Eigenstates_spin_hole_disorder_13_1_6.pdf>
 Package pdftex.def Info: Eigenstates_spin_hole_disorder_13_1_6.pdf  used on inp
-ut line 768. on input line 768.
+ut line 767. on input line 767.
 Package pdftex.def Info: Requested size: 426.79135pt x 186.72092pt on input lin
-e 768.
+e 767.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2054,30 +3759,30 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [43 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
 a_naloga/Eigenstates_spin_hole_disorder_13_1_6.pdf>]
-<DOS_spin_hole_disorder_13_1_6.pdf, id=1299, pagebox=cropbox, 1156.32pt x 505.8
+<DOS_spin_hole_disorder_13_1_6.pdf, id=1291, pagebox=cropbox, 1156.32pt x 505.8
 9pt>
 File: DOS_spin_hole_disorder_13_1_6.pdf Graphic file (type pdf)
 <use DOS_spin_hole_disorder_13_1_6.pdf>
 Package pdftex.def Info: DOS_spin_hole_disorder_13_1_6.pdf  used on input line 
-775. on input line 775.
+774. on input line 774.
 Package pdftex.def Info: Requested size: 384.1096pt x 168.04807pt on input line
- 775.
-<Eigenstates_spin_hole_disorder_12_4_4.pdf, id=1302, pagebox=cropbox, 1156.32pt
+ 774.
+<Eigenstates_spin_hole_disorder_12_4_4.pdf, id=1294, pagebox=cropbox, 1156.32pt
  x 505.89pt>
 File: Eigenstates_spin_hole_disorder_12_4_4.pdf Graphic file (type pdf)
 <use Eigenstates_spin_hole_disorder_12_4_4.pdf>
 Package pdftex.def Info: Eigenstates_spin_hole_disorder_12_4_4.pdf  used on inp
-ut line 781. on input line 781.
+ut line 780. on input line 780.
 Package pdftex.def Info: Requested size: 426.79135pt x 186.72092pt on input lin
-e 781.
-<DOS_spin_hole_disorder_12_4_4.pdf, id=1303, pagebox=cropbox, 1156.32pt x 505.8
+e 780.
+<DOS_spin_hole_disorder_12_4_4.pdf, id=1295, pagebox=cropbox, 1156.32pt x 505.8
 9pt>
 File: DOS_spin_hole_disorder_12_4_4.pdf Graphic file (type pdf)
 <use DOS_spin_hole_disorder_12_4_4.pdf>
 Package pdftex.def Info: DOS_spin_hole_disorder_12_4_4.pdf  used on input line 
-787. on input line 787.
+786. on input line 786.
 Package pdftex.def Info: Requested size: 426.79135pt x 186.72092pt on input lin
-e 787.
+e 786.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2116,34 +3821,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Poglavje 4.
 
-Package hyperref Warning: Composite letter `\textasciicaron+c'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 792.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 796--799
+Underfull \hbox (badness 10000) in paragraph at lines 795--798
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 796--799
+Underfull \hbox (badness 10000) in paragraph at lines 795--798
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 801--805
+Underfull \hbox (badness 10000) in paragraph at lines 800--804
 
  []
 
 [47]
-Overfull \hbox (11.21812pt too wide) detected at line 827
+Overfull \hbox (11.21812pt too wide) detected at line 826
 \OML/lmm/m/it/12 P\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 s\OT1/lmr/m/n/12 ) = [] [] 
  d\OML/lmm/m/it/12 "[] []  \OT1/lmr/m/n/12 d\OML/lmm/m/it/12 "[] []  \OT1/lmr/m
 /n/12 d\OML/lmm/m/it/12 V^^N [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 839--842
+Underfull \hbox (badness 10000) in paragraph at lines 838--841
 
  []
 
@@ -2154,12 +3854,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [48]
-Underfull \hbox (badness 10000) in paragraph at lines 844--846
+Underfull \hbox (badness 10000) in paragraph at lines 843--845
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 847--849
+Underfull \hbox (badness 10000) in paragraph at lines 846--848
 
  []
 
@@ -2170,37 +3870,37 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [49]
-Underfull \hbox (badness 10000) in paragraph at lines 859--863
+Underfull \hbox (badness 10000) in paragraph at lines 858--862
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 859--863
+Underfull \hbox (badness 10000) in paragraph at lines 858--862
 
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 863.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 862.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 863.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 862.
 
 File: unfolding_demo_three_slo.pdf Graphic file (type pdf)
 <use unfolding_demo_three_slo.pdf>
-Package pdftex.def Info: unfolding_demo_three_slo.pdf  used on input line 876. 
-on input line 876.
+Package pdftex.def Info: unfolding_demo_three_slo.pdf  used on input line 875. 
+on input line 875.
 Package pdftex.def Info: Requested size: 426.79135pt x 124.4806pt on input line
- 876.
-<unfolding_demo_three_error_slo.pdf, id=1392, pagebox=cropbox, 1734.48pt x 505.
+ 875.
+<unfolding_demo_three_error_slo.pdf, id=1383, pagebox=cropbox, 1734.48pt x 505.
 89pt>
 File: unfolding_demo_three_error_slo.pdf Graphic file (type pdf)
 <use unfolding_demo_three_error_slo.pdf>
 Package pdftex.def Info: unfolding_demo_three_error_slo.pdf  used on input line
- 882. on input line 882.
+ 881. on input line 881.
 Package pdftex.def Info: Requested size: 426.79135pt x 124.4806pt on input line
- 882.
+ 881.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2208,7 +3908,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [50]
-Underfull \hbox (badness 10000) in paragraph at lines 890--892
+Underfull \hbox (badness 10000) in paragraph at lines 889--891
 
  []
 
@@ -2220,32 +3920,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [51 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
 a_naloga/unfolding_demo_three_error_slo.pdf>]
-<unfolding_schematics.pdf, id=1433, pagebox=cropbox, 578.16pt x 505.89pt>
+<unfolding_schematics.pdf, id=1424, pagebox=cropbox, 578.16pt x 505.89pt>
 File: unfolding_schematics.pdf Graphic file (type pdf)
 <use unfolding_schematics.pdf>
-Package pdftex.def Info: unfolding_schematics.pdf  used on input line 909. on i
-nput line 909.
+Package pdftex.def Info: unfolding_schematics.pdf  used on input line 908. on i
+nput line 908.
 Package pdftex.def Info: Requested size: 234.73654pt x 205.39378pt on input lin
-e 909.
+e 908.
 File: unfolding_schematics.pdf Graphic file (type pdf)
 <use unfolding_schematics.pdf>
-Package pdftex.def Info: unfolding_schematics.pdf  used on input line 909. on i
-nput line 909.
+Package pdftex.def Info: unfolding_schematics.pdf  used on input line 908. on i
+nput line 908.
 Package pdftex.def Info: Requested size: 234.73654pt x 205.39378pt on input lin
-e 909.
+e 908.
 File: unfolding_schematics.pdf Graphic file (type pdf)
 <use unfolding_schematics.pdf>
-Package pdftex.def Info: unfolding_schematics.pdf  used on input line 909. on i
-nput line 909.
+Package pdftex.def Info: unfolding_schematics.pdf  used on input line 908. on i
+nput line 908.
 Package pdftex.def Info: Requested size: 234.73654pt x 205.39378pt on input lin
-e 909.
+e 908.
 
-Overfull \hbox (2.88809pt too wide) detected at line 909
+Overfull \hbox (2.88809pt too wide) detected at line 908
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 903--910
+Underfull \hbox (badness 10000) in paragraph at lines 902--909
 
  []
 
@@ -2257,71 +3957,71 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [52 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
 a_naloga/unfolding_schematics.pdf>]
-Underfull \hbox (badness 2245) in paragraph at lines 922--922
+Underfull \hbox (badness 2245) in paragraph at lines 921--921
 \T1/lmr/m/n/10.95 va-nju pa-ra-me-trov $\OML/lmm/m/it/10.95 W[]$ \T1/lmr/m/n/10
 .95 in
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 922--922
+Underfull \hbox (badness 1852) in paragraph at lines 921--921
 \T1/lmr/m/n/10.95 Z rde£o in ze-leno pre-mico
  []
 
-<hole_spin_disorder_sym_break_13_1_6_slo.pdf, id=1457, pagebox=cropbox, 462.527
+<hole_spin_disorder_sym_break_13_1_6_slo.pdf, id=1448, pagebox=cropbox, 462.527
 98pt x 346.89601pt>
 File: hole_spin_disorder_sym_break_13_1_6_slo.pdf Graphic file (type pdf)
 <use hole_spin_disorder_sym_break_13_1_6_slo.pdf>
 Package pdftex.def Info: hole_spin_disorder_sym_break_13_1_6_slo.pdf  used on i
-nput line 922. on input line 922.
+nput line 921. on input line 921.
 Package pdftex.def Info: Requested size: 298.75264pt x 224.07703pt on input lin
-e 922.
+e 921.
 
-Underfull \hbox (badness 2245) in paragraph at lines 922--922
+Underfull \hbox (badness 2245) in paragraph at lines 921--921
 \T1/lmr/m/n/10.95 va-nju pa-ra-me-trov $\OML/lmm/m/it/10.95 W[]$ \T1/lmr/m/n/10
 .95 in
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 922--922
+Underfull \hbox (badness 1852) in paragraph at lines 921--921
 \T1/lmr/m/n/10.95 Z rde£o in ze-leno pre-mico
  []
 
 File: hole_spin_disorder_sym_break_13_1_6_slo.pdf Graphic file (type pdf)
 <use hole_spin_disorder_sym_break_13_1_6_slo.pdf>
 Package pdftex.def Info: hole_spin_disorder_sym_break_13_1_6_slo.pdf  used on i
-nput line 922. on input line 922.
+nput line 921. on input line 921.
 Package pdftex.def Info: Requested size: 298.75264pt x 224.07703pt on input lin
-e 922.
+e 921.
 
-Underfull \hbox (badness 2245) in paragraph at lines 922--922
+Underfull \hbox (badness 2245) in paragraph at lines 921--921
 \T1/lmr/m/n/10.95 va-nju pa-ra-me-trov $\OML/lmm/m/it/10.95 W[]$ \T1/lmr/m/n/10
 .95 in
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 922--922
+Underfull \hbox (badness 1852) in paragraph at lines 921--921
 \T1/lmr/m/n/10.95 Z rde£o in ze-leno pre-mico
  []
 
 File: hole_spin_disorder_sym_break_13_1_6_slo.pdf Graphic file (type pdf)
 <use hole_spin_disorder_sym_break_13_1_6_slo.pdf>
 Package pdftex.def Info: hole_spin_disorder_sym_break_13_1_6_slo.pdf  used on i
-nput line 922. on input line 922.
+nput line 921. on input line 921.
 Package pdftex.def Info: Requested size: 298.75264pt x 224.07703pt on input lin
-e 922.
+e 921.
 
-Overfull \hbox (24.22507pt too wide) detected at line 922
+Overfull \hbox (24.22507pt too wide) detected at line 921
  [] 
  []
 
-<double_plot_disorder_sym_break_13_1_6_slo.pdf, id=1462, pagebox=cropbox, 1156.
+<double_plot_disorder_sym_break_13_1_6_slo.pdf, id=1453, pagebox=cropbox, 1156.
 32pt x 505.89pt>
 File: double_plot_disorder_sym_break_13_1_6_slo.pdf Graphic file (type pdf)
 <use double_plot_disorder_sym_break_13_1_6_slo.pdf>
 Package pdftex.def Info: double_plot_disorder_sym_break_13_1_6_slo.pdf  used on
- input line 933. on input line 933.
+ input line 932. on input line 932.
 Package pdftex.def Info: Requested size: 426.79135pt x 186.72092pt on input lin
-e 933.
+e 932.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2330,100 +4030,100 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [53 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
 a_naloga/hole_spin_disorder_sym_break_13_1_6_slo.pdf>]
-<double_plot_disorder_sym_break_12_4_4_slo.pdf, id=1516, pagebox=cropbox, 1156.
+<double_plot_disorder_sym_break_12_4_4_slo.pdf, id=1506, pagebox=cropbox, 1156.
 32pt x 505.89pt>
 File: double_plot_disorder_sym_break_12_4_4_slo.pdf Graphic file (type pdf)
 <use double_plot_disorder_sym_break_12_4_4_slo.pdf>
 Package pdftex.def Info: double_plot_disorder_sym_break_12_4_4_slo.pdf  used on
- input line 939. on input line 939.
+ input line 938. on input line 938.
 Package pdftex.def Info: Requested size: 426.79135pt x 186.72092pt on input lin
-e 939.
+e 938.
 
-Underfull \hbox (badness 2042) in paragraph at lines 946--946
+Underfull \hbox (badness 2042) in paragraph at lines 945--945
 \T1/lmr/m/n/10.95 nem spin-skem ne-redu opa-
  []
 
-<r_density_11_1_5.pdf, id=1517, pagebox=cropbox, 578.16pt x 505.89pt>
+<r_density_11_1_5.pdf, id=1507, pagebox=cropbox, 578.16pt x 505.89pt>
 File: r_density_11_1_5.pdf Graphic file (type pdf)
 <use r_density_11_1_5.pdf>
-Package pdftex.def Info: r_density_11_1_5.pdf  used on input line 946. on input
- line 946.
+Package pdftex.def Info: r_density_11_1_5.pdf  used on input line 945. on input
+ line 945.
 Package pdftex.def Info: Requested size: 256.07741pt x 224.06665pt on input lin
-e 946.
+e 945.
 
-Underfull \hbox (badness 2042) in paragraph at lines 946--946
-\T1/lmr/m/n/10.95 nem spin-skem ne-redu opa-
- []
-
-File: r_density_11_1_5.pdf Graphic file (type pdf)
-<use r_density_11_1_5.pdf>
-Package pdftex.def Info: r_density_11_1_5.pdf  used on input line 946. on input
- line 946.
-Package pdftex.def Info: Requested size: 256.07741pt x 224.06665pt on input lin
-e 946.
-
-Underfull \hbox (badness 2042) in paragraph at lines 946--946
+Underfull \hbox (badness 2042) in paragraph at lines 945--945
 \T1/lmr/m/n/10.95 nem spin-skem ne-redu opa-
  []
 
 File: r_density_11_1_5.pdf Graphic file (type pdf)
 <use r_density_11_1_5.pdf>
-Package pdftex.def Info: r_density_11_1_5.pdf  used on input line 946. on input
- line 946.
+Package pdftex.def Info: r_density_11_1_5.pdf  used on input line 945. on input
+ line 945.
 Package pdftex.def Info: Requested size: 256.07741pt x 224.06665pt on input lin
-e 946.
+e 945.
 
-Underfull \hbox (badness 1360) in paragraph at lines 951--951
+Underfull \hbox (badness 2042) in paragraph at lines 945--945
+\T1/lmr/m/n/10.95 nem spin-skem ne-redu opa-
+ []
+
+File: r_density_11_1_5.pdf Graphic file (type pdf)
+<use r_density_11_1_5.pdf>
+Package pdftex.def Info: r_density_11_1_5.pdf  used on input line 945. on input
+ line 945.
+Package pdftex.def Info: Requested size: 256.07741pt x 224.06665pt on input lin
+e 945.
+
+Underfull \hbox (badness 1360) in paragraph at lines 950--950
 \T1/lmr/m/n/10.95 storu pa-ra-me-trov $\OML/lmm/m/it/10.95 H$ \T1/lmr/m/n/10.95
  in $\OML/lmm/m/it/10.95 W$
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 951--951
+Underfull \hbox (badness 1077) in paragraph at lines 950--950
 \T1/lmr/m/n/10.95 klju£-nih re-a-li-za-ci-jah ne-reda,
  []
 
-<r_density_9_3_3.pdf, id=1518, pagebox=cropbox, 578.16pt x 505.89pt>
+<r_density_9_3_3.pdf, id=1508, pagebox=cropbox, 578.16pt x 505.89pt>
 File: r_density_9_3_3.pdf Graphic file (type pdf)
 <use r_density_9_3_3.pdf>
-Package pdftex.def Info: r_density_9_3_3.pdf  used on input line 951. on input 
-line 951.
+Package pdftex.def Info: r_density_9_3_3.pdf  used on input line 950. on input 
+line 950.
 Package pdftex.def Info: Requested size: 256.07741pt x 224.06665pt on input lin
-e 951.
+e 950.
 
-Underfull \hbox (badness 1360) in paragraph at lines 951--951
+Underfull \hbox (badness 1360) in paragraph at lines 950--950
 \T1/lmr/m/n/10.95 storu pa-ra-me-trov $\OML/lmm/m/it/10.95 H$ \T1/lmr/m/n/10.95
  in $\OML/lmm/m/it/10.95 W$
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 951--951
+Underfull \hbox (badness 1077) in paragraph at lines 950--950
 \T1/lmr/m/n/10.95 klju£-nih re-a-li-za-ci-jah ne-reda,
  []
 
 File: r_density_9_3_3.pdf Graphic file (type pdf)
 <use r_density_9_3_3.pdf>
-Package pdftex.def Info: r_density_9_3_3.pdf  used on input line 951. on input 
-line 951.
+Package pdftex.def Info: r_density_9_3_3.pdf  used on input line 950. on input 
+line 950.
 Package pdftex.def Info: Requested size: 256.07741pt x 224.06665pt on input lin
-e 951.
+e 950.
 
-Underfull \hbox (badness 1360) in paragraph at lines 951--951
+Underfull \hbox (badness 1360) in paragraph at lines 950--950
 \T1/lmr/m/n/10.95 storu pa-ra-me-trov $\OML/lmm/m/it/10.95 H$ \T1/lmr/m/n/10.95
  in $\OML/lmm/m/it/10.95 W$
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 951--951
+Underfull \hbox (badness 1077) in paragraph at lines 950--950
 \T1/lmr/m/n/10.95 klju£-nih re-a-li-za-ci-jah ne-reda,
  []
 
 File: r_density_9_3_3.pdf Graphic file (type pdf)
 <use r_density_9_3_3.pdf>
-Package pdftex.def Info: r_density_9_3_3.pdf  used on input line 951. on input 
-line 951.
+Package pdftex.def Info: r_density_9_3_3.pdf  used on input line 950. on input 
+line 950.
 Package pdftex.def Info: Requested size: 256.07741pt x 224.06665pt on input lin
-e 951.
+e 950.
 
 Underfull \vbox (badness 1867) has occurred while \output is active []
 
@@ -2457,12 +4157,12 @@ pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
 stopnja/IJS_delo/Magistrska_naloga/r_density_9_3_3.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 960--962
+Underfull \hbox (badness 10000) in paragraph at lines 959--961
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 976--979
+Underfull \hbox (badness 10000) in paragraph at lines 975--978
 
  []
 
@@ -2473,23 +4173,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [56]
-Underfull \hbox (badness 10000) in paragraph at lines 981--984
+Underfull \hbox (badness 10000) in paragraph at lines 980--983
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 994--997
+Underfull \hbox (badness 10000) in paragraph at lines 993--996
 
  []
 
-<scheme_sff_disorder_14_0_7.pdf, id=1625, pagebox=cropbox, 1156.32pt x 505.89pt
+<scheme_sff_disorder_14_0_7.pdf, id=1614, pagebox=cropbox, 1156.32pt x 505.89pt
 >
 File: scheme_sff_disorder_14_0_7.pdf Graphic file (type pdf)
 <use scheme_sff_disorder_14_0_7.pdf>
 Package pdftex.def Info: scheme_sff_disorder_14_0_7.pdf  used on input line 100
-3. on input line 1003.
+2. on input line 1002.
 Package pdftex.def Info: Requested size: 426.79135pt x 186.72092pt on input lin
-e 1003.
+e 1002.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2505,29 +4205,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [58 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
 a_naloga/scheme_sff_disorder_14_0_7.pdf>]
-<W_sweep_sff_disorder_11_1_5.pdf, id=1662, pagebox=cropbox, 1156.32pt x 505.89p
+<W_sweep_sff_disorder_11_1_5.pdf, id=1651, pagebox=cropbox, 1156.32pt x 505.89p
 t>
 File: W_sweep_sff_disorder_11_1_5.pdf Graphic file (type pdf)
 <use W_sweep_sff_disorder_11_1_5.pdf>
 Package pdftex.def Info: W_sweep_sff_disorder_11_1_5.pdf  used on input line 10
-20. on input line 1020.
+19. on input line 1019.
 Package pdftex.def Info: Requested size: 396.91283pt x 173.64452pt on input lin
-e 1020.
+e 1019.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1012--1023
+Underfull \hbox (badness 10000) in paragraph at lines 1011--1022
 
  []
 
-<H_sweep_sff_disorder_11_1_5.pdf, id=1665, pagebox=cropbox, 1156.32pt x 505.89p
+<H_sweep_sff_disorder_11_1_5.pdf, id=1654, pagebox=cropbox, 1156.32pt x 505.89p
 t>
 File: H_sweep_sff_disorder_11_1_5.pdf Graphic file (type pdf)
 <use H_sweep_sff_disorder_11_1_5.pdf>
 Package pdftex.def Info: H_sweep_sff_disorder_11_1_5.pdf  used on input line 10
-26. on input line 1026.
+25. on input line 1025.
 Package pdftex.def Info: Requested size: 396.91283pt x 173.64452pt on input lin
-e 1026.
+e 1025.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1030--1033
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1032
 
  []
 
@@ -2545,14 +4245,14 @@ pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
 stopnja/IJS_delo/Magistrska_naloga/H_sweep_sff_disorder_11_1_5.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]
-<double_sweep_sff_disorder_11_1_5_four_.pdf, id=1700, pagebox=cropbox, 1156.32p
+<double_sweep_sff_disorder_11_1_5_four_.pdf, id=1689, pagebox=cropbox, 1156.32p
 t x 1011.78pt>
 File: double_sweep_sff_disorder_11_1_5_four_.pdf Graphic file (type pdf)
 <use double_sweep_sff_disorder_11_1_5_four_.pdf>
 Package pdftex.def Info: double_sweep_sff_disorder_11_1_5_four_.pdf  used on in
-put line 1039. on input line 1039.
+put line 1038. on input line 1038.
 Package pdftex.def Info: Requested size: 362.77525pt x 317.41554pt on input lin
-e 1039.
+e 1038.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2562,22 +4262,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [60 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
 a_naloga/double_sweep_sff_disorder_11_1_5_four_.pdf>]
-<W_sweep_sff_disorder_9_3_3.pdf, id=1722, pagebox=cropbox, 1156.32pt x 505.89pt
+<W_sweep_sff_disorder_9_3_3.pdf, id=1711, pagebox=cropbox, 1156.32pt x 505.89pt
 >
 File: W_sweep_sff_disorder_9_3_3.pdf Graphic file (type pdf)
 <use W_sweep_sff_disorder_9_3_3.pdf>
 Package pdftex.def Info: W_sweep_sff_disorder_9_3_3.pdf  used on input line 104
-8. on input line 1048.
+7. on input line 1047.
 Package pdftex.def Info: Requested size: 426.79135pt x 186.72092pt on input lin
-e 1048.
-<H_sweep_sff_disorder_9_3_3.pdf, id=1723, pagebox=cropbox, 1156.32pt x 505.89pt
+e 1047.
+<H_sweep_sff_disorder_9_3_3.pdf, id=1712, pagebox=cropbox, 1156.32pt x 505.89pt
 >
 File: H_sweep_sff_disorder_9_3_3.pdf Graphic file (type pdf)
 <use H_sweep_sff_disorder_9_3_3.pdf>
-Package pdftex.def Info: H_sweep_sff_disorder_9_3_3.pdf  used on input line 105
-0. on input line 1050.
+Package pdftex.def Info: H_sweep_sff_disorder_9_3_3.pdf  used on input line 104
+9. on input line 1049.
 Package pdftex.def Info: Requested size: 426.79135pt x 186.72092pt on input lin
-e 1050.
+e 1049.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2593,14 +4293,14 @@ pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
 stopnja/IJS_delo/Magistrska_naloga/H_sweep_sff_disorder_9_3_3.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >]
-<double_sweep_sff_disorder_9_3_3_four_.pdf, id=1757, pagebox=cropbox, 1156.32pt
+<double_sweep_sff_disorder_9_3_3_four_.pdf, id=1745, pagebox=cropbox, 1156.32pt
  x 1011.78pt>
 File: double_sweep_sff_disorder_9_3_3_four_.pdf Graphic file (type pdf)
 <use double_sweep_sff_disorder_9_3_3_four_.pdf>
 Package pdftex.def Info: double_sweep_sff_disorder_9_3_3_four_.pdf  used on inp
-ut line 1063. on input line 1063.
+ut line 1062. on input line 1062.
 Package pdftex.def Info: Requested size: 362.77525pt x 317.41554pt on input lin
-e 1063.
+e 1062.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2611,29 +4311,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [62 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
 a_naloga/double_sweep_sff_disorder_9_3_3_four_.pdf>]
 Poglavje 5.
-<W_sweep_ent_entropy_scaling_14_0_7.pdf, id=1779, pagebox=cropbox, 722.7pt x 36
+<W_sweep_ent_entropy_scaling_14_0_7.pdf, id=1767, pagebox=cropbox, 722.7pt x 36
 1.35pt>
 File: W_sweep_ent_entropy_scaling_14_0_7.pdf Graphic file (type pdf)
 <use W_sweep_ent_entropy_scaling_14_0_7.pdf>
 Package pdftex.def Info: W_sweep_ent_entropy_scaling_14_0_7.pdf  used on input 
-line 1086. on input line 1086.
+line 1085. on input line 1085.
 Package pdftex.def Info: Requested size: 298.75264pt x 149.37851pt on input lin
-e 1086.
-<W_sweep_ent_entropy_scaling_systems_14_0_7.pdf, id=1780, pagebox=cropbox, 722.
+e 1085.
+<W_sweep_ent_entropy_scaling_systems_14_0_7.pdf, id=1768, pagebox=cropbox, 722.
 7pt x 361.35pt>
 File: W_sweep_ent_entropy_scaling_systems_14_0_7.pdf Graphic file (type pdf)
 <use W_sweep_ent_entropy_scaling_systems_14_0_7.pdf>
 Package pdftex.def Info: W_sweep_ent_entropy_scaling_systems_14_0_7.pdf  used o
-n input line 1088. on input line 1088.
+n input line 1087. on input line 1087.
 Package pdftex.def Info: Requested size: 298.75264pt x 149.37851pt on input lin
-e 1088.
+e 1087.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1078--1092
+Underfull \hbox (badness 10000) in paragraph at lines 1077--1091
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1078--1092
+Underfull \hbox (badness 10000) in paragraph at lines 1077--1091
 
  []
 
@@ -2655,22 +4355,22 @@ pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
 stopnja/IJS_delo/Magistrska_naloga/W_sweep_ent_entropy_scaling_systems_14_0_7.p
 df): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<W_sweep_ent_entropy_density_plot_14_0_7_cuts.pdf, id=1828, pagebox=cropbox, 11
+<W_sweep_ent_entropy_density_plot_14_0_7_cuts.pdf, id=1816, pagebox=cropbox, 11
 56.32pt x 505.89pt>
 File: W_sweep_ent_entropy_density_plot_14_0_7_cuts.pdf Graphic file (type pdf)
 <use W_sweep_ent_entropy_density_plot_14_0_7_cuts.pdf>
 Package pdftex.def Info: W_sweep_ent_entropy_density_plot_14_0_7_cuts.pdf  used
- on input line 1139. on input line 1139.
+ on input line 1138. on input line 1138.
 Package pdftex.def Info: Requested size: 426.79135pt x 186.72092pt on input lin
-e 1139.
-<W_sweep_ent_entropy_density_plot_11_1_5_cuts.pdf, id=1829, pagebox=cropbox, 11
+e 1138.
+<W_sweep_ent_entropy_density_plot_11_1_5_cuts.pdf, id=1817, pagebox=cropbox, 11
 56.32pt x 505.89pt>
 File: W_sweep_ent_entropy_density_plot_11_1_5_cuts.pdf Graphic file (type pdf)
 <use W_sweep_ent_entropy_density_plot_11_1_5_cuts.pdf>
 Package pdftex.def Info: W_sweep_ent_entropy_density_plot_11_1_5_cuts.pdf  used
- on input line 1146. on input line 1146.
+ on input line 1145. on input line 1145.
 Package pdftex.def Info: Requested size: 426.79135pt x 186.72092pt on input lin
-e 1146.
+e 1145.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2680,14 +4380,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [65 </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrsk
 a_naloga/W_sweep_ent_entropy_density_plot_14_0_7_cuts.pdf>]
-<H_sweep_ent_entropy_density_plot_11_1_5.pdf, id=1858, pagebox=cropbox, 578.16p
+<H_sweep_ent_entropy_density_plot_11_1_5.pdf, id=1845, pagebox=cropbox, 578.16p
 t x 505.89pt>
 File: H_sweep_ent_entropy_density_plot_11_1_5.pdf Graphic file (type pdf)
 <use H_sweep_ent_entropy_density_plot_11_1_5.pdf>
 Package pdftex.def Info: H_sweep_ent_entropy_density_plot_11_1_5.pdf  used on i
-nput line 1153. on input line 1153.
+nput line 1152. on input line 1152.
 Package pdftex.def Info: Requested size: 277.41176pt x 242.7318pt on input line
- 1153.
+ 1152.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2704,22 +4404,22 @@ pdfTeX warning: pdflatex (file /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._
 stopnja/IJS_delo/Magistrska_naloga/H_sweep_ent_entropy_density_plot_11_1_5.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<W_sweep_ent_entropy_density_plot_9_3_3_cuts.pdf, id=1904, pagebox=cropbox, 115
+<W_sweep_ent_entropy_density_plot_9_3_3_cuts.pdf, id=1891, pagebox=cropbox, 115
 6.32pt x 505.89pt>
 File: W_sweep_ent_entropy_density_plot_9_3_3_cuts.pdf Graphic file (type pdf)
 <use W_sweep_ent_entropy_density_plot_9_3_3_cuts.pdf>
 Package pdftex.def Info: W_sweep_ent_entropy_density_plot_9_3_3_cuts.pdf  used 
-on input line 1174. on input line 1174.
+on input line 1173. on input line 1173.
 Package pdftex.def Info: Requested size: 426.79135pt x 186.72092pt on input lin
-e 1174.
-<H_sweep_ent_entropy_density_plot_9_3_3.pdf, id=1905, pagebox=cropbox, 578.16pt
+e 1173.
+<H_sweep_ent_entropy_density_plot_9_3_3.pdf, id=1892, pagebox=cropbox, 578.16pt
  x 505.89pt>
 File: H_sweep_ent_entropy_density_plot_9_3_3.pdf Graphic file (type pdf)
 <use H_sweep_ent_entropy_density_plot_9_3_3.pdf>
 Package pdftex.def Info: H_sweep_ent_entropy_density_plot_9_3_3.pdf  used on in
-put line 1176. on input line 1176.
+put line 1175. on input line 1175.
 Package pdftex.def Info: Requested size: 277.41176pt x 242.7318pt on input line
- 1176.
+ 1175.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2747,22 +4447,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Poglavje 6.
 
-Package hyperref Warning: Composite letter `\textasciicaron+c'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 1183.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1184--1189
+Underfull \hbox (badness 10000) in paragraph at lines 1183--1188
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1184--1189
+Underfull \hbox (badness 10000) in paragraph at lines 1183--1188
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1184--1189
+Underfull \hbox (badness 10000) in paragraph at lines 1183--1188
 
  []
 
@@ -2807,27 +4502,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Dodatek A.
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1200.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1199.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1200.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1199.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1200.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1199.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1200.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1199.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 1200.
+(Font)              <24.88> on input line 1199.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 1200.
+(Font)              <20.74> on input line 1199.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1211--1221
+Underfull \hbox (badness 10000) in paragraph at lines 1210--1220
 
  []
 
@@ -2858,30 +4553,30 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 (/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
 loga/FMF_Magistrsko_delo_Jan_Suntajs.ind)
 
-Package caption Warning: Unused \captionsetup[sub] on input line 26.
+Package caption Warning: Unused \captionsetup[sub] on input line 25.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1338.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1338.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1337.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1337.
 
 (/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
 loga/FMF_Magistrsko_delo_Jan_Suntajs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1338.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1338.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1337.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1337.
 
 Package rerunfilecheck Info: File `FMF_Magistrsko_delo_Jan_Suntajs.out' has not
  changed.
-(rerunfilecheck)             Checksum: DFAD7D027666A2D70480982FD86C38DC;2822.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1338.
+(rerunfilecheck)             Checksum: E73C1E86E872686950669077F09B1133;7657.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1337.
  ) 
 Here is how much of TeX's memory you used:
- 20135 strings out of 492995
- 360371 string characters out of 6135073
- 505785 words of memory out of 5000000
- 23102 multiletter control sequences out of 15000+600000
+ 23502 strings out of 492995
+ 406439 string characters out of 6135073
+ 534513 words of memory out of 5000000
+ 26402 multiletter control sequences out of 15000+600000
  676527 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,19n,58p,10403b,642s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,19n,58p,10403b,672s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -2910,11 +4605,10 @@ y6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/font
 s/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/symbols/msbm10.pfb>
 Output written on /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_d
-elo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.pdf (78 pages, 4294845 by
+elo/Magistrska_naloga/FMF_Magistrsko_delo_Jan_Suntajs.pdf (78 pages, 4689893 by
 tes).
 PDF statistics:
- 2175 PDF objects out of 2487 (max. 8388607)
- 1808 compressed objects within 19 object streams
+ 2180 PDF objects out of 2487 (max. 8388607)
  278 named destinations out of 1000 (max. 500000)
- 515 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 523 words of extra memory for PDF output out of 10000 (max. 10000000)
 
