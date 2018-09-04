@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.7.23)  4 SEP 2018 10:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.7.23)  4 SEP 2018 13:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1331,6 +1331,39 @@ Package: fancyhdr 2016/10/11 v3.9 Extensive control of page headers and footers
 \f@nch@O@olf=\skip73
 \f@nch@O@orf=\skip74
 )
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2017/05/24 v1.19 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count321
+\calc@Bcount=\count322
+\calc@Adimen=\dimen297
+\calc@Bdimen=\dimen298
+\calc@Askip=\skip75
+\calc@Bskip=\skip76
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count323
+\calc@Cskip=\skip77
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count324
+\l_MT_multwidth_dim=\dimen299
+\origjot=\skip78
+\l_MT_shortvdotswithinadjustabove_dim=\dimen300
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen301
+\l_MT_above_intertext_sep=\dimen302
+\l_MT_below_intertext_sep=\dimen303
+\l_MT_above_shortintertext_sep=\dimen304
+\l_MT_below_shortintertext_sep=\dimen305
+)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
@@ -1356,24 +1389,11 @@ Package: l3regex 2017/03/18 Obsolete L3 package
 Package l3regex Warning: This package is obsolete --- use 'expl3' instead on in
 put line 42.
 
-) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count321
-\calc@Bcount=\count322
-\calc@Adimen=\dimen297
-\calc@Bdimen=\dimen298
-\calc@Askip=\skip75
-\calc@Bskip=\skip76
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count323
-\calc@Cskip=\skip77
-)
-(/usr/share/texlive/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 Package: chemgreek 2016/12/20 v1.1 interfaceforuprightgreeklettersforuseinchemi
 stry (CN)
-\l__chemgreek_tmpa_int=\count324
-\g__chemgreek_tmpa_int=\count325
+\l__chemgreek_tmpa_int=\count325
+\g__chemgreek_tmpa_int=\count326
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1425,22 +1445,22 @@ stry (CN)
 . Defining command \selectchemgreekmapping with sig. 'm' on line 491.
 .................................................
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count326
-\__mhchem_arrow_extPgfLength_skip=\skip78
-\mhchem@minispace@tmp=\skip79
-\mhchem@minibackspace@tmp=\skip80
-\mhchem@bondwidth=\skip81
-\mhchem@bondheight=\skip82
-\mhchem@smallbondwidth@tmpA=\skip83
-\mhchem@smallbondwidth@tmpB=\skip84
-\mhchem@smallbondwidth=\skip85
-\mhchem@bondtmp@minussidebearingleft=\skip86
-\mhchem@bondtmp@minussidebearingright=\skip87
-\l__mhchem_option_version_int=\count327
-\mhchem@option@minusmathsidebearingleft=\dimen299
-\mhchem@option@minusmathsidebearingright=\dimen300
-\mhchem@option@minustextsidebearingleft=\dimen301
-\mhchem@option@minustextsidebearingright=\dimen302
+\l__mhchem_ce_distanceFromLastComma_int=\count327
+\__mhchem_arrow_extPgfLength_skip=\skip79
+\mhchem@minispace@tmp=\skip80
+\mhchem@minibackspace@tmp=\skip81
+\mhchem@bondwidth=\skip82
+\mhchem@bondheight=\skip83
+\mhchem@smallbondwidth@tmpA=\skip84
+\mhchem@smallbondwidth@tmpB=\skip85
+\mhchem@smallbondwidth=\skip86
+\mhchem@bondtmp@minussidebearingleft=\skip87
+\mhchem@bondtmp@minussidebearingright=\skip88
+\l__mhchem_option_version_int=\count328
+\mhchem@option@minusmathsidebearingleft=\dimen306
+\mhchem@option@minusmathsidebearingright=\dimen307
+\mhchem@option@minustextsidebearingleft=\dimen308
+\mhchem@option@minustextsidebearingright=\dimen309
 
 
 Package mhchem Warning: You did not specify a 'version' option for the mhchem
@@ -1463,63 +1483,63 @@ lverine.sty))
 aver.sty)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 77.
+(hyperref)                removing `\\' on input line 79.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 77.
+(hyperref)                removing `\\' on input line 79.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 77.
+(hyperref)                removing `\textasciicaron' on input line 79.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 119.
+(hyperref)                removing `math shift' on input line 121.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 119.
+(hyperref)                removing `math shift' on input line 121.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 119.
+(hyperref)                removing `math shift' on input line 121.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 119.
+(hyperref)                removing `math shift' on input line 121.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 119.
+(hyperref)                removing `\textasciicaron' on input line 121.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 119.
+(hyperref)                removing `\textasciicaron' on input line 121.
 
 
 (/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
 loga/Predstavitev_mag/Suntajs_magistrsko_delo_predstavitev.aux)
 \openout1 = `Suntajs_magistrsko_delo_predstavitev.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 119.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 121.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
@@ -1561,16 +1581,16 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count328
-\scratchdimen=\dimen303
+\scratchcounter=\count329
+\scratchdimen=\dimen310
 \scratchbox=\box73
-\nofMPsegments=\count329
-\nofMParguments=\count330
+\nofMPsegments=\count330
+\nofMParguments=\count331
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count331
-\MPscratchDim=\dimen304
-\MPnumerator=\count332
-\makeMPintoPDFobject=\count333
+\MPscratchCnt=\count332
+\MPscratchDim=\dimen311
+\MPnumerator=\count333
+\makeMPintoPDFobject=\count334
 \everyMPtoPDFconversion=\toks48
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1591,7 +1611,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box74
-Package hyperref Info: Link coloring OFF on input line 119.
+Package hyperref Info: Link coloring OFF on input line 121.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1599,11 +1619,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count334
+\c@section@level=\count335
 )
-LaTeX Info: Redefining \ref on input line 119.
-LaTeX Info: Redefining \pageref on input line 119.
-LaTeX Info: Redefining \nameref on input line 119.
+LaTeX Info: Redefining \ref on input line 121.
+LaTeX Info: Redefining \pageref on input line 121.
+LaTeX Info: Redefining \nameref on input line 121.
 
 (/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
 loga/Predstavitev_mag/Suntajs_magistrsko_delo_predstavitev.out)
@@ -1637,58 +1657,58 @@ Dictionary: translator-numbers-dictionary, Language: English
 orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 119.
+LaTeX Info: Redefining \includegraphics on input line 121.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 119.
+. Activating mapping `default' on line 121.
 .................................................
 
 (/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
 loga/Predstavitev_mag/Suntajs_magistrsko_delo_predstavitev.nav)
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 123.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 125.
 
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 123.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 125.
 
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 123
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 125
 .
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 123
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 125
 .
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 123.
+(Font)              <14.4> on input line 125.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 123.
+(Font)              <10> on input line 125.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 123.
-LaTeX Font Info:    Try loading font information for U+msa on input line 123.
+(Font)              <7> on input line 125.
+LaTeX Font Info:    Try loading font information for U+msa on input line 125.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 123.
+LaTeX Font Info:    Try loading font information for U+msb on input line 125.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 123.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 125.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -1696,25 +1716,25 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 <logo_fmf_uni-lj_sl.pdf, id=20, pagebox=cropbox, 220.32242pt x 141.12093pt>
 File: logo_fmf_uni-lj_sl.pdf Graphic file (type pdf)
 <use logo_fmf_uni-lj_sl.pdf>
-Package pdftex.def Info: logo_fmf_uni-lj_sl.pdf  used on input line 123. on inp
-ut line 123.
+Package pdftex.def Info: logo_fmf_uni-lj_sl.pdf  used on input line 125. on inp
+ut line 125.
 Package pdftex.def Info: Requested size: 113.81102pt x 72.89664pt on input line
- 123.
+ 125.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </media/jan/Data/Dropbox/Sy
 nc_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/Predstavitev_mag/logo_
 fmf_uni-lj_sl.pdf>]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 160.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 162.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 160.
+(Font)              <10.95> on input line 162.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 160.
+(Font)              <8> on input line 162.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 160.
+(Font)              <6> on input line 162.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 160.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 162.
  [2
 
 ] [3
@@ -1727,7 +1747,7 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 224.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 226.
  [7
 
 ]
@@ -1735,65 +1755,65 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
 5pt>
 File: nandkishore_huse_reservoir.pdf Graphic file (type pdf)
 <use nandkishore_huse_reservoir.pdf>
-Package pdftex.def Info: nandkishore_huse_reservoir.pdf  used on input line 224
-. on input line 224.
+Package pdftex.def Info: nandkishore_huse_reservoir.pdf  used on input line 226
+. on input line 226.
 Package pdftex.def Info: Requested size: 163.78828pt x 60.41345pt on input line
- 224.
+ 226.
  [8
 
  </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_n
 aloga/Predstavitev_mag/nandkishore_huse_reservoir.pdf>]
 File: nandkishore_huse_reservoir.pdf Graphic file (type pdf)
 <use nandkishore_huse_reservoir.pdf>
-Package pdftex.def Info: nandkishore_huse_reservoir.pdf  used on input line 224
-. on input line 224.
+Package pdftex.def Info: nandkishore_huse_reservoir.pdf  used on input line 226
+. on input line 226.
 Package pdftex.def Info: Requested size: 163.78828pt x 60.41345pt on input line
- 224.
+ 226.
  [9
 
 ]
 File: nandkishore_huse_reservoir.pdf Graphic file (type pdf)
 <use nandkishore_huse_reservoir.pdf>
-Package pdftex.def Info: nandkishore_huse_reservoir.pdf  used on input line 224
-. on input line 224.
+Package pdftex.def Info: nandkishore_huse_reservoir.pdf  used on input line 226
+. on input line 226.
 Package pdftex.def Info: Requested size: 163.78828pt x 60.41345pt on input line
- 224.
+ 226.
 <disorder_scheme.pdf, id=302, pagebox=cropbox, 1011.78pt x 1011.78pt>
 File: disorder_scheme.pdf Graphic file (type pdf)
 <use disorder_scheme.pdf>
-Package pdftex.def Info: disorder_scheme.pdf  used on input line 224. on input 
-line 224.
+Package pdftex.def Info: disorder_scheme.pdf  used on input line 226. on input 
+line 226.
 Package pdftex.def Info: Requested size: 82.15045pt x 82.14825pt on input line 
-224.
+226.
  [10
 
  </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_n
 aloga/Predstavitev_mag/disorder_scheme.pdf>]
 File: nandkishore_huse_reservoir.pdf Graphic file (type pdf)
 <use nandkishore_huse_reservoir.pdf>
-Package pdftex.def Info: nandkishore_huse_reservoir.pdf  used on input line 224
-. on input line 224.
+Package pdftex.def Info: nandkishore_huse_reservoir.pdf  used on input line 226
+. on input line 226.
 Package pdftex.def Info: Requested size: 163.78828pt x 60.41345pt on input line
- 224.
+ 226.
 File: disorder_scheme.pdf Graphic file (type pdf)
 <use disorder_scheme.pdf>
-Package pdftex.def Info: disorder_scheme.pdf  used on input line 224. on input 
-line 224.
+Package pdftex.def Info: disorder_scheme.pdf  used on input line 226. on input 
+line 226.
 Package pdftex.def Info: Requested size: 82.15045pt x 82.14825pt on input line 
-224.
+226.
  [11
 
 ] [12
 
 ]
-Overfull \hbox (15.94174pt too wide) in paragraph at lines 286--286
+Overfull \hbox (15.94174pt too wide) in paragraph at lines 288--288
 \OT1/phv/b/n/10.95 NEERGODI[]CNOST 
  []
 
 [13
 
 ]
-Overfull \hbox (15.94174pt too wide) in paragraph at lines 286--286
+Overfull \hbox (15.94174pt too wide) in paragraph at lines 288--288
 \OT1/phv/b/n/10.95 NEERGODI[]CNOST 
  []
 
@@ -1802,51 +1822,51 @@ pt>
 File: abanin_thermalization_scheme.pdf Graphic file (type pdf)
 <use abanin_thermalization_scheme.pdf>
 Package pdftex.def Info: abanin_thermalization_scheme.pdf  used on input line 2
-86. on input line 286.
+88. on input line 288.
 Package pdftex.def Info: Requested size: 153.6555pt x 52.03583pt on input line 
-286.
+288.
 [14
 
  </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_n
 aloga/Predstavitev_mag/abanin_thermalization_scheme.pdf>]
-Overfull \hbox (15.94174pt too wide) in paragraph at lines 286--286
+Overfull \hbox (15.94174pt too wide) in paragraph at lines 288--288
 \OT1/phv/b/n/10.95 NEERGODI[]CNOST 
  []
 
 File: abanin_thermalization_scheme.pdf Graphic file (type pdf)
 <use abanin_thermalization_scheme.pdf>
 Package pdftex.def Info: abanin_thermalization_scheme.pdf  used on input line 2
-86. on input line 286.
+88. on input line 288.
 Package pdftex.def Info: Requested size: 153.6555pt x 52.03583pt on input line 
-286.
+288.
 <znid_pros_prel_excerpt.pdf, id=449, pagebox=cropbox, 992.70876pt x 261.97874pt
 >
 File: znid_pros_prel_excerpt.pdf Graphic file (type pdf)
 <use znid_pros_prel_excerpt.pdf>
-Package pdftex.def Info: znid_pros_prel_excerpt.pdf  used on input line 286. on
- input line 286.
+Package pdftex.def Info: znid_pros_prel_excerpt.pdf  used on input line 288. on
+ input line 288.
 Package pdftex.def Info: Requested size: 205.37926pt x 54.19768pt on input line
- 286.
+ 288.
 [15
 
  </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_n
 aloga/Predstavitev_mag/znid_pros_prel_excerpt.pdf>]
-Overfull \hbox (15.94174pt too wide) in paragraph at lines 286--286
+Overfull \hbox (15.94174pt too wide) in paragraph at lines 288--288
 \OT1/phv/b/n/10.95 NEERGODI[]CNOST 
  []
 
 File: abanin_thermalization_scheme.pdf Graphic file (type pdf)
 <use abanin_thermalization_scheme.pdf>
 Package pdftex.def Info: abanin_thermalization_scheme.pdf  used on input line 2
-86. on input line 286.
+88. on input line 288.
 Package pdftex.def Info: Requested size: 153.6555pt x 52.03583pt on input line 
-286.
+288.
 File: znid_pros_prel_excerpt.pdf Graphic file (type pdf)
 <use znid_pros_prel_excerpt.pdf>
-Package pdftex.def Info: znid_pros_prel_excerpt.pdf  used on input line 286. on
- input line 286.
+Package pdftex.def Info: znid_pros_prel_excerpt.pdf  used on input line 288. on
+ input line 288.
 Package pdftex.def Info: Requested size: 205.37926pt x 54.19768pt on input line
- 286.
+ 288.
 [16
 
 ] [17
@@ -1859,21 +1879,21 @@ Package pdftex.def Info: Requested size: 205.37926pt x 54.19768pt on input line
 <tJ_scheme.pdf, id=593, pagebox=cropbox, 845.1575pt x 361.35pt>
 File: tJ_scheme.pdf Graphic file (type pdf)
 <use tJ_scheme.pdf>
-Package pdftex.def Info: tJ_scheme.pdf  used on input line 320. on input line 3
-20.
+Package pdftex.def Info: tJ_scheme.pdf  used on input line 322. on input line 3
+22.
 Package pdftex.def Info: Requested size: 171.14764pt x 73.17297pt on input line
- 320.
+ 322.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 320.
+(Font)              <5> on input line 322.
 <prob_dist.pdf, id=594, pagebox=cropbox, 867.24pt x 433.62pt>
 File: prob_dist.pdf Graphic file (type pdf)
 <use prob_dist.pdf>
-Package pdftex.def Info: prob_dist.pdf  used on input line 320. on input line 3
-20.
+Package pdftex.def Info: prob_dist.pdf  used on input line 322. on input line 3
+22.
 Package pdftex.def Info: Requested size: 171.14764pt x 85.57118pt on input line
- 320.
+ 322.
 
-Overfull \vbox (5.94301pt too high) detected at line 320
+Overfull \vbox (5.94301pt too high) detected at line 322
  []
 
 [20
@@ -1891,10 +1911,10 @@ on: multiple pdfs with page group included in a single page
 <unfolding_demo_three_slo.pdf, id=806, pagebox=cropbox, 1734.48pt x 505.89pt>
 File: unfolding_demo_three_slo.pdf Graphic file (type pdf)
 <use unfolding_demo_three_slo.pdf>
-Package pdftex.def Info: unfolding_demo_three_slo.pdf  used on input line 355. 
-on input line 355.
+Package pdftex.def Info: unfolding_demo_three_slo.pdf  used on input line 357. 
+on input line 357.
 Package pdftex.def Info: Requested size: 342.2953pt x 91.90977pt on input line 
-355.
+357.
  [22
 
  </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_n
@@ -1906,14 +1926,14 @@ aloga/Predstavitev_mag/unfolding_demo_three_slo.pdf>] [23
 [25
 
 ]
-<double_plot_disorder_sym_break_13_1_6_slo.pdf, id=931, pagebox=cropbox, 1156.3
+<double_plot_disorder_sym_break_13_1_6_slo.pdf, id=932, pagebox=cropbox, 1156.3
 2pt x 505.89pt>
 File: double_plot_disorder_sym_break_13_1_6_slo.pdf Graphic file (type pdf)
 <use double_plot_disorder_sym_break_13_1_6_slo.pdf>
 Package pdftex.def Info: double_plot_disorder_sym_break_13_1_6_slo.pdf  used on
- input line 417. on input line 417.
+ input line 419. on input line 419.
 Package pdftex.def Info: Requested size: 342.2953pt x 132.51987pt on input line
- 417.
+ 419.
  [26
 
  </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_n
@@ -1921,21 +1941,21 @@ aloga/Predstavitev_mag/double_plot_disorder_sym_break_13_1_6_slo.pdf>]
 File: double_plot_disorder_sym_break_13_1_6_slo.pdf Graphic file (type pdf)
 <use double_plot_disorder_sym_break_13_1_6_slo.pdf>
 Package pdftex.def Info: double_plot_disorder_sym_break_13_1_6_slo.pdf  used on
- input line 417. on input line 417.
+ input line 419. on input line 419.
 Package pdftex.def Info: Requested size: 342.2953pt x 132.51987pt on input line
- 417.
+ 419.
 
 [27
 
 ]
-<double_plot_disorder_sym_break_12_4_4_slo.pdf, id=1014, pagebox=cropbox, 1156.
+<double_plot_disorder_sym_break_12_4_4_slo.pdf, id=1015, pagebox=cropbox, 1156.
 32pt x 505.89pt>
 File: double_plot_disorder_sym_break_12_4_4_slo.pdf Graphic file (type pdf)
 <use double_plot_disorder_sym_break_12_4_4_slo.pdf>
 Package pdftex.def Info: double_plot_disorder_sym_break_12_4_4_slo.pdf  used on
- input line 417. on input line 417.
+ input line 419. on input line 419.
 Package pdftex.def Info: Requested size: 342.2953pt x 132.51987pt on input line
- 417.
+ 419.
  [28
 
  </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_n
@@ -1943,27 +1963,27 @@ aloga/Predstavitev_mag/double_plot_disorder_sym_break_12_4_4_slo.pdf>]
 File: double_plot_disorder_sym_break_12_4_4_slo.pdf Graphic file (type pdf)
 <use double_plot_disorder_sym_break_12_4_4_slo.pdf>
 Package pdftex.def Info: double_plot_disorder_sym_break_12_4_4_slo.pdf  used on
- input line 417. on input line 417.
+ input line 419. on input line 419.
 Package pdftex.def Info: Requested size: 342.2953pt x 132.51987pt on input line
- 417.
+ 419.
 
 [29
 
 ]
-<r_density_11_1_5.pdf, id=1091, pagebox=cropbox, 578.16pt x 505.89pt>
+<r_density_11_1_5.pdf, id=1092, pagebox=cropbox, 578.16pt x 505.89pt>
 File: r_density_11_1_5.pdf Graphic file (type pdf)
 <use r_density_11_1_5.pdf>
-Package pdftex.def Info: r_density_11_1_5.pdf  used on input line 417. on input
- line 417.
+Package pdftex.def Info: r_density_11_1_5.pdf  used on input line 419. on input
+ line 419.
 Package pdftex.def Info: Requested size: 164.30028pt x 143.7633pt on input line
- 417.
-<r_density_9_3_3.pdf, id=1092, pagebox=cropbox, 578.16pt x 505.89pt>
+ 419.
+<r_density_9_3_3.pdf, id=1093, pagebox=cropbox, 578.16pt x 505.89pt>
 File: r_density_9_3_3.pdf Graphic file (type pdf)
 <use r_density_9_3_3.pdf>
-Package pdftex.def Info: r_density_9_3_3.pdf  used on input line 417. on input 
-line 417.
+Package pdftex.def Info: r_density_9_3_3.pdf  used on input line 419. on input 
+line 419.
 Package pdftex.def Info: Requested size: 164.30028pt x 143.7633pt on input line
- 417.
+ 419.
  [30
 
  </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_n
@@ -1976,6 +1996,100 @@ stopnja/IJS_delo/Magistrska_naloga/Predstavitev_mag/r_density_9_3_3.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >] [31
 
+] [32
+
+] [33
+
+]
+<scheme_sff_disorder_14_0_7.pdf, id=1231, pagebox=cropbox, 1156.32pt x 505.89pt
+>
+File: scheme_sff_disorder_14_0_7.pdf Graphic file (type pdf)
+<use scheme_sff_disorder_14_0_7.pdf>
+Package pdftex.def Info: scheme_sff_disorder_14_0_7.pdf  used on input line 459
+. on input line 459.
+Package pdftex.def Info: Requested size: 342.2953pt x 149.75343pt on input line
+ 459.
+
+Overfull \vbox (27.9599pt too high) detected at line 459
+ []
+
+[34
+
+ </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_n
+aloga/Predstavitev_mag/scheme_sff_disorder_14_0_7.pdf>]
+<W_sweep_sff_disorder_11_1_5.pdf, id=1271, pagebox=cropbox, 1156.32pt x 505.89p
+t>
+File: W_sweep_sff_disorder_11_1_5.pdf Graphic file (type pdf)
+<use W_sweep_sff_disorder_11_1_5.pdf>
+Package pdftex.def Info: W_sweep_sff_disorder_11_1_5.pdf  used on input line 50
+2. on input line 502.
+Package pdftex.def Info: Requested size: 164.30028pt x 132.96515pt on input lin
+e 502.
+<H_sweep_sff_disorder_11_1_5.pdf, id=1273, pagebox=cropbox, 1156.32pt x 505.89p
+t>
+File: H_sweep_sff_disorder_11_1_5.pdf Graphic file (type pdf)
+<use H_sweep_sff_disorder_11_1_5.pdf>
+Package pdftex.def Info: H_sweep_sff_disorder_11_1_5.pdf  used on input line 50
+2. on input line 502.
+Package pdftex.def Info: Requested size: 164.30028pt x 132.40054pt on input lin
+e 502.
+ [35
+
+ </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_n
+aloga/Predstavitev_mag/W_sweep_sff_disorder_11_1_5.pdf> </media/jan/Data/Dropbo
+x/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/Predstavitev_mag/H
+_sweep_sff_disorder_11_1_5.pdf>]
+File: W_sweep_sff_disorder_11_1_5.pdf Graphic file (type pdf)
+<use W_sweep_sff_disorder_11_1_5.pdf>
+Package pdftex.def Info: W_sweep_sff_disorder_11_1_5.pdf  used on input line 50
+2. on input line 502.
+Package pdftex.def Info: Requested size: 164.30028pt x 132.96515pt on input lin
+e 502.
+File: H_sweep_sff_disorder_11_1_5.pdf Graphic file (type pdf)
+<use H_sweep_sff_disorder_11_1_5.pdf>
+Package pdftex.def Info: H_sweep_sff_disorder_11_1_5.pdf  used on input line 50
+2. on input line 502.
+Package pdftex.def Info: Requested size: 164.30028pt x 132.40054pt on input lin
+e 502.
+ [36
+
+]
+<W_sweep_sff_disorder_9_3_3.pdf, id=1362, pagebox=cropbox, 1156.32pt x 505.89pt
+>
+File: W_sweep_sff_disorder_9_3_3.pdf Graphic file (type pdf)
+<use W_sweep_sff_disorder_9_3_3.pdf>
+Package pdftex.def Info: W_sweep_sff_disorder_9_3_3.pdf  used on input line 502
+. on input line 502.
+Package pdftex.def Info: Requested size: 164.30028pt x 132.96515pt on input lin
+e 502.
+<H_sweep_sff_disorder_9_3_3.pdf, id=1364, pagebox=cropbox, 1156.32pt x 505.89pt
+>
+File: H_sweep_sff_disorder_9_3_3.pdf Graphic file (type pdf)
+<use H_sweep_sff_disorder_9_3_3.pdf>
+Package pdftex.def Info: H_sweep_sff_disorder_9_3_3.pdf  used on input line 502
+. on input line 502.
+Package pdftex.def Info: Requested size: 164.30028pt x 132.40054pt on input lin
+e 502.
+ [37
+
+ </media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_n
+aloga/Predstavitev_mag/W_sweep_sff_disorder_9_3_3.pdf> </media/jan/Data/Dropbox
+/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_naloga/Predstavitev_mag/H_
+sweep_sff_disorder_9_3_3.pdf>]
+File: W_sweep_sff_disorder_9_3_3.pdf Graphic file (type pdf)
+<use W_sweep_sff_disorder_9_3_3.pdf>
+Package pdftex.def Info: W_sweep_sff_disorder_9_3_3.pdf  used on input line 502
+. on input line 502.
+Package pdftex.def Info: Requested size: 164.30028pt x 132.96515pt on input lin
+e 502.
+File: H_sweep_sff_disorder_9_3_3.pdf Graphic file (type pdf)
+<use H_sweep_sff_disorder_9_3_3.pdf>
+Package pdftex.def Info: H_sweep_sff_disorder_9_3_3.pdf  used on input line 502
+. on input line 502.
+Package pdftex.def Info: Requested size: 164.30028pt x 132.40054pt on input lin
+e 502.
+ [38
+
 ]
 \tf@nav=\write6
 \openout6 = `Suntajs_magistrsko_delo_predstavitev.nav'.
@@ -1986,23 +2100,23 @@ nclusion: multiple pdfs with page group included in a single page
 \tf@snm=\write8
 \openout8 = `Suntajs_magistrsko_delo_predstavitev.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1082.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1082.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1163.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1163.
 
 (/media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_delo/Magistrska_na
 loga/Predstavitev_mag/Suntajs_magistrsko_delo_predstavitev.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1082.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1082.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1163.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1163.
 
 Package rerunfilecheck Info: File `Suntajs_magistrsko_delo_predstavitev.out' ha
 s not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29849 strings out of 492995
- 585836 string characters out of 6135073
- 661054 words of memory out of 5000000
- 32734 multiletter control sequences out of 15000+600000
+ 30358 strings out of 492995
+ 595545 string characters out of 6135073
+ 673558 words of memory out of 5000000
+ 33217 multiletter control sequences out of 15000+600000
  598682 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,80p,10405b,652s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2017,18 +2131,18 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmm
 i10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
-elvetic/uhvr8a.pfb>
+nts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
 Output written on /media/jan/Data/Dropbox/Sync_WD_MyCloud/Faks/2._stopnja/IJS_d
 elo/Magistrska_naloga/Predstavitev_mag/Suntajs_magistrsko_delo_predstavitev.pdf
- (31 pages, 631822 bytes).
+ (38 pages, 2206400 bytes).
 PDF statistics:
- 1237 PDF objects out of 1440 (max. 8388607)
- 1051 compressed objects within 11 object streams
- 63 named destinations out of 1000 (max. 500000)
- 217 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1523 PDF objects out of 1728 (max. 8388607)
+ 1313 compressed objects within 14 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 290 words of extra memory for PDF output out of 10000 (max. 10000000)
 

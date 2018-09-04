@@ -30,6 +30,8 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{fancyhdr}
+\usepackage{mathtools}
+
 \newcommand{\iu}{{i\mkern1mu}}
 \newcommand{\bra}[1]{\langle #1 \vert}
 \newcommand{\ket}[1]{\vert#1\rangle}
@@ -417,8 +419,87 @@ Primeri statistik v ergodičnem, vmesnem in MBL režimu
 \end{frame}{}
 
 \begin{frame}{Spektralni oblikovni faktor (SFF)}
+\only<1,2>{
+\begin{alertblock}{\centering{Definicija}}
+$$
+K(\tau)\coloneqq  \left\langle \frac{1}{N}\sum\limits_{i,j}^N \mathrm{e}^{-\iu \left(E_i - E_j\right) \tau}\right\rangle
+$$
+\end{alertblock}}
+\only<2>{\vspace{20mm}
+\begin{alertblock}{\centering{Povezani spektralni oblikovni faktor}}
+$$
+K_\mathrm{c}(\tau)\coloneqq  K(\tau) - \left|\left\langle \frac{1}{\sqrt{N}} \sum\limits_i \mathrm{e}^{-\iu E_i \tau}\right\rangle\right|^2
+$$
+\end{alertblock}}
+\only<3,4>{
+\begin{alertblock}{\centering{$K(\tau)$ v ergodičnem sistemu}}
+\begin{equation*}\label{eq:ramp}
+K_\mathrm{GOE}(\tau)=
+\begin{cases}
+2\tau - \tau \log\left(1 + 2\tau\right), \hspace{5mm} \tau \leq 1, \\
+2 - \tau \log\left(\frac{2\tau + 1}{2\tau - 1}\right),\hspace{5mm} \tau >1.
+\end{cases}
+\end{equation*} 
+\end{alertblock}}
+\only<3>{\vspace{10mm}
+\begin{alertblock}{\centering{$K(\tau)$ v MBL (in integrabilnih) sistemih}}
+\begin{equation*}\label{eq:ramp}
+K_\mathrm{}(\tau)=1
+\end{equation*} 
+\end{alertblock}
+}
+\only<4>{
+\begin{figure}[H]
+\centering{
+\includegraphics[width=1\textwidth]{scheme_sff_disorder_14_0_7.pdf}}
+\caption{}
+% \label{fig:scheme_sff_disorder_14_0_7}
+\end{figure}  	
+}
 \end{frame}
+\begin{frame}{SFF - rezultati}
+\only<1,2>{
+Ena vrzel - $L=11, N_h=1, N_u=5$\\\vspace{7mm}
+\begin{minipage}[c]{0.48\textwidth}
+\begin{figure}[H]
+\centering{
+\includegraphics[trim=570 0 0 33,clip,width=1\textwidth]{W_sweep_sff_disorder_11_1_5.pdf}}
+\caption{Spinski nered.}
+% \label{fig:scheme_sff_disorder_14_0_7}
+\end{figure} 
+\end{minipage}\hfill
+\begin{minipage}[c]{0.48\textwidth}
+\begin{figure}[H]
+\centering{
+\includegraphics[trim=570 2 0 33,clip,width=1\textwidth]{H_sweep_sff_disorder_11_1_5.pdf}}
+\caption{Vrzelni nered - \textbf{ni MBL}.}
+% \label{fig:scheme_sff_disorder_14_0_7}
+\end{figure} 
+\end{minipage}
+}
+\only<2>{\textbf{Za vrzelni nered NI PREHODA - vmesno obnašanje.}}
+\only<3,4>{
+Tretjinsko dopiranje - $L=9, N_h=3, N_u=3$\vspace{7mm}
+\begin{minipage}[c]{0.48\textwidth}
+\begin{figure}[H]
+\centering{
+\includegraphics[trim=570 0 0 33,clip,width=1\textwidth]{W_sweep_sff_disorder_9_3_3.pdf}}
+\caption{Spinski nered.}
+% \label{fig:scheme_sff_disorder_14_0_7}
+\end{figure} 
+\end{minipage}\hfill
+\begin{minipage}[c]{0.48\textwidth}
+\begin{figure}[H]
+\centering{
+\includegraphics[trim=570 2 0 33,clip,width=1\textwidth]{H_sweep_sff_disorder_9_3_3.pdf}}
+\caption{Vrzelni nered.}
+% \label{fig:scheme_sff_disorder_14_0_7}
+\end{figure} 
+\end{minipage}
+}
+\only<4>{\textbf{Prehod v MBL za oba tipa nereda.}}
 
+\end{frame}
 
 
 
