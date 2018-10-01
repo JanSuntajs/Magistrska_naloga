@@ -301,14 +301,17 @@ Somentor: doc. dr. Lev Vidmar}
 
 \begin{frame}{Model $t$-$J$}
 \only<1>{
-\begin{alertblock}{\hspace{20mm}Hamiltonka \hspace{30mm} Spin: $S=1/2$}
+Hamiltonka:
+\begin{alertblock}{\hspace{15mm}Spin: $S=1/2$ \hspace{20mm} 1D \hspace{20mm}  PBC}
 $$H=-t\sum\limits_{i, \sigma} \left(\tilde{c}_{i,\sigma}^\dagger\tilde{c}_{i+1,\sigma} + c.c. \right) + J\sum\limits_i \pmb{S}_i\cdot\pmb{S}_{i+1} + \sum\limits_i h_iS_i^z + \sum\limits_{i,\sigma} u_i n_{i,\sigma}$$
 \end{alertblock}
 \begin{itemize}
+	\item $i$ - mesto v verigi, $\sigma$ - projekcija spina \vspace{5mm}
  \item Projicirani fermionski operatorji: $\tilde{c}_{i,\sigma}=(1-n_{i,-\sigma})c_{i,\sigma}$ \vspace{5mm}
  \item $h_i, u_i$: spinski in vrzelni nered, škatlasti porazdelitvi s parametroma $W$ in $H$ \vspace{5mm}
- \item Preučujemo: 1D, $S^z=0$ periodični robni pogoji
+ % \item Preučujemo: 1D, $S^z=0$ periodični robni pogoji
 \end{itemize}}
+% \end{itemize}}
 \only<2>{
 \begin{minipage}{0.09\textwidth}
 
@@ -322,17 +325,26 @@ $$\color{red}J=1$$}
 \includegraphics[width=0.7\textwidth]{tJ_scheme.pdf}}
 \caption{Oznake: $L$ - št. mest, $N_h$ - št. vrzeli, $N_u$ - število spinov $\uparrow$}
 \end{figure} 
-\end{minipage}
-% \begin{figure}
-% \centering{
-% \includegraphics[width=0.5\textwidth]{tJ_scheme_vrzel.pdf}}
-% \caption{Oznake: $L$ - št. mest, $N_h$ - št. vrzeli, $N_u$ - število spinov $\uparrow$}
-% \end{figure}
+\end{minipage}\\
+% \begin{minipage}{0.5\textwidth}
 \begin{figure}
 \centering{
 \includegraphics[width=0.5\textwidth]{prob_dist.pdf}}
 \caption{Spinski ($W$) in vrzelni ($H$) nered}
 \end{figure}
+% \end{minipage}
+% \begin{minipage}{0.3\textwidth}
+% \centering{
+% \begin{itemize}
+% \item 1D, $S^z=0$, PBC
+% \end{itemize}}
+% \end{minipage}
+% \begin{figure}
+% \centering{
+% \includegraphics[width=0.5\textwidth]{tJ_scheme_vrzel.pdf}}
+% \caption{Oznake: $L$ - št. mest, $N_h$ - št. vrzeli, $N_u$ - število spinov $\uparrow$}
+% \end{figure}
+
 }
 \end{frame}
 
@@ -372,33 +384,37 @@ $$\color{red}J=1$$}
 % \end{frame}
 
 
-\begin{frame}{Povprečno razmerje razmikov}
+\begin{frame}{Statistične lastnosti spektrov}
 \only<1,2>{
 \begin{itemize}
 \item Analiziramo \textbf{statistične lastnosti} energijskega spektra hamiltonke \vspace{8mm}
 \item Upoštevamo \textbf{teorijo naključnih matrik (RMT):} \vspace{7mm}
 	\begin{itemize}
-		\item \textbf{Ergodični} sistemi: spektralna statistika ustreza Gaussovemu ortogonalnemu ansamblu (\textbf{GOE}) \vspace{3mm}
+		\item \textbf{Ergodični} sistemi: spektralna statistika ustreza \textbf{Gaussovemu ortogonalnemu ansamblu} (\textbf{GOE}) \vspace{3mm}
 		\item \textbf{MBL} sistemi: sosednji nivoji porazdeljeni v skladu s \textbf{Poissonovo} porazdelitvijo
 
 	\end{itemize}\vspace{5mm}
-\item Upoštevamo korelacije med \textbf{NAJBLIŽJIMI} nivoji v spektru!
+% \item Upoštevamo korelacije med \textbf{NAJBLIŽJIMI} nivoji v spektru!
+\item \textbf{Izračune} primerjamo z omenjenima \textbf{dvema možnostma.}
 \end{itemize}}
 \only<2>{
 \begin{tikzpicture}[remember picture,overlay]
 \node at (current page.center) {\includegraphics[width=1\textwidth]{unfolding_demo_two_slo.pdf}};
 \end{tikzpicture}}
+\end{frame}
 
-\only<3,4>{
+\begin{frame}{Povprečno razmerje razmikov}
+\only<1,2>{
 \begin{itemize}
-	\onslide<3->{
+	\onslide<1->{
 	\item Razmiki med \textbf{sosednjimi} energijskimi nivoji:$$\delta_n=E_{n+1}-E_n \geq 0$$
 	\item Definiramo \textbf{razmerje razmikov}:\vspace{3mm}
 	$$0\leq r_n=\min\{\delta_n, \delta_{n-1}\}/\max\{\delta_n, \delta_{n-1}\}\leq 1$$}
-	\onslide<4->{
-	\item \textbf{KLJUČNO:} limitni povprečni vrednosti $\langle r \rangle$ sta dobro znani: \vspace{5mm} 
+	\onslide<2->{
+	\item \textbf{KLJUČNO:} limitni povprečni vrednosti $\langle r \rangle$ sta dobro znani:\\ \vspace{5mm} 
 	% \begin{itemize}
-		$$ \langle r \rangle_\mathrm{GOE}=0.5307, \hspace{5mm} \langle r\rangle_\mathrm{P}=2\ln2 - 1 \approx 0.3863 $$}
+		\centering{
+		\textbf{Ergodično:} $ \langle r \rangle_\mathrm{GOE}=0.5307$ \\ \vspace{3mm}\textbf{MBL:} $\langle r\rangle_\mathrm{P}=2\ln2 - 1 \approx 0.3863 $}}
 		% \item $\langle r \rangle_\mathrm{GOE}=0.5307$ \vspace{3mm}
 		% \item $\langle r\rangle_\mathrm{P}=2\ln2 - 1 \approx 0.386$
 	% \end{itemize}
@@ -459,24 +475,51 @@ $$\color{red}J=1$$}
 
 
 \end{frame}{}
+\begin{frame}{Od razmerja razmikov do SFF}
+\only<1->{
+\textbf{Povprečno razmerje razmikov:}\vspace{5mm}
+\begin{itemize}
+	\centering{
+\item Prednost: enostavna implementacija \vspace{3mm}
+\item Slabost: zanemarimo podrobnosti spektrov
+}
+\end{itemize}}\vspace{4mm}
+\onslide<2->{
+	\textbf{Če želimo podrobnejšo sliko, več informacij:}\vspace{3mm}
+	\begin{itemize}
+	\centering{\item Izračun SFF
+	\item zahtevnejša implementacija
+	}
 
+	\end{itemize}
+}
+\end{frame}
 \begin{frame}{Spektralni oblikovni faktor (SFF)}
 \only<1>{
 \begin{alertblock}{\centering{Definicija}}
 $$
-K(\tau)\coloneqq  \left\langle \frac{1}{N}\sum\limits_{i,j}^N \mathrm{e}^{-\iu \left(E_i - E_j\right) \tau}\right\rangle
+K(\tau)\coloneqq  \left\langle \frac{1}{N}\sum\limits_{i,j}^N \mathrm{e}^{-\iu \left(E_i - E_j\right) \tau}\right\rangle; \hspace{5mm} K(0)=N, \hspace{5mm} K(\tau\to\infty)=1
 $$
 \end{alertblock}
-\begin{alertblock}{\centering{Povezani spektralni oblikovni faktor}}
+\begin{alertblock}{\centering{Povezani spektralni oblikovni faktor - tega preučujemo v praksi}}
 $$
 K_\mathrm{c}(\tau)\coloneqq  K(\tau) - \left|\left\langle \frac{1}{\sqrt{N}} \sum\limits_i \mathrm{e}^{-\iu E_i \tau}\right\rangle\right|^2
 $$
-\end{alertblock}\vspace{10mm}
+\end{alertblock}\vspace{5mm}
+$\tau$ - zunanji parameter\\ \vspace{5mm}
 Upoštevamo korelacije med \textbf{VSEMI} energijskimi nivoji v spektru!
 
 }
+\only<2>{\vspace{1mm}
+\textbf{PONOVNO: dva limitna primera}  \\\vspace{5mm}
+\begin{alertblock}{\centering{$K_\mathrm{c}(\tau)$ v MBL (in integrabilnih) sistemih}}
+\begin{equation*}\label{eq:ramp}
+K_\mathrm{P}(\tau)=1
+\end{equation*} 
+\end{alertblock}
+}
 \only<2,3>{
-\begin{alertblock}{\centering{$K(\tau)$ v ergodičnem sistemu}}
+\begin{alertblock}{\centering{$K_\mathrm{c}(\tau)$ v ergodičnem sistemu}}
 \begin{equation*}\label{eq:ramp}
 K_\mathrm{GOE}(\tau)=
 \begin{cases}
@@ -485,18 +528,12 @@ K_\mathrm{GOE}(\tau)=
 \end{cases}
 \end{equation*} 
 \end{alertblock}}
-\only<2>{\vspace{10mm}
-\begin{alertblock}{\centering{$K(\tau)$ v MBL (in integrabilnih) sistemih}}
-\begin{equation*}\label{eq:ramp}
-K_\mathrm{P}(\tau)=1
-\end{equation*} 
-\end{alertblock}
-}
 \only<3>{
+Ergodični in MBL primer
 \begin{figure}[H]
 \centering{
-\includegraphics[width=1\textwidth]{scheme_sff_disorder_14_0_7.pdf}}
-\caption{}
+\includegraphics[trim=570 0 0 65.5,clip,width=0.45\textwidth]{scheme_sff_disorder_14_0_7.pdf}}
+\caption{$L=14, N_h=0, N_u=7$}
 % \label{fig:scheme_sff_disorder_14_0_7}
 \end{figure}  	
 }
@@ -557,6 +594,7 @@ Sistem razdelimo na \textbf{podsistema} A in B.\vspace{5mm}}
 % \caption{Vrzelni nered.}
 % \label{fig:scheme_sff_disorder_14_0_7}
 \end{figure}
+Nato izračunamo reducirano gostotno matriko.
 }
 \only<2>{
 \begin{alertblock}{\centering{Reducirana gostotna matrika podsistema:}}
@@ -574,9 +612,9 @@ $$
 
 \only<3>{
 \begin{minipage}[c]{0.34\textwidth}
-Volumsko skaliranje:
+Volumsko skaliranje - ergodičnost:
 $$S_\mathrm{A}\propto L_\mathrm{A}, \hspace{3mm} L\to\infty$$
-Površinsko skaliranje:
+Površinsko skaliranje - MBL:
 $$S_\mathrm{A}/L=\mathrm{const.}, \hspace{3mm} L\to\infty$$
 \end{minipage}}\hfill
 \only<3,4>{
@@ -588,9 +626,9 @@ $$S_\mathrm{A}/L=\mathrm{const.}, \hspace{3mm} L\to\infty$$
 \end{minipage}}\\
 \only<4>{
 \begin{minipage}[c]{0.34\textwidth}
-Volumsko skaliranje:
+Volumsko skaliranje - ergodičnost:
 $$S_\mathrm{A}/L=\mathrm{const.}, \hspace{3mm} L\to\infty$$
-Površinsko skaliranje: 
+Površinsko skaliranje - MBL:
 $$S_\mathrm{A}/L\to 0, \hspace{3mm} L\to\infty$$
 \end{minipage}}\hfill
 \only<3,4>{
